@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mono: Home</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+<!-- OG Facebook -->
+<meta property="og:url" content="https://gperilli.github.io/mono/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mono" />
+<meta property="og:description" content="Mono" />
+<meta property="og:image" content="https://gperilli.github.io/mono/graphics/shareimg.png" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content="Mono" />
+<meta name="twitter:description" content="Mono" />
+<meta name="twitter:image" content="https://gperilli.github.io/mono/graphics/shareimg.png" />
+
+<link rel="icon" href="graphics/monostfav.png">
+
+<!-- CSS files -->
+<link rel="stylesheet" type="text/css" href="css/monost-Menu.css">
+<link rel="stylesheet" type="text/css" href="css/monost-MUI.css">
+<link rel="stylesheet" type="text/css" href="css/monost-Footer.css">
+<link rel="stylesheet" type="text/css" href="css/monost-Site.css">
+<link rel="stylesheet" type="text/css" href="css/monost-WIList.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+.btnbckonL {
+
+}
+
+.buttonL {
+  width: 9%;
+  height: 12%;
+}
+
+.btnbckoffL {
+}
+
+.btnToffL {
+  fill: black;
+}
+
+.btnConL {
+  fill: blue;
+}
+
+.HLbtnToff {
+
+}
+
+.CarPstImgCnt {
+  float: left;
+  width: 11.111%;
+  padding: 10px;
+  border: 0px solid #fff;
+}
+
+.CarNvImgCnt {
+width: 11.111%;
+  padding: 10px;
+}
+
+.CarPstImgs {
+width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 0px solid #000;
+}
+
+.whtfill {
+	fill: #fff;
+}
+
+a.ClTAct {
+	position: relative; 
+	margin-top: 8px; 
+	background-color: blue; 
+	border-radius: 5px; 
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-top: 3px; 
+	padding-bottom: 3px; 
+	font-size: 18px; 
+	color: white; 
+	text-decoration: none;
+}
+
+.CarImgBlkCls {
+	position: relative; width: 100%; opacity: 0.5;
+}
+
+.CarImgBlkCls.transg {
+	-webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+	opacity: 1;
+}
+
+.CarPstImgCvr {
+  opacity: 1;
+  fill: #eee;
+  width: 100%;
+  height: 100%;
+}
+
+.CarPstImgCvr.trans {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 2s;
+  opacity: 0;
+}
+
+.LImgCvr {
+  opacity: 1;
+  fill: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.LImgCvr.transi {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 2s;
+  opacity: 0;
+}
+
+.CarPstImgCvrCnt {
+	width: 100%; 
+	position: relative; 
+	z-index: 100; 
+	border-radius: 5px; 
+	border: 1px solid #fff; 
+	vertical-align: top;
+}
+
+.CarPstImgCvrCntX {
+	width: 100%; 
+	position: relative; 
+	z-index: 100; 
+	border-radius: 0px; 
+	
+	vertical-align: top;
+	border: 0px solid #808080;
+}
+
+.Crnrs {
+	opacity: 1;
+	border: 1px solid #808080;
+}
+
+.Crnrs.transh {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  
+  opacity: 0;
+}
+
+.CarWIPOfSpCvr {
+	vertical-align: top;
+	position: absolute; 
+	opacity: 1;
+	height: 18px;
+	width: 100%; 
+	border: 0px solid yellow; 
+	background-color: #eee;
+	z-index: 100; 
+	border-radius: 4px;
+	
+	top: 6px;
+	display: inline-block;
+	border: 0px solid red;
+}
+
+.CarWIPOfSpCvr.transe {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+.CarPstTagCvr {
+	vertical-align: top;
+	position: absolute; 
+	opacity: 1;
+	height: 100%; 
+	width: 100%; 
+	border: 0px solid yellow; 
+	background-color: #eee;
+	z-index: 100; 
+	border-radius: 4px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-top: 0px;
+	margin-bottom: 2px;
+	display: inline-block;
+}
+
+.CarPstTagCvr.transb {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+
+.CarPstWIL2Cvr {
+	position: absolute; 
+	opacity: 1;
+	height: 90%; 
+	width: 100%;
+	background-color: #eee;
+	z-index: 100;
+	left: 0%;
+	top: 0%;
+}
+
+.CarPstWIL2Cvr.transc {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+.CarPstWIL1Cvr {
+	position: absolute; 
+	opacity: 1;
+	height: 90%; 
+	width: 100%;
+	background-color: #eee;
+	z-index: 100;
+	left: 0%;
+	top: 0%;
+}
+
+.CarPstWIL1Cvr.transf {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+.CarPstWIRCvr {
+	position: absolute; 
+	opacity: 1;
+	height: 90%; 
+	width: 100%;
+	background-color: #eee;
+	z-index: 100;
+	left: 0%;
+	top: 0%;
+}
+
+.CarPstWIRCvr.transd {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+}
+
+
+.colL {
+width: 50%;
+background-color: #fff; 
+float: left; 
+padding-left: 22px;
+}
+
+.colL2 {
+width: 50%; position: relative; float: left; border: 0px solid blue; margin-left: 22px; margin-top: -190px;
+}
+
+.WordItemsCnt1 {
+background-color: white;
+position: relative;
+z-index: 10;
+width: 50%;
+height: 400px;
+border: 0px solid #808080;
+padding-bottom: 10px;
+padding-top: 0px;
+padding-left: 22px;
+padding-right: 22px;
+float: right;
+
+}
+
+.WordItemsCnt2 {
+border-top: 1px solid #808080; 
+border-bottom: 1px solid #808080;
+float: left; 
+width: 100%;
+padding-top: 5px;
+}
+
+
+a.pstlnk:link {
+	color: blue;
+	float: right;
+	margin-top: 5px;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+a.pstlnk:visited {
+	color: blue;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
+.PlTriIc {
+	display: inline-flex;
+	align-self: center;
+	z-index: 80;
+	background-color: white;
+}
+.PlTriIc svg, .icon img {
+	height: 1em;
+	width: 1em;
+	background-color: white;
+}
+.PlTriIc.baseline svg, .icon img {
+	top: .125em;
+	position: relative;
+	border-radius: 50%;
+}
+
+.MUILCnt {
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	border-top: 1px solid #808080; 
+	border-bottom: 1px solid #808080; 
+	float: left; 
+	position: relative; 
+	width: 100%;
+}
+
+
+
+.colL2In {
+position: relative; float: left; width: 100%; margin-top: 0px; border-bottom: 1px solid #808008; border-top: 0px solid #808008;
+}
+
+.colL2In2 {
+width: 100%; padding-top: 10px; display: inline-block; position: relative; float: left;
+}
+
+
+.colR2In2 {
+width: 100%; padding-top: 10px; display: inline-block; position: relative; height: 100%; float: left;
+}
+
+.colR2 {
+position: relative; 
+width: 100%; 
+float: left; 
+margin-top: 0px;
+}
+
+.colR2In {
+width: 100%;  
+position: absolute; 
+top: 350px; 
+display: inline-block; 
+border: 0px solid pink;
+}
+
+#ClTActL {
+display: none;
+}
+
+#ClTActH {
+display: inline-block; 
+}
+
+
+
+#maskHT {
+        position: absolute;
+        top:-1px;
+        left:5%;
+        width:90%;
+        height: 1px;
+        background-color:#fff;
+}
+
+#maskHB {
+        position: absolute;
+        top:100%;
+        left:5%;
+        width:90%;
+        height: 1px;
+        background-color:#fff;
+}
+
+#maskVR {
+        position: absolute;
+        top:15%;
+        left:100%;
+        height:70%;
+        width: 1px;
+        background-color:#fff;
+}
+
+#maskVL {
+        position: absolute;
+        top:15%;
+        left: -1px;
+        height:70%;
+        width: 1px;
+        background-color:#fff;
+}
+
+
+@media (max-width: 600px) {
+
+#ClTActL {
+display: none;
+}
+
+#ClTActH {
+display: block;
+}
+
+
+#maskHT {
+height: 0px;
+}
+
+#maskHB {
+height: 0px;
+}
+
+#maskVR {
+width: 0px;
+}
+
+#maskVL {
+width: 0px;
+}
+
+.colL2 {
+width: 100%;
+border-top: 0px solid #808080; 
+border-bottom: 1px solid #808080;
+margin-top: 0px;
+margin-left: 0px;
+}
+
+.colL2In {
+margin-left: 0px;
+margin-right: 0px;
+border-bottom: 1px solid #808008; 
+border-top: 1px solid #808008;
+}
+
+.colL2In2 {
+width: 100%; padding-top: 5px;
+}
+
+
+
+.colL {
+width: 100%;
+padding-left: 0px;
+}
+
+.WordItemsCnt1 {
+width: 100%;
+padding-left: 0px;
+padding-right: 0px;
+border-bottom: 0px;
+height: 450px;
+}
+
+.WordItemsCnt2 {
+border-top: 0px solid #808080; 
+border-bottom: 0px solid #808080;
+}
+
+
+}
+
+@media (max-width: 700px) {
+.CarPstImgCnt {
+  float: left;
+  width: 40px;
+  padding: 5px;
+}
+}
+
+</style>
+
+</head>     
+
+</head>
+
+
+
+
+<body onload="landerpage()" id="bodyid">
+
+	<div id="TemplateContainer" align=center style="width: 100%;">
+	<!-- JS Template  Goes Here -->
+	</div>
+
+</body>
+
+
+
+
+</html>
+
+<script>
+// Share address for this page's share button popup window
+var ShareAdr = 'https://gperilli.github.io/mono/';
+</script>
+
+<script src="js/monost-sitewide.js"></script>
+<script src="js/monost-post-templates.js"></script>
+<script src="js/monost-lander-core.js"></script>
+<script src="js/monost-lander-siema.js"></script>
+
+
+
