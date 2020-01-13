@@ -93,10 +93,10 @@ HeaderTemp = `
 
 <div class="row" style="background-color: #fff;">
 	 <div class="headercontainer" style="background-color: #fff; z-index: 99; position: relative;">
-			<a href="index.html"><img border="0" src="graphics/monostttle.png" height="100%"/></a>
+			<a href="index"><img border="0" src="graphics/monostttle.png" height="100%"/></a>
 	 </div>
 
-		<a class="topnav" style="float: right; margin-right: 20px;" id="menu-home" href="index.html">Home</a>
+		<a class="topnav" style="float: right; margin-right: 20px;" id="menu-home" href="index">Home</a>
 		<a class="topnav" style="float: right; margin-right: 20px;" id="menu-gallery" href="gallery.html">Gallery</a>
 		 
 	 
@@ -127,7 +127,7 @@ HeaderTemp = `
 		<div align="right" style="z-index: 1; padding-right: 5px;">
 		
 		<div style="border-top: 0px solid #ccc; border-bottom: 0px solid #ccc; padding-top: 5px; padding-bottom: 5px; margin-left: 5px;">
-		<a id="Brgrmenu-home" href="index.html">Home</a><br>
+		<a id="Brgrmenu-home" href="index">Home</a><br>
 		</div>
 		
 		<div style="border-top: 1px solid #ddd; border-bottom: 0px solid #ccc; padding-top: 5px; padding-bottom: 5px; margin-left: 5px;">
