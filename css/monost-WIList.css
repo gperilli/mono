@@ -1,0 +1,259 @@
+
+/* Word Items */
+.WordItems {
+background-color: white;
+position: relative;
+z-index: 10;
+width: 100%;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 2px;
+padding-right: 2px;
+}
+
+/* Word Item Columns */
+.WIcolumn {
+float: left;
+overflow-wrap: break-word;
+word-wrap: break-word;
+}
+.left {
+width: 25%;
+}
+.right {
+width: 71%;
+padding-left: 10px;
+}
+
+.WIPic:hover {
+	cursor: pointer;
+}
+
+/* L2 Word Item Container */
+.L2WICont {
+display: inline-block;
+}
+
+/* L2 Word Item */
+h3.L2WordItem {
+color: black;
+font-size: calc(1.5em + 1vw);
+margin-top: 0;
+margin-bottom: 0px;
+margin-left: 0;
+margin-right: 0;
+font-weight: normal;
+text-align:left;
+display: inline-block;
+}
+
+/* L1 Word Item Container */
+.L1WICont {
+float: right;
+width: 100%;
+}
+
+/* Example sentences */
+p.WIL1Exs {
+color: #808080;
+text-align: left;
+padding-top: 0px;
+padding-left: 20px;
+font-size: 15px;
+display: inline; 
+}
+p.WIL2Exs {
+color: black;
+padding-left: 5px;
+}
+
+/* Semantic Tags */
+p.SemTags {       
+border-radius: 4px;
+color: white;
+font-size: 11px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 2px;
+padding-right: 2px;
+margin-top: 2px;
+margin-bottom: 2px;
+text-align: center;
+text-decoration: none;
+line-height: normal;
+display: inline-block;
+width: 100%;
+}
+
+.tag_colors {
+ background-color: cornflowerblue;
+}
+
+.tag_blank {
+ background-color: #fff;
+}
+
+.tag_travel {
+ background-color: plum;
+}
+.tag_vehicles {
+ background-color: chocolate;
+}
+.tag_airport {
+ background-color: cadetblue;
+}
+.tag_body {
+ background-color: lightpink;
+}
+.tag_fruit {
+ background-color: khaki;
+}
+.tag_vegetables {
+ background-color: mediumpurple;
+}
+.tag_food {
+ background-color: darkseagreen;
+}
+.tag_home {
+ background-color: olive;
+}
+.tag_kitchen {
+ background-color: palegreen;
+}
+.tag_plants {
+ background-color: mediumslateblue;
+}
+.tag_animals {
+ background-color: sandybrown;
+}
+.tag_places {
+ background-color: burlywood;
+}
+.tag_scenery {
+ background-color: darkgray;
+}
+.tag_country {
+ background-color: goldenrod;
+}
+.tag_buildings {
+ background-color: rosybrown;
+}
+.tag_field {
+	background-color: #D5F5E3;
+}
+.tag_furniture {
+ background-color: tan;
+}
+.tag_verbs {
+ background-color: peru;
+}
+.tag_adjectives {
+ background-color: lightslategray;
+}
+
+
+
+
+/* Top Burger Bar */
+.Burger {
+max-height:1.2em;
+border-bottom: 0px;
+background:#fff;
+color:white;
+z-index: 1;
+position: relative;
+padding-bottom: 23px;
+padding-top: 5px;
+width: 100%;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+-webkit-transition: 1s;
+transition: 1s;
+}
+
+/* Sentence Examples */
+.WIExs {
+max-height:1.2em;
+border-bottom: 0px;
+background:#fff;
+color:white;
+z-index: 5;
+position: relative;
+padding-bottom: 23px;
+padding-top: 5px;
+width: 100%;
+-moz-transition: 1s;
+-ms-transition: 1s;
+-o-transition: 1s;
+-webkit-transition: 1s;
+transition: 1s;
+}
+.expand {
+max-height:999px;
+}
+
+/* Accordion Button */
+.AccBtnCont {
+width: 100%;
+padding-bottom: 8px;
+border-top: 1px solid grey;
+border-bottom: 0px solid grey;
+border-left: 0px solid grey;
+border-image: linear-gradient(to right, #ccc 15%, rgba(0,0,0,0) 30%); /* to top - at 50% transparent */
+border-image-slice: 1;
+}
+
+.ExpBtn-CircleClass {
+stroke: white;
+stroke-width: 6%;
+z-index: 1;
+}
+.ExpBtnContainer-TextImgClass {
+cursor: pointer;
+position: absolute;
+top: 10%;
+left: 10%;
+width: 80%;
+height: 80%;
+z-index: 6;
+fill: #bbb;
+}
+.ExpBtnContainer-TextImgClass:hover {
+fill: white;
+}
+.ExpBtn-CircleContainerClass {
+position: absolute;
+width: 100%;
+height: 100%;
+fill: white;
+margin-top: 0px;
+}
+.ExpBtnContainer-TextImgClass:hover ~ .ExpBtn-CircleContainerClass {
+fill: #bbb;
+}
+.ExpBtnContainerClass {
+position:relative;
+display: inline-block;
+width: 25px;
+height: 25px;
+z-index: 10;
+}
+
+/* Sentence word highlighting */
+.wihlight {
+	color: black;
+	font-weight: bold;
+}
+
+.WIspacer {
+height:50px;
+width: 100%;
+z-index: 10;
+background-color: #fff;
+border-top: 1px solid grey;
+border-bottom: 0px solid grey;
+border-right: 0px solid grey;
+border-image: linear-gradient(to left, #ccc 15%, rgba(0,0,0,0) 30%); /* to top - at 50% transparent */
+border-image-slice: 1;
+}
