@@ -433,7 +433,7 @@ function PImgs() {
 	}
 	
 	var PNavImg = "p".concat(pno, "/monop", pno, "-wi0.svg");
-	var PNavImgA = "p".concat(pno, "/monop", pno, "-wi0a.svg");
+	//var PNavImgA = "p".concat(pno, "/monop", pno, "-wi0a.svg");
 	var pId = window["p".concat(pno)];
 	
 	
