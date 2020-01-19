@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mono: Gallery</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+
+<!-- OG Facebook -->
+<meta property="og:url" content="https://gperilli.github.io/mono/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mono" />
+<meta property="og:description" content="Mono" />
+<meta property="og:image" content="https://gperilli.github.io/mono/graphics/shareimg.png" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:title" content="Mono" />
+<meta name="twitter:description" content="Mono" />
+<meta name="twitter:image" content="https://gperilli.github.io/mono/graphics/shareimg.png" />
+
+<link rel="icon" href="graphics/monostfav.png">
+
+<!-- CSS files -->
+<link rel="stylesheet" type="text/css" href="css/monost-Menu.css">
+<link rel="stylesheet" type="text/css" href="css/monost-MUI.css">
+<link rel="stylesheet" type="text/css" href="css/monost-Footer.css">
+<link rel="stylesheet" type="text/css" href="css/monost-Site.css">
+
+<style>
+/* Mono Gallery Nav Index Page */
+
+.headercnt {
+	display: none;
+}
+
+a.GlLink {
+color: blue;
+}
+
+
+a.GlLink:link, a:visited{
+color: blue;
+}
+
+.GlTypeOff {
+ text-decoration: none;
+ border: 0px solid #ccc;
+ background-color: #fff;
+ color: #000;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+.GlTypeOff:hover {
+ text-decoration: none;
+ background-color: #808080;
+ color: #fff;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-radius: 3px;
+ cursor: pointer;
+}
+
+.GlTypeHlight {
+ text-decoration: none;
+ border: 1px solid #ccc;
+ background-color: #808080;
+ color: #fff;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-radius: 3px;
+ cursor: context-menu;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.3s;
+}
+
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.gallery {
+	margin: 5px;
+}
+
+div.gallery img {
+  height: auto;
+  width: 100%;
+}
+
+.PImgNav {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.PImgNav:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.PImgNavOver {
+	opacity: 1;
+	position: absolute; 
+	left: 0px; top: 0px;
+}
+
+.PImgNavOver:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 24.99999%;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 33.33333%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.pagination {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; 
+  width: 100%;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  
+}
+
+.pagination a.active {
+  background-color: #000;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+</style>
+
+</head>
+
+<body onload="indexpage()">
+<div id="TemplateContainer" align=center style="width: 100%;">
+
+<!-- JS Template  Goes Here -->
+
+</div>
+</body>
+
+</html>
+
+<script>
+// Share address for this page's share button popup window
+var ShareAdr = 'https://gperilli.github.io/mono/';
+</script>
+
+<script src="js/monost-sitewide.js"></script>
+<script src="js/monost-mui.js"></script>
+<script src="js/monost-gallery-core.js"></script>
+
+
+
+
