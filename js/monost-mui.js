@@ -262,7 +262,7 @@ function MUIUpdP00X(pno, n, ClkSrc) {
 	ButtonIdHead = "P".concat(pno, "BtnImgId");
 	MUIL1TCont = "MUIL1TContP".concat(pno);
 	MUIL2TCont = "MUIL2TContP".concat(pno);
-	CurrentBtn = P00XBtnSelected;
+	CurrentBtn = n;
 	
 	pId = window["p".concat(pno)];
 	
@@ -293,8 +293,8 @@ function MUIUpdP00X(pno, n, ClkSrc) {
 		}
 				
 		MUITempPrp(pno);
-		P00XBtnSelected = n;
-		CurrentBtn = P00XBtnSelected;
+		//P00XBtnSelected = n;
+		CurrentBtn = n;
 		
 		pnoint = parseInt(pno, 10);
 		CrntBtnP00X[pnoint] = n;
