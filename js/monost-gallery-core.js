@@ -435,7 +435,10 @@ function PImgs() {
 	var PNavImg = "p".concat(pno, "/monop", pno, "-wi0.svg");
 	//var PNavImgA = "p".concat(pno, "/monop", pno, "-wi0a.svg");
 	var pId = window["p".concat(pno)];
-	
+	if (pId === undefined) {
+		//Check for this load problem, then retry
+		setTimeout(PImgs, 50);	 
+	}
 	
 	pTtl = pId["0"]["WI"][L1];
 	PDte = pId["Date"];
