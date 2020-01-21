@@ -50,9 +50,9 @@ AnnotType: "HLight",
 	BtnChar3: "digit1",
 
 	//Examples
-	EX1: {ENG: "I like fruit.", ITA: "Mi piace la frutta.", JPN: "果物が好きです。",},
-	EX2: {ENG: "Lemon is a sour fruit.", ITA: "Il limone è un frutto acido.", JPN: "レモンはすっぱい果物だ。",},
-	EX3: {ENG: "Fresh fruit and vegetables are good for your health.", ITA: "Frutta e verdura fresche fanno bene alla salute.", JPN: "新鮮な果物や野菜は健康によい。",},
+	EX1: {ENG: 'I like <span class="wihlight">fruit</span>.', ITA: 'Mi piace la <span class="wihlight">frutta</span>.', JPN: '<span class="wihlight">果物</span>が好きです。',},
+	EX2: {ENG: 'Lemon is a sour <span class="wihlight">fruit</span>.', ITA: 'Il limone è un <span class="wihlight">frutto</span> acido.', JPN: 'レモンはすっぱい<span class="wihlight">果物</span>だ。',},
+	EX3: {ENG: 'Fresh <span class="wihlight">fruit</span> and vegetables are good for your health.', ITA: '<span class="wihlight">Frutta</span> e verdura fresche fanno bene alla salute.', JPN: '新鮮な<span class="wihlight">果物</span>や野菜は健康によい。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/4262809", ITA: "https://tatoeba.org/eng/sentences/show/383179", JPN: "https://tatoeba.org/eng/sentences/show/1634740",},
@@ -101,9 +101,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Strawberries and roses belong to the same family.", ITA: "Le fragole e le rose appartengono alla stessa famiglia.", JPN: "イチゴとバラは同じ家族に属します。",},
-	EX2: {ENG: "Clean and slice 8 strawberries.", ITA: "Pulisci e affetta 8 fragole.", JPN: "8個のイチゴをきれいにスライスします。",},
-	EX3: {ENG: "Strawberries are one of the most loved and eaten fruits of the summer season.", ITA: " Le fragole sono uno dei frutti più amati e consumati della stagione estiva.", JPN: "イチゴは、夏のシーズンで最も愛され、食べられている果物の一つです。",},
+	EX1: {ENG: '<span class="wihlight">Strawberries</span> and roses belong to the same family.', ITA: 'Le <span class="wihlight">fragole</span> e le rose appartengono alla stessa famiglia.', JPN: '<span class="wihlight">イチゴ</span>とバラは同じ家族に属します。',},
+	EX2: {ENG: 'Clean and slice 8 <span class="wihlight">strawberries</span>.', ITA: 'Pulisci e affetta 8 <span class="wihlight">fragole</span>.', JPN: '8個の<span class="wihlight">イチゴ</span>をきれいにスライスします。',},
+	EX3: {ENG: '<span class="wihlight">Strawberries</span> are one of the most loved and eaten fruits of the summer season.', ITA: 'Le <span class="wihlight">fragole</span> sono uno dei frutti più amati e consumati della stagione estiva.', JPN: '<span class="wihlight">イチゴ</span>は、夏のシーズンで最も愛され、食べられている果物の一つです。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -150,9 +150,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "How many apples are there?", ITA: "Quante mele ci sono?.", JPN: "りんごは何個ですか？",},
-	EX2: {ENG: "This apple is sweet.", ITA: "Questa mela è dolce.", JPN: "このりんごは甘い。",},
-	EX3: {ENG: "The apple fell from the tree.", ITA: 'La mela è caduta dall&#39;albero.', JPN: "りんごが木から落ちた。",},
+	EX1: {ENG: 'How many <span class="wihlight">apples</span> are there?', ITA: 'Quante <span class="wihlight">mele</span> ci sono?.', JPN: '<span class="wihlight">りんご</span>は何個ですか？',},
+	EX2: {ENG: 'This <span class="wihlight">apple</span> is sweet.', ITA: 'Questa <span class="wihlight">mela</span> è dolce.', JPN: 'この<span class="wihlight">りんご</span>は甘い。',},
+	EX3: {ENG: 'The <span class="wihlight">apple</span> fell from the tree.', ITA: 'La <span class="wihlight">mela</span> è caduta dall&#39;albero.', JPN: '<span class="wihlight">りんご</span>が木から落ちた。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1164076", ITA: "https://tatoeba.org/eng/sentences/show/1254517", JPN: "https://tatoeba.org/eng/sentences/show/774816",},
@@ -201,9 +201,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "He likes oranges.", ITA: "Gli piacciono le arance.", JPN: "彼はオレンジが好き。",},
-	EX2: {ENG: "I prefer apples to oranges.", ITA: "Preferisco le mele alle arance.", JPN: "オレンジよりもリンゴが好きだ。",},
-	EX3: {ENG: "Oranges are rich in vitamin C.", ITA: "Le arance sono ricche di vitamina C.", JPN: "オレンジにはビタミンＣが多く含まれている。",},
+	EX1: {ENG: 'He likes <span class="wihlight">oranges</span>.', ITA: 'Gli piacciono le <span class="wihlight">arance</span>.', JPN: '彼は<span class="wihlight">オレンジ</span>が好き。',},
+	EX2: {ENG: 'I prefer apples to <span class="wihlight">oranges</span>.', ITA: 'Preferisco le mele alle <span class="wihlight">arance</span>.', JPN: '<span class="wihlight">オレンジ</span>よりもリンゴが好きだ。',},
+	EX3: {ENG: '<span class="wihlight">Oranges</span> are rich in vitamin C.', ITA: 'Le <span class="wihlight">arance</span> sono ricche di vitamina C.', JPN: '<span class="wihlight">オレンジ</span>にはビタミンＣが多く含まれている。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -297,9 +297,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'Cherries are red.', ITA: "Le ciliegie sono rosse.", JPN: "サクランボは赤い。",},
-	EX2: {ENG: 'Cherries are the fruit of the cherry tree.', ITA: "La ciliegia è il frutto del ciliegio.", JPN: "さくらんぼは桜の実です。",},
-	EX3: {ENG: 'I can&#39;t taste the cherries.', ITA: "Non sento il sapore delle ciliegie.", JPN: "さくらんぼは味わえません。",},
+	EX1: {ENG: '<span class="wihlight">Cherries</span> are red.', ITA: 'Le <span class="wihlight">ciliegie</span> sono rosse.', JPN: '<span class="wihlight">サクランボ</span>は赤い。',},
+	EX2: {ENG: '<span class="wihlight">Cherries</span> are the fruit of the cherry tree.', ITA: 'La <span class="wihlight">ciliegia</span> è il frutto del ciliegio.', JPN: '<span class="wihlight">さくらんぼ</span>は桜の実です。',},
+	EX3: {ENG: 'I can&#39;t taste the <span class="wihlight">cherries</span>.', ITA: 'Non sento il sapore delle <span class="wihlight">ciliegie</span>.', JPN: '<span class="wihlight">さくらんぼ</span>は味わえません。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/370553", ITA: "https://tatoeba.org/eng/sentences/show/635269", JPN: "https://tatoeba.org/eng/sentences/show/1169756",},
@@ -345,9 +345,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "This pear smells nice.", ITA: "Questa pera ha un buon odore.", JPN: "この梨はいい香りがする。",},
-	EX2: {ENG: "How much are the pears?", ITA: "Quanto vengono le pere?", JPN: "梨はいくらですか",},
-	EX3: {ENG: 'This isn&#39;t an apple. It&#39;s a pear.', ITA: "Questa non è una mela. È una pera.", JPN: "これはりんごではありません。梨です。",},
+	EX1: {ENG: 'This <span class="wihlight">pear</span> smells nice.', ITA: 'Questa <span class="wihlight">pera</span> ha un buon odore.', JPN: 'この<span class="wihlight">梨</span>はいい香りがする。',},
+	EX2: {ENG: 'How much are the <span class="wihlight">pears</span>?', ITA: 'Quanto vengono le <span class="wihlight">pere</span>?', JPN: '<span class="wihlight">梨</span>はいくらですか',},
+	EX3: {ENG: 'This isn&#39;t an apple. It&#39;s a <span class="wihlight">pear</span>.', ITA: 'Questa non è una mela. È una <span class="wihlight">pera</span>.', JPN: 'これはりんごではありません。<span class="wihlight">梨</span>です。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/60753", ITA: "https://tatoeba.org/eng/sentences/show/3630957", JPN: "https://tatoeba.org/eng/sentences/show/223419",},
@@ -393,9 +393,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "The peaches are ripe.", ITA: "Le pesche sono mature.", JPN: "桃が熟している。",},
-	EX2: {ENG: "There was a large harvest of peaches last year.", ITA: "C'è stato un grande raccolto di pesche l'anno scorso.", JPN: "昨年はモモがたくさん取れた。",},
-	EX3: {ENG: "Those peaches are big.", ITA: "Quelle pesche sono grandi.", JPN: "あの桃は大きい。",},
+	EX1: {ENG: 'The <span class="wihlight">peaches</span> are ripe.', ITA: 'Le <span class="wihlight">pesche</span> sono mature.', JPN: '<span class="wihlight">桃</span>が熟している。',},
+	EX2: {ENG: 'There was a large harvest of <span class="wihlight">peaches</span> last year.', ITA: 'C&#39;è stato un grande raccolto di <span class="wihlight">pesche</span> l&#39;anno scorso.', JPN: '昨年は<span class="wihlight">モモ</span>がたくさん取れた。',},
+	EX3: {ENG: 'Those <span class="wihlight">peaches</span> are big.', ITA: 'Quelle <span class="wihlight">pesche</span> sono grandi.', JPN: 'あの<span class="wihlight">桃</span>は大きい。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -441,9 +441,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'After I pick some blueberries, I make a tart.', ITA: 'Dopo aver raccolto un po&#39; di mirtilli farò una torta.', JPN: 'ブルーベリーをとった後、タルトを作る。',},
-	EX2: {ENG: 'These blueberries taste sour.', ITA: 'Questi mirtilli sono aspri', JPN: 'このブルーベリーはすっぱい味がする。',},
-	EX3: {ENG: 'These blueberries were too expensive.', ITA: 'Questi mirtilli erano troopo care.', JPN: 'このブルーベリージュースを飲みますか。',},
+	EX1: {ENG: 'After I pick some <span class="wihlight">blueberries</span>, I make a tart.', ITA: 'Dopo aver raccolto un po&#39; di <span class="wihlight">mirtilli</span> farò una torta.', JPN: '<span class="wihlight">ブルーベリー</span>をとった後、タルトを作る。',},
+	EX2: {ENG: 'These <span class="wihlight">blueberries</span> taste sour.', ITA: 'Questi <span class="wihlight">mirtilli</span> sono aspri', JPN: 'この<span class="wihlight">ブルーベリー</span>はすっぱい味がする。',},
+	EX3: {ENG: 'These <span class="wihlight">blueberries</span> were too expensive.', ITA: 'Questi <span class="wihlight">mirtilli</span> erano tropo care.', JPN: 'この<span class="wihlight">ブルーベリー</span>ジュースを飲みますか。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/131282", ITA: "https://tatoeba.org/eng/sentences/show/3985574", JPN: "https://tatoeba.org/eng/sentences/show/139214",},
