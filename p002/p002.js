@@ -558,6 +558,5 @@ AnnotType: "Annot",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
-};
-
+}
 //var p00X = 007;
