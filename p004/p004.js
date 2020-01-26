@@ -17,7 +17,7 @@ var p004 = {
 	this[i]["AudJPNEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex3.wav");}
 	},
 No: "004",
-Date: "18/08/2018",
+Date: "24/01/2020",
 
 ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
@@ -30,7 +30,6 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",	
 
-
 	BtnContPosLeft: "82%",
 	BtnContPosTop: "76%",
 	BtnPosLeft: "5%",
@@ -42,7 +41,7 @@ AnnotType: "Annot",
 
 	//Word Item
 	WI: {ENG: "countryside", ITA: "campagna", JPN: "田舎",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "inaka", JPNRu: "<ruby>田舎<rt>いなか</rt></ruby>",},
+	WIr: {ENG: "/ˈkʌntrɪˌsaɪd/", ITA: "/kamˈpaɲɲa/", JPN: "inaka", JPNRu: "<ruby>田舎<rt>いなか</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -74,11 +73,11 @@ AnnotType: "Annot",
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 		ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
-		JPN: {ENG: "可算", ITA: "可算", JPN: "可算",},
+		JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
 	PoSp2: {ENG: {ENG: "", ITA: "femm..", JPN: "",}, 
 		ITA: {ENG: "", ITA: "femm..", JPN: "",},
-		JPN: {ENG: "名詞", ITA: "名詞", JPN: "名詞",},
+		JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 		ITA: {ENG: "", ITA: "", JPN: "",},
@@ -111,7 +110,7 @@ AnnotType: "Annot",
 	LnPosY2: "53%",
 
 	WI: {ENG: "airplane", ITA: "aeroplano", JPN: "飛行機",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "hikouki", JPNRu: "<ruby>飛行機<rt>ひこうき</rt></ruby>",},
+	WIr: {ENG: "/ˈɛərpleɪn/", ITA: "/aeroˈplano/", JPN: "hikouki", JPNRu: "<ruby>飛行機<rt>ひこうき</rt></ruby>",},
 
     semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "vehicles", ITA: "veicolo", JPN: "乗り物",},
@@ -169,7 +168,7 @@ AnnotType: "Annot",
 	LnPosY2: "55%",
 
 	WI: {ENG: "mountain", ITA: "montagna", JPN: "山",},
-	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "yama", JPNRu: "<ruby>山<rt>やま</rt></ruby>",},
+	WIr: {ENG: "/ˈmaʊntən/", ITA: "/monˈtaɲɲa/", JPN: "yama", JPNRu: "<ruby>山<rt>やま</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "scenery", ITA: "paesaggio", JPN: "景色",},
@@ -227,7 +226,7 @@ AnnotType: "Annot",
 	LnPosY2: "62%",
 
 	WI: {ENG: "house", ITA: "casa", JPN: "家",},
-	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ie", JPNRu: "<ruby>家<rt>いえ</rt></ruby>",},
+	WIr: {ENG: "/ˈhaʊs/", ITA: "/ˈkasa/", JPN: "ie", JPNRu: "<ruby>家<rt>いえ</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
 	semtag2: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
@@ -285,7 +284,7 @@ AnnotType: "Annot",
 	LnPosY2: "55%",
 
 	WI: {ENG: "forest", ITA: "foresta", JPN: "森",},
-	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "mori", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
+	WIr: {ENG: "/ˈfɒrɪst/", ITA: "/foˈrɛsta/", JPN: "mori", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
 
 
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
@@ -343,8 +342,8 @@ AnnotType: "Annot",
 	LnPosX2: "55%",
 	LnPosY2: "45%",
 
-	WI: {ENG: "tracor", ITA: "trattore", JPN: "トラクター",},
-	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>トラクター<rt>とらくたー</rt></ruby>",},
+	WI: {ENG: "tractor", ITA: "trattore", JPN: "トラクター",},
+	WIr: {ENG: "/ˈtræktə/", ITA: "/tratˈtore/", JPN: "seki", JPNRu: "<ruby>トラクター<rt>とらくたー</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "vehicle", ITA: "veicolo", JPN: "乗り物",},
@@ -404,7 +403,7 @@ AnnotType: "Annot",
 	LnPosY2: "59%",
 
 	WI: {ENG: "wind turbine", ITA: "turbina eolica", JPN: "風力原動機",},
-	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "fuuryokugendouki", JPNRu: "<ruby>風力原動機<rt>ふうりょくげんどうき</rt></ruby>",},
+	WIr: {ENG: "/wɪnd ˈtɜːbɪn/", ITA: "/turˈbina eˈɔlika/", JPN: "fuuryokugendouki", JPNRu: "<ruby>風力原動機<rt>ふうりょくげんどうき</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "electricity", ITA: "elettricità", JPN: "電気",},
@@ -462,7 +461,7 @@ AnnotType: "Annot",
 	LnPosY2: "50%",
 
 	WI: {ENG: "hot air balloon", ITA: "mongolfiera", JPN: "熱気球",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "netsukikyuu", JPNRu: "<ruby>熱気球<rt>ねつききゅう</rt></ruby>",},
+	WIr: {ENG: "/hɒt eə bəˈluːn/", ITA: "/mongolˈfjɛra/", JPN: "netsukikyuu", JPNRu: "<ruby>熱気球<rt>ねつききゅう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "vehicles", ITA: "veicolo", JPN: "空港",},
@@ -521,7 +520,7 @@ AnnotType: "Annot",
 	LnPosY2: "45%",
 
 	WI: {ENG: "field", ITA: "campo", JPN: "畑",},
-	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "hatake", JPNRu: "<ruby>畑<rt>はたけ</rt></ruby>",},
+	WIr: {ENG: "/fiːld/", ITA: "/ˈkampo/", JPN: "hatake", JPNRu: "<ruby>畑<rt>はたけ</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "field", ITA: "campo", JPN: "畑",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
