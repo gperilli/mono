@@ -52,9 +52,9 @@ AnnotType: "Annot",
 	BtnChar3: "digit1",
 
 	//Examples
-	EX1: {ENG: "I'm going to go to the airport.", ITA: "Andrò all'aeroporto.", JPN: "私は空港に行くつもりです。",},
-	EX2: {ENG: "The airport is over there.", ITA: "L'aeroporto è laggiù.", JPN: "空港はそこにあります。",},
-	EX3: {ENG: "How far is it to the airport?", ITA: "Quanto dista l'aeroporto?", JPN: "空港まではどれぐらい遠いですか？",},
+	EX1: {ENG: 'I&#39;m going to go to the <span class="wihlight">airport</span>.', ITA: 'Andrò all&#39;<span class="wihlight">aeroporto</span>.',   JPN: '私は<span class="wihlight">空港</span>に行くつもりです。',},
+	EX2: {ENG: 'The <span class="wihlight">airport</span> is over there.', ITA: 'L&#39;<span class="wihlight">aeroporto</span> è laggiù.', JPN: '<span class="wihlight">空港</span>はそこにあります。',},
+	EX3: {ENG: 'How far is it to the <span class="wihlight">airport</span>?', ITA: 'Quanto dista l&#39;<span class="wihlight">aeroporto</span>?', JPN: '<span class="wihlight">空港</span>まではどれぐらい遠いですか',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -111,9 +111,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
 	
-	EX1: {ENG: "Send a message to the control tower.", ITA: "Invii un messaggio alla torre di controllo.", JPN: "管制塔にメッセージを送信します。",},
-	EX2: {ENG: "The pilot asks permission to depart from the control tower.", ITA: "Il pilota chiede alla torre di controllo il permesso per partire.", JPN: "パイロットは管制塔に出発する許可を求めます。",},
-	EX3: {ENG: "The pilots asked the control tower to go back to the airport.", ITA: "I piloti hanno chiesto alla torre di controllo di poter tornare all’aeroporto.", JPN: "パイロットは、管制塔に空港に戻るように頼んだ。",},
+	EX1: {ENG: 'Send a message to the <span class="wihlight">control tower</span>.', ITA: 'Invii un messaggio alla <span class="wihlight">torre di controllo</span>.', JPN: '<span class="wihlight">管制塔</span>にメッセージを送信します。',},
+	EX2: {ENG: 'The pilot asks permission to depart from the <span class="wihlight">control tower</span>.', ITA: 'Il pilota chiede alla <span class="wihlight">torre di controllo</span> il permesso per partire.', JPN: 'パイロットは<span class="wihlight">管制塔</span>に出発する許可を求めます。',},
+	EX3: {ENG: 'The pilots asked the <span class="wihlight">control tower</span> to go back to the airport.', ITA: 'I piloti hanno chiesto alla <span class="wihlight">torre di controllo</span> di poter tornare all’aeroporto.', JPN: 'パイロットは、<span class="wihlight">管制塔</span>に空港に戻るように頼んだ。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -165,15 +165,13 @@ AnnotType: "Annot",
 	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
 
-
-
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
 	
-	EX1: {ENG: "Looks like we have to make an emergency landing.", ITA: "Dovremo tentare un atterraggio di emergenza.", JPN: "緊急着陸する必要があるようです。",},
-	EX2: {ENG: "The plane made a perfect landing.", ITA: "L'aereo effettuò un atterraggio perfetto.", JPN: "飛行機は完璧な着陸をした。",},
-	EX3: {ENG: "They say most airplane accidents occur at landing or takeoff stages.", ITA: "Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di atterraggio o di decollo.", JPN: "ほとんどの飛行機事故は着陸または離陸の時に発生すると言います。",},
+	EX1: {ENG: 'Looks like we have to make an emergency <span class="wihlight">land</span>ing.', ITA: 'Dovremo tentare un <span class="wihlight">atterraggio</span> di emergenza.', JPN: '緊急<span class="wihlight">着陸</span>する必要があるようです。',},
+	EX2: {ENG: 'The plane made a perfect <span class="wihlight">land</span>ing.', ITA: 'L&#39;aereo effettuò un <span class="wihlight">atterraggio</span> perfetto.', JPN: '飛行機は完璧な<span class="wihlight">着陸</span>をした。',},
+	EX3: {ENG: 'They say most airplane accidents occur at <span class="wihlight">land</span>ing or takeoff stages.', ITA: 'Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di <span class="wihlight">atterraggio</span> o di decollo.', JPN: 'ほとんどの飛行機事故は<span class="wihlight">着陸</span>または離陸の時に発生すると言います。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -228,9 +226,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
 	
-	EX1: {ENG: "Gold squadron, begin take-off procedure.", ITA: "Squadra Oro, iniziare procedura di decollo.", JPN: "ゴールド飛行隊、離陸手続きを開始する。",},
-	EX2: {ENG: "The crew prepares for take off.", ITA: "L'equipaggio si prepara al decollo.", JPN: "乗組員は離陸を準備する。",},
-	EX3: {ENG: "We may not serve beverages during take-off or landing.", ITA: "Non possiamo servire da bere durante il decollo o l'atterraggio.", JPN: "離陸または着陸中に飲み物を提供することはできません。",},
+	EX1: {ENG: 'Gold squadron, begin <span class="wihlight">take-off</span> procedure.', ITA: 'Squadra Oro, iniziare procedura di <span class="wihlight">decollo</span>.', JPN: 'ゴールド飛行隊、<span class="wihlight">離陸</span>手続きを開始する。',},
+	EX2: {ENG: 'The crew prepares for <span class="wihlight">take off</span>.', ITA: 'L&#39;equipaggio si prepara al <span class="wihlight">decollo</span>.', JPN: '乗組員は<span class="wihlight">離陸</span>を準備する。',},
+	EX3: {ENG: 'We may not serve beverages during <span class="wihlight">take-off</span> or <span class="wihlight">land</span>ing.', ITA: 'Non possiamo servire da bere durante il <span class="wihlight">decollo</span> o l&#39;<span class="wihlight">atterraggio</span>.', JPN: '<span class="wihlight">離陸</span>または着陸中に飲み物を提供することはできません。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
