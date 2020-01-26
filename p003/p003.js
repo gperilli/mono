@@ -249,9 +249,9 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Bananas are yellow.", ITA: "Le banane sono gialle.", JPN: "バナナは黄色です。",},
-	EX2: {ENG: "The banana has started to go bad.", ITA: "La banana ha cominciato a marcire.", JPN: "そのバナナは腐り始めている。",},
-	EX3: {ENG: "Monkeys like eating bananas.", ITA: "Alle scimmie piace mangiare le banane.", JPN: "猫はバナナを食べるのが好きです。",},
+	EX1: {ENG: 'Bananas are <span class="wihlight">yellow</span>.', ITA: 'Le <span class="wihlight">banane</span> sono gialle.', JPN: '<span class="wihlight">バナナ</span>は黄色です。',},
+	EX2: {ENG: 'The <span class="wihlight">banana</span> has started to go bad.', ITA: 'La <span class="wihlight">banana</span> ha cominciato a marcire.', JPN: 'その<span class="wihlight">バナナ</span>は腐り始めている。',},
+	EX3: {ENG: 'Monkeys like eating <span class="wihlight">bananas</span>.', ITA: 'Alle scimmie piace mangiare le <span class="wihlight">banane</span>.', JPN: '猫は<span class="wihlight">バナナ</span>を食べるのが好きです。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/559000", ITA: "https://tatoeba.org/eng/sentences/show/691467", JPN: "https://tatoeba.org/eng/sentences/show/553870",},
@@ -386,7 +386,7 @@ AnnotType: "HLight",
 	imgbckg: "wht",
 
 	WI: {ENG: "peach", ITA: "pesca", JPN: "桃",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "momo", JPNRu: "<ruby>桃<rt>もも</rt></ruby>",},
+	WIr: {ENG: "/ˈpeska/", ITA: "/ˈpeska/", JPN: "momo", JPNRu: "<ruby>桃<rt>もも</rt></ruby>",},
 
 
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
