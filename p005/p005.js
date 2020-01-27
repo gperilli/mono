@@ -175,9 +175,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Looks like we have to make an emergency landing.", ITA: "Dovremo tentare un atterraggio di emergenza.", JPN: "緊急着陸する必要があるようです。",},
-	EX2: {ENG: "The plane made a perfect landing.", ITA: "L'aereo effettuò un atterraggio perfetto.", JPN: "飛行機は完璧な着陸をした。",},
-	EX3: {ENG: "They say most airplane accidents occur at landing or takeoff stages.", ITA: "Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di atterraggio o di decollo.", JPN: "ほとんどの飛行機事故は着陸または離陸の時に発生すると言います。",},
+	EX1: {ENG: 'I cut a <span class="wihlight">branch</span> from the tree.', ITA: 'Ho tagliato un <span class="wihlight">ramo</span> dall&#39;albero.', JPN: 'その木の<span class="wihlight">枝</span>を切った。',},
+	EX2: {ENG: 'Carl sat on a <span class="wihlight">branch</span> of the tree.', ITA: 'Carlo stava seduto su un <span class="wihlight">ramo</span> dell&#39;albero.', JPN: 'カールは木の<span class="wihlight">枝</span>の上に座っていた。',},
+	EX3: {ENG: 'The cat hid between the <span class="wihlight">branches</span>.', ITA: 'Il gatto si è nascosto tra i <span class="wihlight">rami</span>.', JPN: '猫は<span class="wihlight">枝</span>の間に隠れた。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
 
     engLhyph: "branch", engLperc: "branch", engLplus: "branch", engForv: "branch/#en",
     itaLhyph: "ramo", itaLplus: "ramo", itaForv: "ramo/#it",
@@ -222,17 +227,22 @@ AnnotType: "Annot",
 	LnPosX2: "45%",
 	LnPosY2: "55%",
 
-	WI: {ENG: "leaf", ITA: "foglio", JPN: "葉っぱ",},
-	WIr: {ENG: "/liːf/", ITA: "/ˈfɔʎʎo/", JPN: "happa", JPNRu: "<ruby>葉っぱ<rt>はっぱ</rt></ruby>",},
+	WI: {ENG: "leaf", ITA: "foglia", JPN: "葉っぱ",},
+	WIr: {ENG: "/liːf/", ITA: "/ˈfɔʎʎa/", JPN: "happa", JPNRu: "<ruby>葉っぱ<rt>はっぱ</rt></ruby>",},
 
 	semtag1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Gold squadron, begin take-off procedure.", ITA: "Squadra Oro, iniziare procedura di decollo.", JPN: "ゴールド飛行隊、離陸手続きを開始する。",},
-	EX2: {ENG: "The crew prepares for take off.", ITA: "L'equipaggio si prepara al decollo.", JPN: "乗組員は離陸を準備する。",},
-	EX3: {ENG: "We may not serve beverages during take-off or landing.", ITA: "Non possiamo servire da bere durante il decollo o l'atterraggio.", JPN: "離陸または着陸中に飲み物を提供することはできません。",},
-
+	EX1: {ENG: 'In autumn the <span class="wihlight">leaves</span> fall from the branches', ITA: 'In autunno le <span class="wihlight">foglie</span> cadono dai rami.', JPN: '秋には、木から<span class="wihlight">葉</span>が落ちる。',},
+	EX2: {ENG: 'The <span class="wihlight">leaves</span> turn red in the fall.', ITA: 'Le <span class="wihlight">foglie</span> diventano rosse d&#39;autunno.', JPN: 'その<span class="wihlight">葉</span>は秋に赤くなる。',},
+	EX3: {ENG: 'From waht tree is this <span class="wihlight">leaf</span>?', ITA: 'Di che albero è questa <span class="wihlight">foglia</span>?', JPN: 'この<span class="wihlight">葉っぱ</span>はどこの木からですか。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/43510", ITA: "https://tatoeba.org/eng/sentences/show/3519742", JPN: "https://tatoeba.org/eng/sentences/show/206264",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
     engLhyph: "leaf", engLperc: "leaf", engLplus: "leaf", engForv: "leaf/#en",
     itaLhyph: "foglio", itaLplus: "foglio", itaForv: "foglio/#it",
     jpnLpercen: "%E8%91%89%E3%81%A3%E3%81%B1", jpnLgoo: "172797/meaning/m1u/", jpnForv: "葉っぱ/#ja",
@@ -284,10 +294,15 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I looked at the departure board.", ITA: "Ho guardato il tabellone delle partenze.", JPN: "私は出発案内表示板を見た。",},
-	EX2: {ENG: "The departure board is full of cancelled flights.", ITA: "Il tabellone delle partenze e degli arrivi è denso di voli cancellati.", JPN: "出発案内表示板にはキャンセルされたフライトがいっぱいです。",},
-	EX3: {ENG: "There are 27 flights in arrival that have been cancelled, while 24 are those disappeared from the departure board.", ITA: "Sono al momento 27 i voli in arrivo che sono stati cancellati mentre 24 sono quelli scomparsi dal tabellone delle partenze.", JPN: "27便の到着がはキャンセルされ、24便は出発案内表示板から消えています。",},
-
+	EX1: {ENG: 'Sit on the <span class="wihlight">bench</span>.', ITA: 'Siediti sulla <span class="wihlight">panchina</span>.', JPN: '<span class="wihlight">ベンチ</span>に座りなさい。',},
+	EX2: {ENG: 'Someone has left a bag on the <span class="wihlight">bench</span>.', ITA: 'Qualcuno lasciò una borsa sulla <span class="wihlight">panchina</span>.', JPN: 'だれかが<span class="wihlight">ベンチ</span>にかばんを置き忘れました。',},
+	EX3: {ENG: 'Why did you paint the <span class="wihlight">benches</span> red?', ITA: 'Perché hai dipinto le <span class="wihlight">panchine</span> di rosso?', JPN: 'どうして<span class="wihlight">ベンチ</span>を赤く塗ったのですか。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/33808", ITA: "https://tatoeba.org/eng/sentences/show/836249", JPN: "https://tatoeba.org/eng/sentences/show/196629",},
+	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/40473", ITA: "https://tatoeba.org/eng/sentences/show/1004008", JPN: "https://tatoeba.org/eng/sentences/show/203237",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	
     engLhyph: "bench", engLperc: "bench", engLplus: "bench", engForv: "bench/#en",
     itaLhyph: "panchina", itaLplus: "panchina", itaForv: "panchina/#it",
     jpnLpercen: "%E3%83%99%E3%83%B3%E3%83%81", jpnLgoo: "200500/meaning/m1u/", jpnForv: "ベンチ/#ja",
@@ -342,7 +357,11 @@ AnnotType: "Annot",
 	EX1: {ENG: "Where is my seat?", ITA: "Dov'è il mio sedile?", JPN: "私の席はどこですか？",},
 	EX2: {ENG: "I was in the front seat.", ITA: "Ero sul sedile anteriore.", JPN: "私は前方座席にいた。",},
 	EX3: {ENG: "It was under the seat in my vehicle.", ITA: "Era sotto il sedile della mia auto.", JPN: "それは私の車の座席の下にあった。",},
-
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
 
     engLhyph: "waste-bin", engLperc: "waste%20bin", engLplus: "waste+bin", engForv: "waste_bin/#en",
     itaLhyph: "cestino", itaLplus: "cestino", itaForv: "cestino/#it",
@@ -397,7 +416,12 @@ AnnotType: "Annot",
 	EX1: {ENG: "I will buy the tickets.", ITA: "Comprerò i biglietti.", JPN: "私がチケットを買うよ。",},
 	EX2: {ENG: "Do you have the tickets?", ITA: "Avete i biglietti?", JPN: "チケットを持っていますか？",},
 	EX3: {ENG: "He was checking a ticket.", ITA: "Controllava un biglietto.", JPN: "彼はチケットを確認していた。",},
-
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	
     engLhyph: "cloud", engLperc: "cloud", engLplus: "cloud", engForv: "cloud/#en",
     itaLhyph: "nuvolo", itaLplus: "nuvolo", itaForv: "nuvolo/#it",
     jpnLpercen: "%E9%9B%B2", jpnLgoo: "63094/meaning/m1u/", jpnForv: "雲/#ja",
@@ -444,8 +468,6 @@ AnnotType: "Annot",
 	WI: {ENG: "bird", ITA: "uccello", JPN: "鳥",},
 	WIr: {ENG: "/bɜːd/", ITA: "/utˈtʃɛllo/", JPN: "tori", JPNRu: "<ruby>鳥<rt>とり</rt></ruby>",},
 
-
-
 	semtag1: {Dsp: "block", ENG: "animals", ITA: "animali", JPN: "動物",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -453,7 +475,11 @@ AnnotType: "Annot",
 	EX1: {ENG: "There were fifty passengers on the plane.", ITA: "C'erano cinquanta passeggeri sull'aereo.", JPN: "飛行機には50人の乗客がいた。",},
 	EX2: {ENG: "The train was full of passengers.", ITA: "Il treno era pieno di passeggeri.", JPN: "列車には乗客がいっぱいだった。",},
 	EX3: {ENG: "He was a passenger on the Flight 627.", ITA: "Era un passeggero del volo 627.", JPN: "彼は627便の乗客だった。",},
-
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
 
     engLhyph: "bird", engLperc: "bird", engLplus: "bird", engForv: "bird/#en",
     itaLhyph: "uccello", itaLplus: "uccello", itaForv: "uccello/#it",
@@ -508,7 +534,12 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Take this <span class="wihlight">suitcase</span> and put it on the bed.', ITA: 'Prendi questa <span class="wihlight">valigia</span> e mettila sul letto.', JPN: 'この<span class="wihlight">スーツケース</span>を持ってベッドの上に置いてください。',},
 	EX2: {ENG: 'Open your <span class="wihlight">suitcase</span>.', ITA: 'Apri la tua <span class="wihlight">valigia</span>.', JPN: '<span class="wihlight">スーツケース</span>を開けてください。',},
 	EX3: {ENG: 'Which is your <span class="wihlight">suitcase</span>?', ITA: 'Qual è la tua <span class="wihlight">valigia</span>?', JPN: 'どれがあなたの<span class="wihlight">スーツケース</span>ですか？',},
-
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	
     engLhyph: "sun", engLperc: "sun", engLplus: "sun", engForv: "sun/#en",
     itaLhyph: "sole", itaLplus: "sole", itaForv: "sole/#it",
     jpnLpercen: "%E5%A4%AA%E9%99%BD", jpnLgoo: "134682/meaning/m1u/", jpnForv: "太陽/#ja",
