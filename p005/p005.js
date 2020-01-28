@@ -413,14 +413,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I will buy the tickets.", ITA: "Comprerò i biglietti.", JPN: "私がチケットを買うよ。",},
-	EX2: {ENG: "Do you have the tickets?", ITA: "Avete i biglietti?", JPN: "チケットを持っていますか？",},
-	EX3: {ENG: "He was checking a ticket.", ITA: "Controllava un biglietto.", JPN: "彼はチケットを確認していた。",},
-	
+	EX1: {ENG: "The moon came out from behind the <span class="wihlight">clouds</span>.", ITA: "La luna è uscita da dietro le <span class="wihlight">nuvole</span>.", JPN: "月が<span class="wihlight">雲</span>の間から出た。",},
+	EX2: {ENG: "There isn't a single <span class="wihlight">cloud</span> in the sky.", ITA: "Non c'è una singola <span class="wihlight">nuvola</span> in cielo.", JPN: "空には<span class="wihlight">雲</span>ひとつありません。",},
+	EX3: {ENG: "The <span class="wihlight">clouds</span> are getting darker.", ITA: "Le <span class="wihlight">nuvole</span> stanno diventando più scure.", JPN: "<span class="wihlight">雲</span>がだんだん黒くなっています。",},
+    
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/238779", ITA: "https://tatoeba.org/eng/sentences/show/1636884", JPN: "https://tatoeba.org/eng/sentences/show/175686",},
+	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/18321", ITA: "https://tatoeba.org/eng/sentences/show/2206815", JPN: "https://tatoeba.org/eng/sentences/show/179452",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/26530", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/189379",},
 	
     engLhyph: "cloud", engLperc: "cloud", engLplus: "cloud", engForv: "cloud/#en",
     itaLhyph: "nuvolo", itaLplus: "nuvolo", itaForv: "nuvolo/#it",
