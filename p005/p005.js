@@ -354,9 +354,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Tom threw the apple in the <span class="wihlight">waste bin</span>.", ITA: "Tom ha buttato la mela nel <span class="wihlight">cestino dei rifiuti</span>.", JPN: "トムはりんごを<span class="wihlight">ゴミ箱</span>に捨てた。",},
-	EX2: {ENG: "I saw him throw away his clothes in the <span class="wihlight">waste bin</span>.", ITA: "l'ho visto gettare i suoi vestiti nel <span class="wihlight">cestino dei rifiuti</span>.", JPN: "彼が服を<span class="wihlight">ゴミ箱</span>に捨てるのを見た。",},
-	EX3: {ENG: "Where is the <span class="wihlight">waste bin</span>?.", ITA: "Dov'è il <span class="wihlight">cestino dei rifiuti</span>?", JPN: "<span class="wihlight">ゴミ箱</span>はどこですか。",},
+	EX1: {ENG: 'Tom threw the apple in the <span class="wihlight">waste bin</span>.', ITA: 'Tom ha buttato la mela nel <span class="wihlight">cestino dei rifiuti</span>.', JPN: 'トムはりんごを<span class="wihlight">ゴミ箱</span>に捨てた。',},
+	EX2: {ENG: 'I saw him throw away his clothes in the <span class="wihlight">waste bin</span>.', ITA: 'l&#39;ho visto gettare i suoi vestiti nel <span class="wihlight">cestino dei rifiuti</span>.', JPN: '彼が服を<span class="wihlight">ゴミ箱</span>に捨てるのを見た。',},
+	EX3: {ENG: 'Where is the <span class="wihlight">waste bin</span>?.', ITA: 'Dov&#39;è il <span class="wihlight">cestino dei rifiuti</span>?', JPN: '<span class="wihlight">ゴミ箱</span>はどこですか。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -413,9 +413,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "The moon came out from behind the <span class="wihlight">clouds</span>.", ITA: "La luna è uscita da dietro le <span class="wihlight">nuvole</span>.", JPN: "月が<span class="wihlight">雲</span>の間から出た。",},
-	EX2: {ENG: "There isn't a single <span class="wihlight">cloud</span> in the sky.", ITA: "Non c'è una singola <span class="wihlight">nuvola</span> in cielo.", JPN: "空には<span class="wihlight">雲</span>ひとつありません。",},
-	EX3: {ENG: "The <span class="wihlight">clouds</span> are getting darker.", ITA: "Le <span class="wihlight">nuvole</span> stanno diventando più scure.", JPN: "<span class="wihlight">雲</span>がだんだん黒くなっています。",},
+	EX1: {ENG: 'The moon came out from behind the <span class="wihlight">clouds</span>.', ITA: 'La luna è uscita da dietro le <span class="wihlight">nuvole</span>.', JPN: '月が<span class="wihlight">雲</span>の間から出た。',},
+	EX2: {ENG: 'There isn&#39;t a single <span class="wihlight">cloud</span> in the sky.', ITA: 'Non c&#39;è una singola <span class="wihlight">nuvola</span> in cielo.', JPN: '空には<span class="wihlight">雲</span>ひとつありません。',},
+	EX3: {ENG: 'The <span class="wihlight">clouds</span> are getting darker.', ITA: 'Le <span class="wihlight">nuvole</span> stanno diventando più scure.', JPN: '<span class="wihlight">雲</span>がだんだん黒くなっています。',},
     
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/238779", ITA: "https://tatoeba.org/eng/sentences/show/1636884", JPN: "https://tatoeba.org/eng/sentences/show/175686",},
