@@ -354,14 +354,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Where is my seat?", ITA: "Dov'è il mio sedile?", JPN: "私の席はどこですか？",},
-	EX2: {ENG: "I was in the front seat.", ITA: "Ero sul sedile anteriore.", JPN: "私は前方座席にいた。",},
-	EX3: {ENG: "It was under the seat in my vehicle.", ITA: "Era sotto il sedile della mia auto.", JPN: "それは私の車の座席の下にあった。",},
+	EX1: {ENG: "Tom threw the apple in the <span class="wihlight">waste bin</span>.", ITA: "Tom ha buttato la mela nel <span class="wihlight">cestino dei rifiuti</span>.", JPN: "トムはりんごを<span class="wihlight">ゴミ箱</span>に捨てた。",},
+	EX2: {ENG: "I saw him throw away his clothes in the <span class="wihlight">waste bin</span>.", ITA: "l'ho visto gettare i suoi vestiti nel <span class="wihlight">cestino dei rifiuti</span>.", JPN: "彼が服を<span class="wihlight">ゴミ箱</span>に捨てるのを見た。",},
+	EX3: {ENG: "Where is the <span class="wihlight">waste bin</span>?.", ITA: "Dov'è il <span class="wihlight">cestino dei rifiuti</span>?", JPN: "<span class="wihlight">ゴミ箱</span>はどこですか。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
     engLhyph: "waste-bin", engLperc: "waste%20bin", engLplus: "waste+bin", engForv: "waste_bin/#en",
     itaLhyph: "cestino", itaLplus: "cestino", itaForv: "cestino/#it",
