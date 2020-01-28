@@ -472,14 +472,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "There were fifty passengers on the plane.", ITA: "C'erano cinquanta passeggeri sull'aereo.", JPN: "飛行機には50人の乗客がいた。",},
-	EX2: {ENG: "The train was full of passengers.", ITA: "Il treno era pieno di passeggeri.", JPN: "列車には乗客がいっぱいだった。",},
-	EX3: {ENG: "He was a passenger on the Flight 627.", ITA: "Era un passeggero del volo 627.", JPN: "彼は627便の乗客だった。",},
+	EX1: {ENG: '<span class="wihlight">Birds</span> build nests.', ITA: 'Gli <span class="wihlight">uccelli</span> costruiscono nidi.', JPN: '<span class="wihlight">鳥</span>は巣をつくる。',},
+	EX2: {ENG: 'The <span class="wihlight">bird</span> sang in the tree.', ITA: 'L&#39;<span class="wihlight">uccello</span> cantava nell&#39;albero.', JPN: '木に<span class="wihlight">鳥</span>が鳴いた。',},
+	EX3: {ENG: 'Yesterday morning I saw many <span class="wihlight">birds</span>.', ITA: 'Ieri mattina ho visto molti <span class="wihlight">uccelli</span>.', JPN: '昨日の朝たくさんの<span class="wihlight">鳥</span>を見た。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/278206", ITA: "https://tatoeba.org/eng/sentences/show/1258204", JPN: "https://tatoeba.org/eng/sentences/show/1166043",},
+	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1780327", ITA: "https://tatoeba.org/eng/sentences/show/5414690", JPN: "https://tatoeba.org/eng/sentences/show/1780328",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/244454", ITA: "https://tatoeba.org/eng/sentences/show/1933077", JPN: "https://tatoeba.org/eng/sentences/show/170032",},
 
     engLhyph: "bird", engLperc: "bird", engLplus: "bird", engForv: "bird/#en",
     itaLhyph: "uccello", itaLplus: "uccello", itaForv: "uccello/#it",
@@ -531,14 +531,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'Take this <span class="wihlight">suitcase</span> and put it on the bed.', ITA: 'Prendi questa <span class="wihlight">valigia</span> e mettila sul letto.', JPN: 'この<span class="wihlight">スーツケース</span>を持ってベッドの上に置いてください。',},
-	EX2: {ENG: 'Open your <span class="wihlight">suitcase</span>.', ITA: 'Apri la tua <span class="wihlight">valigia</span>.', JPN: '<span class="wihlight">スーツケース</span>を開けてください。',},
-	EX3: {ENG: 'Which is your <span class="wihlight">suitcase</span>?', ITA: 'Qual è la tua <span class="wihlight">valigia</span>?', JPN: 'どれがあなたの<span class="wihlight">スーツケース</span>ですか？',},
+	EX1: {ENG: 'The <span class="wihlight">sun</span> descended behind the mountains.', ITA: 'Il <span class="wihlight">sole</span> è andato giù dietro le montagne.', JPN: '<span class="wihlight">太陽</span>は山の向こうへ沈んでいった。',},
+	EX2: {ENG: 'The evening <span class="wihlight">sun</span> us orange.', ITA: 'Il <span class="wihlight">sole</span> di sera non è arancione.', JPN: '夕方の<span class="wihlight">太陽</span>は橙色です。',},
+	EX3: {ENG: 'The earth goes around the <span class="wihlight">sun</span>.', ITA: 'La terra gira attorno al <span class="wihlight">sole</span>.', JPN: '地球は<span class="wihlight">太陽</span>の周りを公転している。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/245059", ITA: "https://tatoeba.org/eng/sentences/show/5201968", JPN: "https://tatoeba.org/eng/sentences/show/2680856",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/277137", ITA: "https://tatoeba.org/eng/sentences/show/1405111", JPN: "https://tatoeba.org/eng/sentences/show/126951",},
 	
     engLhyph: "sun", engLperc: "sun", engLplus: "sun", engForv: "sun/#en",
     itaLhyph: "sole", itaLplus: "sole", itaForv: "sole/#it",
