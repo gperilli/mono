@@ -55,7 +55,12 @@ AnnotType: "Annot",
 	EX1: {ENG: "I'm going to go to the airport.", ITA: "Andrò all'aeroporto.", JPN: "私は空港に行くつもりです。",},
 	EX2: {ENG: "The airport is over there.", ITA: "L'aeroporto è laggiù.", JPN: "空港はそこにあります。",},
 	EX3: {ENG: "How far is it to the airport?", ITA: "Quanto dista l'aeroporto?", JPN: "空港まではどれぐらい遠いですか？",},
-    
+    	
+    	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/240441", ITA: "https://tatoeba.org/eng/sentences/show/1545855", JPN: "https://tatoeba.org/eng/sentences/show/174029",},
+	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1556543", ITA: "https://tatoeba.org/eng/sentences/show/2142995", JPN: "https://tatoeba.org/eng/sentences/show/1522699",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/245691", ITA: "https://tatoeba.org/eng/sentences/show/3488782", JPN: "https://tatoeba.org/eng/sentences/show/168800",},
+
 	// Dictionary search suffixes
     engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
     itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
