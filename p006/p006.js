@@ -52,14 +52,14 @@ AnnotType: "Annot",
 
 
 	//Examples
-	EX1: {ENG: 'I&#39;m going to go to the airport.', ITA: 'Andrò all&#39;aeroporto.', JPN: '母は現在台所で料理をしています。',},
-	EX2: {ENG: 'The airport is over there.', ITA: 'L&#39;aeroporto è laggiù.', JPN: '空港はそこにあります。',},
-	EX3: {ENG: 'How far is it to the airport?', ITA: 'Quanto dista l&#39;aeroporto?', JPN: '空港まではどれぐらい遠いですか？',},
+	EX1: {ENG: 'Mother is cooking in the <span class="wihlight">kitchen</span>.', ITA: 'La mamma sta cucinando in <span class="wihlight">cucina</span>.', JPN: '母は現在<span class="wihlight">台所</span>で料理をしています。',},
+	EX2: {ENG: 'At the end of the corridor there is the bathroom and the <span class="wihlight">kitchen</span>.', ITA: 'In fondo al corridoio c&#39;è il bagno e la <span class="wihlight">cucina</span>.', JPN: '廊下の突き当りにお手洗いと<span class="wihlight">台所</span>があります。',},
+	EX3: {ENG: 'The <span class="wihlight">kitchen</span> was very big.', ITA: 'La <span class="wihlight">cucina</span> era molto grande.', JPN: '<span class="wihlight">台所</span>はとても大きかった。',},
     	
     	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/240441", ITA: "https://tatoeba.org/eng/sentences/show/1545855", JPN: "https://tatoeba.org/eng/sentences/show/174029",},
-	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1556543", ITA: "https://tatoeba.org/eng/sentences/show/2142995", JPN: "https://tatoeba.org/eng/sentences/show/1522699",},
-	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/245691", ITA: "https://tatoeba.org/eng/sentences/show/3488782", JPN: "https://tatoeba.org/eng/sentences/show/168800",},
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1232200", ITA: "https://tatoeba.org/eng/sentences/show/1309984", JPN: "https://tatoeba.org/eng/sentences/show/3069743",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
 	// Dictionary search suffixes
     engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
