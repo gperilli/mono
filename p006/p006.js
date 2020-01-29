@@ -36,9 +36,6 @@ AnnotType: "Annot",
 	BtnPosLeft: "-5%",
 	BtnPosTop: "25%",
 	BtnTxtOffSet: "0%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit9",
 
 	//Word Item
 	WI: {ENG: "kitchen", ITA: "cucina", JPN: "台所",},
@@ -62,9 +59,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
 	// Dictionary search suffixes
-    engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
-    itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
+    engLhyph: "kitchen", engLperc: "kitchen", engLplus: "kitchen", engForv: "kitchen/#en",
+    itaLhyph: "cucina", itaLplus: "cucina", itaForv: "cucina/#it",
+    jpnLpercen: "%E5%8F%B0%E6%89%80", jpnLgoo: "45226/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -77,7 +74,7 @@ AnnotType: "Annot",
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "男性形", JPN: "",},
+			JPN: {ENG: "", ITA: "女性形", JPN: "",},
 			},	
 	
 	//Audio
@@ -107,7 +104,7 @@ AnnotType: "Annot",
 	LnPosY2: "65%",
 
 	WI: {ENG: "towel", ITA: "asciugamano", JPN: "タオル",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "taoru", JPNRu: "<ruby>タオル<rt>たおる</rt></ruby>",},
+	WIr: {ENG: "/ˈtaʊəl/", ITA: "/aʃʃuɡaˈmano/", JPN: "taoru", JPNRu: "<ruby>タオル<rt>たおる</rt></ruby>",},
 
     semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -118,21 +115,22 @@ AnnotType: "Annot",
 	EX3: {ENG: "The pilots asked the control tower to go back to the airport.", ITA: "I piloti hanno chiesto alla torre di controllo di poter tornare all’aeroporto.", JPN: "パイロットは、管制塔に空港に戻るように頼んだ。",},
 
 
-    engLhyph: "control-tower", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
-    itaLhyph: "torre-di-controllo", itaLplus: "torre+di+controllo", itaForv: "torre_di_controllo/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+    engLhyph: "towel", engLperc: "towel", engLplus: "towel", engForv: "towel/#en",
+    itaLhyph: "asciugamano", itaLplus: "asciugamano", itaForv: "asciugamano/#it",
+    jpnLpercen: "%E3%82%BF%E3%82%AA%E3%83%AB", jpnLgoo: "45596/meaning/m1u/", jpnForv: "タオル/#ja",
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "可算",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "名詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
 
     //Audio
