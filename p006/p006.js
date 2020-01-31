@@ -110,9 +110,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Send a message to the control tower.", ITA: "Invii un messaggio alla torre di controllo.", JPN: "管制塔にメッセージを送信します。",},
-	EX2: {ENG: "The pilot asks permission to depart from the control tower.", ITA: "Il pilota chiede alla torre di controllo il permesso per partire.", JPN: "パイロットは管制塔に出発する許可を求めます。",},
-	EX3: {ENG: "The pilots asked the control tower to go back to the airport.", ITA: "I piloti hanno chiesto alla torre di controllo di poter tornare all’aeroporto.", JPN: "パイロットは、管制塔に空港に戻るように頼んだ。",},
+	EX1: {ENG: '', ITA: '', JPN: '',},
+	EX2: {ENG: '', ITA: '', JPN: '',},
+	EX3: {ENG: '', ITA: '', JPN: '',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
 
     engLhyph: "towel", engLperc: "towel", engLplus: "towel", engForv: "towel/#en",
@@ -167,10 +172,14 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Looks like we have to make an emergency landing.", ITA: "Dovremo tentare un atterraggio di emergenza.", JPN: "緊急着陸する必要があるようです。",},
-	EX2: {ENG: "The plane made a perfect landing.", ITA: "L'aereo effettuò un atterraggio perfetto.", JPN: "飛行機は完璧な着陸をした。",},
-	EX3: {ENG: "They say most airplane accidents occur at landing or takeoff stages.", ITA: "Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di atterraggio o di decollo.", JPN: "ほとんどの飛行機事故は着陸または離陸の時に発生すると言います。",},
-
+	EX1: {ENG: '', ITA: '', JPN: '',},
+	EX2: {ENG: '', ITA: '', JPN: '',},
+	EX3: {ENG: '', ITA: '', JPN: '',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
     engLhyph: "land", engLperc: "land", engLplus: "land", engForv: "land/#en",
     itaLhyph: "atterraggio", itaLplus: "atterraggio", itaForv: "atterraggio/#it",
@@ -222,13 +231,17 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'How can I unblock the kitchen drain?', ITA: 'Come posso sbloccare lo scarico della cucina?', JPN: '台所の排水口のブロックを解除するにはどうすればよいですか？',},
-	EX2: {ENG: 'The ring went inside the basin drain.', ITA: 'l&#39;anello è andato dentro lo scarico del lavandino.', JPN: 'リングは、流域の排水溝の内側に入りました。',},
-	EX3: {ENG: 'We have to the basin drain.', ITA: 'Dobbiamo pulire lo scarico del lavandino.', JPN: '排水口洗わないとだめです。',},
-
+	EX1: {ENG: 'How can I unblock the kitchen <span class="wihlight">drain</span>?', ITA: 'Come posso sbloccare lo <span class="wihlight">scarico</span> della cucina?', JPN: '台所の<span class="wihlight">排水口</span>のブロックを解除するにはどうすればよいですか？',},
+	EX2: {ENG: 'The ring went inside the basin <span class="wihlight">drain</span>.', ITA: 'l&#39;anello è andato dentro lo <span class="wihlight">scarico<span> del lavandino.', JPN: 'リングは、流域の<span class="wihlight">排水口</span>の内に入りました。',},
+	EX3: {ENG: 'We have to wash the basin <span class="wihlight">drain</span>.', ITA: 'Dobbiamo pulire lo <span class="wihlight">scarico</span> del lavandino.', JPN: '<span class="wihlight">排水口</span>洗わないとだめです。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
     engLhyph: "drain", engLperc: "drain", engLplus: "drain", engForv: "drain/#en",
-    itaLhyph: "scolo", itaLplus: "scolo", itaForv: "scolo/#it",
+    itaLhyph: "scarico", itaLplus: "scarico", itaForv: "scarico/#it",
     jpnLpercen: "%E6%8E%92%E6%B0%B4%E5%8F%A3", jpnLgoo: "59712/meaning/m1u/", jpnForv: "排水口/#ja",
 	
 	// Part of Speech Data
@@ -271,7 +284,7 @@ AnnotType: "Annot",
 	LnPosY2: "45%",
 
 	WI: {ENG: "tap", ITA: "rubinetto", JPN: "蛇口",},
-	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "jaguchi", JPNRu: "<ruby>蛇口<rt>じゃぐち</rt></ruby>",},
+	WIr: {ENG: "/tæp/", ITA: "/rubiˈnetto/", JPN: "jaguchi", JPNRu: "<ruby>蛇口<rt>じゃぐち</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -280,7 +293,12 @@ AnnotType: "Annot",
 	EX1: {ENG: '', ITA: '', JPN: '',},
 	EX2: {ENG: '', ITA: '', JPN: '',},
 	EX3: {ENG: '', ITA: '', JPN: '',},
-
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
     engLhyph: "tap", engLperc: "tap", engLplus: "tap", engForv: "tap/#en",
     itaLhyph: "rubinetto", itaLplus: "rubinetto", itaForv: "rubinetto/#it",
     jpnLpercen: "%E8%9B%87%E5%8F%A3", jpnLgoo: "33020/meaning/m1u/", jpnForv: "蛇口/#ja",
@@ -325,21 +343,21 @@ AnnotType: "Annot",
 	LnPosY2: "65%",
 
 	WI: {ENG: "dish washing liquid", ITA: "detersivo per i piatti", JPN: "洗剤",},
-	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>洗剤<rt>せんざい</rt></ruby>",},
+	WIr: {ENG: "/dɪʃ ˈwɒʃɪŋ ˈlɪkwɪd/", ITA: "/deterˈsivo per i ˈpjatti/", JPN: "senzai", JPNRu: "<ruby>洗剤<rt>せんざい</rt></ruby>",},
 
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Where is my seat?", ITA: "Dov'è il mio sedile?", JPN: "私の席はどこですか？",},
-	EX2: {ENG: "I was in the front seat.", ITA: "Ero sul sedile anteriore.", JPN: "私は前方座席にいた。",},
-	EX3: {ENG: "It was under the seat in my vehicle.", ITA: "Era sotto il sedile della mia auto.", JPN: "それは私の車の座席の下にあった。",},
+	EX1: {ENG: 'I&#39;m going to buy the dish washing liquid.', ITA: 'Vado a comprare il detersivo per i piatti.', JPN: '洗剤を買いに行く。',},
+	EX2: {ENG: 'Use the new dish washing liquid and clean the wine glasses.', ITA: 'Usa il nuovo　detersivo e　lava i bicchieri da vino.', JPN: '新しい洗剤を使ってワイングラスを洗って。',},
+	EX3: {ENG: 'The dish washing liquid is about to run out.', ITA: 'Il detersivo per piatti sta per finire.', JPN: '洗剤がなくなりそうです。',},
 
 
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "洗剤/#ja",
+    engLhyph: "dish-washing-liquid", engLperc: "dish%20washing%20liquid", engLplus: "dish+washing+liquid", engForv: "dish_washing_liquid/#en",
+    itaLhyph: "detersivo", itaLplus: "detersivo", itaForv: "detersivo/#it",
+    jpnLpercen: "%E6%B4%97%E5%89%A4", jpnLgoo: "42031/meaning/m1u/", jpnForv: "洗剤/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -382,19 +400,24 @@ AnnotType: "Annot",
 	LnPosY2: "50%",
 
 	WI: {ENG: "sponge", ITA: "spugna", JPN: "スポンジ",},
-	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>スポンジ<rt>すぽんじ</rt></ruby>",},
+	WIr: {ENG: "/spʌnʤ/", ITA: "/ˈspuɲɲa/", JPN: "suponji", JPNRu: "<ruby>スポンジ<rt>すぽんじ</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I will buy the tickets.", ITA: "Comprerò i biglietti.", JPN: "私がチケットを買うよ。",},
-	EX2: {ENG: "Do you have the tickets?", ITA: "Avete i biglietti?", JPN: "チケットを持っていますか？",},
-	EX3: {ENG: "He was checking a ticket.", ITA: "Controllava un biglietto.", JPN: "彼はチケットを確認していた。",},
+	EX1: {ENG: 'I saw the sponge in the sink.', ITA: 'Ho visto la spugna nel lavandino.', JPN: 'スポンジは流しに見た。',},
+	EX2: {ENG: 'The sponge for washing the dishes is dirty.', ITA: 'La spugna per lavare i piatti　è　sporca. ', JPN: 'お皿を洗うためのスポンジは汚い。',},
+	EX3: {ENG: 'Don&#39;t use that sponge to wash the car.', ITA: 'Non usare quella spugna per lavare la macchina.', JPN: 'あのスポンジを車を洗うために使わないで。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+    engLhyph: "sponge", engLperc: "sponge", engLplus: "sponge", engForv: "sponge/#en",
+    itaLhyph: "spugna", itaLplus: "spugna", itaForv: "spugna/#it",
+    jpnLpercen: "%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8", jpnLgoo: "39544/meaning/m1u/", jpnForv: "スポンジ/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -438,7 +461,7 @@ AnnotType: "Annot",
 	LnPosY2: "54%",
 
 	 WI: {ENG: "sink", ITA: "lavandino della cucina", JPN: "流し",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>流し<rt>ながし</rt></ruby>",},
+	WIr: {ENG: "/sɪŋk/", ITA: "/lavanˈdino/", JPN: "nagashi", JPNRu: "<ruby>流し<rt>ながし</rt></ruby>",},
 
 
 
@@ -446,14 +469,18 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "There were fifty passengers on the plane.", ITA: "C'erano cinquanta passeggeri sull'aereo.", JPN: "飛行機には50人の乗客がいた。",},
-	EX2: {ENG: "The train was full of passengers.", ITA: "Il treno era pieno di passeggeri.", JPN: "列車には乗客がいっぱいだった。",},
-	EX3: {ENG: "He was a passenger on the Flight 627.", ITA: "Era un passeggero del volo 627.", JPN: "彼は627便の乗客だった。",},
+	EX1: {ENG: '', ITA: '', JPN: '',},
+	EX2: {ENG: '', ITA: '', JPN: '',},
+	EX3: {ENG: '', ITA: '', JPN: '',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-
-    engLhyph: "passenger", engLperc: "passenger", engLplus: "passenger", engForv: "passenger/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "passeggero/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+    engLhyph: "sink", engLperc: "sink", engLplus: "sink", engForv: "sink/#en",
+    itaLhyph: "lavandino", itaLplus: "lavandino", itaForv: "lavandino/#it",
+    jpnLpercen: "%E6%B5%81%E3%81%97", jpnLgoo: "55992/meaning/m1u/", jpnForv: "流し/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -502,13 +529,18 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'Take this <span class="wihlight">suitcase</span> and put it on the bed.', ITA: 'Prendi questa <span class="wihlight">valigia</span> e mettila sul letto.', JPN: 'この<span class="wihlight">スーツケース</span>を持ってベッドの上に置いてください。',},
-	EX2: {ENG: 'Open your <span class="wihlight">suitcase</span>.', ITA: 'Apri la tua <span class="wihlight">valigia</span>.', JPN: '<span class="wihlight">スーツケース</span>を開けてください。',},
-	EX3: {ENG: 'Which is your <span class="wihlight">suitcase</span>?', ITA: 'Qual è la tua <span class="wihlight">valigia</span>?', JPN: 'どれがあなたの<span class="wihlight">スーツケース</span>ですか？',},
+	EX1: {ENG: 'The microwave is there.', ITA: 'Il forno a microonde è lì.', JPN: '電子レンジはあっちだ。',},
+	EX2: {ENG: 'Reheat the tea in the microwave.', ITA: 'Riscalda il tè nel forno a microonde.', JPN: '電子レンジでお茶を温める。',},
+	EX3: {ENG: 'Don&#39;t put metal in the microwave.', ITA: 'Non mettere metallo nel forno a microonde.', JPN: '電子レンジの中に金属を入れないで。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "suitcase", engLperc: "suitcase", engLplus: "suitcase", engForv: "suitcase/#en",
-    itaLhyph: "valigia", itaLplus: "valigia", itaForv: "valigia/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
+    engLhyph: "microwave", engLperc: "microwave", engLplus: "microwave", engForv: "microwave/#en",
+	itaLhyph: "forno-a-microonde", itaLplus: "forno+a+microonde", itaForv: "forno_a_microonde/#it",
+    jpnLpercen: "%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%B3%E3%82%B8", jpnLgoo: "52267/meaning/m1u/", jpnForv: "電子レンジ/#ja",
 
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
