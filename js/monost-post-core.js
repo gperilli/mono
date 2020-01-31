@@ -192,7 +192,7 @@ function LangUpdate(L1, L2) {
   //HdrFtrTxt(L1Selected);
   
   SemTagLoader(L1Selected);
-  TatoebaExSrcs(L1Selected);
+  TatoebaExSrcs(L2Selected);
 
 }
 
