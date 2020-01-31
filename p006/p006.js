@@ -496,8 +496,8 @@ AnnotType: "Annot",
 	LnPosY2: "65%",
 
 	WI: {ENG: "microwave", ITA: "forno a microonde", JPN: "電子レンジ",},
-	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "denshirenji", JPNRu: "<ruby>電子レンジ<rt>でんしれんじ</rt></ruby>",},
-
+	WIr: {ENG: "/ˈmaɪkrəʊweɪv/", ITA: "/ˈforno a mikroˈonda/", JPN: "denshirenji", JPNRu: "<ruby>電子レンジ<rt>でんしれんじ</rt></ruby>",},
+    
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
