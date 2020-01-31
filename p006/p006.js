@@ -158,8 +158,8 @@ AnnotType: "Annot",
 	LnPosX2: "45%",
 	LnPosY2: "55%",
 
-	WI: {ENG: "tap knob", ITA: "manico del rubinetto", JPN: "蛇口のハンドル",},
-	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "jaguchi", JPNRu: "<ruby>蛇口の取っ手<rt>じゃぐちのとって</rt></ruby>",},
+	WI: {ENG: "-", ITA: "-", JPN: "-",},
+	WIr: {ENG: "/lænd/", ITA: "/ˈmaniko del rubiˈnetto/", JPN: "jaguchinohandoru", JPNRu: "<ruby>蛇口のハンドル<rt>じゃぐちのはんどる</rt></ruby>",},
 
 
 
@@ -215,21 +215,21 @@ AnnotType: "Annot",
 	LnPosX2: "45%",
 	LnPosY2: "55%",
 
-	WI: {ENG: "drain", ITA: "scolo", JPN: "流しの穴",},
-	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>流しの穴<rt>ながしのあな</rt></ruby>",},
+	WI: {ENG: "drain", ITA: "scarico", JPN: "排水口",},
+	WIr: {ENG: "/dreɪn/", ITA: "/ˈskariko/", JPN: "haisuikou", JPNRu: "<ruby>排水口<rt>はいすいこう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'How can I unblock the kitchen drain?', ITA: 'Come posso sbloccare lo scarico della cucina?', JPN: '台所の排水口のブロックを解除するにはどうすればよいですか？',},
+	EX2: {ENG: 'The ring went inside the basin drain.', ITA: 'l&#39;anello è andato dentro lo scarico del lavandino.', JPN: 'リングは、流域の排水溝の内側に入りました。',},
+	EX3: {ENG: 'We have to the basin drain.', ITA: 'Dobbiamo pulire lo scarico del lavandino.', JPN: '排水口洗わないとだめです。',},
 
 
     engLhyph: "drain", engLperc: "drain", engLplus: "drain", engForv: "drain/#en",
     itaLhyph: "scolo", itaLplus: "scolo", itaForv: "scolo/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "1387/meaning/m1u/", jpnForv: "流しの穴/#ja",
+    jpnLpercen: "%E6%8E%92%E6%B0%B4%E5%8F%A3", jpnLgoo: "59712/meaning/m1u/", jpnForv: "排水口/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
