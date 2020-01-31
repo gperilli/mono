@@ -110,9 +110,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'Dry your face with a towel.', ITA: 'Asciugati la faccia con un asciugamano.', JPN: 'タオルで顔をふきなさい。',},
-	EX2: {ENG: 'Could you bring me a towel?', ITA: 'Mi potresti portare un asciugamano?', JPN: 'タオルを持て来てくれますか。',},
-	EX3: {ENG: 'This towel is too small.', ITA: 'Questo asciugamano è troppo piccolo.', JPN: 'このタオルは小さすぎます。',},
+	EX1: {ENG: 'Dry your face with a <span class="wihlight">towel</span>.', ITA: 'Asciugati la faccia con un <span class="wihlight">asciugamano</span>.', JPN: '<span class="wihlight">タオル</span>で顔をふきなさい。',},
+	EX2: {ENG: 'Could you bring me a <span class="wihlight">towel</span>?', ITA: 'Mi potresti portare un <span class="wihlight">asciugamano</span>?', JPN: '<span class="wihlight">タオル</span>を持て来てくれますか。',},
+	EX3: {ENG: 'This <span class="wihlight">towel</span> is too small.', ITA: 'Questo <span class="wihlight">asciugamano</span> è troppo piccolo.', JPN: 'この<span class="wihlight">タオル</span>は小さすぎます。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -290,9 +290,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'You can&#39;t use this faucet. It&#39;s out of order.', ITA: 'Non puoi usare questo rubinetto; è fuori uso.', JPN: 'この蛇口は使えません。故障しています。',},
-	EX2: {ENG: 'We don&#39;t drink the water from the tap', ITA: 'Non beviamo acqua dal rubinetto.', JPN: '私たちは水道の水を飲みません。',},
-	EX3: {ENG: 'Don&#39;t forget to close the tap.', ITA: 'Non dimenticare di chiudere il rubinetto.', JPN: '蛇口を閉めることを忘れないでください。',},
+	EX1: {ENG: 'You can&#39;t use this <span class="wihlight">tap</span>. It&#39;s out of order.', ITA: 'Non puoi usare questo <span class="wihlight">rubinetto</span>; è fuori uso.', JPN: 'この<span class="wihlight">蛇口</span>は使えません。故障しています。',},
+	EX2: {ENG: 'We don&#39;t drink the water from the <span class="wihlight">tap</span>', ITA: 'Non beviamo acqua dal <span class="wihlight">rubinetto</span>.', JPN: '私たちは<span class="wihlight">蛇口</span>からの水を飲みません。',},
+	EX3: {ENG: 'Don&#39;t forget to close the <span class="wihlight">tap</span>.', ITA: 'Non dimenticare di chiudere il <span class="wihlight">rubinetto</span>.', JPN: '<span class="wihlight">蛇口</span>を閉めることを忘れないでください。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/58692", ITA: "https://tatoeba.org/eng/sentences/show/1021335", JPN: "https://tatoeba.org/eng/sentences/show/221367",},
@@ -350,9 +350,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'I&#39;m going to buy the dish washing liquid.', ITA: 'Vado a comprare il detersivo per i piatti.', JPN: '洗剤を買いに行く。',},
-	EX2: {ENG: 'Use the new dish washing liquid and clean the wine glasses.', ITA: 'Usa il nuovo　detersivo e　lava i bicchieri da vino.', JPN: '新しい洗剤を使ってワイングラスを洗って。',},
-	EX3: {ENG: 'The dish washing liquid is about to run out.', ITA: 'Il detersivo per piatti sta per finire.', JPN: '洗剤がなくなりそうです。',},
+	EX1: {ENG: 'I&#39;m going to buy the <span class="wihlight">dish washing liquid</span>.', ITA: 'Vado a comprare il <span class="wihlight">detersivo per i piatti</span>.', JPN: '<span class="wihlight">洗剤</span>を買いに行く。',},
+	EX2: {ENG: 'Use the new <span class="wihlight">dish washing liquid</span> and clean the wine glasses.', ITA: 'Usa il nuovo　<span class="wihlight">detersivo</span> e　lava i bicchieri da vino.', JPN: '新しい<span class="wihlight">洗剤</span>を使ってワイングラスを洗って。',},
+	EX3: {ENG: 'The <span class="wihlight">dish washing liquid</span> is about to run out.', ITA: 'Il <span class="wihlight">detersivo per piatti</span> sta per finire.', JPN: '<span class="wihlight">洗剤</span>がなくなりそうです。',},
 
 
     engLhyph: "dish-washing-liquid", engLperc: "dish%20washing%20liquid", engLplus: "dish+washing+liquid", engForv: "dish_washing_liquid/#en",
