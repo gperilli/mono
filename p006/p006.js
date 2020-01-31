@@ -171,7 +171,7 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	EX1: {ENG: 'Put the dishes in the <span class="wihlight">cupboard</span>.', ITA: 'Metti i piatti nella <span class="wihlight">credenza</span>.', JPN: 'お皿を<span class="wihlight">戸棚</span>に',},
-	EX2: { ENG: 'The <span class="wihlight">cupboard</span> is next to the refridgerator.', ITA: 'La <span class="wihlight">credenza</span> è accanto al frigorifero.', JPN: "",},
+	EX2: { ENG: 'The <span class="wihlight">cupboard</span> is next to the refridgerator.', ITA: 'La <span class="wihlight">credenza</span> è accanto al frigorifero.', JPN: '<span class="wihlight">戸棚</span>は冷蔵庫の隣です。',},
 	EX3: {ENG: 'The <span class="wihlight">cupboard</span> is full of dishes.', ITA: 'La <span class="wihlight">credenza</span> è piena di stoviglie.', JPN: '<span class="wihlight">戸棚</span>はお皿でいっぱい',},
 	
 	//Tatoeba Srcs
