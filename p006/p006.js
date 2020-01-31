@@ -110,9 +110,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'Dry your face with a towel.', ITA: 'Asciugati la faccia con un asciugamano.', JPN: 'タオルで顔をふきなさい。',},
+	EX2: {ENG: 'Could you bring me a towel?', ITA: 'Mi potresti portare un asciugamano?', JPN: 'タオルを持て来てくれますか。',},
+	EX3: {ENG: 'This towel is too small.', ITA: 'Questo asciugamano è troppo piccolo.', JPN: 'このタオルは小さすぎます。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -290,12 +290,12 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'You can&#39;t use this faucet. It&#39;s out of order.', ITA: 'Non puoi usare questo rubinetto; è fuori uso.', JPN: 'この蛇口は使えません。故障しています。',},
+	EX2: {ENG: 'We don&#39;t drink the water from the tap', ITA: 'Non beviamo acqua dal rubinetto.', JPN: '私たちは水道の水を飲みません。',},
+	EX3: {ENG: 'Don&#39;t forget to close the tap.', ITA: 'Non dimenticare di chiudere il rubinetto.', JPN: '蛇口を閉めることを忘れないでください。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/58692", ITA: "https://tatoeba.org/eng/sentences/show/1021335", JPN: "https://tatoeba.org/eng/sentences/show/221367",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
@@ -406,9 +406,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'I saw the sponge in the sink.', ITA: 'Ho visto la spugna nel lavandino.', JPN: 'スポンジは流しに見た。',},
-	EX2: {ENG: 'The sponge for washing the dishes is dirty.', ITA: 'La spugna per lavare i piatti　è　sporca. ', JPN: 'お皿を洗うためのスポンジは汚い。',},
-	EX3: {ENG: 'Don&#39;t use that sponge to wash the car.', ITA: 'Non usare quella spugna per lavare la macchina.', JPN: 'あのスポンジを車を洗うために使わないで。',},
+	EX1: {ENG: 'I saw the <span class="wihlight">sponge</span> in the sink.', ITA: 'Ho visto la <span class="wihlight">spugna</span> nel lavandino.', JPN: '<span class="wihlight">スポンジ</span>は流しに見た。',},
+	EX2: {ENG: 'The <span class="wihlight">sponge</span> for washing the dishes is dirty.', ITA: 'La <span class="wihlight">spugna</span> per lavare i piatti　è　sporca. ', JPN: 'お皿を洗うための<span class="wihlight">スポンジ</span>は汚い。',},
+	EX3: {ENG: 'Don&#39;t use that <span class="wihlight">sponge</span> to wash the car.', ITA: 'Non usare quella <span class="wihlight">spugna</span> per lavare la macchina.', JPN: 'あの<span class="wihlight">スポンジ</span>を車を洗うために使わないで。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -469,9 +469,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'Put the plate in the <span class="wihlight">sink</span>.', ITA: 'Metti il piatto nel <span class="wihlight">lavandino</span>.', JPN: 'お皿を<span class="wihlight">流し</span>に入れて。',},
+	EX2: {ENG: 'The toilet paper is under the <span class="wihlight">sink</span>.', ITA: 'La carta igienica è sotto il <span class="wihlight">lavandino</span>.', JPN: 'トイレットペーパーは、<span class="wihlight">流し</span>の下にあります。',},
+	EX3: {ENG: 'Can you fix my <span class="wihlight">sink</span>?', ITA: 'Puoi aggiustarmi il <span class="wihlight">lavandino</span>?', JPN: '<span class="wihlight">流し</span>を直してくれえる？',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -529,9 +529,9 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'The microwave is there.', ITA: 'Il forno a microonde è lì.', JPN: '電子レンジはあっちだ。',},
-	EX2: {ENG: 'Reheat the tea in the microwave.', ITA: 'Riscalda il tè nel forno a microonde.', JPN: '電子レンジでお茶を温める。',},
-	EX3: {ENG: 'Don&#39;t put metal in the microwave.', ITA: 'Non mettere metallo nel forno a microonde.', JPN: '電子レンジの中に金属を入れないで。',},
+	EX1: {ENG: 'The <span class="wihlight">microwave</span> is there.', ITA: 'Il <span class="wihlight">forno a microonde</span> è lì.', JPN: '<span class="wihlight">電子レンジ</span>はあっちだ。',},
+	EX2: {ENG: 'Reheat the tea in the <span class="wihlight">microwave</span>.', ITA: 'Riscalda il tè nel forno a <span class="wihlight">microonde</span>.', JPN: '<span class="wihlight">電子レンジ</span>でお茶を温める。',},
+	EX3: {ENG: 'Don&#39;t put metal in the <span class="wihlight">microwave</span>.', ITA: 'Non mettere metallo nel <span class="wihlight">forno a microonde</span>.', JPN: '<span class="wihlight">電子レンジ</span>の中に金属を入れないで。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
