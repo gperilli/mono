@@ -293,7 +293,7 @@ AnnotType: "Annot",
 	EX3: {ENG: 'Don&#39;t forget to close the <span class="wihlight">tap</span>.', ITA: 'Non dimenticare di chiudere il <span class="wihlight">rubinetto</span>.', JPN: '<span class="wihlight">蛇口</span>を閉めることを忘れないでください。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/58692", ITA: "https://tatoeba.org/eng/sentences/show/1021335", JPN: "https://tatoeba.org/eng/sentences/show/221367",},
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/58692", ITA: "https://tatoeba.org/eng/sentences/show/1021335", JPN: "https://tatoeba.org/eng/sentences/show/221367",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
@@ -352,7 +352,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Use the new <span class="wihlight">dish washing liquid</span> and clean the wine glasses.', ITA: 'Usa il nuovo　<span class="wihlight">detersivo</span> e　lava i bicchieri da vino.', JPN: '新しい<span class="wihlight">洗剤</span>を使ってワイングラスを洗って。',},
 	EX3: {ENG: 'The <span class="wihlight">dish washing liquid</span> is about to run out.', ITA: 'Il <span class="wihlight">detersivo per piatti</span> sta per finire.', JPN: '<span class="wihlight">洗剤</span>がなくなりそうです。',},
 
-
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+    
     engLhyph: "dish-washing-liquid", engLperc: "dish%20washing%20liquid", engLplus: "dish+washing+liquid", engForv: "dish_washing_liquid/#en",
     itaLhyph: "detersivo", itaLplus: "detersivo", itaForv: "detersivo/#it",
     jpnLpercen: "%E6%B4%97%E5%89%A4", jpnLgoo: "42031/meaning/m1u/", jpnForv: "洗剤/#ja",
@@ -460,8 +464,6 @@ AnnotType: "Annot",
 
 	 WI: {ENG: "sink", ITA: "lavandino della cucina", JPN: "流し",},
 	WIr: {ENG: "/sɪŋk/", ITA: "/lavanˈdino/", JPN: "nagashi", JPNRu: "<ruby>流し<rt>ながし</rt></ruby>",},
-
-
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
