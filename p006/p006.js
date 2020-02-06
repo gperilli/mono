@@ -39,7 +39,7 @@ AnnotType: "Annot",
 
 	//Word Item
 	WI: {ENG: "kitchen", ITA: "cucina", JPN: "台所",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "daidokoro", JPNRu: "<ruby>台所<rt>だいどころ</rt></ruby>",},
+	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/kuˈtʃina/", JPN: "daidokoro", JPNRu: "<ruby>台所<rt>だいどころ</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
