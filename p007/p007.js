@@ -59,9 +59,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/18189", ITA: "https://tatoeba.org/ita/sentences/show/702836", JPN: "https://tatoeba.org/jpn/sentences/show/179332",},
 
     // Dictionary search suffixes
-    engLhyph: "internal-organs", engLperc: "internal%20organs", engLplus: "internal+organs", engForv: "airport/#en",
-    itaLhyph: "organi-interni", itaLplus: "organi+interni", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "55838/meaning/m1u/", jpnForv: "内臓"/#ja",
+    engLhyph: "internal-organs", engLperc: "internal%20organs", engLplus: "internal+organs", engForv: "internal_organs/#en",
+    itaLhyph: "organi-interni", itaLplus: "organi+interni", itaForv: "organi_interni/#it",
+    jpnLpercen: "%E5%86%85%E8%87%93", jpnLgoo: "55838/meaning/m1u/", jpnForv: "内臓"/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -120,7 +120,7 @@ AnnotType: "Annot",
 
     engLhyph: "intestine", engLperc: "intestine", engLplus: "intestine", engForv: "intestine/#en",
     itaLhyph: "intestino", itaLplus: "intestino", itaForv: "intestino/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+    jpnLpercen: "%E8%85%B8", jpnLgoo: "48649/meaning/m1u/", jpnForv: "腸/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -177,9 +177,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "land", engLperc: "land", engLplus: "land", engForv: "land/#en",
-    itaLhyph: "atterraggio", itaLplus: "atterraggio", itaForv: "atterraggio/#it",
-    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "着陸/#ja",
+    engLhyph: "heart", engLperc: "heart", engLplus: "heart", engForv: "heart/#en",
+    itaLhyph: "cuore", itaLplus: "cuore", itaForv: "cuore/#it",
+    jpnLpercen: "%E5%BF%83%E8%87%93", jpnLgoo: "37826/meaning/m1u/", jpnForv: "心臓/#ja",
 	
 // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -219,7 +219,7 @@ AnnotType: "Annot",
 	LnPosX2: "63%",
 	LnPosY2: "59%",
 
-	WI: {ENG: "kidney", ITA: "rene", JPN: "離陸",},
+	WI: {ENG: "kidney", ITA: "rene", JPN: "腎臓",},
 	WIr: {ENG: "/ˈkɪdni/", ITA: "/ˈrɛne/", JPN: "jinzou", JPNRu: "<ruby>腎臓<rt>じんぞう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
@@ -238,7 +238,7 @@ AnnotType: "Annot",
 
     engLhyph: "kidney", engLperc: "kidney", engLplus: "kidney", engForv: "kidney/#en",
     itaLhyph: "rene", itaLplus: "rene", itaForv: "rene/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
+    jpnLpercen: "%E8%85%8E%E8%87%93", jpnLgoo: "37854/meaning/m1u/", jpnForv: "腎臓/#ja",
 	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -298,7 +298,7 @@ AnnotType: "Annot",
 
     engLhyph: "liver", engLperc: "liver", engLplus: "liver", engForv: "liver/#en",
     itaLhyph: "fegato", itaLplus: "fegato", itaForv: "fegato/#it",
-    jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
+    jpnLpercen: "%E8%82%9D%E8%87%93", jpnLgoo: "14828/meaning/m1u/", jpnForv: "肝臓/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
