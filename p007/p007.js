@@ -358,7 +358,7 @@ AnnotType: "Annot",
 
     engLhyph: "lung", engLperc: "lung", engLplus: "lung", engForv: "lung/#en",
     itaLhyph: "polmone", itaLplus: "polmone", itaForv: "polmone/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "肺/#ja",
+    jpnLpercen: "%E8%82%BA", jpnLgoo: "59475/meaning/m1u/", jpnForv: "肺/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -418,7 +418,7 @@ AnnotType: "Annot",
 
     engLhyph: "stomach", engLperc: "stomach", engLplus: "stomach", engForv: "stomach/#en",
     itaLhyph: "stomaco", itaLplus: "stomaco", itaForv: "stomaco/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+    jpnLpercen: "%E8%83%83", jpnLgoo: "2447/meaning/m1u/", jpnForv: "胃/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -478,7 +478,7 @@ AnnotType: "Annot",
 
     engLhyph: "neuron", engLperc: "neuron", engLplus: "neuron", engForv: "neuron/#en",
     itaLhyph: "neurone", itaLplus: "neurone", itaForv: "neurone/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "神経細胞/#ja",
+    jpnLpercen: "%E7%A5%9E%E7%B5%8C%E7%B4%B0%E8%83%9E", jpnLgoo: "37463/meaning/m1u/", jpnForv: "神経細胞/#ja",
 	
 // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -537,7 +537,7 @@ AnnotType: "Annot",
 
     engLhyph: "brain", engLperc: "brain", engLplus: "brain", engForv: "brain/#en",
     itaLhyph: "cervello", itaLplus: "cervello", itaForv: "cervello/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "脳/#ja",
+    jpnLpercen: "%E8%84%B3", jpnLgoo: "58764/meaning/m1u/", jpnForv: "脳/#ja",
 
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
