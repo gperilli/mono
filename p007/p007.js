@@ -32,13 +32,12 @@ AnnotType: "Annot",
 	
 	//Word Item
 	WI: {ENG: "internal organs", ITA: "organi interni", JPN: "内臓",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "naizou", JPNRu: "<ruby>内臓<rt>ないぞう</rt></ruby>",},
+	WIr: {ENG: "/ɪnˈtɜːnl ˈɔːgənz/", ITA: "/aeroˈpɔrto/", JPN: "naizou", JPNRu: "<ruby>内臓<rt>ないぞう</rt></ruby>",},
 	
 	//Sematic Tags
-	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "places", ITA: "posti", JPN: "場所",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	BtnContPosLeft: "0%",
 	BtnContPosTop: "0%",
@@ -102,15 +101,12 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "65%",
 
-	WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
-
-    WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
-
-    semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
+	WI: {ENG: "intestine", ITA: "intestino", JPN: "腸",},
+	WIr: {ENG: "/ɪnˈtɛstɪn/", ITA: "/intesˈtino/", JPN: "chou", JPNRu: "<ruby>腸<rt>ちょう</rt></ruby>",},
+	
+    	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
@@ -167,11 +163,9 @@ AnnotType: "Annot",
 	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
 
-
-
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
@@ -228,9 +222,9 @@ AnnotType: "Annot",
 	WI: {ENG: "take off", ITA: "decollare", JPN: "離陸",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>離陸<rt>りりく</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
@@ -288,8 +282,8 @@ AnnotType: "Annot",
 	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
 
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -348,8 +342,8 @@ AnnotType: "Annot",
 	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
 
 
-	semtag1: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag2: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -408,8 +402,8 @@ AnnotType: "Annot",
 	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -468,8 +462,8 @@ AnnotType: "Annot",
 	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
 	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -527,9 +521,9 @@ AnnotType: "Annot",
 	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
 	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "", ENG: "", ITA: "", JPN: "",},
+	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
