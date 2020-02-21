@@ -118,8 +118,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "",},
 
-    engLhyph: "control-tower", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
-    itaLhyph: "torre-di-controllo", itaLplus: "torre+di+controllo", itaForv: "torre_di_controllo/#it",
+    engLhyph: "intestine", engLperc: "intestine", engLplus: "intestine", engForv: "intestine/#en",
+    itaLhyph: "intestino", itaLplus: "intestino", itaForv: "intestino/#it",
     jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
 	
 	// Part of Speech Data
@@ -160,8 +160,8 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "35%",
 
-	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
-	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
+	WI: {ENG: "heart", ITA: "cuore", JPN: "心臓",},
+	WIr: {ENG: "/hɑːt/", ITA: "/ˈkwɔre/", JPN: "shinzou", JPNRu: "<ruby心臓<rt>しんぞう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -219,8 +219,8 @@ AnnotType: "Annot",
 	LnPosX2: "63%",
 	LnPosY2: "59%",
 
-	WI: {ENG: "take off", ITA: "decollare", JPN: "離陸",},
-	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>離陸<rt>りりく</rt></ruby>",},
+	WI: {ENG: "kidney", ITA: "rene", JPN: "離陸",},
+	WIr: {ENG: "/ˈkɪdni/", ITA: "/ˈrɛne/", JPN: "jinzou", JPNRu: "<ruby>腎臓<rt>じんぞう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -236,8 +236,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "take-off", engLperc: "take%20off", engLplus: "take+off", engForv: "take_off/#en",
-    itaLhyph: "decollo", itaLplus: "decollo", itaForv: "decollo/#it",
+    engLhyph: "kidney", engLperc: "kidney", engLplus: "kidney", engForv: "kidney/#en",
+    itaLhyph: "rene", itaLplus: "rene", itaForv: "rene/#it",
     jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
 	
     // Part of Speech Data
@@ -278,8 +278,8 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "65%",
 
-	WI: {ENG: "departure board", ITA: "tabellone delle partenze", JPN: "出発案内表示板",},
-	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
+	WI: {ENG: "liver", ITA: "fegato", JPN: "肝臓",},
+	WIr: {ENG: "/ˈlɪvə/", ITA: "/ˈfeɡato/", JPN: "kanzou", JPNRu: "<ruby>肝臓<rt>かんぞう</rt></ruby>",},
 
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
@@ -296,8 +296,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "departure-board", engLperc: "departure%20board", engLplus: "departure+board", engForv: "departure_board/#en",
-    itaLhyph: "tabellone-delle-partenze", itaLplus: "tabellone+delle+partenze", itaForv: "tabellone/#it",
+    engLhyph: "liver", engLperc: "liver", engLplus: "liver", engForv: "liver/#en",
+    itaLhyph: "fegato", itaLplus: "fegato", itaForv: "fegato/#it",
     jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
 	
 	// Part of Speech Data
