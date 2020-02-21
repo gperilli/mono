@@ -338,8 +338,8 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "35%",
 
-	WI: {ENG: "seat", ITA: "sedile", JPN: "席",},
-	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
+	WI: {ENG: "lung", ITA: "polmone", JPN: "肺",},
+	WIr: {ENG: "/lʌŋ/", ITA: "/polˈmone/", JPN: "hai", JPNRu: "<ruby>肺<rt>はい</rt></ruby>",},
 
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
@@ -356,9 +356,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "席/#ja",
+    engLhyph: "lung", engLperc: "lung", engLplus: "lung", engForv: "lung/#en",
+    itaLhyph: "polmone", itaLplus: "polmone", itaForv: "polmone/#it",
+    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "肺/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -399,8 +399,8 @@ AnnotType: "Annot",
 	LnPosX2: "59%",
 	LnPosY2: "56%",
 
-	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
-	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
+	WI: {ENG: "stomach", ITA: "stomaco", JPN: "胃",},
+	WIr: {ENG: "/ˈstʌmək/", ITA: "/ˈstɔmako/", JPN: "i", JPNRu: "<ruby>胃<rt>い</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -416,8 +416,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
+    engLhyph: "stomach", engLperc: "stomach", engLplus: "stomach", engForv: "stomach/#en",
+    itaLhyph: "stomaco", itaLplus: "stomaco", itaForv: "stomaco/#it",
     jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
 	
 	// Part of Speech Data
@@ -459,8 +459,8 @@ AnnotType: "Annot",
 	LnPosX2: "49%",
 	LnPosY2: "56%",
 
-	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
+	WI: {ENG: "neuron", ITA: "neurone", JPN: "神経細胞",},
+	WIr: {ENG: "/ˈnjʊərɒn/", ITA: "/neuˈrone/", JPN: "shinkeisaibou", JPNRu: "<ruby>神経<rt>しんけい</rt>細胞<rt>さいぼう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -476,9 +476,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "passenger", engLperc: "passenger", engLplus: "passenger", engForv: "passenger/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "passeggero/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+    engLhyph: "neuron", engLperc: "neuron", engLplus: "neuron", engForv: "neuron/#en",
+    itaLhyph: "neurone", itaLplus: "neurone", itaForv: "neurone/#it",
+    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "神経細胞/#ja",
 	
 // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -518,8 +518,8 @@ AnnotType: "Annot",
 	LnPosX2: "43%",
 	LnPosY2: "40%",
 
-	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
-	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
+	WI: {ENG: "brain", ITA: "cervello", JPN: "脳",},
+	WIr: {ENG: "/breɪn/", ITA: "/tʃerˈvɛllo/", JPN: "nou", JPNRu: "<ruby>脳<rt>のう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -535,9 +535,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "suitcase", engLperc: "suitcase", engLplus: "suitcase", engForv: "suitcase/#en",
-    itaLhyph: "valigia", itaLplus: "valigia", itaForv: "valigia/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
+    engLhyph: "brain", engLperc: "brain", engLplus: "brain", engForv: "brain/#en",
+    itaLhyph: "cervello", itaLplus: "cervello", itaForv: "cervello/#it",
+    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "脳/#ja",
 
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
