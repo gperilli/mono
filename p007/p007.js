@@ -59,9 +59,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/18189", ITA: "https://tatoeba.org/ita/sentences/show/702836", JPN: "https://tatoeba.org/jpn/sentences/show/179332",},
 
     // Dictionary search suffixes
-    engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
-    itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
+    engLhyph: "internal-organs", engLperc: "internal%20organs", engLplus: "internal+organs", engForv: "airport/#en",
+    itaLhyph: "organi-interni", itaLplus: "organi+interni", itaForv: "aeroporto/#it",
+    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "55838/meaning/m1u/", jpnForv: "内臓"/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
