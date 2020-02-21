@@ -75,12 +75,12 @@ AnnotType: "Annot",
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 		ITA: {ENG: "", ITA: "", JPN: "",},
 		JPN: {ENG: "", ITA: "男性形", JPN: "",},
-			},	
+		},	
 			
 	//Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
-    AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
-    AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+    	AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
+    	AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
 1: {imgfile: "",
