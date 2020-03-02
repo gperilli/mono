@@ -32,7 +32,7 @@ AnnotType: "Annot",
 	
 	//Word Item
 	WI: {ENG: "internal organs", ITA: "organi interni", JPN: "内臓",},
-	WIr: {ENG: "/ɪnˈtɜːnl ˈɔːgənz/", ITA: "/aeroˈpɔrto/", JPN: "naizou", JPNRu: "<ruby>内臓<rt>ないぞう</rt></ruby>",},
+	WIr: {ENG: "/ɪnˈtɜːnl ˈɔːgənz/", ITA: "/ˈɔrɡani inˈtɛrni/", JPN: "naizou", JPNRu: "<ruby>内臓<rt>ないぞう</rt></ruby>",},
 	
 	//Sematic Tags
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
@@ -49,14 +49,14 @@ AnnotType: "Annot",
 	BtnChar3: "digit3",
 
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'The stomach is one of the internal organs.', ITA: 'Lo stomaco è uno degli organi interni.', JPN: '胃は内臓の一つである。',},
+	EX2: {ENG: 'The internal organs are the organs of the human body  not visible from outside.', ITA: 'Gli organi interni sono gli organi del corpo umano non visibili dall&#39;esterno', JPN: '内臓とは、外部からは見えない人体の臓器です。',},
+	EX3: {ENG: 'The liver is the biggest internal organ of the human body.', ITA: 'Il fegato è l&#39;organo interno più grande del corpo umano', JPN: '肝臓は人体の最大の内臓です。',},
 
     //Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/403055", ITA: "https://tatoeba.org/ita/sentences/show/638552", JPN: "https://tatoeba.org/jpn/sentences/show/642385",},
-	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/18189", ITA: "https://tatoeba.org/ita/sentences/show/702836", JPN: "https://tatoeba.org/jpn/sentences/show/179332",},
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/28152", ITA: "https://tatoeba.org/eng/sentences/show/5707988", JPN: "https://tatoeba.org/eng/sentences/show/190992",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
     // Dictionary search suffixes
     engLhyph: "internal-organs", engLperc: "internal%20organs", engLplus: "internal+organs", engForv: "internal_organs/#en",
@@ -109,12 +109,12 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'The small intestine is about seven meters long.', ITA: 'Il piccolo intestino è lungo circa sette metri.', JPN: '小腸は７メートルくらいだ。',},
+	EX2: {ENG: 'The intestine is the final part of the digestive system.', ITA: 'L&#39;intestino è la parte finale dell&#39;apparato digerente.', JPN: '腸は消化器系の最後の部分です。',},
+	EX3: {ENG: 'The intestine is an organ always in movement.', ITA: 'L&#39;intestino è un organo sempre in movimento.', JPN: '腸は常に動いている器官です。',},
 
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/2275312", ITA: "https://tatoeba.org/eng/sentences/show/3942977", JPN: "https://tatoeba.org/eng/sentences/show/2279526",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "",},
 
@@ -168,13 +168,13 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'He put his hand on his heart.', ITA: 'Mise la mano sul suo cuore.', JPN: '彼は胸に手を当てた。',},
+	EX2: {ENG: 'My heart stopped beating.', ITA: 'Il mio cuore ha smesso di battere.', JPN: '私の心臓が止まるような気がした。',},
+	EX3: {ENG: 'The heart is like a pump.', ITA: 'Il cuore è come un pompa.', JPN: '心臓はポンプのようなものです。',},
 
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/313264", ITA: "https://tatoeba.org/eng/sentences/show/602483", JPN: "https://tatoeba.org/eng/sentences/show/375957",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/251243", ITA: "https://tatoeba.org/eng/sentences/show/602491", JPN: "https://tatoeba.org/eng/sentences/show/163269",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
     engLhyph: "heart", engLperc: "heart", engLplus: "heart", engForv: "heart/#en",
@@ -227,12 +227,12 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'I have kidney trouble.', ITA: 'Ho dei problemi ai reni.', JPN: '腎臓が悪いのです。',},
+	EX2: {ENG: 'The kidney has the form of an American bean.', ITA: 'Il rene ha la forma di un fagiolo americano.', JPN: '腎臓はアメリカ豆の形をしています。',},
+	EX3: {ENG: 'The primary function of the kidneys is to filter the blood.', ITA: 'La funzione principale dei reni è quella di filtrare il sangue.', JPN: '腎臓の主な機能は、血液をろ過することです。',},
 
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/270666", ITA: "https://tatoeba.org/eng/sentences/show/5387384", JPN: "https://tatoeba.org/eng/sentences/show/143900",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
@@ -287,9 +287,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'The liver is the most complex organ of the human body.', ITA: 'Il fegato è l&#39;organo più complesso del corpo umano.', JPN: '肝臓は人体の最も複雑な器官です。',},
+	EX2: {ENG: 'The liver weighs about 1000-1500 grams.', ITA: 'Il fegato pesa circa 1000-1500 grammi.', JPN: '肝臓の重量は約1000〜1500グラムです。',},
+	EX3: {ENG: 'Some symptoms can indicate a problem with the liver.', ITA: 'Alcuni sintomi possono indicare un problema al fegato.', JPN: '一部の症状は、肝臓の問題を示している可能性があります。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -347,12 +347,12 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'He died of lung cancer.', ITA: 'Morì di cancro ai polmoni.', JPN: '彼は肺がんで死んだ。',},
+	EX2: {ENG: 'The human body contains two lungs.', ITA: ' Il corpo umano contiene due polmoni.', JPN: '人体には2つの肺があります。',},
+	EX3: {ENG: 'The lungs have the task of providing oxygen to the body.', ITA: 'I polmoni hanno il compito di fornire ossigeno al corpo.', JPN: '肺には、身体に酸素を供給する役割があります。',},
 
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/251304", ITA: "https://tatoeba.org/ita/sentences/show/836253", JPN: "https://tatoeba.org/jpn/sentences/show/163208",},
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/302426", ITA: "https://tatoeba.org/eng/sentences/show/1299366", JPN: "https://tatoeba.org/eng/sentences/show/101271",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
@@ -407,12 +407,12 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'Do you have a stomachache?', ITA: 'Hai il mal di stomaco?', JPN: 'お腹痛いの？',},
+	EX2: {ENG: 'My stomach is full.', ITA: 'Ho lo stomaco pieno.', JPN: 'お腹がいっぱいです。',},
+	EX3: {ENG: 'When you eat, the food goes quickly down into the stomach.', ITA: 'Quando mangi, il cibo scende rapidamente nello stomaco.', JPN: '食べると、食べ物はすぐに胃に落ちます。',},
 
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/2786926", ITA: "https://tatoeba.org/eng/sentences/show/2715737", JPN: "https://tatoeba.org/eng/sentences/show/2771616",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
@@ -467,9 +467,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'The neuron is a cell of the nervous system.', ITA: 'Il neurone è una cellula del sistema nervoso.', JPN: '神経細胞は神経系の細胞です。',},
+	EX2: {ENG: 'There are over 86 billion neurons in the brain.', ITA: 'Ci sono oltre 86 miliardi di neuroni nel cervello', JPN: '脳には860億以上のニューロンがあります。',},
+	EX3: {ENG: 'Neurons put into motion other organs.', ITA: 'I neuroni mettono in moto altri organi,', JPN: '神経細胞は他の器官を動かします。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -526,9 +526,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'The brain is found inside the skull.', ITA: 'Il cervello si trova all&#39;interno del cranio.', JPN: '脳は頭蓋骨の中にあります。',},
+	EX2: {ENG: 'The brain is a complex organ that is part of the central nervous system.', ITA: 'Il cervello é un organo complesso che è parte del sistema nervoso centrale.', JPN: '脳は中枢神経系の一部である複雑な器官です。',},
+	EX3: {ENG: 'He died after an operation to the brain.', ITA: 'É morto dopo un intervento al cervello', JPN: '彼は脳への手術後に死亡した。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
