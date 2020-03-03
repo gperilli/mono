@@ -109,9 +109,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'The small intestine is about seven meters long.', ITA: 'Il piccolo intestino è lungo circa sette metri.', JPN: '小腸は７メートルくらいだ。',},
-	EX2: {ENG: 'The intestine is the final part of the digestive system.', ITA: 'L&#39;intestino è la parte finale dell&#39;apparato digerente.', JPN: '腸は消化器系の最後の部分です。',},
-	EX3: {ENG: 'The intestine is an organ always in movement.', ITA: 'L&#39;intestino è un organo sempre in movimento.', JPN: '腸は常に動いている器官です。',},
+	EX1: {ENG: 'The small <span class="wihlight">intestine</span> is about seven meters long.', ITA: 'Il piccolo <span class="wihlight">intestino</span> è lungo circa sette metri.', JPN: '小<span class="wihlight">腸</span>は７メートルくらいだ。',},
+	EX2: {ENG: 'The <span class="wihlight">intestine</span> is the final part of the digestive system.', ITA: 'L&#39;<span class="wihlight">intestino</span> è la parte finale dell&#39;apparato digerente.', JPN: '<span class="wihlight">腸</span>は消化器系の最後の部分です。',},
+	EX3: {ENG: 'The <span class="wihlight">intestine</span> is an organ always in movement.', ITA: 'L&#39;<span class="wihlight">intestino</span> è un organo sempre in movimento.', JPN: '<span class="wihlight">腸</span>は常に動いている器官です。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/2275312", ITA: "https://tatoeba.org/eng/sentences/show/3942977", JPN: "https://tatoeba.org/eng/sentences/show/2279526",},
@@ -168,9 +168,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'He put his hand on his heart.', ITA: 'Mise la mano sul suo cuore.', JPN: '彼は胸に手を当てた。',},
-	EX2: {ENG: 'My heart stopped beating.', ITA: 'Il mio cuore ha smesso di battere.', JPN: '私の心臓が止まるような気がした。',},
-	EX3: {ENG: 'The heart is like a pump.', ITA: 'Il cuore è come un pompa.', JPN: '心臓はポンプのようなものです。',},
+	EX1: {ENG: 'He put his hand on his <span class="wihlight">heart</span>.', ITA: 'Mise la mano sul suo <span class="wihlight">cuore</span>.', JPN: '彼は<span class="wihlight">心臓</span>に手を当てた。',},
+	EX2: {ENG: 'My <span class="wihlight">heart</span> stopped beating.', ITA: 'Il mio <span class="wihlight">cuore</span> ha smesso di battere.', JPN: '私の<span class="wihlight">心臓</span>が止まるような気がした。',},
+	EX3: {ENG: 'The <span class="wihlight">heart</span> is like a pump.', ITA: 'Il <span class="wihlight">cuore</span> è come un pompa.', JPN: '<span class="wihlight">心臓</span>はポンプのようなものです。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/313264", ITA: "https://tatoeba.org/eng/sentences/show/602483", JPN: "https://tatoeba.org/eng/sentences/show/375957",},
@@ -227,9 +227,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'I have kidney trouble.', ITA: 'Ho dei problemi ai reni.', JPN: '腎臓が悪いのです。',},
-	EX2: {ENG: 'The kidney has the form of an American bean.', ITA: 'Il rene ha la forma di un fagiolo americano.', JPN: '腎臓はアメリカ豆の形をしています。',},
-	EX3: {ENG: 'The primary function of the kidneys is to filter the blood.', ITA: 'La funzione principale dei reni è quella di filtrare il sangue.', JPN: '腎臓の主な機能は、血液をろ過することです。',},
+	EX1: {ENG: 'I have <span class="wihlight">kidney</span> trouble.', ITA: 'Ho dei problemi ai <span class="wihlight">reni</span>.', JPN: '<span class="wihlight">腎臓</span>が悪いのです。',},
+	EX2: {ENG: 'The <span class="wihlight">kidney</span> has the form of an American bean.', ITA: 'Il <span class="wihlight">rene</span> ha la forma di un fagiolo americano.', JPN: '<span class="wihlight">腎臓</span>はアメリカ豆の形をしています。',},
+	EX3: {ENG: 'The primary function of the <span class="wihlight">kidneys</span> is to filter the blood.', ITA: 'La funzione principale dei <span class="wihlight">reni</span> è quella di filtrare il sangue.', JPN: '<span class="wihlight">腎臓</span>の主な機能は、血液をろ過することです。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/270666", ITA: "https://tatoeba.org/eng/sentences/show/5387384", JPN: "https://tatoeba.org/eng/sentences/show/143900",},
@@ -287,9 +287,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'The liver is the most complex organ of the human body.', ITA: 'Il fegato è l&#39;organo più complesso del corpo umano.', JPN: '肝臓は人体の最も複雑な器官です。',},
-	EX2: {ENG: 'The liver weighs about 1000-1500 grams.', ITA: 'Il fegato pesa circa 1000-1500 grammi.', JPN: '肝臓の重量は約1000〜1500グラムです。',},
-	EX3: {ENG: 'Some symptoms can indicate a problem with the liver.', ITA: 'Alcuni sintomi possono indicare un problema al fegato.', JPN: '一部の症状は、肝臓の問題を示している可能性があります。',},
+	EX1: {ENG: 'The <span class="wihlight">liver</span> is the most complex organ of the human body.', ITA: 'Il <span class="wihlight">fegato</span> è l&#39;organo più complesso del corpo umano.', JPN: '<span class="wihlight">肝臓</span>は人体の最も複雑な器官です。',},
+	EX2: {ENG: 'The <span class="wihlight">liver</span> weighs about 1000-1500 grams.', ITA: 'Il <span class="wihlight">fegato</span> pesa circa 1000-1500 grammi.', JPN: '<span class="wihlight">肝臓</span>の重量は約1000〜1500グラムです。',},
+	EX3: {ENG: 'Some symptoms can indicate a problem with the <span class="wihlight">liver</span>.', ITA: 'Alcuni sintomi possono indicare un problema al <span class="wihlight">fegato</span>.', JPN: '一部の症状は、<span class="wihlight">肝臓</span>の問題を示している可能性があります。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -347,9 +347,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'He died of lung cancer.', ITA: 'Morì di cancro ai polmoni.', JPN: '彼は肺がんで死んだ。',},
-	EX2: {ENG: 'The human body contains two lungs.', ITA: ' Il corpo umano contiene due polmoni.', JPN: '人体には2つの肺があります。',},
-	EX3: {ENG: 'The lungs have the task of providing oxygen to the body.', ITA: 'I polmoni hanno il compito di fornire ossigeno al corpo.', JPN: '肺には、身体に酸素を供給する役割があります。',},
+	EX1: {ENG: 'He died of <span class="wihlight">lung</span> cancer.', ITA: 'Morì di cancro ai <span class="wihlight">polmoni</span>.', JPN: '彼は<span class="wihlight">肺</span>がんで死んだ。',},
+	EX2: {ENG: 'The human body contains two <span class="wihlight">lungs</span>.', ITA: ' Il corpo umano contiene due <span class="wihlight">polmoni</span>.', JPN: '人体には2つの<span class="wihlight">肺</span>があります。',},
+	EX3: {ENG: 'The <span class="wihlight">lungs</span> have the task of providing oxygen to the body.', ITA: 'I <span class="wihlight">polmoni</span> hanno il compito di fornire ossigeno al corpo.', JPN: '<span class="wihlight">肺</span>には、身体に酸素を供給する役割があります。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/302426", ITA: "https://tatoeba.org/eng/sentences/show/1299366", JPN: "https://tatoeba.org/eng/sentences/show/101271",},
