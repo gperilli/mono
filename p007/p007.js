@@ -49,9 +49,9 @@ AnnotType: "Annot",
 	BtnChar3: "digit3",
 
 	//Examples
-	EX1: {ENG: 'The stomach is one of the internal organs.', ITA: 'Lo stomaco è uno degli organi interni.', JPN: '胃は内臓の一つである。',},
-	EX2: {ENG: 'The internal organs are the organs of the human body  not visible from outside.', ITA: 'Gli organi interni sono gli organi del corpo umano non visibili dall&#39;esterno', JPN: '内臓とは、外部からは見えない人体の臓器です。',},
-	EX3: {ENG: 'The liver is the biggest internal organ of the human body.', ITA: 'Il fegato è l&#39;organo interno più grande del corpo umano', JPN: '肝臓は人体の最大の内臓です。',},
+	EX1: {ENG: 'The stomach is one of the internal <span class="wihlight">organs</span>.', ITA: 'Lo stomaco è uno degli <span class="wihlight">organi</span> interni.', JPN: '胃は<span class="wihlight">内臓</span>の一つである。',},
+	EX2: {ENG: 'The <span class="wihlight">internal organs</span> are the organs of the human body  not visible from outside.', ITA: 'Gli <span class="wihlight">organi interni</span> sono gli organi del corpo umano non visibili dall&#39;esterno', JPN: '<span class="wihlight">内臓</span>とは、外部からは見えない人体の臓器です。',},
+	EX3: {ENG: 'The liver is the biggest <span class="wihlight">internal organ</span> of the human body.', ITA: 'Il fegato è l&#39;<span class="wihlight">organo</span> interno più grande del corpo umano', JPN: '肝臓は人体の最大の<span class="wihlight">内臓</span>です。',},
 
     //Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/28152", ITA: "https://tatoeba.org/eng/sentences/show/5707988", JPN: "https://tatoeba.org/eng/sentences/show/190992",},
@@ -407,9 +407,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'Do you have a stomachache?', ITA: 'Hai il mal di stomaco?', JPN: 'お腹痛いの？',},
-	EX2: {ENG: 'My stomach is full.', ITA: 'Ho lo stomaco pieno.', JPN: 'お腹がいっぱいです。',},
-	EX3: {ENG: 'When you eat, the food goes quickly down into the stomach.', ITA: 'Quando mangi, il cibo scende rapidamente nello stomaco.', JPN: '食べると、食べ物はすぐに胃に落ちます。',},
+	EX1: {ENG: 'Do you have a <span class="wihlight">stomach</span>ache?', ITA: 'Hai il mal di <span class="wihlight">stomaco</span>?', JPN: 'お<span class="wihlight">腹</span>痛いの？',},
+	EX2: {ENG: 'My <span class="wihlight">stomach</span> is full.', ITA: 'Ho lo <span class="wihlight">stomaco</span> pieno.', JPN: 'お<span class="wihlight">腹</span>がいっぱいです。',},
+	EX3: {ENG: 'When you eat, the food goes quickly down into the <span class="wihlight">stomach</span>.', ITA: 'Quando mangi, il cibo scende rapidamente nello <span class="wihlight">stomaco</span>.', JPN: '食べると、食べ物はすぐに<span class="wihlight">胃</span>に落ちます。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/2786926", ITA: "https://tatoeba.org/eng/sentences/show/2715737", JPN: "https://tatoeba.org/eng/sentences/show/2771616",},
@@ -467,9 +467,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'The neuron is a cell of the nervous system.', ITA: 'Il neurone è una cellula del sistema nervoso.', JPN: '神経細胞は神経系の細胞です。',},
-	EX2: {ENG: 'There are over 86 billion neurons in the brain.', ITA: 'Ci sono oltre 86 miliardi di neuroni nel cervello', JPN: '脳には860億以上のニューロンがあります。',},
-	EX3: {ENG: 'Neurons put into motion other organs.', ITA: 'I neuroni mettono in moto altri organi,', JPN: '神経細胞は他の器官を動かします。',},
+	EX1: {ENG: 'The <span class="wihlight">neuron</span> is a cell of the nervous system.', ITA: 'Il <span class="wihlight">neurone</span> è una cellula del sistema nervoso.', JPN: '<span class="wihlight">神経細胞</span>は神経系の細胞です。',},
+	EX2: {ENG: 'There are over 86 billion <span class="wihlight">neurons</span> in the brain.', ITA: 'Ci sono oltre 86 miliardi di <span class="wihlight">neuroni</span> nel cervello', JPN: '脳には860億以上の<span class="wihlight">神経細胞</span>があります。',},
+	EX3: {ENG: '<span class="wihlight">Neurons</span> put into motion other organs.', ITA: 'I <span class="wihlight">neuroni</span> mettono in moto altri organi,', JPN: '<span class="wihlight">神経細胞</span>は他の器官を動かします。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -526,9 +526,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'The brain is found inside the skull.', ITA: 'Il cervello si trova all&#39;interno del cranio.', JPN: '脳は頭蓋骨の中にあります。',},
-	EX2: {ENG: 'The brain is a complex organ that is part of the central nervous system.', ITA: 'Il cervello é un organo complesso che è parte del sistema nervoso centrale.', JPN: '脳は中枢神経系の一部である複雑な器官です。',},
-	EX3: {ENG: 'He died after an operation to the brain.', ITA: 'É morto dopo un intervento al cervello', JPN: '彼は脳への手術後に死亡した。',},
+	EX1: {ENG: 'The <span class="wihlight">brain</span> is found inside the skull.', ITA: 'Il <span class="wihlight">cervello</span> si trova all&#39;interno del cranio.', JPN: '<span class="wihlight">脳</span>は頭蓋骨の中にあります。',},
+	EX2: {ENG: 'The The <span class="wihlight">brain</span> is a complex organ that is part of the central nervous system.', ITA: 'Il <span class="wihlight">cervello</span> é un organo complesso che è parte del sistema nervoso centrale.', JPN: '<span class="wihlight">脳</span>は中枢神経系の一部である複雑な器官です。',},
+	EX3: {ENG: 'He died after an operation to the The <span class="wihlight">brain</span>.', ITA: 'É morto dopo un intervento al The <span class="wihlight">cervello</span>', JPN: '彼は<span class="wihlight">脳</span>への手術後に死亡した。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
