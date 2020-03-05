@@ -148,7 +148,7 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "65%",
 
-	WI: {ENG: "venus", ITA: "venere", JPN: "金星",},
+	WI: {ENG: "Venus", ITA: "Venere", JPN: "金星",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kinsei", JPNRu: "<ruby>金星<rt>きんせい</rt></ruby>",},
 
     semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
@@ -165,9 +165,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "venus", engLperc: "venus", engLplus: "venus", engForv: "venus/#en",
-    itaLhyph: "venere", itaLplus: "venere", itaForv: "venere/#it",
-    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "着陸/#ja",
+    engLhyph: "Venus", engLperc: "Venus", engLplus: "Venus", engForv: "Venus/#en",
+    itaLhyph: "Venere", itaLplus: "Venere", itaForv: "Venere/#it",
+    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "金星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -208,7 +208,7 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "35%",
 
-	WI: {ENG: "earth", ITA: "terra", JPN: "地球",},
+	WI: {ENG: "Earth", ITA: "Terra", JPN: "地球",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>地球<rt>ちきゅう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
@@ -225,8 +225,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "take-off", engLperc: "take%20off", engLplus: "take+off", engForv: "take_off/#en",
-    itaLhyph: "decollo", itaLplus: "decollo", itaForv: "decollo/#it",
+    engLhyph: "Earth", engLperc: "Earth", engLplus: "Earth", engForv: "earth/#en",
+    itaLhyph: "Terra", itaLplus: "Terra", itaForv: "Terra/#it",
     jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
 	
 	// Part of Speech Data
@@ -235,7 +235,7 @@ AnnotType: "Annot",
 			JPN: {ENG: "可算", ITA: "可算", JPN: "可算",},
 			},
 	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
-			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			ITA: {ENG: "", ITA: "femm.", JPN: "",},
 			JPN: {ENG: "名詞", ITA: "名詞", JPN: "名詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
@@ -268,7 +268,7 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "65%",
 
-	WI: {ENG: "mars", ITA: "marte", JPN: "火星",},
+	WI: {ENG: "Mars", ITA: "Marte", JPN: "火星",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kasei", JPNRu: "<ruby>火星<rt>かせい</rt></ruby>",},
 
 
@@ -286,8 +286,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "departure-board", engLperc: "departure%20board", engLplus: "departure+board", engForv: "departure_board/#en",
-    itaLhyph: "tabellone-delle-partenze", itaLplus: "tabellone+delle+partenze", itaForv: "tabellone/#it",
+    engLhyph: "Mars", engLperc: "Mars", engLplus: "Mars", engForv: "Mars/#en",
+    itaLhyph: "Marte", itaLplus: "Marte", itaForv: "Marte/#it",
     jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
 	
     // Part of Speech Data
@@ -347,9 +347,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "席/#ja",
+    engLhyph: "Jupiter", engLperc: "Jupiter", engLplus: "Jupiter", engForv: "Jupiter/#en",
+    itaLhyph: "Giove", itaLplus: "Giove", itaForv: "Giove/#it",
+    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "木星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -408,9 +408,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+    engLhyph: "Saturn", engLperc: "Saturn", engLplus: "Saturn", engForv: "Saturn/#en",
+    itaLhyph: "Saturno", itaLplus: "Saturno", itaForv: "Saturno/#it",
+    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "土星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -468,8 +468,8 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "passenger", engLperc: "passenger", engLplus: "passenger", engForv: "passenger/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "passeggero/#it",
+    engLhyph: "Uranus", engLperc: "Uranus", engLplus: "Uranus", engForv: "Uranus/#en",
+    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "Urano/#it",
     jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
 	
 	// Part of Speech Data
