@@ -648,7 +648,8 @@ function MnoExplnr() {
 	//Visual 3 - Annotation Button Positioning
 	ExplnrpId = window["p".concat(Vsl3ImgSrcPno)]; 
 	
-	ExplnrpId.SetPost();
+	setposter(ExplnrpId);
+	//ExplnrpId.SetPost();
 	SetAnnotations(Vsl3ImgSrcPno);
 	
 	l1 = localStorage.getItem("Lang1");
