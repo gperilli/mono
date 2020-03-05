@@ -16,8 +16,8 @@ AnnotType: "Annot",
 	imgbckg: "blk",	
 	
 	//Word Item
-	WI: {ENG: "planets", ITA: "pianetti", JPN: "惑星",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "wakusei", JPNRu: "<ruby>惑星<rt>わくせい</rt></ruby>",},
+	WI: {ENG: "planets", ITA: "pianeti", JPN: "惑星",},
+	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/pjaˈneti/", JPN: "wakusei", JPNRu: "<ruby>惑星<rt>わくせい</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -45,9 +45,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/18189", ITA: "https://tatoeba.org/ita/sentences/show/702836", JPN: "https://tatoeba.org/jpn/sentences/show/179332",},
     
 	// Dictionary search suffixes
-    engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
-    itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
+    engLhyph: "planet", engLperc: "planet", engLplus: "planet", engForv: "planet/#en",
+    itaLhyph: "pianeta", itaLplus: "pianeta", itaForv: "pianeta/#it",
+    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "惑星/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -88,8 +88,8 @@ AnnotType: "Annot",
 	LnPosX2: "50%",
 	LnPosY2: "35%",
 
-	WI: {ENG: "mercury", ITA: "mercurio", JPN: "水星",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
+	WI: {ENG: 水星", ITA: "mercurio", JPN: "水星",},
+	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>水星<rt>すいせい</rt></ruby>",},
 
     semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
@@ -103,11 +103,11 @@ AnnotType: "Annot",
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "",},
+	TatSrcEx3: {Dsp: ", ENG: "", ITA: "",},
 
-    engLhyph: "control-tower", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
+    engLhyph: "", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
     itaLhyph: "torre-di-controllo", itaLplus: "torre+di+controllo", itaForv: "torre_di_controllo/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "水星/#ja",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
