@@ -433,7 +433,8 @@ function ExplnrAnnotPnoEx() {
 	RndPst = Math.floor(Math.random() * LndrPstTtl);
 	ExplnrAnotExpId = window["p".concat(PstArr[RndPst])]; 
 	
-	ExplnrAnotExpId.SetPost();
+	//ExplnrAnotExpId.SetPost();
+	setposter(ExplnrAnotExpId);
 	
 	//Determine whether post is "Annot" type
 	if (ExplnrAnotExpId.AnnotType == "Annot") {
