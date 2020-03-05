@@ -17,7 +17,7 @@ var p005 = {
 	this[i]["AudJPNEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex3.wav");}
 	},
 No: "005",
-Date: "18/08/2018",
+Date: "03/02/2020",
 
 ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
