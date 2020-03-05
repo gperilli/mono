@@ -325,6 +325,25 @@ function LoadInPstScrpts() {
 
 }
 
+function setposter(pIdX) {
+	
+	for(var i = 0; i < 9; ++i) {
+	pIdX[i]["imgfile"] = "p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
+	pIdX[i]["AudENGWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
+	pIdX[i]["AudENGEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
+	pIdX[i]["AudENGEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
+	pIdX[i]["AudENGEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
+	pIdX[i]["AudITAWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
+	pIdX[i]["AudITAEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
+	pIdX[i]["AudITAEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
+	pIdX[i]["AudITAEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
+	pIdX[i]["AudJPNWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
+	pIdX[i]["AudJPNEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
+	pIdX[i]["AudJPNEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
+	pIdX[i]["AudJPNEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
+	}
+}
+
 var PnoPlyAllPos = [];
 
 function PMuis() {
@@ -346,8 +365,9 @@ function PMuis() {
 	}
 	
 	pId = window["p".concat(pno)]; //(not necessary?)
-	pId.SetPost();//Load in repetetive object values
-		
+	//pId.SetPost();//Load in repetetive object values
+	setposter(pId);
+	
 	//Prepare Main User Interface Template
 	MUITempPrp(pno);
 	MUITempSet(pno, pId.AnnotType);
