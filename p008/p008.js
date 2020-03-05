@@ -469,8 +469,8 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
     engLhyph: "Uranus", engLperc: "Uranus", engLplus: "Uranus", engForv: "Uranus/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "Urano/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+    itaLhyph: "Urano", itaLplus: "Urano", itaForv: "Urano/#it",
+    jpnLpercen: "%E5%A4%A9%E7%9A%87%E5%88%B6", jpnLgoo: "107916/meaning/m1u/", jpnForv: "天皇制/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -528,9 +528,9 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "suitcase", engLperc: "suitcase", engLplus: "suitcase", engForv: "suitcase/#en",
-    itaLhyph: "valigia", itaLplus: "valigia", itaForv: "valigia/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
+    engLhyph: "Neptune", engLperc: "Neptune", engLplus: "Neptune", engForv: "Neptune/#en",
+    itaLhyph: "Netturno", itaLplus: "Netturno", itaForv: "Netturno/#it",
+    jpnLpercen: "%E6%B5%B7%E7%8E%8B%E6%98%9F", jpnLgoo: "117095/meaning/m1u/", jpnForv: "海王星/#ja",
 
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
