@@ -17,7 +17,7 @@ SetPost: function() {
 	this[i]["AudJPNEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex3.wav");}
 	},
 No: "006",
-Date: "18/08/2018",
+Date: "20/02/2020",
 
 ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
