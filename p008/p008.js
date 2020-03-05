@@ -89,7 +89,7 @@ AnnotType: "Annot",
 	LnPosY2: "35%",
 
 	WI: {ENG: "mercury", ITA: "mercurio", JPN: "水星",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>水星<rt>すいせい</rt></ruby>",},
+	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/merˈkurjo/", JPN: "kanseitou", JPNRu: "<ruby>水星<rt>すいせい</rt></ruby>",},
 
     	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
@@ -107,7 +107,7 @@ AnnotType: "Annot",
 
     	engLhyph: "mercury", engLperc: "mercury", engLplus: "mercury", engForv: "mercury/#en",
     	itaLhyph: "mercurio", itaLplus: "mercurio", itaForv: "mercurio/#it",
-    	jpnLpercen: "%E7%AE%A1%E5%88%B6%E5A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "水星/#ja",
+    	jpnLpercen: "%E6%B0%B4%E6%98%9F", jpnLgoo: "48697/meaning/m1u/", jpnForv: "水星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -149,7 +149,7 @@ AnnotType: "Annot",
 	LnPosY2: "65%",
 
 	WI: {ENG: "Venus", ITA: "Venere", JPN: "金星",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kinsei", JPNRu: "<ruby>金星<rt>きんせい</rt></ruby>",},
+	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈvɛnere/", JPN: "kinsei", JPNRu: "<ruby>金星<rt>きんせい</rt></ruby>",},
 
     semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
@@ -167,7 +167,7 @@ AnnotType: "Annot",
 
     engLhyph: "Venus", engLperc: "Venus", engLplus: "Venus", engForv: "Venus/#en",
     itaLhyph: "Venere", itaLplus: "Venere", itaForv: "Venere/#it",
-    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "金星/#ja",
+    jpnLpercen: "%E9%87%91%E6%98%9F", jpnLgoo: "142609/meaning/m1u/", jpnForv: "金星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -209,7 +209,7 @@ AnnotType: "Annot",
 	LnPosY2: "35%",
 
 	WI: {ENG: "Earth", ITA: "Terra", JPN: "地球",},
-	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>地球<rt>ちきゅう</rt></ruby>",},
+	WIr: {ENG: "/teɪk ɒf/", ITA: "/ˈtɛrra/", JPN: "ririku", JPNRu: "<ruby>地球<rt>ちきゅう</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
@@ -227,7 +227,7 @@ AnnotType: "Annot",
 
     engLhyph: "Earth", engLperc: "Earth", engLplus: "Earth", engForv: "earth/#en",
     itaLhyph: "Terra", itaLplus: "Terra", itaForv: "Terra/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
+    jpnLpercen: "%E5%9C%B0%E7%90%83", jpnLgoo: "233036/meaning/m1u/", jpnForv: "地球/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -269,7 +269,7 @@ AnnotType: "Annot",
 	LnPosY2: "65%",
 
 	WI: {ENG: "Mars", ITA: "Marte", JPN: "火星",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kasei", JPNRu: "<ruby>火星<rt>かせい</rt></ruby>",},
+	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈmarte/", JPN: "kasei", JPNRu: "<ruby>火星<rt>かせい</rt></ruby>",},
 
 
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
@@ -288,7 +288,7 @@ AnnotType: "Annot",
 
     engLhyph: "Mars", engLperc: "Mars", engLplus: "Mars", engForv: "Mars/#en",
     itaLhyph: "Marte", itaLplus: "Marte", itaForv: "Marte/#it",
-    jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
+    jpnLpercen: "%E7%81%AB%E6%98%9F", jpnLgoo: "66523/meaning/m1u/", jpnForv: "火星/#ja",
 	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -330,7 +330,7 @@ AnnotType: "Annot",
 	LnPosY2: "35%",
 
 	WI: {ENG: "Jupiter", ITA: "Giove", JPN: "木星",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "mokusei", JPNRu: "<ruby>木星<rt>もくせい</rt></ruby>",},
+	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈdʒɔve/", JPN: "mokusei", JPNRu: "<ruby>木星<rt>もくせい</rt></ruby>",},
 
 
     semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
@@ -349,7 +349,7 @@ AnnotType: "Annot",
 
     engLhyph: "Jupiter", engLperc: "Jupiter", engLplus: "Jupiter", engForv: "Jupiter/#en",
     itaLhyph: "Giove", itaLplus: "Giove", itaForv: "Giove/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "木星/#ja",
+    jpnLpercen: "%E6%9C%A8%E6%98%9F", jpnLgoo: "123323/meaning/m1u/", jpnForv: "木星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -392,7 +392,7 @@ AnnotType: "Annot",
 	LnPosY2: "65%",
 
 	WI: {ENG: "Saturn", ITA: "Saturno", JPN: "土星",},
-	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "dosei", JPNRu: "<ruby>土星<rt>どせい</rt></ruby>",},
+	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/saˈturno/", JPN: "dosei", JPNRu: "<ruby>土星<rt>どせい</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
@@ -410,7 +410,7 @@ AnnotType: "Annot",
 
     engLhyph: "Saturn", engLperc: "Saturn", engLplus: "Saturn", engForv: "Saturn/#en",
     itaLhyph: "Saturno", itaLplus: "Saturno", itaForv: "Saturno/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "土星/#ja",
+    jpnLpercen: "%E5%9C%9F%E6%98%9F", jpnLgoo: "141577/meaning/m1u/", jpnForv: "土星/#ja",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -452,7 +452,7 @@ AnnotType: "Annot",
 	LnPosY2: "33%",
 
 	WI: {ENG: "Uranus", ITA: "Urano", JPN: "天皇制",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "tennousei", JPNRu: "<ruby>天皇制<rt>てんのうせい</rt></ruby>",},
+	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/uˈrano/", JPN: "tennousei", JPNRu: "<ruby>天皇制<rt>てんのうせい</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
@@ -511,8 +511,8 @@ AnnotType: "Annot",
 	LnPosX2: "75%",
 	LnPosY2: "59%",
 
-	WI: {ENG: "Neptune", ITA: "Netturno", JPN: "海王星",},
-	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "k", JPNRu: "<ruby>海王星<rt>かいおうせい</rt></ruby>",},
+	WI: {ENG: "Neptune", ITA: "Nettuno", JPN: "海王星",},
+	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/netˈtuno/", JPN: "k", JPNRu: "<ruby>海王星<rt>かいおうせい</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
