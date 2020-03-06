@@ -69,7 +69,7 @@ function LndrTemps() {
 	
 	MonoExplnr = `
 		<div id="MnoExplnrCnt">
-			<p id="MonoTxtId" style="width: 100%; margin-bottom: 10px; float: left;" align="center">Mono</p>
+			<p id="MonoTxtId" style="width: 100%; margin-bottom: 10px; float: left; font-weight: bold;" align="center">Features</p>
 			<div id="MnoExplnr" style="width: 100%; overflow: hidden; background-color: #fff;">
 		
 			</div>
@@ -92,7 +92,7 @@ function LndrTemps() {
 			<div class="CTACnt">		
 				<div align="center">
 					<a id="CTATxt" href="gallery.html" class="ClTAct">
-						See The Gallery
+						
 					</a>
 				</div>
 			</div>
@@ -111,7 +111,7 @@ function LndrTemps() {
 		<div class="colL2In">
 		 
 			<div class="colL2In2" id="LSlctBlk">
-				<p id="LSelectTxt" style="width: 100%; float: left; margin-bottom: 10px;" align="center">Language Select</p>
+				<p id="LSelectTxt" style="width: 100%; float: left; margin-bottom: 10px; font-weight: bold;" align="center">Language Select</p>
 				
 				<div style="width: 100%; float: left; position: relative;">
 				
@@ -272,25 +272,6 @@ function RndPstArrGen() {
 	
 }
 
-function setposter(pIdX) {
-	
-	for(var i = 0; i < 9; ++i) {
-	pIdX[i]["imgfile"] = "p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
-	pIdX[i]["AudENGWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
-	pIdX[i]["AudENGEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
-	pIdX[i]["AudENGEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
-	pIdX[i]["AudENGEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
-	pIdX[i]["AudITAWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
-	pIdX[i]["AudITAEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
-	pIdX[i]["AudITAEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
-	pIdX[i]["AudITAEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
-	pIdX[i]["AudJPNWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
-	pIdX[i]["AudJPNEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
-	pIdX[i]["AudJPNEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
-	pIdX[i]["AudJPNEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
-	}
-}
-
 var PstN = 0;
 var DspGrZi = 10;
 var RndPstArr = [0, 0, 0, 0, 0];
@@ -306,7 +287,6 @@ function CTADspPsts() {
 	
 	//DsppId.SetPost(); //Load in repetetive object values
 	setposter(DsppId);
-	
 	Dsppno = DsppId.No;
 	
 	var DspPstImgSrcX = "p".concat(RndPstArr[LdN], "/monop", RndPstArr[LdN], "-wi0.svg");
@@ -329,7 +309,7 @@ function CTADspPsts() {
 	} 
 	
 	var CTADspPrt1 = `
-		<div style="position: absolute; width: 100%; top: 0%; z-index: ${DspGrZi};" id="${CTADspItmBlkX}" class="CTADspItmHde">
+		<div style="position: absolute; width: 100%; z-index: ${DspGrZi};" id="${CTADspItmBlkX}" class="CTADspItmHde">
 			<div style="background-color: ${PImgNvBck}; border: 1px solid #ccc; line-height:0;">
 				<div style="position: relative; width: 100%;" id=${DspImgBlkX}>
 				
@@ -397,7 +377,7 @@ function CTAItmDsp() {
 	
 	RndAngle = Math.floor(Math.random() * 8);
 	CrdDspAgle = {0: "Rt03", 1: "Rtn03", 2: "Rt04", 3: "Rtn04", 4: "Rt05", 5: "Rtn05", 6: "Rt06", 7: "Rtn06", 8: ""};	
-	CrdAgleCls = CrdDspAgle[RndAngle];
+	CrdAgleCls = CrdDspAgle[ItmN];
 	
 	CTADspItmBlkX = "CTADspItmBlk".concat(ItmN);
 	document.getElementById(CTADspItmBlkX).className = "CTADspItmShw ".concat(CrdAgleCls, " Shdw");
@@ -613,7 +593,7 @@ function MnoExplnr() {
 	
 	var Vsl3 = `
 		
-		<div style="border: 0px solid #808080; position: relative; float: left; width: 100%; display: inline-block; background-color: #fff; margin-top: 40px; overflow: hidden; ">
+		<div style="border: 0px solid #808080; position: relative; float: left; width: 100%; display: inline-block; background-color: #fff; margin-top: 40px; ">
 				
 				
 				<div style="position: relative; float: left; width: 100%; height: 200px; border: 0px solid #808080; overflow: hidden;" align="center">
@@ -648,8 +628,8 @@ function MnoExplnr() {
 	//Visual 3 - Annotation Button Positioning
 	ExplnrpId = window["p".concat(Vsl3ImgSrcPno)]; 
 	
-	setposter(ExplnrpId);
 	//ExplnrpId.SetPost();
+	setposter(ExplnrpId);
 	SetAnnotations(Vsl3ImgSrcPno);
 	
 	l1 = localStorage.getItem("Lang1");
