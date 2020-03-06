@@ -198,19 +198,19 @@ function modaldisp(x) {
     modal.style.display = "block";
 
     if (pId[x].imgsrc == "original") {
-      document.getElementById("imgattrLCol").style.display = "none";
-      document.getElementById('CCContpModal').innerHTML = UItext[L1Selected]["CCText1d"];
+		document.getElementById("imgattrLCol").style.display = "none";
+		document.getElementById('CRContMine').innerHTML = UItext[L1Selected]["CRTextWIO"];
     } else {
 
-    if (x == 0) {
-      document.getElementById("imgattrLCol").style.display = "none";
-      document.getElementById('CCContpModal').innerHTML = UItext[L1Selected]["CCText1c"];
-    } else {
-      document.getElementById("imgattrLCol").style.display = "block";
-      document.getElementById('CCContpModal').innerHTML = UItext[L1Selected]["CCText1e"];
-      modalSrcImg.src = pId[x].imgattrsrcfle
-      //document.getElementById("imgsrccr").innerHTML = pId[x].imgsrccr;
-    }
+		if (x == 0) {
+		  document.getElementById("imgattrLCol").style.display = "none";
+		  document.getElementById('CRContMine').innerHTML = UItext[L1Selected]["CRTextWI0"];
+		} else {
+		  document.getElementById("imgattrLCol").style.display = "block";
+		  document.getElementById('CRContMine').innerHTML = UItext[L1Selected]["CRTextWID"];
+		  modalSrcImg.src = pId[x].imgattrsrcfle;
+		  //document.getElementById("imgsrccr").innerHTML = pId[x].imgsrccr;
+		}
     }
     modalImg.src = pId[x].imgfile;
     modalImg.className = "modal-content ".concat(pId[x].imgbckg);
