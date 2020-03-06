@@ -250,7 +250,7 @@ ColumnAHead = `
 	
 `;
 
-ShareAdr = 'https://gperilli.github.io/mono/index.html';
+ShareAdr = 'https://gperilli.github.io/mono/';
 
 ShareHeadA = `
 <div class="sharelikeA">
@@ -289,7 +289,7 @@ ShareTw = `
 <!-- Twitter Share Btn -->
 <div class="SocialBtnContainerClass" align=left>
    <!-- Button SVG Elements -->
-   <div class="SocialBtnContainer-TextImgClass"  onclick="window.open('https://twitter.com/home?status='+encodeURIComponent('${ShareAdr}'),'twitter-share-dialog','width=626,height=436'); return false;">
+   <div class="SocialBtnContainer-TextImgClass"  onclick="window.open('http://www.twitter.com/share?url=https://gperilli.github.io/mono/','twitter-share-dialog','width=626,height=436'); return false;">
 	  <svg class="StretchToContainer" viewbox="0 0 115 115">
 		 <g transform="translate(1,1)">
 			<path class="TwBtn-logo" id="BtnTextID-Twitter">
@@ -497,7 +497,7 @@ ENG: {lang: "ENG",
 	//Header
 	HeadN: "An SVG based visual dictionary, and language learning tool. Currently in English, Japanese, and Italian.", 
 	//Footer	
-	FootN1: "Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source:", 
+	FootN1: "Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source.", 
 	FootN2: "Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
 	//Site Copyright
 	CRText1: '&copy; G. Perilli', 
@@ -519,7 +519,7 @@ ITA: {lang: "ITA",
 	//Header
 	HeadN: "[ITA]An SVG based visual dictionary, and language learning tool. Currently in English, Japanese, and Italian.", 
 	//Footer
-	FootN1: "[ITA]Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source:", 
+	FootN1: "[ITA]Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source.", 
 	FootN2: "[ITA]Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
 	//Site Copyright
 	CCText1: '&copy; G. Perilli', 
@@ -541,7 +541,7 @@ JPN: {lang: "JPN",
 	//Header
 	HeadN: "SVGに基づいた図解辞典・語学学習ツールです。", 
 	//Footer
-	FootN1: "デザイン・コーディングはG.ペリーリによる。画像データはオリジナルかパブリック・ドメインのもので、どちらの場合も著者が作成または編集したものである。 すべてのファイルは可能なかざり資料元を記して	いる。", 
+	FootN1: "デザイン・コーディングはG.ペリーリによる。画像データはオリジナルかパブリック・ドメインのもので、どちらの場合も著者が作成または編集したものである。 すべてのファイルは可能なかざり資料元を記している。", 
 	FootN2: "例文はCC-BYのクリエイティブ・コモンズ・ライセンスを得た「たとえばコーパス」による。",
 	//Site Copyright
 	CRText1: '&copy; G. Perilli', 
