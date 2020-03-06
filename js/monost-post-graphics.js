@@ -209,7 +209,7 @@ function modaldisp(x) {
       document.getElementById("imgattrLCol").style.display = "block";
       document.getElementById('CCContpModal').innerHTML = UItext[L1Selected]["CCText1e"];
       modalSrcImg.src = pId[x].imgattrsrcfle
-      document.getElementById("imgsrccr").innerHTML = pId[x].imgsrccr;
+      //document.getElementById("imgsrccr").innerHTML = pId[x].imgsrccr;
     }
     }
     modalImg.src = pId[x].imgfile;
