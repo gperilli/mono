@@ -370,9 +370,9 @@ AttrTemp = `
     <p id="Footer2"></p>
     <br><br>
   <div id="CCCont" style="display: inline;">
-    <p id="CCContp" style="display: inline;"></p>
-    
+    <p id="CRCont" style="display: inline;"></p>
   </div>
+  
 </div>
 </section>
 
@@ -402,7 +402,7 @@ AttrTemp = `
         <div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
           <p style="display: inline;">By G. Perilli.</p>
           
-		  <p id="CCContpModal" style="display: inline;"></p>
+		  <p id="CRContMine" style="display: inline;"></p>
         
         </div>
 
@@ -500,13 +500,13 @@ ENG: {lang: "ENG",
 	FootN1: "Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source:", 
 	FootN2: "Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
 	//Site Copyright
-	CCText1: '&copy; G. Perilli', 
+	CRText1: '&copy; G. Perilli', 
 
 	//Text for image source attribution in modal
-	CCText1b: "This work is licensed under a", 
-	CCText1c: "This is a derivative work. Attribution is provided for each individual component. This work is licensed under a", 
-	CCText1d: 'This is an original work. &copy; G. Perilli', 
-	CCText1e: 'This is a derivative work. &copy; G. Perilli',  
+	
+	CRTextWI0: 'This is a derivative work. Attribution is provided for each individual component. &copy; G. Perilli', 
+	CRTextWIO: 'This is an original work. &copy; G. Perilli', 
+	CRTextWID: 'This is a derivative work. &copy; G. Perilli',  
 	},
 
 ITA: {lang: "ITA", 
@@ -525,10 +525,10 @@ ITA: {lang: "ITA",
 	CCText1: '&copy; G. Perilli', 
 	 
 	//Text for image source attribution in modal
-	CCText1b: "[ITA]This work is licensed under a", 
-	CCText1c: "[ITA]This is a derivative work. Attribution is provided for each individual component. This work is licensed under a", 
-	CCText1d: 'This is an original work. &copy; G. Perilli', 
-	CCText1e: 'This is a derivative work. &copy; G. Perilli', 
+	 
+	CRTextWI0: '[ITA]This is a derivative work. Attribution is provided for each individual component. &copy; G. Perilli', 
+	CRTextWIO: 'This is an original work. &copy; G. Perilli', 
+	CRTextWID: 'This is a derivative work. &copy; G. Perilli', 
 	},
 
 JPN: {lang: "JPN", 
@@ -544,13 +544,13 @@ JPN: {lang: "JPN",
 	FootN1: "デザイン・コーディングはG.ペリーリによる。画像データはオリジナルかパブリック・ドメインのもので、どちらの場合も著者が作成または編集したものである。 すべてのファイルは可能なかざり資料元を記して	いる。", 
 	FootN2: "例文はCC-BYのクリエイティブ・コモンズ・ライセンスを得た「たとえばコーパス」による。",
 	//Site Copyright
-	CCText1: '&copy; G. Perilli', 
+	CRText1: '&copy; G. Perilli', 
 	
 	//Text for image source attribution in modal
-	CCText1b: "[JPN]This work is licensed under a", 
-	CCText1c: "[JPN]This is a derivative work. Attribution is provided for each individual component. This work is licensed under a", 
-	CCText1d: 'This is an original work. &copy; G. Perilli', 
-	CCText1e: 'This is a derivative work. &copy; G. Perilli', 
+	
+	CRTextWI0: '[JPN]This is a derivative work. Attribution is provided for each individual component. &copy; G. Perilli', 
+	CRTextWIO: 'This is an original work. &copy; G. Perilli', 
+	CRTextWID: 'This is a derivative work. &copy; G. Perilli', 
 	},
 }
 
@@ -591,23 +591,8 @@ function HdrFtrTxt(L1) {
 	document.getElementById('Footer1').innerHTML = UItext[L1]["FootN1"];
 	document.getElementById('Footer2').innerHTML = UItext[L1]["FootN2"];
 
-	document.getElementById('CCContp').innerHTML = UItext[L1]["CCText1"];
+	document.getElementById('CRCont').innerHTML = UItext[L1]["CRText1"];
 	
-	//document.getElementById('CCContTap').innerHTML = UItext[L1]["CCText2"];
-	if (L1 == "JPN") {
-		//document.getElementById('CCContp2').innerHTML = UItext.JPN.CCText3;
-		//document.getElementById('CCContp2').style.display = "inline-block";
-	} else {
-		//document.getElementById('CCContp2').style.display = "none";
-	}
-	//document.getElementById('CCContTa').href = UItext[L1]["CChref"];
-	
-	//Modal text
-	//document.getElementById('CCContpModal').innerHTML = UItext[L1]["CCText1b"];
-	//document.getElementById('CCContTapModal').innerHTML = UItext[L1]["CCText2"];
-	//document.getElementById('CCContTaModal').href = UItext[L1]["CChref"];
-	//document.getElementById('CCContIa').href = UItext[L1]["CChref"];
-	//document.getElementById('CCConti').src = UItext[L1]["CCImagesrc"];
 }
 
 
