@@ -250,7 +250,7 @@ ColumnAHead = `
 	
 `;
 
-ShareAdr = 'https://gperilli.github.io/mono/';
+ShareAdr = 'https://gperilli.github.io/mono/index.html';
 
 ShareHeadA = `
 <div class="sharelikeA">
