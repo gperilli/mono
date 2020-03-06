@@ -74,13 +74,14 @@ a.ClTAct {
 	margin-top: 8px; 
 	background-color: blue; 
 	border-radius: 5px; 
-	padding-left: 10px; 
-	padding-right: 10px; 
-	padding-top: 3px; 
-	padding-bottom: 3px; 
+	padding-left: 20px; 
+	padding-right: 20px; 
+	padding-top: 10px; 
+	padding-bottom: 10px; 
 	font-size: 18px; 
 	color: white; 
 	text-decoration: none;
+	font-weight: bold;
 }
 
 
@@ -118,7 +119,7 @@ a.ClTAct {
 	width: 50%;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	margin-bottom: 15px;
 	background-color: #fff;
@@ -178,7 +179,7 @@ width: 100%;
 margin-top: 0px; 
 border-bottom: 1px solid #808008; 
 border-top: 1px solid #808008;
-margin-bottom: 10px;
+
 
 }
 
@@ -213,48 +214,61 @@ display: block;
   -ms-transform: rotate(3deg); /* IE 9 */
   -webkit-transform: rotate(3deg); /* Safari 3-8 */
   transform: rotate(3deg);
+  left: 30%;
+  top: 0%;
 }
 
 .Rtn03 {
   -ms-transform: rotate(-3deg); /* IE 9 */
   -webkit-transform: rotate(-3deg); /* Safari 3-8 */
   transform: rotate(-3deg);
+  right: 30%;
+  top: 0%;
 }
 
 .Rt04 {
   -ms-transform: rotate(4deg); /* IE 9 */
   -webkit-transform: rotate(4deg); /* Safari 3-8 */
   transform: rotate(4deg);
+  right: 15%;
+  top: 0%;
 }
 
 .Rtn04 {
   -ms-transform: rotate(-4deg); /* IE 9 */
   -webkit-transform: rotate(-4deg); /* Safari 3-8 */
   transform: rotate(-4deg);
+  left: 15%;
+  top: 0%;
 }
 
 .Rt05 {
   -ms-transform: rotate(5deg); /* IE 9 */
   -webkit-transform: rotate(5deg); /* Safari 3-8 */
-  transform: rotate(5deg);
+  transform: rotate(1deg);
+  right: 10%;
+  top: 0%;
 }
 
 .Rtn05 {
   -ms-transform: rotate(-5deg); /* IE 9 */
   -webkit-transform: rotate(-5deg); /* Safari 3-8 */
   transform: rotate(-5deg);
+  left: 10%;
 }
 
 .Rt06 {
   -ms-transform: rotate(6deg); /* IE 9 */
   -webkit-transform: rotate(6deg); /* Safari 3-8 */
   transform: rotate(6deg);
+  right: 5%;
 }
 
 .Rtn06 {
   -ms-transform: rotate(-6deg); /* IE 9 */
   -webkit-transform: rotate(-6deg); /* Safari 3-8 */
   transform: rotate(-6deg);
+  left: 5%;
 }
 
 .Shdw {
@@ -274,6 +288,7 @@ margin-left: 0px;
 .colL2In {
 margin-left: 0px;
 margin-right: 0px;
+padding-top: 20px;
 border-bottom: 1px solid #808008; 
 border-top: 1px solid #808008;
 }
@@ -319,7 +334,7 @@ width: 100%; padding-top: 5px;
 
 
 
-<body onload="landerpage()" id="bodyid">
+<body onload="landerpage()" id="bodyid" style="">
 
 	<div id="TemplateContainer" align=center style="width: 100%;">
 	<!-- JS Template  Goes Here -->
@@ -335,8 +350,8 @@ width: 100%; padding-top: 5px;
 var ShareAdr = 'https://gperilli.github.io/mono/';
 </script>
 
-<script src="js/monost-sitewide.js"></script>
 <script src="js/monost-lander-core.js"></script>
+<script src="js/monost-sitewide.js"></script>
 <script src="js/monost-post-templates.js"></script>
 
 
