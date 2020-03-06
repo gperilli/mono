@@ -1,3 +1,24 @@
+//Set post object data
+function setposter(pIdX) {
+	
+	//DsppId = pIdX; 
+	
+	for(var i = 0; i < 9; ++i) {
+	pIdX[i]["imgfile"] = "p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
+	pIdX[i]["AudENGWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
+	pIdX[i]["AudENGEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
+	pIdX[i]["AudENGEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
+	pIdX[i]["AudENGEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
+	pIdX[i]["AudITAWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
+	pIdX[i]["AudITAEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
+	pIdX[i]["AudITAEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
+	pIdX[i]["AudITAEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
+	pIdX[i]["AudJPNWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
+	pIdX[i]["AudJPNEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
+	pIdX[i]["AudJPNEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
+	pIdX[i]["AudJPNEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
+	}
+}
 
 //Generate 8 Btns
 function AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead) {
@@ -229,6 +250,8 @@ ColumnAHead = `
 	
 `;
 
+ShareAdr = 'https://gperilli.github.io/mono/';
+
 ShareHeadA = `
 <div class="sharelikeA">
 <p id="menu-shareA"></p>
@@ -348,14 +371,7 @@ AttrTemp = `
     <br><br>
   <div id="CCCont" style="display: inline;">
     <p id="CCContp" style="display: inline;"></p>
-    <a id="CCContTa" rel="license" style="display: inline;"><p id="CCContTap" style="display: inline; color: blue;"></p></a>
-    <p id="CCContp2" style="display: inline;"></p>
-    <br/>
-    <div>
-      <a rel="license" id="CCContIa">
-        <img id="CCConti">
-      </a>
-    </div>
+    
   </div>
 </div>
 </section>
@@ -374,7 +390,7 @@ AttrTemp = `
 
         <img class="modal-content" id="srcimg" style="" src="">
 		<div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
-			<p style="display: inline;">Source image. This work is <span id="imgsrccr"></span>:</p>
+			<p style="display: inline;">Source image. This work is public domain.</p>
 			<a id="ImgAttrLnkCnt" target="_blank" class="ImgAttrLnk" href="" style="display: inline;"></a>
 		</div>
 
@@ -385,8 +401,9 @@ AttrTemp = `
         <img class="modal-content wht" id="modalimg">
         <div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
           <p style="display: inline;">By G. Perilli.</p>
-          <p id="CCContpModal" style="display: inline;"></p>
-          <a id="CCContTaModal" target="_blank"  rel="license" style="display: inline;"><p id="CCContTapModal" style="display: inline; color: blue;"></p></a>
+          
+		  <p id="CCContpModal" style="display: inline;"></p>
+        
         </div>
 
       </div>
@@ -472,7 +489,7 @@ linkdata = {
 UItext = {
 ENG: {lang: "ENG", 
 	//Lander text
-	LSel: "Language Select", MonoTxt: "Mono", LndrVsl1Txt: "- 15 SVG image sets and counting", LndrVsl2Txt: "- simple clickable annotations", LndrVsl3Txt: "- parts of speech, audio playback, dictionary links, and word categories for all word items", CTA: "See The Gallery",
+	LSel: "Language Select", MonoTxt: "Features", LndrVsl1Txt: "- 15 SVG image sets and counting", LndrVsl2Txt: "- simple clickable annotations", LndrVsl3Txt: "- parts of speech, audio playback, dictionary links, and word categories for all word items", CTA: "START STUDYING",
 	//Menu text
 	share: "Share", gallery: "Gallery", home: "Home", 
 	//Card Type
@@ -483,21 +500,18 @@ ENG: {lang: "ENG",
 	FootN1: "Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source:", 
 	FootN2: "Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
 	//Site Copyright
-	CCText1: "This work is licensed under a", 
-	CCText2: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License", 
-	CCImagesrc: "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png", 
-	CChref: "http://creativecommons.org/licenses/by-nc-sa/4.0/",
-	CCImagealt: "Creative Commons License", 
+	CCText1: '&copy; G. Perilli', 
+
 	//Text for image source attribution in modal
 	CCText1b: "This work is licensed under a", 
 	CCText1c: "This is a derivative work. Attribution is provided for each individual component. This work is licensed under a", 
-	CCText1d: "This is an original work licensed under a", 
-	CCText1e: "This is a derivative work licensed under a",  
+	CCText1d: 'This is an original work. &copy; G. Perilli', 
+	CCText1e: 'This is a derivative work. &copy; G. Perilli',  
 	},
 
 ITA: {lang: "ITA", 
 	//Lander text
-	LSel: "Selezione Lingua", MonoTxt: "Mono", LndrVsl1Txt: "- 15 gruppi di imagini SVG", LndrVsl2Txt: "- annotazione semplice cliccabile", LndrVsl3Txt: "- parte del discorso, riproduzione audio, collegamenti ai dizionari, categorie di parole", CTA: "Vedi La Galleria",
+	LSel: "Selezione Lingua", MonoTxt: "Caratteristiche", LndrVsl1Txt: "- 15 gruppi di imagini SVG", LndrVsl2Txt: "- annotazione semplice cliccabile", LndrVsl3Txt: "- parte del discorso, riproduzione audio, collegamenti ai dizionari, categorie di parole", CTA: "Comincia a Studiare",
 	//Menu text
 	share: "Condividi", gallery: "Galleria", home: "Home", 
 	//Card Type
@@ -508,21 +522,18 @@ ITA: {lang: "ITA",
 	FootN1: "[ITA]Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source:", 
 	FootN2: "[ITA]Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
 	//Site Copyright
-	CCText1: "Quest'opera è distribuita con Licenza", 
-	CCText2: "Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 3.0 Italia",
-	CCImagesrc: "https://i.creativecommons.org/l/by-nc-sa/3.0/it/88x31.png", 
-	CChref: "http://creativecommons.org/licenses/by-nc-sa/3.0/it/", 
-	CCImagealt: "Licenza Creative Commons", 
+	CCText1: '&copy; G. Perilli', 
+	 
 	//Text for image source attribution in modal
 	CCText1b: "[ITA]This work is licensed under a", 
 	CCText1c: "[ITA]This is a derivative work. Attribution is provided for each individual component. This work is licensed under a", 
-	CCText1d: "[ITA]This is an original work licensed under a", 
-	CCText1e: "[ITA]This is a derivative work licensed under a", 
+	CCText1d: 'This is an original work. &copy; G. Perilli', 
+	CCText1e: 'This is a derivative work. &copy; G. Perilli', 
 	},
 
 JPN: {lang: "JPN", 
 	//Lander text
-	LSel: "言語選択", MonoTxt: "モノ", LndrVsl1Txt: "- 15の画像セット", LndrVsl2Txt: "- シンプルな注釈、クリック可能", LndrVsl3Txt: "- 品詞, オーディオ再生, 辞書リンク, 言葉のカテゴリー", CTA: "ギャラリーを見る",
+	LSel: "言語選択", MonoTxt: "機能", LndrVsl1Txt: "- 15の画像セット", LndrVsl2Txt: "- シンプルな注釈、クリック可能", LndrVsl3Txt: "- 品詞, オーディオ再生, 辞書リンク, 言葉のカテゴリー", CTA: "勉強を始める",
 	//Menu text
 	share: "シェア", gallery: "ギャラリー", home: "ホーム",
 	//Card Type
@@ -533,17 +544,13 @@ JPN: {lang: "JPN",
 	FootN1: "デザイン・コーディングはG.ペリーリによる。画像データはオリジナルかパブリック・ドメインのもので、どちらの場合も著者が作成または編集したものである。 すべてのファイルは可能なかざり資料元を記して	いる。", 
 	FootN2: "例文はCC-BYのクリエイティブ・コモンズ・ライセンスを得た「たとえばコーパス」による。",
 	//Site Copyright
-	CCText1: "この作品は", 
-	CCText2: "クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス",  
-	CCText3: "の下に提供されています。", 
-	CCImagesrc: "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png", 
-	CChref: "http://creativecommons.org/licenses/by-nc-sa/4.0/", 
-	CCImagealt: "Creative Commons License",
+	CCText1: '&copy; G. Perilli', 
+	
 	//Text for image source attribution in modal
 	CCText1b: "[JPN]This work is licensed under a", 
 	CCText1c: "[JPN]This is a derivative work. Attribution is provided for each individual component. This work is licensed under a", 
-	CCText1d: "[JPN]This is an original work licensed under a", 
-	CCText1e: "[JPN]This is a derivative work licensed under a", 
+	CCText1d: 'This is an original work. &copy; G. Perilli', 
+	CCText1e: 'This is a derivative work. &copy; G. Perilli', 
 	},
 }
 
@@ -585,20 +592,22 @@ function HdrFtrTxt(L1) {
 	document.getElementById('Footer2').innerHTML = UItext[L1]["FootN2"];
 
 	document.getElementById('CCContp').innerHTML = UItext[L1]["CCText1"];
-	document.getElementById('CCContTap').innerHTML = UItext[L1]["CCText2"];
+	
+	//document.getElementById('CCContTap').innerHTML = UItext[L1]["CCText2"];
 	if (L1 == "JPN") {
-		document.getElementById('CCContp2').innerHTML = UItext.JPN.CCText3;
-		document.getElementById('CCContp2').style.display = "inline-block";
+		//document.getElementById('CCContp2').innerHTML = UItext.JPN.CCText3;
+		//document.getElementById('CCContp2').style.display = "inline-block";
 	} else {
-		document.getElementById('CCContp2').style.display = "none";
+		//document.getElementById('CCContp2').style.display = "none";
 	}
-	document.getElementById('CCContTa').href = UItext[L1]["CChref"];
+	//document.getElementById('CCContTa').href = UItext[L1]["CChref"];
+	
 	//Modal text
-	document.getElementById('CCContpModal').innerHTML = UItext[L1]["CCText1b"];
-	document.getElementById('CCContTapModal').innerHTML = UItext[L1]["CCText2"];
-	document.getElementById('CCContTaModal').href = UItext[L1]["CChref"];
-	document.getElementById('CCContIa').href = UItext[L1]["CChref"];
-	document.getElementById('CCConti').src = UItext[L1]["CCImagesrc"];
+	//document.getElementById('CCContpModal').innerHTML = UItext[L1]["CCText1b"];
+	//document.getElementById('CCContTapModal').innerHTML = UItext[L1]["CCText2"];
+	//document.getElementById('CCContTaModal').href = UItext[L1]["CChref"];
+	//document.getElementById('CCContIa').href = UItext[L1]["CChref"];
+	//document.getElementById('CCConti').src = UItext[L1]["CCImagesrc"];
 }
 
 
