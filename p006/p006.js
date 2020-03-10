@@ -3,25 +3,14 @@ var p006 = {
 
 No: "006",
 Date: "10/03/2018",
-
-ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
+
 0: {imgfile: "",
-	imgattrurl: "", //unused
-	imgsrc: "deriv",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-
-	BtnContPosLeft: "0%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "-5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "0%",
-
 	//Word Item
 	WI: {ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	WIr: {ENG: "/ˈkɪʧɪn/", ITA: "/kuˈtʃina/", JPN: "daidokoro", JPNRu: "<ruby>台所<rt>だいどころ</rt></ruby>",},
@@ -32,13 +21,12 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-
 	//Examples
 	EX1: {ENG: 'Mother is cooking in the <span class="wihlight">kitchen</span>.', ITA: 'La mamma sta cucinando in <span class="wihlight">cucina</span>.', JPN: '母は現在<span class="wihlight">台所</span>で料理をしています。',},
 	EX2: {ENG: 'At the end of the corridor there is the bathroom and the <span class="wihlight">kitchen</span>.', ITA: 'In fondo al corridoio c&#39;è il bagno e la <span class="wihlight">cucina</span>.', JPN: '廊下の突き当りにお手洗いと<span class="wihlight">台所</span>があります。',},
 	EX3: {ENG: 'The <span class="wihlight">kitchen</span> was very big.', ITA: 'La <span class="wihlight">cucina</span> era molto grande.', JPN: '<span class="wihlight">台所</span>はとても大きかった。',},
     	
-    	//Tatoeba Srcs
+    //Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1232200", ITA: "https://tatoeba.org/eng/sentences/show/1309984", JPN: "https://tatoeba.org/eng/sentences/show/3069743",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -70,23 +58,15 @@ AnnotType: "Annot",
 
 
 1: {imgfile: "p009/monop009-wi1.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
-	dirmode: "right",
-	LnContPosLeft: "3%",
-	LnContPosTop: "17%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "50%",
-	LnPosY2: "65%",
+	LnContPosLeft: "3%", LnContPosTop: "17%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "50%", LnPosY2: "65%",
 
 	WI: {ENG: "towel", ITA: "asciugamano", JPN: "タオル",},
 	WIr: {ENG: "/ˈtaʊəl/", ITA: "/aʃʃuɡaˈmano/", JPN: "taoru", JPNRu: "<ruby>タオル<rt>たおる</rt></ruby>",},
@@ -103,7 +83,6 @@ AnnotType: "Annot",
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-
 
     engLhyph: "towel", engLperc: "towel", engLplus: "towel", engForv: "towel/#en",
     itaLhyph: "asciugamano", itaLplus: "asciugamano", itaForv: "asciugamano/#it",
@@ -130,23 +109,15 @@ AnnotType: "Annot",
 	},
 
 2: {imgfile: "p009/monop009-wi2.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-	dirmode: "right",
-	LnContPosLeft: "42%",
-	LnContPosTop: "0%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "89%",
-	LnPosY2: "26%",
+	LnContPosLeft: "42%", LnContPosTop: "0%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "89%", LnPosY2: "26%",
 
 	WI: {ENG: "cupboard", ITA: "credenza", JPN: "戸棚",},
 	WIr: {ENG: "/ˈkʌbəd/", ITA: "/kreˈdɛntsa/", JPN: "todana", JPNRu: "<ruby>戸棚<rt>とだな</rt></ruby>",},
@@ -189,23 +160,15 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "p009/monop009-wi3.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-	dirmode: "down",
-	LnContPosLeft: "13%",
-	LnContPosTop: "54%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "50%",
-	LnPosY2: "55%",
+	LnContPosLeft: "13%", LnContPosTop: "54%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "50%", LnPosY2: "55%",
 
 	WI: {ENG: "drain", ITA: "scarico", JPN: "排水口",},
 	WIr: {ENG: "/dreɪn/", ITA: "/ˈskariko/", JPN: "haisuikou", JPNRu: "<ruby>排水口<rt>はいすいこう</rt></ruby>",},
@@ -248,23 +211,15 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "p009/monop009-wi4.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
-	dirmode: "up",
-	LnContPosLeft: "27%",
-	LnContPosTop: "17%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "50%",
-	LnPosY2: "65%",
+	LnContPosLeft: "27%", LnContPosTop: "17%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "50%", LnPosY2: "65%",
 
 	WI: {ENG: "tap", ITA: "rubinetto", JPN: "蛇口",},
 	WIr: {ENG: "/tæp/", ITA: "/rubiˈnetto/", JPN: "jaguchi", JPNRu: "<ruby>蛇口<rt>じゃぐち</rt></ruby>",},
@@ -307,27 +262,18 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "p009/monop009-wi5.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-	dirmode: "downleft",
-	LnContPosLeft: "51%",
-	LnContPosTop: "22%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "0%",
-	LnPosX1: "25%",
-	LnPosY1: "25%",
-	LnPosX2: "55%",
-	LnPosY2: "55%",
+	LnContPosLeft: "51%", LnContPosTop: "22%",
+	BtnPosLeft: "0%", BtnPosTop: "0%",
+	LnPosX1: "25%", LnPosY1: "25%",
+	LnPosX2: "55%", LnPosY2: "55%",
 
 	WI: {ENG: "dish washing liquid", ITA: "detersivo per i piatti", JPN: "洗剤",},
 	WIr: {ENG: "/dɪʃ ˈwɒʃɪŋ ˈlɪkwɪd/", ITA: "/deterˈsivo per i ˈpjatti/", JPN: "senzai", JPNRu: "<ruby>洗剤<rt>せんざい</rt></ruby>",},
-
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -368,23 +314,15 @@ AnnotType: "Annot",
 	},
 
 6: {imgfile: "p009/monop009-wi6.svg",
-	imgsrc: "deriv",
-	imgsrccr: "CC BY 4.0",
-	imgattrsrcfle: "p009/imgsrcs/p009-wi6-src.png",
-	imgattrsite: "svgrepo.com",
-	imgattrurl: "https://www.svgrepo.com/show/183800/sponge.svg",
+	imgsrc: "deriv", imgattrsrcfle: "p009/imgsrcs/p009-wi6-src.png",
+	imgattrsite: "svgrepo.com", imgattrurl: "https://www.svgrepo.com/show/183800/sponge.svg",
 	
 	imgbckg: "wht",
 
-	dirmode: "up",
-	LnContPosLeft: "70%",
-	LnContPosTop: "48%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "6%",
-	LnPosX1: "75%",
-	LnPosY1: "50%",
-	LnPosX2: "35%",
-	LnPosY2: "50%",
+	LnContPosLeft: "70%", LnContPosTop: "48%",
+	BtnPosLeft: "9%", BtnPosTop: "6%",
+	LnPosX1: "75%", LnPosY1: "50%",
+	LnPosX2: "35%", LnPosY2: "50%",
 
 	WI: {ENG: "sponge", ITA: "spugna", JPN: "スポンジ",},
 	WIr: {ENG: "/spʌnʤ/", ITA: "/ˈspuɲɲa/", JPN: "suponji", JPNRu: "<ruby>スポンジ<rt>すぽんじ</rt></ruby>",},
@@ -429,25 +367,17 @@ AnnotType: "Annot",
 
 
 7: {imgfile: "p009/monop009-wi7.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-	dirmode: "down",
-	LnContPosLeft: "70%",
-	LnContPosTop: "48%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "6%",
-	LnPosX1: "75%",
-	LnPosY1: "50%",
-	LnPosX2: "35%",
-	LnPosY2: "50%",
+	LnContPosLeft: "70%", LnContPosTop: "48%",
+	BtnPosLeft: "9%", BtnPosTop: "6%",
+	LnPosX1: "75%", LnPosY1: "50%",
+	LnPosX2: "35%", LnPosY2: "50%",
 
-	 WI: {ENG: "sink", ITA: "lavandino della cucina", JPN: "流し",},
+	WI: {ENG: "sink", ITA: "lavandino della cucina", JPN: "流し",},
 	WIr: {ENG: "/sɪŋk/", ITA: "/lavanˈdino/", JPN: "nagashi", JPNRu: "<ruby>流し<rt>ながし</rt></ruby>",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
@@ -489,23 +419,15 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "p009/monop009-wi8.svg",
-	imgsrc: "original",
-	imgsrccr: "",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-	dirmode: "up",
-	LnContPosLeft: "77%",
-	LnContPosTop: "17%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "45%",
-	LnPosY2: "55%",
+	LnContPosLeft: "77%", LnContPosTop: "17%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%",
+	LnPosX2: "45%", LnPosY2: "55%",
 
 	WI: {ENG: "microwave", ITA: "forno a microonde", JPN: "電子レンジ",},
 	WIr: {ENG: "/ˈmaɪkrəʊweɪv/", ITA: "/ˈforno a mikroˈonda/", JPN: "denshirenji", JPNRu: "<ruby>電子レンジ<rt>でんしれんじ</rt></ruby>",},
@@ -548,5 +470,3 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 };
-
-//var p00X = 008;
