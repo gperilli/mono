@@ -3,26 +3,13 @@ var p004 = {
 
 No: "004",
 Date: "24/01/2020",
-
-ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
+
 0: {imgfile: "",
-	imgattrurl: "", //unused
-	imgsrc: "deriv",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "wht",	
-
-	BtnContPosLeft: "82%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "7%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit2",
 
 	//Word Item
 	WI: {ENG: "countryside", ITA: "campagna", JPN: "田舎",},
@@ -33,12 +20,6 @@ AnnotType: "Annot",
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "scenery", ITA: "paesaggio", JPN: "景色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	
-	BtnContPosLeft: "0%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "-5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "0%",
 
 	//Examples
 	EX1: {ENG: 'I live in the <span class="wihlight">country<span>.', ITA: 'Abito in <span class="wihlight">campagna</span>.', JPN: '<span class="wihlight">田舎</span>に住んでいます。',},
@@ -76,23 +57,15 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p004/imgsrcs/p004-wi1-src.png",
-	imgattrsite: "commons.wikimedia.org",
-	imgattrurl: "https://commons.wikimedia.org/wiki/File:Airplane_silhouette_S.png",
+	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi1-src.png",
+	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Airplane_silhouette_S.png",
 	
 	imgbckg: "wht",	
 
-	dirmode: "downleft",
-	LnContPosLeft: "0%",
-	LnContPosTop: "3%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "46%",
-	LnPosY2: "53%",
+	LnContPosLeft: "0%", LnContPosTop: "3%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%", 
+	LnPosX2: "46%", LnPosY2: "53%",
 
 	WI: {ENG: "airplane", ITA: "aeroplano", JPN: "飛行機",},
 	WIr: {ENG: "/ˈɛərpleɪn/", ITA: "/aeroˈplano/", JPN: "hikouki", JPNRu: "<ruby>飛行機<rt>ひこうき</rt></ruby>",},
@@ -134,23 +107,15 @@ AnnotType: "Annot",
 	},
 
 2: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-
-	dirmode: "downright",
-	LnContPosLeft: "17%",
-	LnContPosTop: "27%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "0%",
-	LnPosX1: "25%",
-	LnPosY1: "25%",
-	LnPosX2: "55%",
-	LnPosY2: "55%",
+	LnContPosLeft: "17%", LnContPosTop: "27%",
+	BtnPosLeft: "0%", BtnPosTop: "0%",
+	LnPosX1: "25%", LnPosY1: "25%",
+	LnPosX2: "55%", LnPosY2: "55%",
 
 	WI: {ENG: "mountain", ITA: "montagna", JPN: "山",},
 	WIr: {ENG: "/ˈmaʊntən/", ITA: "/monˈtaɲɲa/", JPN: "yama", JPNRu: "<ruby>山<rt>やま</rt></ruby>",},
@@ -192,13 +157,10 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
-
 
 	dirmode: "down",
 	LnContPosLeft: "2%",
@@ -250,27 +212,19 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "blk",
 
-
 	dirmode: "left",
-	LnContPosLeft: "28%",
-	LnContPosTop: "43%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "45%",
-	LnPosY2: "55%",
+	LnContPosLeft: "28%", LnContPosTop: "43%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%",
+	LnPosX2: "45%", LnPosY2: "55%",
 
 	WI: {ENG: "forest", ITA: "foresta", JPN: "森",},
 	WIr: {ENG: "/ˈfɒrɪst/", ITA: "/foˈrɛsta/", JPN: "mori", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
-
 
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "scenery", ITA: "paesaggio", JPN: "景色景",},
@@ -309,23 +263,16 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p004/imgsrcs/p004-wi5-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/detail/194019/tractor",
+	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi5-src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/194019/tractor",
 	
 	imgbckg: "wht",
 
 	dirmode: "upright",
-	LnContPosLeft: "33%",
-	LnContPosTop: "62%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "12%",
-	LnPosX1: "25%",
-	LnPosY1: "75%",
-	LnPosX2: "55%",
-	LnPosY2: "45%",
+	LnContPosLeft: "33%", LnContPosTop: "62%",
+	BtnPosLeft: "0%", BtnPosTop: "12%",
+	LnPosX1: "25%", LnPosY1: "75%",
+	LnPosX2: "55%", LnPosY2: "45%",
 
 	WI: {ENG: "tractor", ITA: "trattore", JPN: "トラクター",},
 	WIr: {ENG: "/ˈtræktə/", ITA: "/tratˈtore/", JPN: "seki", JPNRu: "<ruby>トラクター<rt>とらくたー</rt></ruby>",},
@@ -369,15 +316,11 @@ AnnotType: "Annot",
 
 
 6: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p004/imgsrcs/p004-wi6-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/282339/OldifluffWindTurbine.png",
+	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi6-src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/282339/OldifluffWindTurbine.png",
 	
 	imgbckg: "blk",
 
-	dirmode: "down",
 	LnContPosLeft: "55%",
 	LnContPosTop: "45%",
 	BtnPosLeft: "4.5%",
@@ -427,15 +370,11 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p004/imgsrcs/p004-wi7-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/264659/Hot-Air-Balloon-Silhouette.png",
+	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi7-src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/264659/Hot-Air-Balloon-Silhouette.png",
 	
 	imgbckg: "wht",
 
-	dirmode: "downleft",
 	LnContPosLeft: "69%",
 	LnContPosTop: "9%",
 	BtnPosLeft: "0%",
@@ -461,7 +400,6 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/967723", ITA: "", JPN: "https://tatoeba.org/eng/sentences/show/2242463",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-
     engLhyph: "hot-air-balloon", engLperc: "hot%20air%20balloon", engLplus: "hot+air+balloon", engForv: "hot_air_balloon/#en",
     itaLhyph: "mongolfiera", itaLplus: "mongolfiera", itaForv: "mongolfiera/#it",
     jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
@@ -486,15 +424,11 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p004/imgsrcs/p004-wi8-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/detail/194019/tractor",
+	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi8-src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/194019/tractor",
 		
 	imgbckg: "wht",
 
-	dirmode: "down",
 	LnContPosLeft: "46%",
 	LnContPosTop: "71%",
 	BtnPosLeft: "0%",
@@ -547,5 +481,3 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 };
-
-//var p00X = p002;
