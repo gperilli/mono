@@ -22,19 +22,19 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'Planets move around a fixed star.', ITA: 'I pianeti ruotano attorno ad una stella fissa.', JPN: '惑星は恒星の周りを回る。',},
+	EX2: {ENG: 'I live on this planet.', ITA: 'Vivo su questo pianeta.', JPN: '私はこの惑星に住んでいる。',},
+	EX3: {ENG: 'The Earth, Mars and Jupiter are planets.', ITA: 'La Terra, Marte e Giove sono pianeti.', JPN: '地球や火星、木星は惑星である。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/403055", ITA: "https://tatoeba.org/ita/sentences/show/638552", JPN: "https://tatoeba.org/jpn/sentences/show/642385",},
-	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/18189", ITA: "https://tatoeba.org/ita/sentences/show/702836", JPN: "https://tatoeba.org/jpn/sentences/show/179332",},
-    
+	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/326588", ITA: "https://tatoeba.org/eng/sentences/show/1616478", JPN: "https://tatoeba.org/eng/sentences/show/77131",},
+	TatSrcEx2: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/2693531", ITA: "https://tatoeba.org/eng/sentences/show/3008221", JPN: "https://tatoeba.org/eng/sentences/show/2684280",},	
+	TatSrcEx3: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/277147", ITA: "https://tatoeba.org/eng/sentences/show/2211771", JPN: "https://tatoeba.org/eng/sentences/show/126943",},
+	
 	// Dictionary search suffixes
     engLhyph: "planet", engLperc: "planet", engLplus: "planet", engForv: "planet/#en",
     itaLhyph: "pianeta", itaLplus: "pianeta", itaForv: "pianeta/#it",
-    jpnLpercen: "%E6%83%91%E6%98%9F", jpnLgoo: "60382/meaning/m1u/", jpnForv: "惑星/#ja",
+    jpnLpercen: "%E6%83%91%E6%98%9F", jpnLgoo: "237937/meaning/m1u/", jpnForv: "惑星/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
