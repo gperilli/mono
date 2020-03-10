@@ -3,15 +3,9 @@ var p001 = {
 
 No: "001",
 Date: "18/08/2018",
-
-ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
-0: {imgfile: "",
-	imgattrurl: "", //unused
-	imgsrc: "deriv",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+
+0: {imgfile: "", imgsrc: "deriv", imgattrsrcfle: "", imgattrsite: "", imgattrurl: "", 	
 	
 	imgbckg: "wht",	
 	
@@ -25,17 +19,6 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "places", ITA: "posti", JPN: "場所",},
 	
-	
-	
-	BtnContPosLeft: "0%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "-5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "0%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit1",
-
 	//Examples
 	EX1: {ENG: 'I&#39;m going to go to the <span class="wihlight">airport</span>.', ITA: 'Andrò all&#39;<span class="wihlight">aeroporto</span>.',   JPN: '私は<span class="wihlight">空港</span>に行くつもりです。',},
 	EX2: {ENG: 'The <span class="wihlight">airport</span> is over there.', ITA: 'L&#39;<span class="wihlight">aeroporto</span> è laggiù.', JPN: '<span class="wihlight">空港</span>はそこにあります。',},
@@ -71,23 +54,14 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-1: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+1: {imgfile: "", imgsrc: "original", imgattrsrcfle: "", imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
 	dirmode: "downleft",
-	LnContPosLeft: "0%",
-	LnContPosTop: "12%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "46%",
-	LnPosY2: "53%",
+	LnContPosLeft: "0%", LnContPosTop: "12%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%", LnPosX2: "46%", LnPosY2: "53%",
 
 	WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
@@ -100,7 +74,6 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The pilot asks permission to depart from the <span class="wihlight">control tower</span>.', ITA: 'Il pilota chiede alla <span class="wihlight">torre di controllo</span> il permesso per partire.', JPN: 'パイロットは<span class="wihlight">管制塔</span>に出発する許可を求めます。',},
 	EX3: {ENG: 'The pilots asked the <span class="wihlight">control tower</span> to go back to the airport.', ITA: 'I piloti hanno chiesto alla <span class="wihlight">torre di controllo</span> di poter tornare all’aeroporto.', JPN: 'パイロットは、<span class="wihlight">管制塔</span>に空港に戻るように頼んだ。',},
 
-	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "",},
@@ -128,24 +101,16 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-2: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+2: {imgfile: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
-
 	dirmode: "down",
-	LnContPosLeft: "15%",
-	LnContPosTop: "31%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "50%",
-	LnPosY2: "57%",
+	LnContPosLeft: "15%", LnContPosTop: "31%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%", LnPosX2: "50%", LnPosY2: "57%",
 
 	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
@@ -180,7 +145,6 @@ AnnotType: "Annot",
 			JPN: {ENG: "", ITA: "", JPN: "",},
 			},
 
-    //Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
@@ -244,10 +208,8 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
@@ -361,22 +323,16 @@ AnnotType: "Annot",
 
 6: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "CC BY 4.0",
-	imgattrsrcfle: "BWp001/imgsrcs/p001-wi6-src.png",
+	imgattrsrcfle: "p001/monop001wi6src.png",
 	imgattrsite: "commons.wikimedia.org",
 	imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
 	
 	imgbckg: "wht",	
 
 	dirmode: "downright",
-	LnContPosLeft: "57%",
-	LnContPosTop: "45%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "0%",
-	LnPosX1: "25%",
-	LnPosY1: "25%",
-	LnPosX2: "55%",
-	LnPosY2: "55%",
+	LnContPosLeft: "57%", LnContPosTop: "45%",
+	BtnPosLeft: "0%", BtnPosTop: "0%",
+	LnPosX1: "25%", LnPosY1: "25%", LnPosX2: "55%", LnPosY2: "55%",
 
 	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
@@ -419,8 +375,7 @@ AnnotType: "Annot",
 
 7: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "CC BY 4.0",
-	imgattrsrcfle: "BWp001/imgsrcs/p001-wi7-src.png",
+	imgattrsrcfle: "p001/monop001wi7src.png",
 	imgattrsite: "commons.wikimedia.org",
 	imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
 	
@@ -532,4 +487,3 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 };
-//var p00X = p001;
