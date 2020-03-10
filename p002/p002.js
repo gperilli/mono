@@ -3,15 +3,11 @@ var p002 = {
 
 No: "002",
 Date: "21/09/2019",
-
-ShareImg: "graphics/shareimg.png",
 AnnotType: "Annot",
-0: {imgfile: "",
-	imgattrurl: "", //unused
-	imgsrc: "deriv",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+
+0: {imgfile: "", 
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "",  imgattrurl: "", 
 
 	imgbckg: "wht",
 	
@@ -25,16 +21,6 @@ AnnotType: "Annot",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-
-	BtnContPosLeft: "82%",
-	BtnContPosTop: "0%",
-	BtnPosLeft: "5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "7%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit7",
-
 	//Examples
 	EX1: {ENG: 'My <span class="wihlight">body</span> aches all over.', ITA: 'Ho dolori in tutto il <span class="wihlight">corpo</span>.', JPN: '<span class="wihlight">体</span>中が痛い。',},
 	EX2: {ENG: 'He has red spots all over his <span class="wihlight">body</span>. ', ITA: 'Ha dei punti rossi su tutto il <span class="wihlight">corpo</span>. ', JPN: '赤いぶつぶつが<span class="wihlight">体</span>中にできています。',},
@@ -70,25 +56,16 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
  
-1: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+1: {imgfile: "", 
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
 	imgbckg: "wht",
 
-
 	dirmode: "right",
-	LnContPosLeft: "0%",
-	LnContPosTop: "3%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "0%",
-	LnPosX1: "25%",
-	LnPosY1: "25%",
-	LnPosX2: "55%",
-	LnPosY2: "55%",
+	LnContPosLeft: "0%", LnContPosTop: "3%",
+	BtnPosLeft: "0%", BtnPosTop: "0%",
+	LnPosX1: "25%", LnPosY1: "25%", LnPosX2: "55%", LnPosY2: "55%",
 
 	WI: {ENG: "man", ITA: "uomo", JPN: "男",},
 	WIr: {ENG: "/mæn/", ITA: "/ˈwɔmo/", JPN: "otoko", JPNRu: "<ruby>男<rt>おとこ</rt></ruby>",},
@@ -130,24 +107,17 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-2: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi2-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/279283/Female-Body-Silhouette.png",
+2: {imgfile: "", 
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/279283/Female-Body-Silhouette.png",
 	
 	imgbckg: "wht",
 
 	dirmode: "right",
-	LnContPosLeft: "13%",
-	LnContPosTop: "3%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "45%",
-	LnPosY2: "55%",
+	LnContPosLeft: "13%", LnContPosTop: "3%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%",
+	LnPosX2: "45%", LnPosY2: "55%",
 
 	WI: {ENG: "woman", ITA: "donna", JPN: "女",},
 	WIr: {ENG: "/ˈwʊm·ən/", ITA: "/ˈdɔnna/", JPN: "onna", JPNRu: "<ruby>女<rt>おんな</rt></ruby>",},
@@ -191,8 +161,7 @@ AnnotType: "Annot",
 
 3: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
+	imgattrsrcfle: "p002/monop002wi1src.png",
 	imgattrsite: "openclipart.org",
 	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 		
@@ -250,8 +219,7 @@ AnnotType: "Annot",
 
 4: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
+	imgattrsrcfle: "p002/monop002wi1src.png",
 	imgattrsite: "openclipart.org",
 	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 		
@@ -310,8 +278,7 @@ AnnotType: "Annot",
 
 5: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
+	imgattrsrcfle: "p002/monop002wi1src.png",
 	imgattrsite: "openclipart.org",
 	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
@@ -369,8 +336,7 @@ AnnotType: "Annot",
 
 6: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
+	imgattrsrcfle: "p002/monop002wi1src.png",
 	imgattrsite: "openclipart.org",
 	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
@@ -427,8 +393,7 @@ AnnotType: "Annot",
 
 7: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
+	imgattrsrcfle: "p002/monop002wi1src.png",
 	imgattrsite: "openclipart.org",
 	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
@@ -486,8 +451,7 @@ AnnotType: "Annot",
 
 8: {imgfile: "",
 	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p002/imgsrcs/p002-wi1-src.png",
+	imgattrsrcfle: "p002/monop002wi1src.png",
 	imgattrsite: "openclipart.org",
 	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
