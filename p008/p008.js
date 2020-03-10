@@ -13,7 +13,7 @@ AnnotType: "Annot",
 	
 	//Word Item
 	WI: {ENG: "planets", ITA: "pianeti", JPN: "惑星",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/pjaˈneti/", JPN: "wakusei", JPNRu: "<ruby>惑星<rt>わくせい</rt></ruby>",},
+	WIr: {ENG: "/ˈplænɪts/", ITA: "/pjaˈneti/", JPN: "wakusei", JPNRu: "<ruby>惑星<rt>わくせい</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -34,7 +34,7 @@ AnnotType: "Annot",
 	// Dictionary search suffixes
     engLhyph: "planet", engLperc: "planet", engLplus: "planet", engForv: "planet/#en",
     itaLhyph: "pianeta", itaLplus: "pianeta", itaForv: "pianeta/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "惑星/#ja",
+    jpnLpercen: "%E6%83%91%E6%98%9F", jpnLgoo: "60382/meaning/m1u/", jpnForv: "惑星/#ja",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -70,7 +70,7 @@ AnnotType: "Annot",
 	WI: {ENG: "Mercury", ITA: "mercurio", JPN: "水星",},
 	WIr: {ENG: "/ˈmɜːkjʊri/", ITA: "/merˈkurjo/", JPN: "suisei", JPNRu: "<ruby>水星<rt>すいせい</rt></ruby>",},
 
-    semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
+    	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
