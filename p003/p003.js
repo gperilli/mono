@@ -1,20 +1,16 @@
-// p004 data
+
 var p003 = {
 
 No: "003",
 Date: "12/10/2019",
-
-ShareImg: "graphics/shareimg.png",
 AnnotType: "HLight",
+
 0: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-
 	//Word Item
 	WI: {ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	WIr: {ENG: "/fruːt/", ITA: "/ˈfrutta/", JPN: "kudamono", JPNRu: "<ruby>果物<rt>くだもの</rt></ruby>",},
@@ -25,15 +21,6 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	BtnContPosLeft: "0%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "-5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "0%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit1",
-
 	//Examples
 	EX1: {ENG: 'I like <span class="wihlight">fruit</span>.', ITA: 'Mi piace la <span class="wihlight">frutta</span>.', JPN: '<span class="wihlight">果物</span>が好きです。',},
 	EX2: {ENG: 'Lemon is a sour <span class="wihlight">fruit</span>.', ITA: 'Il limone è un <span class="wihlight">frutto</span> acido.', JPN: 'レモンはすっぱい<span class="wihlight">果物</span>だ。',},
@@ -70,14 +57,10 @@ AnnotType: "HLight",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi1-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/20544/rg1024-strawberry.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi1-src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/20544/rg1024-strawberry.png",
 	
 	imgbckg: "wht",
-
 
 	WI: {ENG: "strawberry", ITA: "fragola", JPN: "苺",},
 	WIr: {ENG: "/ˈstrɔː.bər.i/", ITA: "/ˈfraɡola/", JPN: "ichigo", JPNRu: "<ruby>苺<rt>いちご</rt></ruby>",},
@@ -119,14 +102,10 @@ AnnotType: "HLight",
 	},
 
 2: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi2-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/apple-02.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi2-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/apple-02.png",
 	
 	imgbckg: "wht",
-
 
 	WI: {ENG: "apple", ITA: "mela", JPN: "りんご",},
 	WIr: {ENG: "/ˈæp.əl/", ITA: "/ˈmela/", JPN: "ringo", JPNRu: "<ruby>りんご<rt>りんご</rt></ruby>",},
@@ -144,8 +123,6 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/60349", ITA: "https://tatoeba.org/eng/sentences/show/376597", JPN: "https://tatoeba.org/eng/sentences/show/223018",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/29632", ITA: "https://tatoeba.org/eng/sentences/show/380220", JPN: "https://tatoeba.org/eng/sentences/show/192468",},
     
-	
-
     engLhyph: "apple", engLperc: "apple", engLplus: "apple", engForv: "apple/#en",
     itaLhyph: "mela", itaLplus: "mela", itaForv: "mela/#it",
     jpnLpercen: "%e3%82%8a%e3%82%93%e3%81%94", jpnLgoo: "233206/meaning/m1u/", jpnForv: "りんご/#ja",
@@ -163,7 +140,6 @@ AnnotType: "HLight",
 			JPN: {ENG: "", ITA: "女性形", JPN: "",},
 			},
 
-
     //Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
@@ -171,11 +147,8 @@ AnnotType: "HLight",
 	},
 
 3: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi3-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/1451796100.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi3-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/1451796100.png",
 	
 	imgbckg: "wht",
 
@@ -219,11 +192,8 @@ AnnotType: "HLight",
 	},
 
 4: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi4-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/1457235075.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi4-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/1457235075.png",
 	
 	imgbckg: "wht",
 
@@ -267,11 +237,8 @@ AnnotType: "HLight",
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi5-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/Ciliege.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi5-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/Ciliege.png",
 	
 	imgbckg: "wht",
 
@@ -315,11 +282,8 @@ AnnotType: "HLight",
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi6-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/1515286068.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi6-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/1515286068.png",
 	
 	imgbckg: "wht",
 
@@ -362,17 +326,13 @@ AnnotType: "HLight",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi7-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/Gerald_G_Simple_Fruit_(FF_Menu)_15.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi7-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/Gerald_G_Simple_Fruit_(FF_Menu)_15.png",
 	
 	imgbckg: "wht",
 
 	WI: {ENG: "peach", ITA: "pesca", JPN: "桃",},
 	WIr: {ENG: "/ˈpeska/", ITA: "/ˈpeska/", JPN: "momo", JPNRu: "<ruby>桃<rt>もも</rt></ruby>",},
-
 
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
@@ -411,11 +371,8 @@ AnnotType: "HLight",
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p003/imgsrcs/p003-wi8-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/blueberry.png",
+	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi8-src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/blueberry.png",
 	
 	imgbckg: "wht",
 
@@ -561,5 +518,4 @@ AnnotType: "HLight",
 `,
 	
 };
-//var p00X = p001;
 
