@@ -439,9 +439,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: '<span class="wihlight">Neptune</span> is the eight planet of the solar system.', ITA: '<span class="wihlight">Nettuno</span> è il ottavo pianeta del sistema solare.', JPN: '<span class="wihlight">海王星</span>は、太陽系で８番目の惑星。',},
+	EX2: {ENG: '<span class="wihlight">Neptune</span> is the fourth largest planet of the solar system.', ITA: '<span class="wihlight">Nettuno</span> è il quarto pianeta più grande del sistema solare.', JPN: '<span class="wihlight">海王星</span>は、太陽系で4番目に大きな惑星です。',},
+	EX3: {ENG: 'The first observation of <span class="wihlight">Neptune</span> was made in 1612 by Galileo Galilei.', ITA: 'La prima osservazione di <span class="wihlight">Nettuno</span> fu effettuata da Galileo Galilei nel 1612.', JPN: '<span class="wihlight">海王星</span>の最初の観測は、ガリレオガリレイによって1612年に行われました。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
