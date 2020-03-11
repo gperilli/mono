@@ -127,7 +127,7 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '<span class="wihlight">Venus</span> is the second planet of the solar system.', ITA: '<span class="wihlight">Venere</span> è il secondo pianeta del Sistema solare.', JPN: '<span class="wihlight">金星</span>は、太陽系で太陽に近い方から2番目の惑星。',},
+	EX1: {ENG: '<span class="wihlight">Venus</span> is the second planet of the solar system.', ITA: '<span class="wihlight">Venere</span> è il secondo pianeta del Sistema solare.', JPN: '<span class="wihlight">金星</span>は、太陽系で2番目の惑星。',},
 	EX2: {ENG: '<span class="wihlight">Venus</span> has much more carbon dioxide than the Earth.', ITA: '<span class="wihlight">Venere</span> è molto più ricca di anidride carbonica rispetto a la terra.', JPN: '<span class="wihlight">金星</span>は地球よりもはるかに多くの二酸化炭素を持っています。',},
 	EX3: {ENG: '<span class="wihlight">Venus</span> is the most luminous planet in the sky.', ITA: '<span class="wihlight">Venere</span> è il pianeta più luminoso nel cielo.', JPN: '<span class="wihlight">金星</span>は空で最も明るい惑星です。',},
 	
@@ -179,12 +179,12 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'The <span class="wihlight">Earth</span> is the second planet of the solar system.', ITA: 'La <span class="wihlight">Terra</span> è il terzo pianeta del sistema solare.', JPN: '<span class="wihlight">地球</span>は、太陽系で3番目の惑星。',},
+	EX2: {ENG: 'The earth is round.', ITA: 'La Terra è rotonda.', JPN: '地球は丸い。',},
+	EX3: {ENG: 'The Earth formed 4.5 billion years ago.', ITA: 'la Terra si è formata 4,5 miliardi di anni fa.', JPN: '地球は45億年前に形成されました。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/277121", ITA: "https://tatoeba.org/eng/sentences/show/2157930", JPN: "https://tatoeba.org/eng/sentences/show/126969",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
@@ -231,14 +231,14 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: '<span class="wihlight">Mars</span> is the fourth planet of the solar system.', ITA: '<span class="wihlight">Marte</span> è il quarto pianeta del Sistema solare.', JPN: '<span class="wihlight">火星</span>は、太陽系で４番目の惑星。',},
+	EX2: {ENG: '<span class="wihlight">Mars</span> has two moons.', ITA: '<span class="wihlight">Marte</span> ha due lune.', JPN: '<span class="wihlight">火星</span>は二つ衛星がある。',},
+	EX3: {ENG: 'Is there any life on <span class="wihlight">Mars</span>?', ITA: 'C&#39;è vita su <span class="wihlight">Marte</span>?', JPN: '<span class="wihlight">火星</span>に生命はありますか？',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/4412812", ITA: "https://tatoeba.org/eng/sentences/show/5358666", JPN: "https://tatoeba.org/eng/sentences/show/2074253",},
+	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/23793", ITA: "https://tatoeba.org/eng/sentences/show/1807211", JPN: "https://tatoeba.org/eng/sentences/show/186657",},
 
     engLhyph: "Mars", engLperc: "Mars", engLplus: "Mars", engForv: "Mars/#en",
     itaLhyph: "Marte", itaLplus: "Marte", itaForv: "Marte/#it",
@@ -283,12 +283,12 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: '<span class="wihlight">Jupiter</span> is the fifth planet of the solar system.', ITA: '<span class="wihlight">Giove</span> è il quinto pianeta del Sistema solare.', JPN: '<span class="wihlight">火星</span>は、太陽系で５番目の惑星。',},
+	EX2: {ENG: 'Jupiter is the biggest planet of the solar system.', ITA: 'Giove è il pianeta più grande del Sistema solare.', JPN: '木星は太陽系の最大の惑星です。',},
+	EX3: {ENG: 'Jupiter, like Saturn, Uranus, and Neptune is a gas planet.', ITA: 'Giove, come Saturno, Urano e Nettuno, è un pianeta gassoso.', JPN: '木星は、土星、天王星、海王星のようなガス惑星です。',},
 	
 	//Tatoeba Srcs
-	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/251304", ITA: "https://tatoeba.org/ita/sentences/show/836253", JPN: "https://tatoeba.org/jpn/sentences/show/163208",},
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
@@ -335,9 +335,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: '<span class="wihlight">Saturn</span> is the sixth planet of the solar system.', ITA: '<span class="wihlight">Saturno</span> è il sesto pianeta del sistema solare.', JPN: '<span class="wihlight">土星</span>は、太陽系で６番目の惑星。',},
+	EX2: {ENG: '<span class="wihlight">Saturn</span> is the second largest planet after Jupiter in the solar system.', ITA: '<span class="wihlight">Saturno</span> è il secondo pianeta per grandezza dopo Giove nel sistema solare.', JPN: '<span class="wihlight">土星</span>は、太陽系で木星に次いで2番目に大きい惑星です。',},
+	EX3: {ENG: 'The rings of <span class="wihlight">Saturn</span> are made from billions of small objects.', ITA: 'Gli anelli di <span class="wihlight">Saturno</span> sono composti da miliardi di piccoli oggetti.', JPN: '<span class="wihlight">土星</span>の輪は、数十億の小さな物体からできています。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
