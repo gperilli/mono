@@ -76,8 +76,8 @@ AnnotType: "Annot",
 	
 	//Examples
 	EX1: {ENG: 'The planet closet to the sun is <span class="wihlight">Mercury</span>.', ITA: 'Il pianeta più vicino al sole è <span class="wihlight">Mercurio</span>.', JPN: '太陽に一番近い惑星は水星である。',},
-	EX2: {ENG: '<span class="wihlight">Mercury</span> is a rocky planet.', ITA: '<span class="wihlight">Mercurio<span> è un pianeta roccioso.', JPN: '<span class="wihlight">水星</span>は岩だらけの惑星です。',},
-	EX3: {ENG: '<span class="wihlight">Mercury</span> does not have moons.', ITA: '<span class="wihlight">Mercurio<span> non possiede satelliti.', JPN: '<span class="wihlight">水星</span>には月がありません。',},
+	EX2: {ENG: '<span class="wihlight">Mercury</span> is a rocky planet.', ITA: '<span class="wihlight">Mercurio</span> è un pianeta roccioso.', JPN: '<span class="wihlight">水星</span>は岩だらけの惑星です。',},
+	EX3: {ENG: '<span class="wihlight">Mercury</span> does not have moons.', ITA: '<span class="wihlight">Mercurio</span> non possiede satelliti.', JPN: '<span class="wihlight">水星</span>には月がありません。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -180,8 +180,8 @@ AnnotType: "Annot",
 	
 	//Examples
 	EX1: {ENG: 'The <span class="wihlight">Earth</span> is the second planet of the solar system.', ITA: 'La <span class="wihlight">Terra</span> è il terzo pianeta del sistema solare.', JPN: '<span class="wihlight">地球</span>は、太陽系で3番目の惑星。',},
-	EX2: {ENG: 'The earth is round.', ITA: 'La Terra è rotonda.', JPN: '地球は丸い。',},
-	EX3: {ENG: 'The Earth formed 4.5 billion years ago.', ITA: 'la Terra si è formata 4,5 miliardi di anni fa.', JPN: '地球は45億年前に形成されました。',},
+	EX2: {ENG: 'The <span class="wihlight">Earth</span> is round.', ITA: 'La <span class="wihlight">Terra</span> è rotonda.', JPN: '<span class="wihlight">地球</span>は丸い。',},
+	EX3: {ENG: 'The <span class="wihlight">Earth</span> formed 4.5 billion years ago.', ITA: 'la <span class="wihlight">Terra</span> si è formata 4,5 miliardi di anni fa.', JPN: '<span class="wihlight">地球</span>は45億年前に形成されました。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/277121", ITA: "https://tatoeba.org/eng/sentences/show/2157930", JPN: "https://tatoeba.org/eng/sentences/show/126969",},
