@@ -387,9 +387,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: '<span class="wihlight">Uranus</span> is the seventh planet of the solar system.', ITA: '<span class="wihlight">Urano</span> è il settimo pianeta del sistema solare.', JPN: '<span class="wihlight">天皇制</span>は、太陽系で７番目の惑星。',},
+	EX2: {ENG: '<span class="wihlight">Uranus</span> was discovered by acccident in 1781 by William Herschel.', ITA: '<span class="wihlight">Urano</span> venne scoperto casualmente al telescopio da William Herschel, nel 1781', JPN: '<span class="wihlight">天王星</span>は、ウィリアム・ハーシェルによって1781年に事故によって発見されました。',},
+	EX3: {ENG: 'There are many small moons that rotate around <span class="wihlight">Uranus</span>.', ITA: 'Ci sono tante piccole lune che ruotano intorno a <span class="wihlight">Urano</span>.', JPN: '<span class="wihlight">天王星</span>の周りを回転する多くの小さな月があります。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
