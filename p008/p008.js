@@ -284,8 +284,8 @@ AnnotType: "Annot",
 	
 	//Examples
 	EX1: {ENG: '<span class="wihlight">Jupiter</span> is the fifth planet of the solar system.', ITA: '<span class="wihlight">Giove</span> è il quinto pianeta del Sistema solare.', JPN: '<span class="wihlight">火星</span>は、太陽系で５番目の惑星。',},
-	EX2: {ENG: 'Jupiter is the biggest planet of the solar system.', ITA: 'Giove è il pianeta più grande del Sistema solare.', JPN: '木星は太陽系の最大の惑星です。',},
-	EX3: {ENG: 'Jupiter, like Saturn, Uranus, and Neptune is a gas planet.', ITA: 'Giove, come Saturno, Urano e Nettuno, è un pianeta gassoso.', JPN: '木星は、土星、天王星、海王星のようなガス惑星です。',},
+	EX2: {ENG: '<span class="wihlight">Jupiter</span> is the biggest planet of the solar system.', ITA: '<span class="wihlight">Giove</span> è il pianeta più grande del Sistema solare.', JPN: '<span class="wihlight">木星</span>は太陽系の最大の惑星です。',},
+	EX3: {ENG: '<span class="wihlight">Jupiter</span>, like Saturn, Uranus, and Neptune is a gas planet.', ITA: '<span class="wihlight">Giove</span>, come Saturno, Urano e Nettuno, è un pianeta gassoso.', JPN: '<span class="wihlight">木星</span>は、土星、天王星、海王星のようなガス惑星です。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
