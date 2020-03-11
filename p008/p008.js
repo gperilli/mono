@@ -122,14 +122,14 @@ AnnotType: "Annot",
 	WI: {ENG: "Venus", ITA: "Venere", JPN: "金星",},
 	WIr: {ENG: "/ˈviːnəs/", ITA: "/ˈvɛnere/", JPN: "kinsei", JPNRu: "<ruby>金星<rt>きんせい</rt></ruby>",},
 
-    semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
+    	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: '', ITA: '', JPN: '',},
-	EX2: {ENG: '', ITA: '', JPN: '',},
-	EX3: {ENG: '', ITA: '', JPN: '',},
+	EX1: {ENG: 'Venus is the second planet of the solar system.', ITA: 'Venere è il secondo pianeta del Sistema solare.', JPN: '金星は、太陽系で太陽に近い方から2番目の惑星。',},
+	EX2: {ENG: 'Venus has much more carbon dioxide than the Earth.', ITA: 'Venere è molto più ricca di anidride carbonica rispetto a la terra.', JPN: '金星は地球よりもはるかに多くの二酸化炭素を持っています。',},
+	EX3: {ENG: 'Venus is the most luminous planet in the sky.', ITA: 'Venere è il pianeta più luminoso nel cielo.', JPN: '金星は空で最も明るい惑星です。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
