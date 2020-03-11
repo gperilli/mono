@@ -22,9 +22,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
 	//Examples
-	EX1: {ENG: 'Planets move around a fixed star.', ITA: 'I pianeti ruotano attorno ad una stella fissa.', JPN: '惑星は恒星の周りを回る。',},
-	EX2: {ENG: 'I live on this planet.', ITA: 'Vivo su questo pianeta.', JPN: '私はこの惑星に住んでいる。',},
-	EX3: {ENG: 'The Earth, Mars and Jupiter are planets.', ITA: 'La Terra, Marte e Giove sono pianeti.', JPN: '地球や火星、木星は惑星である。',},
+	EX1: {ENG: '<span class="wihlight">Planets</span> move around a fixed star.', ITA: 'I <span class="wihlight">pianeti</span> ruotano attorno ad una stella fissa.', JPN: '<span class="wihlight">惑星</span>は恒星の周りを回る。',},
+	EX2: {ENG: 'I live on this <span class="wihlight">planet</span>.', ITA: 'Vivo su questo <span class="wihlight">pianeta</span>.', JPN: '私はこの<span class="wihlight">惑星</span>に住んでいる。',},
+	EX3: {ENG: 'The Earth, Mars and Jupiter are <span class="wihlight">planets</span>.', ITA: 'La Terra, Marte e Giove sono <span class="wihlight">pianeti</span>.', JPN: '地球や火星、木星は<span class="wihlight">惑星</span>である。',},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/326588", ITA: "https://tatoeba.org/eng/sentences/show/1616478", JPN: "https://tatoeba.org/eng/sentences/show/77131",},
@@ -75,9 +75,9 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'The planet closet to the sun is Mercury.', ITA: 'Il pianeta più vicino al sole è mercurio.', JPN: '太陽に一番近い惑星は水星である。',},
-	EX2: {ENG: 'Mercury is a rocky planet.', ITA: 'Mercurio è un pianeta roccioso.', JPN: '水星は岩だらけの惑星です。',},
-	EX3: {ENG: 'Mercury does not have moons.', ITA: 'Mercurio non possiede satelliti.', JPN: '水銀には月がありません。',},
+	EX1: {ENG: 'The planet closet to the sun is <span class="wihlight">Mercury</span>.', ITA: 'Il pianeta più vicino al sole è <span class="wihlight">Mercurio</span>.', JPN: '太陽に一番近い惑星は水星である。',},
+	EX2: {ENG: '<span class="wihlight">Mercury</span> is a rocky planet.', ITA: '<span class="wihlight">Mercurio<span> è un pianeta roccioso.', JPN: '<span class="wihlight">水星</span>は岩だらけの惑星です。',},
+	EX3: {ENG: '<span class="wihlight">Mercury</span> does not have moons.', ITA: '<span class="wihlight">Mercurio<span> non possiede satelliti.', JPN: '<span class="wihlight">水星</span>には月がありません。',},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
