@@ -311,7 +311,7 @@ function LoadInPstScrpts() {
 		PstArr[i] = pno;
 		//alert(PstArr[i])
 
-		var pnosrc = "p".concat(pno, "/", "p", pno, ".js");
+		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
 
 		//Eg: p00x/p00x.js
 		var scriptX = window.document.createElement("script");
@@ -328,19 +328,19 @@ function LoadInPstScrpts() {
 function setposter(pIdX) {
 	
 	for(var i = 0; i < 9; ++i) {
-	pIdX[i]["imgfile"] = "p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
-	pIdX[i]["AudENGWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
-	pIdX[i]["AudENGEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
-	pIdX[i]["AudENGEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
-	pIdX[i]["AudENGEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
-	pIdX[i]["AudITAWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
-	pIdX[i]["AudITAEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
-	pIdX[i]["AudITAEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
-	pIdX[i]["AudITAEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
-	pIdX[i]["AudJPNWI"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
-	pIdX[i]["AudJPNEx1"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
-	pIdX[i]["AudJPNEx2"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
-	pIdX[i]["AudJPNEx3"] = "p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
+	pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
+	pIdX[i]["AudENGWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
+	pIdX[i]["AudENGEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
+	pIdX[i]["AudENGEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
+	pIdX[i]["AudENGEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
+	pIdX[i]["AudITAWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
+	pIdX[i]["AudITAEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
+	pIdX[i]["AudITAEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
+	pIdX[i]["AudITAEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
+	pIdX[i]["AudJPNWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
+	pIdX[i]["AudJPNEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
+	pIdX[i]["AudJPNEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
+	pIdX[i]["AudJPNEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
 	}
 }
 
@@ -452,7 +452,7 @@ function PImgs() {
 		pno = pindex[flprfx][PstN];
 	}
 	
-	var PNavImg = "p".concat(pno, "/monop", pno, "-wi0.svg");
+	var PNavImg = "posts/p".concat(pno, "/monop", pno, "-wi0.svg");
 	//var PNavImgA = "p".concat(pno, "/monop", pno, "-wi0a.svg");
 	var pId = window["p".concat(pno)];
 	if (pId === undefined) {
