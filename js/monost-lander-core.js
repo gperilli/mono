@@ -228,7 +228,7 @@ function LoadInPstScrpts(LndrPstTtl, LndrStrtPst) {
 			pno = "0".concat(i);
 		}
 
-		var pnosrc = "p".concat(pno, "/", "p", pno, ".js"); //Eg: p00x/p00x.js
+		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js"); //Eg: p00x/p00x.js
 		var scriptX = window.document.createElement("script");
 		window.document.body.appendChild(scriptX);
 		scriptX.src = pnosrc;
@@ -249,7 +249,7 @@ function LoadInPstScrpts(LndrPstTtl, LndrStrtPst) {
 	
 	//Load in Script for P003 for Explainer Visual 1
 	if (LndrStrtPst > 3) {
-		var pnosrc = "p".concat("003", "/", "p", pno, ".js"); //Eg: p00x/p00x.js
+		var pnosrc = "posts/p".concat("003", "/", "p", pno, ".js"); //Eg: p00x/p00x.js
 		var scriptX = window.document.createElement("script");
 		window.document.body.appendChild(scriptX);
 		scriptX.src = pnosrc;
@@ -289,7 +289,7 @@ function CTADspPsts() {
 	setposter(DsppId);
 	Dsppno = DsppId.No;
 	
-	var DspPstImgSrcX = "p".concat(RndPstArr[LdN], "/monop", RndPstArr[LdN], "-wi0.svg");
+	var DspPstImgSrcX = "posts/p".concat(RndPstArr[LdN], "/monop", RndPstArr[LdN], "-wi0.svg");
 	
 	if (DsppId["0"]["imgbckg"] == "blk") {
 		PImgNvBck = "black";
@@ -428,8 +428,8 @@ function MnoExplnr() {
 	//Generate Random post for visual 2 and 3
 	ExplnrAnnotPnoEx();
 	
-	var Vsl1ImgSrc = "p".concat("003", "/monop", "003", "-wi0.svg");
-	var Vsl2ImgSrc = "p".concat(Vsl2ImgSrcPno, "/monop", Vsl2ImgSrcPno, "-wi0.svg");
+	var Vsl1ImgSrc = "posts/p".concat("003", "/monop", "003", "-wi0.svg");
+	var Vsl2ImgSrc = "posts/p".concat(Vsl2ImgSrcPno, "/monop", Vsl2ImgSrcPno, "-wi0.svg");
 	var Vsl3ImgSrc = Vsl2ImgSrc;
 	var Vsl3ImgSrcPno = Vsl2ImgSrcPno;
 	
