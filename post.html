@@ -77,10 +77,10 @@ function GetPostNo() {
 	//testing for rogue/non existent local storage item 
 	if (pno === undefined || pno === null) {
 		pno = "001";
-		var pnosrc = "p".concat(pno, "/", "p", pno, ".js");
+		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
 		pnovar = "p".concat(pno);
 	} else {
-		var pnosrc = "p".concat(pno, "/", "p", pno, ".js");
+		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
 		pnovar = "p".concat(pno);
 	}
 	
