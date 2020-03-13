@@ -1,16 +1,12 @@
 
 
-function pageload() {
+function pageload(pnovar) {
+	
+  pId = window[pnovar];
+  setposter(pId);
+  pno = pId.No; //make sure
 
-  //p00X = window[pnovar];
-  //p00X.SetPost();//Load in repetetive object values
-  setposter(p00X);
-
-  pId = p00X; //(not necessary?)
-  pno = pId.No;
-  //alert(pno);
-  //Prepare Main User Interface Template
-  
+  //Prepare Main User Interface Template  
   MUITempPrp(pno);
   MUITempSet(pId.AnnotType);
   //Prepare Word List Template
