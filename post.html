@@ -56,6 +56,7 @@ var ShareAdr = 'https://gperilli.github.io/mono/';
 
 // load in script element using variable in localStorage
 var pno = localStorage.getItem("PostId");
+
 // Set Title
 document.title = "Mono: #".concat(pno);
 
@@ -65,26 +66,14 @@ document.title = "Mono: #".concat(pno);
 	}
 
 function GetPostNo() {
-	
-	//if (localStorage.getItem("GlType") == "BW") {
-		//flprfx = "BW";
-		//} else {
-		//flprfx = "CLR"; 
-	//	}
-	
-	
-	
+		
 	//testing for rogue/non existent local storage item 
 	if (pno === undefined || pno === null) {
 		pno = "001";
-		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
-		pnovar = "p".concat(pno);
-	} else {
-		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
-		pnovar = "p".concat(pno);
-	}
+	} 
 	
-	//alert(pnosrc);
+	var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
+	pnovar = "p".concat(pno);
 	
 	//Load in JS file from local storage item
 	//Eg: p00x/p00x.js
@@ -94,14 +83,11 @@ function GetPostNo() {
 	
 	//Load in page with delay
 	var myVar;
-	myVar = setTimeout(PageLoadDel, 150);
+	//myVar = setTimeout(PageLoadDel, 150);
+	setTimeout(function() { pageload(pnovar) }, 150);
 
 }
 
-function PageLoadDel() {
-  p00X = window[pnovar];
-  pageload();
-}
 </script>
 
 
