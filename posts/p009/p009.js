@@ -17,9 +17,9 @@ AnnotType: "Annot",
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "places", ITA: "posti", JPN: "場所",},
+	semtag1: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
+	semtag2: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
+	semtag3: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
@@ -70,10 +70,10 @@ AnnotType: "Annot",
 	WI: {ENG: "glass", ITA: "bicchiere", JPN: "コップ",},
 	WIr: {ENG: "/glɑːs/", ITA: "/bikˈkjɛre/", JPN: "kanseitou", JPNRu: "<ruby>コップ<rt>こっぷ</rt></ruby>",},
 
-    semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
-	
+    	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+    
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
 	EX2: {ENG: '', ITA: '', JPN: '',},
@@ -121,9 +121,9 @@ AnnotType: "Annot",
 	WI: {ENG: "bottle", ITA: "bottiglia", JPN: "瓶",},
 	WIr: {ENG: "/ˈbɒtl/", ITA: "/botˈtiʎʎa/", JPN: "chakuriku", JPNRu: "<ruby>瓶<rt>びん</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
@@ -172,9 +172,9 @@ AnnotType: "Annot",
 	WI: {ENG: "cup", ITA: "tazza", JPN: "カップ",},
 	WIr: {ENG: "/kʌp/", ITA: "/ˈtattsa/", JPN: "kappu", JPNRu: "<ruby>カップ<rt>かっぷ</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
@@ -223,9 +223,8 @@ AnnotType: "Annot",
 	WI: {ENG: "teapot", ITA: "teiera", JPN: "ティーポット",},
 	WIr: {ENG: "/ˈtiːˌpɒt/", ITA: "/teˈjɛra/", JPN: "kappu", JPNRu: "<ruby>ティーポット<rt>てぃーぽっと</rt></ruby>",},
 
-
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -276,8 +275,8 @@ AnnotType: "Annot",
 	WI: {ENG: "straw", ITA: "cannuccia", JPN: "ストロー",},
 	WIr: {ENG: "/strɔː/", ITA: "/kanˈnuttʃa/", JPN: "seki", JPNRu: "<ruby>ストロー<rt>すとろー</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag2: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -328,8 +327,8 @@ AnnotType: "Annot",
 	WI: {ENG: "ice", ITA: "ghiaccio", JPN: "氷",},
 	WIr: {ENG: "/aɪs/", ITA: "/ˈɡjattʃo/", JPN: "koori", JPNRu: "<ruby>氷<rt>こおり</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -380,8 +379,8 @@ AnnotType: "Annot",
 	WI: {ENG: "bottle opener", ITA: "apribottiglie", JPN: "栓抜き",},
 	WIr: {ENG: "/ˈbɒtl ˈəʊpnə/", ITA: "/passedˈdʒɛro/", JPN: "sennuki", JPNRu: "<ruby>栓抜き<rt>せんぬき</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
@@ -433,9 +432,9 @@ AnnotType: "Annot",
 	WI: {ENG: "table", ITA: "tavola", JPN: "テーブル",},
 	WIr: {ENG: "/ˈteɪbl/", ITA: "/ˈtavola/", JPN: "teeburu", JPNRu: "<ruby>テーブル<rt>てーぶる</rt></ruby>",},
 
-	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
-	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
-	semtag3: {Dsp: "", ENG: "", ITA: "", JPN: "",},
+	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
 	EX1: {ENG: '', ITA: '', JPN: '',},
