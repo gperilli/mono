@@ -1,5 +1,6 @@
 //Set post object data
 function setposter(pIdX) {
+	alert(pnovar);
 	pIdX = window[pnovar];
 	//DsppId = pIdX; 
 	
