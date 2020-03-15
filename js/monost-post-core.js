@@ -1,9 +1,10 @@
 
 
 function pageload(pnovar) {
-	
+	alert(pnovar);
   pId = window[pnovar];
-  setposter(pnovar);
+    alert(pId.No);
+  setposter(pId, pnovar);
   pno = pId.No; //make sure
 
   //Prepare Main User Interface Template  
@@ -29,7 +30,7 @@ document.getElementById("TemplateContainer").insertAdjacentHTML("beforeend", cen
 
   //Load Annotations
   if (pId.AnnotType == "Annot") {
-	SetAnnotations(pno);
+	SetAnnotations(pId);
   }
   
   L1 = localStorage.getItem("Lang1");
