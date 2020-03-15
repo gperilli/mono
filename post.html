@@ -84,17 +84,24 @@ function GetPostNo() {
 	//Load in page with delay
 	var myVar;
 	//myVar = setTimeout(PageLoadDel, 150);
-	setTimeout(function() { pIdTstr(pnovar) }, 150);
+	setTimeout(function() { pIdTstr(pnovar) }, 250);
 
 }
 
+
 function pIdTstr(pnovar) {
-	pId = window[pnovar];
-	if (pId.No === undefined) {
+	//alert(pnovar)
+	pId = window["p".concat(pno)];
+	
+	if (typeof pId.No === "undefined") { 
+		alert(pId.No);
 		setTimeout(function() { pIdTstr(pnovar) }, 25);
-	} else {
-		pageload(pnovar)
-	}
+	} else { 
+		pageload(pnovar);
+	} 
+	
+	
+	
 }
 
 </script>
