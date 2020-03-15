@@ -1,9 +1,9 @@
 
 
 function pageload(pnovar) {
-	alert(pnovar);
+	//alert(pnovar);
   pId = window[pnovar];
-    alert(pId.No);
+    //alert(pId.No);
   setposter(pId, pnovar);
   pno = pId.No; //make sure
 
