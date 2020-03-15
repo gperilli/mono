@@ -2,7 +2,7 @@
 function setposter(pIdX) {
 	alert(pnovar);
 	pIdX = window[pnovar];
-	//DsppId = pIdX; 
+	alert(pIdX["1"]["WI"]["ENG"]);
 	
 	for(var i = 0; i < 9; ++i) {
 	pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
