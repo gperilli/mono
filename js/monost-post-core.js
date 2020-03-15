@@ -3,7 +3,7 @@
 function pageload(pnovar) {
 	
   pId = window[pnovar];
-  setposter(pId);
+  setposter(pnovar);
   pno = pId.No; //make sure
 
   //Prepare Main User Interface Template  
