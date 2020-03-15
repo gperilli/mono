@@ -1,10 +1,10 @@
 
 
 function pageload(pnovar) {
-	//alert(pnovar);
+	
   pId = window[pnovar];
-    //alert(pId.No);
-  setposter(pId, pnovar);
+  
+  setposter(pId);
   pno = pId.No; //make sure
 
   //Prepare Main User Interface Template  
@@ -166,12 +166,7 @@ function LSel(ln, ll, lssrc) {
 
 
 function LangUpdate(L1, L2) {
-  // Main App UI Update on Lang. Select,
-  // Set variables before sending through WIXUpd Function
-//alert(L1);
-  // set L1 Lang, L2 Lang
-  //L1 = localStorage.getItem("Lang1");
-  //L2 = localStorage.getItem("Lang2");
+
   L1Selected = L1;
   L2Selected = L2;
 	//alert(L1Selected);
@@ -305,8 +300,7 @@ if (type == "HLight") {
 		} 
 			
 	} else {
-		//alert(CurrentBtn);
-		//alert(CurrentBtn);	
+			
 		document.getElementById(CurrentBtnTextId).className.baseVal = "btnTon";
 		
 		document.getElementById(CurrentBtnBorderId).className.baseVal = "btnCon";
