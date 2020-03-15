@@ -1,6 +1,4 @@
 
-
-
 function indexpage() {
 
 	//Set L1 in local storage to ENG if non existent
@@ -23,7 +21,7 @@ function indexpage() {
 		localStorage.setItem("IndxMde", "LST");	
 	}
 
-	ShareAdr = 'https://www.google.com';
+	//ShareAdr = 'https://www.google.com';
 	//Prepare template strings
 	sitewidetemps();
 	GallTemps();
@@ -325,24 +323,7 @@ function LoadInPstScrpts() {
 
 }
 
-function setposter(pIdX) {
-	
-	for(var i = 0; i < 9; ++i) {
-	pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
-	pIdX[i]["AudENGWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
-	pIdX[i]["AudENGEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
-	pIdX[i]["AudENGEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
-	pIdX[i]["AudENGEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
-	pIdX[i]["AudITAWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
-	pIdX[i]["AudITAEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
-	pIdX[i]["AudITAEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
-	pIdX[i]["AudITAEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
-	pIdX[i]["AudJPNWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
-	pIdX[i]["AudJPNEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
-	pIdX[i]["AudJPNEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
-	pIdX[i]["AudJPNEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
-	}
-}
+
 
 var PnoPlyAllPos = [];
 
@@ -366,7 +347,7 @@ function PMuis() {
 	
 	pId = window["p".concat(pno)]; //(not necessary?)
 	//pId.SetPost();//Load in repetetive object values
-	setposter(pId);
+	setposter(pId, pno);
 	
 	//Prepare Main User Interface Template
 	MUITempPrp(pno);
@@ -542,7 +523,7 @@ function PImgs() {
 	document.getElementById("GalCnt").insertAdjacentHTML("beforeend", PNavItmX[PstN]);
 	
 	if (pId.AnnotType == "Annot") {
-		SetAnnotations(pno);	
+		SetAnnotations(pId, pno);	
 		}
 	
 	//Loop process
