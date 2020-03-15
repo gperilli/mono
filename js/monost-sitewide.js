@@ -1,23 +1,27 @@
 //Set post object data
-function setposter(pIdX) {
-	alert(pnovar);
-	pIdX = window[pnovar];
-	alert(pIdX["1"]["WI"]["ENG"]);
+function setposter(pIdX, pno) {
+	//alert(pno);
+	pIdX = window[pno];
+	//alert(pIdX["1"]["WI"]["ENG"]);
+	if (pIdX === undefined) {
+		//Check for this load problem, then retry
+		setposter(pIdX, pno);	 
+	}
 	
 	for(var i = 0; i < 9; ++i) {
-	pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
-	pIdX[i]["AudENGWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
-	pIdX[i]["AudENGEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
-	pIdX[i]["AudENGEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
-	pIdX[i]["AudENGEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
-	pIdX[i]["AudITAWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
-	pIdX[i]["AudITAEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
-	pIdX[i]["AudITAEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
-	pIdX[i]["AudITAEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
-	pIdX[i]["AudJPNWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
-	pIdX[i]["AudJPNEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
-	pIdX[i]["AudJPNEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
-	pIdX[i]["AudJPNEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
+		pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
+		pIdX[i]["AudENGWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
+		pIdX[i]["AudENGEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
+		pIdX[i]["AudENGEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
+		pIdX[i]["AudENGEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
+		pIdX[i]["AudITAWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
+		pIdX[i]["AudITAEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
+		pIdX[i]["AudITAEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
+		pIdX[i]["AudITAEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
+		pIdX[i]["AudJPNWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
+		pIdX[i]["AudJPNEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
+		pIdX[i]["AudJPNEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
+		pIdX[i]["AudJPNEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
 	}
 }
 
@@ -76,10 +80,13 @@ function AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead) {
 }
 
 // Set Button Positions etc.
-function SetAnnotations(pno) {
+function SetAnnotations(pId) {
 
-var pId = window["p".concat(pno)];
-//
+	//pId = window["p".concat(pno)];
+
+	//alert("Annotpno ".concat(pno));
+	//alert(pId.No);
+
     for(var i = 1; i < 9; ++i) {
 
 		var BtnContainerP00XBtnIDX = P00XId1VarHead.concat(i);
@@ -96,6 +103,10 @@ var pId = window["p".concat(pno)];
 		document.getElementById(AnnotDivLnPosP00XIDX).setAttribute('y2', pId[i].LnPosY2);
 
 	}
+}
+
+function SeAntPrt2() {
+	
 }
 
 //Header Template
