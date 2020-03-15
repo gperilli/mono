@@ -278,7 +278,7 @@ var RndPstArr = [0, 0, 0, 0, 0];
 function CTADspPsts() {
 	
 	RndPstArrGen();
-	//alert(LdN);
+	
 	DsppId = window["p".concat(RndPstArr[LdN])]; 
 	if (DsppId === undefined) {
 		//Check for this load problem, then retry
@@ -287,7 +287,7 @@ function CTADspPsts() {
 	
 	//DsppId.SetPost(); //Load in repetetive object values
 	Dsppno = "p".concat(RndPstArr[LdN]);
-	setposter(DsppId, Dsppno);
+	setposter(DsppId);
 	
 	
 	var DspPstImgSrcX = "posts/p".concat(RndPstArr[LdN], "/monop", RndPstArr[LdN], "-wi0.svg");
@@ -417,7 +417,7 @@ function ExplnrAnnotPnoEx() {
 	
 	//ExplnrAnotExpId.SetPost();
 	Explpno = "p".concat(PstArr[RndPst]);
-	setposter(ExplnrAnotExpId, Explpno);
+	setposter(ExplnrAnotExpId);
 	
 	//Determine whether post is "Annot" type
 	if (ExplnrAnotExpId.AnnotType == "Annot") {
@@ -633,7 +633,7 @@ function MnoExplnr() {
 	
 	//ExplnrpId.SetPost();
 	ExplV3pno = "p".concat(Vsl3ImgSrcPno);
-	setposter(ExplV3pno, ExplV3pno);
+	setposter(ExplnrpId);
 	SetAnnotations(ExplnrpId);
 	
 	l1 = localStorage.getItem("Lang1");
