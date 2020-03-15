@@ -2,8 +2,8 @@
 function setposter(pIdX, pno) {
 	//pnovar = "p".concat(pno);
 	pIdX = window[pno];
-	alert(pno);
-	alert(pIdX.No);
+	//alert(pno);
+	//alert(pIdX.No);
 	//alert(pIdX["1"]["WI"]["ENG"]);
 	//alert(pIdX.No);
 	
