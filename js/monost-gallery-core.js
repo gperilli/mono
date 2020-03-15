@@ -347,7 +347,7 @@ function PMuis() {
 	
 	pId = window["p".concat(pno)]; //(not necessary?)
 	//pId.SetPost();//Load in repetetive object values
-	setposter(pId, pno);
+	setposter(pId);
 	
 	//Prepare Main User Interface Template
 	MUITempPrp(pno);
