@@ -1,7 +1,9 @@
 //Set post object data
 function setposter(pIdX, pno) {
-	//alert(pno);
-	//pIdX = window[pno];
+	//pnovar = "p".concat(pno);
+	pIdX = window[pno];
+	alert(pno);
+	alert(pIdX.No);
 	//alert(pIdX["1"]["WI"]["ENG"]);
 	//alert(pIdX.No);
 	
