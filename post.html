@@ -84,8 +84,17 @@ function GetPostNo() {
 	//Load in page with delay
 	var myVar;
 	//myVar = setTimeout(PageLoadDel, 150);
-	setTimeout(function() { pageload(pnovar) }, 150);
+	setTimeout(function() { pIdTstr(pnovar) }, 150);
 
+}
+
+function pIdTstr(pnovar) {
+	pId = window[pnovar];
+	if (pId.No === undefined) {
+		setTimeout(function() { pIdTstr(pnovar) }, 25);
+	} else {
+		pageload(pnovar)
+	}
 }
 
 </script>
