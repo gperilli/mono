@@ -286,8 +286,9 @@ function CTADspPsts() {
 	}
 	
 	//DsppId.SetPost(); //Load in repetetive object values
-	setposter(DsppId);
-	Dsppno = DsppId.No;
+	Dsppno = "p".concat(RndPstArr[LdN]);
+	setposter(DsppId, Dsppno);
+	
 	
 	var DspPstImgSrcX = "posts/p".concat(RndPstArr[LdN], "/monop", RndPstArr[LdN], "-wi0.svg");
 	
@@ -354,7 +355,8 @@ function CTADspPsts() {
 	
 	//Annotation Button Positioning
 	if (DsppId.AnnotType == "Annot") {
-		SetAnnotations(Dsppno);
+		//alert(Dsppno);
+		SetAnnotations(DsppId);
 	}
 	
 	//Loop process
@@ -414,7 +416,8 @@ function ExplnrAnnotPnoEx() {
 	ExplnrAnotExpId = window["p".concat(PstArr[RndPst])]; 
 	
 	//ExplnrAnotExpId.SetPost();
-	setposter(ExplnrAnotExpId);
+	Explpno = "p".concat(PstArr[RndPst]);
+	setposter(ExplnrAnotExpId, Explpno);
 	
 	//Determine whether post is "Annot" type
 	if (ExplnrAnotExpId.AnnotType == "Annot") {
@@ -629,8 +632,9 @@ function MnoExplnr() {
 	ExplnrpId = window["p".concat(Vsl3ImgSrcPno)]; 
 	
 	//ExplnrpId.SetPost();
-	setposter(ExplnrpId);
-	SetAnnotations(Vsl3ImgSrcPno);
+	ExplV3pno = "p".concat(Vsl3ImgSrcPno);
+	setposter(ExplV3pno, ExplV3pno);
+	SetAnnotations(ExplnrpId);
 	
 	l1 = localStorage.getItem("Lang1");
 	l2 = localStorage.getItem("Lang2");
