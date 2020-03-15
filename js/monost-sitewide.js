@@ -3,7 +3,7 @@ function setposter(pIdX, pno) {
 	//alert(pno);
 	//pIdX = window[pno];
 	//alert(pIdX["1"]["WI"]["ENG"]);
-	alert(pIdX.No);
+	//alert(pIdX.No);
 	
 	for(var i = 0; i < 9; ++i) {
 		pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
