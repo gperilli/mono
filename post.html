@@ -81,29 +81,18 @@ function GetPostNo() {
 	window.document.head.appendChild(script1);
 	script1.src = pnosrc;
 	
-	//Load in page with delay
-	//var myVar;
-	//myVar = setTimeout(PageLoadDel, 150);
-	//pId = window["p".concat(pno)];
+	//Test to see if post object is defined 
 	setTimeout(function() { pIdTstr(pnovar) }, 550);
 
 }
 
 
 function pIdTstr(pnovar) {
-	//alert(window["p".concat(pno)].No);
-	
-	//window["p".concat(pno)];
-	
 	if (typeof window["p".concat(pno)] === 'undefined') { 
-		alert("undef");
 		setTimeout(function() { pIdTstr(pnovar) }, 25);
 	} else { 
 		pageload(pnovar);
-	} 
-	
-	
-	
+	} 	
 }
 
 </script>
