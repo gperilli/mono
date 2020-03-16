@@ -69,15 +69,23 @@ function LndrTemps() {
 	
 	MonoExplnr = `
 		<div id="MnoExplnrCnt">
-			<p id="MonoTxtId" style="width: 100%; margin-bottom: 10px; float: left; font-weight: bold;" align="center">Features</p>
-			<div id="MnoExplnr" style="width: 100%; overflow: hidden; background-color: #fff;">
+			<p id="MonoTxtId" style="width: 100%; margin-bottom: 20px; float: left; font-weight: bold;" align="left">Features</p>
+			<div id="MnoExplnr" style="width: 40%; overflow: hidden; background-color: #fff; float: left;">
 		
 			</div>
+			<div class="border" style="width: 60%; float: left; padding-left: 25px;">
+				<p id="Vsl1Txt" class="MnoExplnrTxt" style="float: left; width: 100%; z-index: 80; display: inline-block;">- 15 SVG image sets and counting</p>
+				<p id="Vsl1bTxt" class="MnoExplnrTxt" style="float: left; width: 100%; z-index: 80; display: inline-block;">- Images scaling with no loss to quality</p>
+				<p id="Vsl2Txt" class="MnoExplnrTxt" style="float: left; width: 100%; z-index: 60;">- simple clickable annotations</p>
+				<p id="Vsl2bTxt" class="MnoExplnrTxt" style="float: left; width: 100%; z-index: 60;">- word grouping by situation or category</p>
+				<p id="Vsl3Txt" class="MnoExplnrTxt" style="float: left; width: 100%;">- parts of speech, audio playback, dictionary links, pronunciation reading, and word category tags for all vocabulary items</p>
+			</div>
+			
 		</div>
 	`;
 	
 	ClToActBx = `
-		<div style="width: 100%; background-color: #fff; display: inline-block; position: relative; box-sizing: border-box; padding-bottom: 5px; padding-top: 20px;" align="center">
+		<div class="ClToActCnt border" style="" align="center">
 			
 			<div id="CTABxDsp" style="width: 50%; position: relative; display: inline-block;" >
 				<!-- Blank box gives absolute pos div some height -->	
@@ -85,10 +93,9 @@ function LndrTemps() {
 					<rect width="100%" height="100%" fill="transparent" />
 				</svg>
 			</div>
-		</div>	
-		
+			
 		<!-- Call To Action -->	
-		<div style="width: 100%; float: left; display: inline-block; position: relative; padding-top: 20px; padding-bottom: 20px;">
+		<div style="width: 100%; display: inline-block; position: relative; padding-top: 20px; padding-bottom: 20px;">
 			<div class="CTACnt">		
 				<div align="center">
 					<a id="CTATxt" href="gallery.html" class="ClTAct">
@@ -96,7 +103,11 @@ function LndrTemps() {
 					</a>
 				</div>
 			</div>
-		</div>
+		</div>	
+			
+		</div>	
+		
+		
 	`;
 		
 	LSelnCTA = `
@@ -111,7 +122,7 @@ function LndrTemps() {
 		<div class="colL2In">
 		 
 			<div class="colL2In2" id="LSlctBlk">
-				<p id="LSelectTxt" style="width: 100%; float: left; margin-bottom: 10px; font-weight: bold;" align="center">Language Select</p>
+				<p id="LSelectTxt" style="width: 100%; margin-bottom: 10px; font-weight: bold;" align="center">Language Select</p>
 				
 				<div style="width: 100%; float: left; position: relative;">
 				
@@ -413,15 +424,22 @@ function CTAItmHde() {
 function ExplnrAnnotPnoEx() {
 	//Generate random post from those the scripts loaded into the page 
 	RndPst = Math.floor(Math.random() * LndrPstTtl);
-	ExplnrAnotExpId = window["p".concat(PstArr[RndPst])]; 
+	ExplnrAnotExpIdV2 = window["p".concat(PstArr[RndPst])]; 
+	
+	RndPst = Math.floor(Math.random() * LndrPstTtl);
+	ExplnrAnotExpIdV3 = window["p".concat(PstArr[RndPst])]; 
 	
 	//ExplnrAnotExpId.SetPost();
-	Explpno = "p".concat(PstArr[RndPst]);
-	setposter(ExplnrAnotExpId);
+	ExplpnoV2 = "p".concat(PstArr[RndPst]);
+	setposter(ExplnrAnotExpIdV2);
+	
+	ExplpnoV3 = "p".concat(PstArr[RndPst]);
+	setposter(ExplnrAnotExpIdV3);
 	
 	//Determine whether post is "Annot" type
-	if (ExplnrAnotExpId.AnnotType == "Annot") {
-		Vsl2ImgSrcPno = ExplnrAnotExpId.No;
+if (ExplnrAnotExpIdV2.AnnotType == "Annot" && ExplnrAnotExpIdV3.AnnotType == "Annot" && ExplnrAnotExpIdV2.No !== ExplnrAnotExpIdV3.No) {
+		Vsl2ImgSrcPno = ExplnrAnotExpIdV2.No;
+		Vsl3ImgSrcPno = ExplnrAnotExpIdV3.No;
 	} else {
 		ExplnrAnnotPnoEx();
 	}
@@ -433,30 +451,28 @@ function MnoExplnr() {
 	
 	var Vsl1ImgSrc = "posts/p".concat("003", "/monop", "003", "-wi0.svg");
 	var Vsl2ImgSrc = "posts/p".concat(Vsl2ImgSrcPno, "/monop", Vsl2ImgSrcPno, "-wi0.svg");
-	var Vsl3ImgSrc = Vsl2ImgSrc;
-	var Vsl3ImgSrcPno = Vsl2ImgSrcPno;
+	var Vsl3ImgSrc = "posts/p".concat(Vsl3ImgSrcPno, "/monop", Vsl3ImgSrcPno, "-wi0.svg");
+	
 	
 	var Vsl1 = `
 		
-		<div style="position: relative; float: left; width: 100%; display: inline-block; background-color: #fff;">
-				
+		<div id="Vsl1" style="position: relative; float: left; width: 100%; background-color: #fff;">
 				
 				<div style="position: relative; float: left; width: 100%;">
 					
-					<svg viewBox="0 0 1024 768" style="position: relative; float: left; width: 40%; z-index: 25; border: 0px solid #808080; margin-top: 20px;">	
-							<rect width="100%" height="100%" fill="transparent"/>
+					<svg viewBox="0 0 1024 768" style="position: relative; float: left; width: 100%; z-index: 25; border: 0px solid #808080; margin-top: 20px;">	
+							<rect width="100%" height="100%" fill="#fff"/>
 					</svg>
 				
-					<div style="position: relative; float: left; width: 40%; margin-top: 20px; margin-right: 0px; z-index: 50; opacity: 0.6;">
-						<svg viewBox="0 0 1024 768" style="position: absolute; opacity: 0.5; width: 100%; z-index: 50; border: 0px solid #808080; left: -100%;">	
-							<rect width="100%" height="100%" fill="transparent" />
-						</svg>
-						<img src=${Vsl1ImgSrc} class="Rt04 Shdw" style="border: 1px solid #808080; position: absolute; width: 100%; float: left; left: -100%; margin-right: 10px;">
-					</div>
-					
-					<p id="Vsl1Txt" style="margin-bottom: 10px; margin-left: 3%; float: left; width: 57%; z-index: 80; display: inline-block;">- 15 SVG image sets and counting</p>
-					<p id="Vsl1bTxt" style="margin-bottom: 10px; margin-left: 3%; float: left; width: 57%; z-index: 80; display: inline-block;">- Images scaling with no loss to quality</p>
+					<div class="Rt04 Shdw" style="position: absolute; float: left; width: 100%; margin-top: 20px; margin-right: 0px; z-index: 50; opacity: 1; top: 0%; left: 0%;">
 						
+						<svg class="Shdw" viewBox="0 0 1024 768" style="position: absolute; width: 100%; z-index: 50; border: 0px solid #808080; left: 0%;">	
+							<rect width="100%" height="100%" fill="#fff" />
+						</svg>
+						
+						<img src=${Vsl1ImgSrc} style="border: 1px solid #eee; position: absolute; width: 100%; float: left; left: 0%; top: -100%; margin-right: 10px; z-index: 60;">
+					</div>
+
 				</div>	
 					
 		</div>
@@ -465,215 +481,101 @@ function MnoExplnr() {
 	
 	var Vsl2 = `
 		
-		<div style="border: 0px solid #808080; position: relative; float: right; width: 100%; display: inline-block; background-color: #fff; margin-top: 15px;">
-			
-			<div style="position: relative; float: left; width: 100%;">
-			
-				<svg viewBox="0 0 1024 768" style="position: relative; float: right; width: 40%; z-index: 25; border: 0px solid #808080; margin-top: 20px;">	
-					<rect width="100%" height="100%" fill="transparent"/>
-				</svg>
+		<div id="Vsl2" style="position: relative; float: left; width: 100%; background-color: #fff;">
 				
-				<div style="position: relative; float: right; width: 40%; margin-top: 20px; z-index: 50; display: inline-block opacity: 0.7;">
+				<div style="position: relative; float: left; width: 100%;">
+					
+					<svg viewBox="0 0 1024 768" style="position: relative; float: left; width: 100%; z-index: 25; border: 0px solid #808080; margin-top: 20px;">	
+							<rect width="100%" height="100%" fill="transparent"/>
+					</svg>
 				
-					<div style="position: relative; width: 100%; border: 0px solid #808080; float: left; opacity: 0.6;">
-						<svg viewBox="0 0 1024 768" style="position: absolute; float: right; width: 100%; z-index: 25; border: 0px solid #808080; left: 40%;">	
-								<rect width="100%" height="100%" fill="transparent"/>
+					<div style="position: absolute; float: left; width: 100%; margin-top: 20px; margin-right: 0px; z-index: 50; top: 0%; left: 0%;" class="Rtn04 Shdw">
+						
+						<svg viewBox="0 0 1024 768" style="position: absolute; width: 100%; z-index: 50; border: 0px solid #808080; left: 0%;">	
+							<rect width="100%" height="100%" fill="#fff" />
 						</svg>
 						
+						<img src=${Vsl2ImgSrc} style="z-index: 65; position: absolute; width: 100%; float: left; right: 0%;left: 0%; top: 0%; background-color: transparent; opacity: 1;">
 						
-						<div class="Rtn04 Shdw" style="position: absolute; float: right; right: 0%; left: 100%; width: 100%; border: 0px solid #808080;">
-							<img class="Shdw" src=${Vsl2ImgSrc} style="position: absolute; width: 100%; float: right; right: 0%; z-index: 50; left: 0%;">
-							<svg id="ExplnrVsl2BtnCnt" viewBox="0 0 1024 768" width="100%" style="border: 1px solid #808080; float: right; position: absolute; right: 0%; top: 0%; z-index: 99;">
-								<!-- Buttons Loaded here -->
-							</svg>
-						</div>
-						
+						<svg id="ExplnrVsl2BtnCnt" viewBox="0 0 1024 768" width="100%" style="border: 0px solid #808080; float: right; position: relative; right: 0%; top: 0%; z-index: 99; background-color: transparent;">
+							<!-- Buttons Loaded here -->
+						</svg>
 					</div>
-				
-				</div>
-				
-				<p id="Vsl2Txt" style="margin-top: 10px; margin-right: 3%; float: right; border: 0px solid #808080; width: 57%; z-index: 60;" align="right">- simple clickable annotations</p>
-				<p id="Vsl2bTxt" style="margin-top: 10px; margin-right: 3%; float: right; border: 0px solid #808080; width: 57%; z-index: 60;" align="right">- word grouping by situation or category</p>
-				
-			</div>
+
+				</div>	
 					
 		</div>
-		
+
 	`;
 	
-		WItmsExplnr = `
-		<div class="WordItemsCnt1" id="ExplnrWItmsCnt1" style="opacity: 0.7;">
-			
-			<!-- Word Item X -->
-			<div class="WordItemsCnt2">
-				<div class="WIcolumn left">
-					<div style="width: 100%; position: relative; border: 0px solid #808080;">
-						<div style="position: relative; width: 100%;">	
-							<div style="position: relative; width: 100%;">
-								<img id="ExplnrWIImgContX" class="" src=""/>
-							</div>		
-						</div>
-					</div>
-					
-					<div style="position: relative;">				
-						<p id="ExplnrSemTag1WIX" class="SemTags" style="z-index: 10;"></p>
-					</div>
-					
-					<div style="position: relative;">
-						<p id="ExplnrSemTag2WIX" class="SemTags" style="z-index: 10;"></p>
-					</div>
-						
-					<div style="position: relative;">
-						<p id="ExplnrSemTag3WIX" class="SemTags" style="z-index: 10;"></p>
-					</div>	
-						
-				</div>
-				
-				<div class="WIcolumn right">
-					<div class="L2WICont" style="width: 100%;">
-						<div style="float: left; position: relative;">	
-							<div style="position: relative;">
-								<div style="position: relative;">
-									<h3 class="L2WordItem" id="ExplnrL2WordItemX" style="z-index: 50;"></h3>
-								</div>
-							</div>
-							
-							<div align="center" style="position: relative;">
-								<div style="position: relative;">
-									<p id="ExplnrL2WordItemRX" align="center"></p>
-								</div>
-							</div>	
-						</div>
-						<br>	
-					</div>
-				<div>
-			
-				<div class="ExplnrPOfSpCnt">
-					  <p class="L2WordType" id="ExplnrL2POfSp1WIX"></p>
-				</div>
-				
-				<div class="ExplnrPOfSpCnt">
-					  <p class="L2WordType" id="ExplnrL2POfSp2WIX"></p>
-				</div>
-
-				<div class="ExplnrPOfSpCnt">
-					  <p class="L2WordType" id="ExplnrL2POfSp3WIX"></p>
-				</div>
-						
-				<br>
-				
-				<h5 style="float: left;">
-					<div class="PlTriIc baseline">
-						<svg viewBox="0 0 300 300">
-							<g x="20%" y="15%" id="PlayIcoWIX">
-								<path class="AudBtn-PlayTri" style="fill: #bbb; stroke:#ccc;" d="m 95.514374,224.65227 c -0.05649,-49.76848 -0.112973,-99.53696 -0.16946,-149.30544 43.129016,24.83532 86.258026,49.67064 129.387036,74.50596 -43.07252,24.93316 -86.14505,49.86632 -129.217576,74.79948 z"/>
-							</g>
-						</svg>
-					</div>
-				</h5>
-				
-				<br>
-			
-				<div class="L1WICont" align="right">
-					<div style="position: relative; display: inline-block;">
-						<p id="ExplnrL1WordItemX"></p>
-					</div>
-				</div>
-				
-				<div style="display: inline-block; width: 100%; float: left;">
-				  <a id="ExplnrMUILink1ContP00X" class="WIsLink1 dictR" href="" target="_blank"></a>
-				  <a id="ExplnrMUILink2ContP00X" class="WIsLink2 dictR" href="" target="_blank"></a>
-				  <a id="ExplnrMUILink3ContP00X" class="WIsLink3 dictR" href="" target="_blank"></a>
-				  <a id="ExplnrMUILink4ContP00X" class="WIsLink4 dictR" href="" target="_blank"></a>
-				  <a id="ExplnrMUILink5ContP00X" class="WIsLink5 dictR" href="" target="_blank"></a>
-				  <a id="ExplnrMUILink6ContP00X" class="WIsLink6 dictR" href="" target="_blank"></a>
-				</div>
-				
-			</div>
-			
-		</div>
-	`;
+		
 	
 	var Vsl3 = `
 		
-		<div style="border: 0px solid #808080; position: relative; float: left; width: 100%; display: inline-block; background-color: #fff; margin-top: 40px; ">
+		<div id="Vsl3" style="position: relative; float: left; width: 100%; background-color: #fff;">
 				
-				
-				<div style="position: relative; float: left; width: 100%; height: 200px; border: 0px solid #808080; overflow: hidden;" align="center">
+				<div style="position: relative; float: left; width: 100%;">
 					
-					<div style="position: absolute; float: left; border: 0px solid #808080; width: 80%; top: -35px;" align="center">
-						<div id="Vsl3ImgCntId" class="Rt06 Shdw" style="position: relative; float: left; width: 100%; height: 300px; margin-top: 20px; z-index: 50; border: 1px solid #808080;">
-							
-						</div>
+					<svg viewBox="0 0 1024 768" style="position: relative; float: left; width: 100%; z-index: 25; border: 0px solid #808080; margin-top: 20px;">	
+							<rect width="100%" height="100%" fill="transparent"/>
+					</svg>
+				
+					<div style="position: absolute; float: left; width: 100%; margin-top: 20px; margin-right: 0px; z-index: 50; top: 0%; left: 0%;" class="Rt04 Shdw">
+						
+						<svg viewBox="0 0 1024 768" style="position: absolute; width: 100%; z-index: 50; border: 0px solid #808080; left: 0%;">	
+							<rect width="100%" height="100%" fill="#fff" />
+						</svg>
+						
+						<img src=${Vsl3ImgSrc} style="z-index: 65; position: absolute; width: 100%; float: left; right: 0%;left: 0%; top: 0%; background-color: transparent; opacity: 1;">
+						
+						<svg id="ExplnrVsl3BtnCnt" viewBox="0 0 1024 768" width="100%" style="border: 0px solid #808080; float: right; position: relative; right: 0%; top: 0%; z-index: 99; background-color: transparent;">
+							<!-- Buttons Loaded here -->
+						</svg>
 					</div>
-					
+
 				</div>	
-				
-				<p id="Vsl3Txt" style="margin-top: 0px; float: right; border: 0px solid #808080; width: 80%; padding-left: 5px;">- parts of speech, audio playback, dictionary links, pronunciation reading, and word category tags for all vocabulary items</p>
 					
 		</div>
-		
+
 	`;
 	
 	//Insert Visuals HTML
-	document.getElementById("MnoExplnr").insertAdjacentHTML("beforeend", Vsl1);
-	document.getElementById("MnoExplnr").insertAdjacentHTML("beforeend", Vsl2);
-	document.getElementById("MnoExplnr").insertAdjacentHTML("beforeend", Vsl3);
-	document.getElementById("Vsl3ImgCntId").insertAdjacentHTML("beforeend", WItmsExplnr);
 	
-	//Visual 3 - Generate Buttons
+	document.getElementById("MnoExplnr").insertAdjacentHTML("beforeend", Vsl3);
+	document.getElementById("MnoExplnr").insertAdjacentHTML("beforeend", Vsl2);
+	document.getElementById("MnoExplnr").insertAdjacentHTML("beforeend", Vsl1);
+	
+	//document.getElementById("Vsl3ImgCntId").insertAdjacentHTML("beforeend", WItmsExplnr);
+	
+	//Visual 2-3 - Generate Buttons
 	P00XId1VarHead = "ExplnrVsl2BtnContainer".concat("P", Vsl2ImgSrcPno, "BtnID");
 	P00XId5VarHead = "ExplnrVsl2AnnotDivLn-p".concat(Vsl2ImgSrcPno, "-ID");
 	P00XId6VarHead = "ExplnrVsl2AnnotDivLnPos-P".concat(Vsl2ImgSrcPno, "-ID");
 	AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead);
 	document.getElementById("ExplnrVsl2BtnCnt").insertAdjacentHTML("beforeend", AnottBtns);
+	SetAnnotations(ExplnrAnotExpIdV2);
+	
+	P00XId1VarHead = "ExplnrVsl3BtnContainer".concat("P", Vsl3ImgSrcPno, "BtnID");
+	P00XId5VarHead = "ExplnrVsl3AnnotDivLn-p".concat(Vsl3ImgSrcPno, "-ID");
+	P00XId6VarHead = "ExplnrVsl3AnnotDivLnPos-P".concat(Vsl3ImgSrcPno, "-ID");
+	AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead);
+	document.getElementById("ExplnrVsl3BtnCnt").insertAdjacentHTML("beforeend", AnottBtns);
+	SetAnnotations(ExplnrAnotExpIdV3);
+	
+	//document.getElementById("ExplnrVsl2BtnCnt").insertAdjacentHTML("beforeend", AnottBtns);
 	
 	//Visual 3 - Annotation Button Positioning
-	ExplnrpId = window["p".concat(Vsl3ImgSrcPno)]; 
+	//ExplnrpId = window["p".concat(Vsl3ImgSrcPno)]; 
 	
 	//ExplnrpId.SetPost();
-	ExplV3pno = "p".concat(Vsl3ImgSrcPno);
-	setposter(ExplnrpId);
-	SetAnnotations(ExplnrpId);
+	//ExplV3pno = "p".concat(Vsl3ImgSrcPno);
+	//setposter(ExplnrpId);
+	//SetAnnotations(ExplnrpId);
 	
 	l1 = localStorage.getItem("Lang1");
 	l2 = localStorage.getItem("Lang2");
-	Vsl3WIN = 2;
+	//Vsl3WIN = 2;
 	
-	//Visual 3 - Word Item Data Filler
-	//Image file
-	document.getElementById("ExplnrWIImgContX").src = ExplnrpId[Vsl3WIN].imgfile;
-	//Word Item Text Data
-	document.getElementById("ExplnrL2WordItemX").innerHTML = ExplnrpId[Vsl3WIN]["WI"][l2];
-	document.getElementById("ExplnrL2WordItemRX").innerHTML = ExplnrpId[Vsl3WIN]["WIr"][l2];
-	document.getElementById("ExplnrL1WordItemX").innerHTML = ExplnrpId[Vsl3WIN]["WI"][l1];
-	//Part of Speech Data
-	document.getElementById("ExplnrL2POfSp1WIX").innerHTML = ExplnrpId[Vsl3WIN]["PoSp1"][l1][l2];
-	document.getElementById("ExplnrL2POfSp2WIX").innerHTML = ExplnrpId[Vsl3WIN]["PoSp2"][l1][l2];
-	document.getElementById("ExplnrL2POfSp3WIX").innerHTML = ExplnrpId[Vsl3WIN]["PoSp3"][l1][l2];
-	//Sem Tags Data
-	document.getElementById("ExplnrSemTag1WIX").style.display = ExplnrpId[Vsl3WIN]["semtag1"]["Dsp"];
-	document.getElementById("ExplnrSemTag1WIX").className = "SemTags tag_".concat(ExplnrpId[Vsl3WIN]["semtag1"]["ENG"]);
-	document.getElementById("ExplnrSemTag1WIX").innerHTML = ExplnrpId[Vsl3WIN]["semtag1"][l1];
-	document.getElementById("ExplnrSemTag2WIX").style.display = ExplnrpId[Vsl3WIN]["semtag2"]["Dsp"];
-	document.getElementById("ExplnrSemTag2WIX").className = "SemTags tag_".concat(ExplnrpId[Vsl3WIN]["semtag2"]["ENG"]);
-	document.getElementById("ExplnrSemTag2WIX").innerHTML = ExplnrpId[Vsl3WIN]["semtag2"][l1];
-	document.getElementById("ExplnrSemTag3WIX").style.display = ExplnrpId[Vsl3WIN]["semtag3"]["Dsp"];
-	document.getElementById("ExplnrSemTag3WIX").className = "SemTags tag_".concat(ExplnrpId[Vsl3WIN]["semtag3"]["ENG"]);
-	document.getElementById("ExplnrSemTag3WIX").innerHTML = ExplnrpId[Vsl3WIN]["semtag3"][l1];
-	//Dict Link Data
-	document.getElementById("ExplnrMUILink1ContP00X").style.display = linkdata[l1][l2].WIxLink1Dsp;
-	document.getElementById("ExplnrMUILink1ContP00X").innerHTML = linkdata[l1][l2].WIxLink1Label;
-	document.getElementById("ExplnrMUILink2ContP00X").style.display = linkdata[l1][l2].WIxLink2Dsp;
-	document.getElementById("ExplnrMUILink2ContP00X").innerHTML = linkdata[l1][l2].WIxLink2Label;
-	document.getElementById("ExplnrMUILink3ContP00X").style.display = linkdata[l1][l2].WIxLink3Dsp;
-	document.getElementById("ExplnrMUILink3ContP00X").innerHTML = linkdata[l1][l2].WIxLink3Label;
-	document.getElementById("ExplnrMUILink4ContP00X").style.display = linkdata[l1][l2].WIxLink4Dsp;
-	document.getElementById("ExplnrMUILink4ContP00X").innerHTML = linkdata[l1][l2].WIxLink4Label;
-	document.getElementById("ExplnrMUILink5ContP00X").style.display = linkdata[l1][l2].WIxLink5Dsp;
-	document.getElementById("ExplnrMUILink5ContP00X").innerHTML = linkdata[l1][l2].WIxLink5Label;
-	document.getElementById("ExplnrMUILink6ContP00X").style.display = linkdata[l1][l2].WIxLink6Dsp;
-	document.getElementById("ExplnrMUILink6ContP00X").innerHTML = linkdata[l1][l2].WIxLink6Label;
 	
 	LndrSeq(3);
 	
