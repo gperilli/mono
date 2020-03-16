@@ -15,7 +15,7 @@
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@flickr" />
+<meta name="twitter:site" content="website" />
 <meta name="twitter:title" content="Mono" />
 <meta name="twitter:description" content="Mono" />
 <meta name="twitter:image" content="https://gperilli.github.io/mono/graphics/shareimg.png" />
@@ -32,6 +32,66 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
+
+#MonoTxtId {
+float: left;
+}
+
+.BrgrExpdr {
+	display: none;
+}
+
+#MnoExplnrCnt {
+
+}
+
+.topnav {
+display: none;
+}
+
+.headercnt {
+	height: 100px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+#Vsl3 {
+	display: inline-block;
+}
+
+#Vsl2 {
+	display: none;
+}
+
+#Vsl1 {
+	display: none;
+}
+
+#Header {
+	font-size: 25px;
+}
+
+.border {
+	border: 0px solid #ddd;
+}
+
+.MnoExplnrTxt {
+	border: 0px solid #ddd;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.ClToActCnt {
+	float: left; 
+	width: 50%; 
+	background-color: #fff; 
+	display: inline-block; 
+	position: relative; 
+	box-sizing: border-box; 
+	padding-bottom: 5px; 
+	padding-top: 20px;
+}
+
 .btnbckonL {
 
 }
@@ -104,7 +164,9 @@ a.ClTAct {
 
 
 .LSelnCTA {
-	width: 50%;
+	width: 100%;
+	margin-bottom: 100px;
+	margin-top: 50px;
 	float: left;
 	background-color: #fff;
 	z-index: 90;
@@ -116,14 +178,14 @@ a.ClTAct {
 
 #MnoExplnrCnt {
 	float: left;
-	width: 50%;
-	padding-left: 0px;
-	padding-right: 0px;
+	width: 100%;
+	padding-left: 22px;
+	padding-right: 22px;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 100px;
 	margin-bottom: 15px;
 	background-color: #fff;
-	border-top: 1px solid #808080;
+	border-top: 0px solid #808080;
 	border-bottom: 1px solid #808080;
 }
 
@@ -174,11 +236,11 @@ a.ClTAct {
 
 .colL2In {
 position: relative; 
-float: left; 
-width: 100%; 
+float: right; 
+width: 45%; 
 margin-top: 0px; 
-border-bottom: 1px solid #808008; 
-border-top: 1px solid #808008;
+border-bottom: 0px solid #808008; 
+border-top: 0px solid #808008;
 
 
 }
@@ -196,7 +258,7 @@ width: 100%; padding-top: 10px; display: inline-block; position: relative; heigh
 position: relative; 
 width: 100%; 
 float: left; 
-margin-top: 10px;
+margin-top: 30px;
 margin-bottom: 10px;
 }
 
@@ -275,7 +337,51 @@ display: block;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@media (max-width: 900px) {
+#Vsl3 {
+	display: none;
+}
+
+#Vsl1 {
+	display: inline-block;
+}
+#Vsl2 {
+	display: inline-block;
+}
+
+}
+
 @media (max-width: 600px) {
+
+#MonoTxtId {
+text-align: center;
+}
+
+.headercnt {
+	height: 200px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+#Vsl3 {
+	display: inline-block;
+}
+
+#Vsl2 {
+	display: inline-block;
+}
+
+#Vsl1 {
+	display: inline-block;
+}
+
+.MnoExplnrTxt {
+	font-size: 15px;
+}
+
+.ClToActCnt {
+	width: 100%;
+}
 
 .colL2 {
 width: 100%;
@@ -286,6 +392,7 @@ margin-left: 0px;
 }
 
 .colL2In {
+width: 100%;
 margin-left: 0px;
 margin-right: 0px;
 padding-top: 20px;
@@ -294,7 +401,9 @@ border-top: 1px solid #808008;
 }
 
 .colL2In2 {
-width: 100%; padding-top: 5px;
+width: 100%; 
+padding-top: 5px;
+width: 100%;
 }
 
 #MnoExplnrCnt {
@@ -303,6 +412,7 @@ width: 100%; padding-top: 5px;
 	border-bottom: 1px solid #808080;
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-bottom: 50px;
 }
 
 .LSelnCTA {
@@ -310,6 +420,8 @@ width: 100%; padding-top: 5px;
 	float: left;
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .WordItemsCnt1 {
