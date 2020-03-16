@@ -75,7 +75,7 @@ function AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead) {
 // Set Button Positions etc.
 function SetAnnotations(pId) {
 
-	//pId = window["p".concat(pno)];
+	pId = window["p".concat(pno)];
 
 	//alert("Annotpno ".concat(pno));
 	//alert(pId.No);
