@@ -358,7 +358,7 @@ function PMuis() {
 	
 	//Load Annotations
 	if (pId.AnnotType == "Annot") {
-		SetAnnotations(pno);
+		SetAnnotations(pId);
 	}
 	
 	
