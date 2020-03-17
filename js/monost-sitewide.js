@@ -75,8 +75,8 @@ function AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead) {
 // Set Button Positions etc.
 function SetAnnotations(pId) {
 
-	pId = window["p".concat(pno)];
-
+	//pId = window["p".concat(pno)];
+	//alert(pId.No);
 	//alert("Annotpno ".concat(pno));
 	//alert(pId.No);
 
@@ -127,9 +127,7 @@ HeaderTemp = `
 	 </div>
 
 		<a class="topnav" style="float: right; margin-right: 20px;" id="menu-home" href="index">Home</a>
-		<a class="topnav" style="float: right; margin-right: 20px;" id="menu-gallery" href="gallery.html">Gallery</a>
-		 
-	 
+		
 	 <div class="headercnt" style="border: 0px solid #000">
 			<p id="Header"></p>
 	 </div>
@@ -566,25 +564,15 @@ function MnuCntnt(L1, src) {
 
 	//Gallery index
 	//Share Section
-	if (src == "glrorpst") {
+	if (src == "pst") {
+		//document.getElementById("menu-gallery").innerHTML = UItext[L1]["gallery"];
+		document.getElementById("menu-home").innerHTML = UItext[L1]["home"];
+	}
+	
 	document.getElementById("menu-shareA").innerHTML = UItext[L1]["share"];
 	document.getElementById("menu-shareB").innerHTML = UItext[L1]["share"];
-	}
-	
-	if (src == "lndr") {
-	document.getElementById("CTATxt").innerHTML = UItext[L1]["CTA"];
-	document.getElementById("MonoTxtId").innerHTML = UItext[L1]["MonoTxt"];
-
-		
-	document.getElementById("Vsl1Txt").innerHTML = UItext[L1]["LndrVsl1Txt"];
-	document.getElementById("Vsl2Txt").innerHTML = UItext[L1]["LndrVsl2Txt"];
-	document.getElementById("Vsl3Txt").innerHTML = UItext[L1]["LndrVsl3Txt"];
-	
-	}
 	
 	document.getElementById("LSelectTxt").innerHTML = UItext[L1]["LSel"];
-	document.getElementById("menu-gallery").innerHTML = UItext[L1]["gallery"];
-	document.getElementById("menu-home").innerHTML = UItext[L1]["home"];
 	document.getElementById("Brgrmenu-gallery").innerHTML = UItext[L1]["gallery"];
 	document.getElementById("Brgrmenu-home").innerHTML = UItext[L1]["home"];
 
