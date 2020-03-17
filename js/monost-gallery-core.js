@@ -88,7 +88,7 @@ function indexpage() {
 	for (i=1; i<(PgMx+1); ++i) {
 	  var PgId = "Pg".concat(i);
 	  var PgionItm = `
-	  <a id=${PgId} href="gallery.html" onClick="SetPgId('${i}')">${i}</a>
+	  <a id=${PgId} href="index.html" onClick="SetPgId('${i}')">${i}</a>
 	  `;
 	  var PgionItmX = [];
 	  PgionItmX[i] = PgionItm;
@@ -161,7 +161,7 @@ function GallTemps() {
 					<span id="GlCrdTypeTxtId" style="margin-right: 5px; border: 0px solid #000; text-decoration: none;"></span>
 				</p>
 				
-				<a href="gallery.html" onClick="SetGlType('BW')" style="text-decoration: none; float: left; margin-top: 3px;">
+				<a href="index.html" onClick="SetGlType('BW')" style="text-decoration: none; float: left; margin-top: 3px;">
 					<div id="GlBWOptn" class="ClrBtnCnt" style="">
 						<div style="position: relative; height: 100%; width: 100%; display: inline-block; float: left;">
 							<svg class="StretchToContainer" viewbox="0 0 130 130">
@@ -176,7 +176,7 @@ function GallTemps() {
 
 				<span id="FwdSlshId" style="margin-left: 5px; margin-right: 5px; float: left;"> / </span>
 
-				<a href="gallery.html" onClick="SetGlType('CLR')"  style="text-decoration: none; float: left; margin-top: 3px;">
+				<a href="index.html" onClick="SetGlType('CLR')"  style="text-decoration: none; float: left; margin-top: 3px;">
 					<div id="GlCLROptn" class="ClrBtnCnt" style="">
 						<div style="position: relative; height: 100%; width: 100%; display: inline-block; float: left;">
 							<svg class="StretchToContainer" viewbox="0 0 130 130">
@@ -191,7 +191,7 @@ function GallTemps() {
 
 				<span id="FwdSlshId" style="margin-left: 5px; margin-right: 5px; float: left;"> / </span>
 
-				<a href="gallery.html" onClick="SetGlType('ALL')" style="text-decoration: none; float: left; border: 0px solid #000; margin-top: 3px;">
+				<a href="index.html" onClick="SetGlType('ALL')" style="text-decoration: none; float: left; border: 0px solid #000; margin-top: 3px;">
 
 					<div id="GlALLOptn" class="" style="position:relative; display: flex; margin: 0px; padding: 2px; height: 18px; z-index: 10; cursor: pointer;">
 
@@ -229,7 +229,7 @@ function GallTemps() {
 			<div style="float: left; border: 0px solid #000;">
 				
 				<span id="IndxMdeTxtId" style="margin-left: 5px; margin-right: 5px; border: 0px solid #000; text-decoration: none; float: left;"></span>
-				<a href="gallery.html" onClick="SetIndxMde('LST')" style="text-decoration: none; float: left; margin-top: 3px; ">
+				<a href="index.html" onClick="SetIndxMde('LST')" style="text-decoration: none; float: left; margin-top: 3px; ">
 					<div id="GlLSTOptn" class="GlMdeBtnCnt" style="">
 						<div id="" style="position: relative; height: 100%; display: flex; float: left;">
 								<svg class="" style="height: 100%; position: relative;" viewbox="0 0 225 145">
@@ -248,7 +248,7 @@ function GallTemps() {
 				
 				<span id="FwdSlshId" style="margin-left: 5px; margin-right: 5px; float: left;"> / </span>
 				
-				<a href="gallery.html" onClick="SetIndxMde('GAL')" style="text-decoration: none; float: left; margin-top: 3px;">
+				<a href="index.html" onClick="SetIndxMde('GAL')" style="text-decoration: none; float: left; margin-top: 3px;">
 					<div id="GlGALOptn" class="GlMdeBtnCnt" style="">
 						<div id="" style="position: relative; height: 100%; display: flex; float: left;">
 							<svg class="" style="height: 100%; position: relative; display: inline-block;" viewbox="0 0 225 145">
