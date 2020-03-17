@@ -578,7 +578,7 @@ function LSel(ln, ll, lssrc) {
 		localStorage.setItem("Lang1", ll);
 
 		HdrFtrTxt(ll);
-		MnuCntnt(ll, "glrorpst");
+		MnuCntnt(ll, "glr");
 		GalTypeLoader(ll);
 		
 		if (lssrc == "usr" && IndxMde == "GAL") {	
