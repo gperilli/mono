@@ -137,7 +137,7 @@ function LSel(ln, ll, lssrc) {
 		o = "2"; 
 		localStorage.setItem("Lang1", ll); 
 		HdrFtrTxt(ll);
-		MnuCntnt(ll, "glrorpst");
+		MnuCntnt(ll, "pst");
 		
 	} else { 
 		//L2 = ll;
