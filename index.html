@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<title>Mono: Home</title>
+<title>Mono: Index</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
 
@@ -15,7 +15,7 @@
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="website" />
+<meta name="twitter:site" content="@flickr" />
 <meta name="twitter:title" content="Mono" />
 <meta name="twitter:description" content="Mono" />
 <meta name="twitter:image" content="https://gperilli.github.io/mono/graphics/shareimg.png" />
@@ -27,432 +27,174 @@
 <link rel="stylesheet" type="text/css" href="css/monost-MUI.css">
 <link rel="stylesheet" type="text/css" href="css/monost-Footer.css">
 <link rel="stylesheet" type="text/css" href="css/monost-Site.css">
-<link rel="stylesheet" type="text/css" href="css/monost-WIList.css">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
-
-#MonoTxtId {
-float: left;
-}
-
-.BrgrExpdr {
-	display: none;
-}
-
-#MnoExplnrCnt {
-
-}
-
-.topnav {
-display: none;
-}
+/* Mono Gallery Nav Index Page */
 
 .headercnt {
-	height: 100px;
-	border: 1px solid #ccc;
-	background-color: #fff;
+	display: block;
 }
 
-#Vsl3 {
-	display: inline-block;
+a.GlLink {
+color: blue;
 }
 
-#Vsl2 {
-	display: none;
+
+a.GlLink:link, a:visited{
+color: blue;
 }
 
-#Vsl1 {
-	display: none;
+.GlTypeOff {
+ text-decoration: none;
+ border: 0px solid #ccc;
+ background-color: #fff;
+ color: #000;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-radius: 3px;
+ cursor: pointer;
 }
 
-#Header {
-	font-size: 25px;
+.GlTypeOff:hover {
+ text-decoration: none;
+ background-color: #808080;
+ color: #fff;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-radius: 3px;
+ cursor: pointer;
 }
 
-.border {
-	border: 0px solid #ddd;
+.GlTypeHlight {
+ text-decoration: none;
+ border: 1px solid #ccc;
+ background-color: #808080;
+ color: #fff;
+ padding-left: 2px;
+ padding-right: 2px;
+ border-radius: 3px;
+ cursor: context-menu;
 }
 
-.MnoExplnrTxt {
-	border: 0px solid #ddd;
-	font-size: 25px;
-	margin-bottom: 20px;
-}
-
-.ClToActCnt {
-	float: left; 
-	width: 50%; 
-	background-color: #fff; 
-	display: inline-block; 
-	position: relative; 
-	box-sizing: border-box; 
-	padding-bottom: 5px; 
-	padding-top: 20px;
-}
-
-.btnbckonL {
-
-}
-
-.tag_blanklndr {
- background-color: #eee;
- color: red;
-}
-
-.buttonL {
-  width: 9%;
-  height: 12%;
-}
-
-.btnbckoffL {
-}
-
-.btnToffL {
-  fill: blue;
-}
-
-.btnConL {
-  fill: blue;
-}
-
-.HLbtnToff {
-
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.3s;
 }
 
 
 
-.whtfill {
-	fill: #eee;
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
-
-
-a.ClTAct {
-	position: relative; 
-	margin-top: 8px; 
-	background-color: blue; 
-	border-radius: 5px; 
-	padding-left: 20px; 
-	padding-right: 20px; 
-	padding-top: 10px; 
-	padding-bottom: 10px; 
-	font-size: 18px; 
-	color: white; 
-	text-decoration: none;
-	font-weight: bold;
+.gallery {
+	margin: 5px;
 }
 
-
-
-.LImgCvr {
-  opacity: 1;
-  fill: #fff;
+div.gallery img {
+  height: auto;
   width: 100%;
-  height: 100%;
 }
 
-.LImgCvr.transi {
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-  transition: 2s;
-  opacity: 0;
+.PImgNav {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
 }
 
-
-.LSelnCTA {
-	width: 100%;
-	margin-bottom: 100px;
-	margin-top: 50px;
-	float: left;
-	background-color: #fff;
-	z-index: 90;
-	padding-left: 22px;
-	padding-right: 22px;
+.PImgNav:hover {
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+  opacity: 1;
+  transition: 0.3s;
 }
 
-
-
-#MnoExplnrCnt {
-	float: left;
-	width: 100%;
-	padding-left: 22px;
-	padding-right: 22px;
-	padding-top: 20px;
-	padding-bottom: 100px;
-	margin-bottom: 15px;
-	background-color: #fff;
-	border-top: 0px solid #808080;
-	border-bottom: 1px solid #808080;
+.PImgNavOver {
+	opacity: 1;
+	position: absolute; 
+	left: 0px; top: 0px;
 }
 
-.WordItemsCnt1 {
-	background-color: #eee;
-	position: relative;
-	z-index: 10;
-	width: 100%;
-	border: 0px solid #808080;
-	padding-bottom: 0px;
-	padding-top: 0px;
-	float: left;
-}
-
-.WordItemsCnt2 {
-	background-color: #fff;
-	border-bottom: 1px solid #ccc;
-	float: left; 
-	width: 100%;
-	padding-top: 5px;
-	padding-left: 5px;
+.PImgNavOver:hover {
+	opacity: 1;
+	transition: 0.3s;
 }
 
 
-
-.PlTriIc {
-	display: inline-flex;
-	align-self: center;
-	z-index: 80;
-	background-color: #fff;
-	float: left;
-	
-}
-.PlTriIc svg, .icon img {
-	height: 1em;
-	width: 1em;
-	background-color: #fff;
-}
-.PlTriIc.baseline svg, .icon img {
-	top: .125em;
-	position: relative;
-	border-radius: 50%;
+* {
+  box-sizing: border-box;
 }
 
-.ExplnrPOfSpCnt {
-	position: relative; display: inline-block; float: left; padding-right: 5px;
+.responsive {
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 24.99999%;
+  
 }
 
-.colL2In {
-position: relative; 
-float: right; 
-width: 45%; 
-margin-top: 0px; 
-border-bottom: 0px solid #808008; 
-border-top: 0px solid #808008;
-
-
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 33.33333%;
+    margin: 6px 0;
+  }
 }
 
-.colL2In2 {
-width: 100%; padding-top: 20px; display: inline-block; position: relative; float: left;
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 50%;
+  }
 }
 
-
-.colR2In2 {
-width: 100%; padding-top: 10px; display: inline-block; position: relative; height: 100%; float: left;
+@media only screen and (max-width: 350px) {
+  .responsive {
+    width: 100%;
+  }
 }
 
-.CTACnt {
-position: relative; 
-width: 100%; 
-float: left; 
-margin-top: 30px;
-margin-bottom: 10px;
+.pagination {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center; 
+  width: 100%;
 }
 
-
-
-.CTADspItmHde {
-display: none;
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  
 }
 
-.CTADspItmShw {
-display: block;
+.pagination a.active {
+  background-color: #000;
+  color: white;
 }
 
-.Rt03 {
-  -ms-transform: rotate(3deg); /* IE 9 */
-  -webkit-transform: rotate(3deg); /* Safari 3-8 */
-  transform: rotate(5deg);
-  left: 30%;
-  top: 0%;
-}
-
-.Rtn03 {
-  -ms-transform: rotate(-3deg); /* IE 9 */
-  -webkit-transform: rotate(-3deg); /* Safari 3-8 */
-  transform: rotate(-5deg);
-  right: 30%;
-  top: 0%;
-}
-
-.Rt04 {
-  -ms-transform: rotate(4deg); /* IE 9 */
-  -webkit-transform: rotate(4deg); /* Safari 3-8 */
-  transform: rotate(7deg);
-  right: 15%;
-  top: 0%;
-}
-
-.Rtn04 {
-  -ms-transform: rotate(-4deg); /* IE 9 */
-  -webkit-transform: rotate(-4deg); /* Safari 3-8 */
-  transform: rotate(-7deg);
-  left: 15%;
-  top: 0%;
-}
-
-.Rt05 {
-  -ms-transform: rotate(5deg); /* IE 9 */
-  -webkit-transform: rotate(5deg); /* Safari 3-8 */
-  transform: rotate(6deg);
-  right: 0%;
-  top: 0%;
-}
-
-.Rtn05 {
-  -ms-transform: rotate(-5deg); /* IE 9 */
-  -webkit-transform: rotate(-5deg); /* Safari 3-8 */
-  transform: rotate(-5deg);
-  left: 10%;
-}
-
-.Rt06 {
-  -ms-transform: rotate(6deg); /* IE 9 */
-  -webkit-transform: rotate(6deg); /* Safari 3-8 */
-  transform: rotate(6deg);
-  right: 5%;
-}
-
-.Rtn06 {
-  -ms-transform: rotate(-6deg); /* IE 9 */
-  -webkit-transform: rotate(-6deg); /* Safari 3-8 */
-  transform: rotate(-6deg);
-  left: 5%;
-}
-
-.Shdw {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-@media (max-width: 900px) {
-#Vsl3 {
-	display: none;
-}
-
-#Vsl1 {
-	display: inline-block;
-}
-#Vsl2 {
-	display: inline-block;
-}
-
-}
-
-@media (max-width: 600px) {
-
-#MonoTxtId {
-text-align: center;
-}
-
-.headercnt {
-	border: 1px solid #ccc;
-	background-color: #fff;
-}
-
-#Vsl3 {
-	display: inline-block;
-}
-
-#Vsl2 {
-	display: inline-block;
-}
-
-#Vsl1 {
-	display: inline-block;
-}
-
-.MnoExplnrTxt {
-	font-size: 15px;
-}
-
-.ClToActCnt {
-	width: 100%;
-}
-
-.colL2 {
-width: 100%;
-border-top: 0px solid #808080; 
-border-bottom: 1px solid #808080;
-margin-top: 0px;
-margin-left: 0px;
-}
-
-.colL2In {
-width: 100%;
-margin-left: 0px;
-margin-right: 0px;
-padding-top: 20px;
-border-bottom: 1px solid #808008; 
-border-top: 1px solid #808008;
-}
-
-.colL2In2 {
-width: 100%; 
-padding-top: 5px;
-width: 100%;
-}
-
-#MnoExplnrCnt {
-	width: 100%;
-	border-top: 0px solid #808080;
-	border-bottom: 1px solid #808080;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 50px;
-}
-
-.LSelnCTA {
-	width: 100%;
-	float: left;
-	padding-left: 0px;
-	padding-right: 0px;
-	margin-bottom: 20px;
-	margin-top: 10px;
-}
-
-.WordItemsCnt1 {
-	padding-left: 0px;
-	padding-right: 0px;
-	border-bottom: 0px;
-}
-
-.WordItemsCnt2 {
-	border-top: 0px solid #808080; 
-	border-bottom: 0px solid #808080;
-}
-
-
-}
-
-
+.pagination a:hover:not(.active) {background-color: #ddd;}
 
 </style>
 
-</head>     
+</head>
 
+<body onload="indexpage()">
+<div id="TemplateContainer" align=center style="width: 100%;">
 
+<!-- JS Template  Goes Here -->
 
-<body onload="landerpage()" id="bodyid" style="">
-
-	<div id="TemplateContainer" align=center style="width: 100%;">
-	<!-- JS Template  Goes Here -->
-	</div>
-
+</div>
 </body>
-
 
 </html>
 
@@ -461,9 +203,9 @@ width: 100%;
 var ShareAdr = 'https://gperilli.github.io/mono/';
 </script>
 
-<script src="js/monost-lander-core.js"></script>
 <script src="js/monost-sitewide.js"></script>
-<script src="js/monost-post-templates.js"></script>
+<script src="js/monost-mui.js"></script>
+<script src="js/monost-gallery-core.js"></script>
 
 
 
