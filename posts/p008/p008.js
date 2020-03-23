@@ -14,7 +14,10 @@ AnnotType: "Annot",
 	//Word Item
 	WI: {ENG: "planets", ITA: "pianeti", JPN: "惑星",},
 	WIr: {ENG: "/ˈplænɪts/", ITA: "/pjaˈneti/", JPN: "wakusei", JPNRu: "<ruby>惑星<rt>わくせい</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
@@ -32,9 +35,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/277147", ITA: "https://tatoeba.org/eng/sentences/show/2211771", JPN: "https://tatoeba.org/eng/sentences/show/126943",},
 	
 	// Dictionary search suffixes
-    engLhyph: "planet", engLperc: "planet", engLplus: "planet", engForv: "planet/#en",
-    itaLhyph: "pianeta", itaLplus: "pianeta", itaForv: "pianeta/#it",
-    jpnLpercen: "%E6%83%91%E6%98%9F", jpnLgoo: "237937/meaning/m1u/", jpnForv: "惑星/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -69,8 +72,11 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Mercury", ITA: "Mercurio", JPN: "水星",},
 	WIr: {ENG: "/ˈmɜːkjʊri/", ITA: "/merˈkurjo/", JPN: "suisei", JPNRu: "<ruby>水星<rt>すいせい</rt></ruby>",},
-
-    	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
+    semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
@@ -84,9 +90,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "",},
 
-    engLhyph: "mercury", engLperc: "mercury", engLplus: "mercury", engForv: "mercury/#en",
-    itaLhyph: "mercurio", itaLplus: "mercurio", itaForv: "mercurio/#it",
-    jpnLpercen: "%E6%B0%B4%E6%98%9F", jpnLgoo: "48697/meaning/m1u/", jpnForv: "水星/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -121,8 +128,11 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Venus", ITA: "Venere", JPN: "金星",},
 	WIr: {ENG: "/ˈviːnəs/", ITA: "/ˈvɛnere/", JPN: "kinsei", JPNRu: "<ruby>金星<rt>きんせい</rt></ruby>",},
-
-    	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
+    semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
@@ -136,9 +146,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "Venus", engLperc: "Venus", engLplus: "Venus", engForv: "Venus/#en",
-    itaLhyph: "Venere", itaLplus: "Venere", itaForv: "Venere/#it",
-    jpnLpercen: "%E9%87%91%E6%98%9F", jpnLgoo: "142609/meaning/m1u/", jpnForv: "金星/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -173,7 +184,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Earth", ITA: "Terra", JPN: "地球",},
 	WIr: {ENG: "/ɜːθ/", ITA: "/ˈtɛrra/", JPN: "ririku", JPNRu: "<ruby>地球<rt>ちきゅう</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -188,9 +202,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "Earth", engLperc: "Earth", engLplus: "Earth", engForv: "earth/#en",
-    itaLhyph: "Terra", itaLplus: "Terra", itaForv: "Terra/#it",
-    jpnLpercen: "%E5%9C%B0%E7%90%83", jpnLgoo: "233036/meaning/m1u/", jpnForv: "地球/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -225,7 +240,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Mars", ITA: "Marte", JPN: "火星",},
 	WIr: {ENG: "/mɑːz/", ITA: "/ˈmarte/", JPN: "kasei", JPNRu: "<ruby>火星<rt>かせい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -240,9 +258,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/4412812", ITA: "https://tatoeba.org/eng/sentences/show/5358666", JPN: "https://tatoeba.org/eng/sentences/show/2074253",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/23793", ITA: "https://tatoeba.org/eng/sentences/show/1807211", JPN: "https://tatoeba.org/eng/sentences/show/186657",},
 
-    engLhyph: "Mars", engLperc: "Mars", engLplus: "Mars", engForv: "Mars/#en",
-    itaLhyph: "Marte", itaLplus: "Marte", itaForv: "Marte/#it",
-    jpnLpercen: "%E7%81%AB%E6%98%9F", jpnLgoo: "66523/meaning/m1u/", jpnForv: "火星/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -277,7 +296,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Jupiter", ITA: "Giove", JPN: "木星",},
 	WIr: {ENG: "/ˈʤuːpɪtə/", ITA: "/ˈdʒɔve/", JPN: "mokusei", JPNRu: "<ruby>木星<rt>もくせい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
     semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -292,9 +314,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "Jupiter", engLperc: "Jupiter", engLplus: "Jupiter", engForv: "Jupiter/#en",
-    itaLhyph: "Giove", itaLplus: "Giove", itaForv: "Giove/#it",
-    jpnLpercen: "%E6%9C%A8%E6%98%9F", jpnLgoo: "123323/meaning/m1u/", jpnForv: "木星/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -329,7 +352,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Saturn", ITA: "Saturno", JPN: "土星",},
 	WIr: {ENG: "/ˈsætən/", ITA: "/saˈturno/", JPN: "dosei", JPNRu: "<ruby>土星<rt>どせい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -344,9 +370,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "Saturn", engLperc: "Saturn", engLplus: "Saturn", engForv: "Saturn/#en",
-    itaLhyph: "Saturno", itaLplus: "Saturno", itaForv: "Saturno/#it",
-    jpnLpercen: "%E5%9C%9F%E6%98%9F", jpnLgoo: "141577/meaning/m1u/", jpnForv: "土星/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -381,7 +408,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Uranus", ITA: "Urano", JPN: "天皇制",},
 	WIr: {ENG: "/ˈjʊərənəs/", ITA: "/uˈrano/", JPN: "tennousei", JPNRu: "<ruby>天皇制<rt>てんのうせい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -396,9 +426,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "Uranus", engLperc: "Uranus", engLplus: "Uranus", engForv: "Uranus/#en",
-    itaLhyph: "Urano", itaLplus: "Urano", itaForv: "Urano/#it",
-    jpnLpercen: "%E5%A4%A9%E7%9A%87%E5%88%B6", jpnLgoo: "107916/meaning/m1u/", jpnForv: "天皇制/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -433,7 +464,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "Neptune", ITA: "Nettuno", JPN: "海王星",},
 	WIr: {ENG: "/ˈnɛptjuːn/", ITA: "/netˈtuno/", JPN: "kaiousei", JPNRu: "<ruby>海王星<rt>かいおうせい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
 	semtag2: {Dsp: "block", ENG: "space", ITA: "spazio", JPN: "宇宙",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -448,10 +482,11 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "Neptune", engLperc: "Neptune", engLplus: "Neptune", engForv: "Neptune/#en",
-    itaLhyph: "Netturno", itaLplus: "Netturno", itaForv: "Netturno/#it",
-    jpnLpercen: "%E6%B5%B7%E7%8E%8B%E6%98%9F", jpnLgoo: "117095/meaning/m1u/", jpnForv: "海王星/#ja",
-
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
