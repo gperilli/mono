@@ -2,7 +2,58 @@
 function setposter(pIdX) {
 	
 	for(var i = 0; i < 9; ++i) {
+		//image file names
 		pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
+		//percent encode Japanese words
+		pIdX[i]["jpnLpercen"] = encodeURIComponent(pIdX[i]["WI"]["JPN"]);
+		
+		//word data for dictionary search
+		if (pIdX[i]["WIcmp"]["ENG"] == 1) {
+			pIdX[i]["engLhyph"] = pIdX[i]["WI"]["ENG"];
+			pIdX[i]["engLperc"] = pIdX[i]["WI"]["ENG"];
+			pIdX[i]["engLplus"] = pIdX[i]["WI"]["ENG"];
+			pIdX[i]["engForv"] = pIdX[i]["WI"]["ENG"].concat("/#en");
+		}
+		if (pIdX[i]["WIcmp"]["ITA"] == 1) {
+			pIdX[i]["itaLhyph"] = pIdX[i]["WI"]["ITA"];
+			pIdX[i]["itaLplus"] = pIdX[i]["WI"]["ITA"];
+			pIdX[i]["itaForv"] = pIdX[i]["WI"]["ITA"].concat("/#it");
+		}
+		if (pIdX[i]["WIcmp"]["JPN"] == 1) {
+			pIdX[i]["jpnLpercen"] = pIdX[i]["WI"]["JPN"];
+			pIdX[i]["jpnLgoo"] = pIdX[i]["WI"]["JPN"];
+			pIdX[i]["jpnForv"] = pIdX[i]["WI"]["JPN"].concat("/#ja");
+		}
+		
+		//word data for dictionary search compound words
+		if (pIdX[i]["WIcmp"]["ENG"] == 2) {
+			pIdX[i]["engLhyph"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("-", pIdX[i]["WIcmp"]["EngCmp2"]);
+			pIdX[i]["engLperc"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("%20", pIdX[i]["WIcmp"]["EngCmp2"]);
+			pIdX[i]["engLplus"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("+", pIdX[i]["WIcmp"]["EngCmp2"]);
+			pIdX[i]["engForv"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("_", pIdX[i]["WIcmp"]["EngCmp2"], "/#en");
+		}
+		
+		if (pIdX[i]["WIcmp"]["ITA"] == 2) {
+			pIdX[i]["itaLhyph"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("-", pIdX[i]["WIcmp"]["ItaCmp2"]);
+			pIdX[i]["itaLplus"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("+", pIdX[i]["WIcmp"]["ItaCmp2"]);
+			pIdX[i]["itaForv"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("_", pIdX[i]["WIcmp"]["ItaCmp2"], "/#it");
+		}
+		
+		//word data for dictionary search compound words
+		if (pIdX[i]["WIcmp"]["ENG"] == 3) {
+			pIdX[i]["engLhyph"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("-", pIdX[i]["WIcmp"]["EngCmp2"], "-", pIdX[i]["WIcmp"]["EngCmp3"]);
+			pIdX[i]["engLperc"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("%20", pIdX[i]["WIcmp"]["EngCmp2"], "%20", pIdX[i]["WIcmp"]["EngCmp3"]);
+			pIdX[i]["engLplus"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("+", pIdX[i]["WIcmp"]["EngCmp2"], "+", pIdX[i]["WIcmp"]["EngCmp3"]);
+			pIdX[i]["engForv"] = pIdX[i]["WIcmp"]["EngCmp1"].concat("_", pIdX[i]["WIcmp"]["EngCmp2"], "_", pIdX[i]["WIcmp"]["EngCmp3"], "/#it");
+		}
+		
+		if (pIdX[i]["WIcmp"]["ITA"] == 3) {
+			pIdX[i]["itaLhyph"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("-", pIdX[i]["WIcmp"]["ItaCmp2"], "-", pIdX[i]["WIcmp"]["ItaCmp3"]);
+			pIdX[i]["itaLplus"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("+", pIdX[i]["WIcmp"]["ItaCmp2"], "+", pIdX[i]["WIcmp"]["ItaCmp3"]);
+			pIdX[i]["itaForv"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("_", pIdX[i]["WIcmp"]["ItaCmp2"], "_", pIdX[i]["WIcmp"]["ItaCmp3"], "/#it");
+		}
+
+		//audio file names
 		pIdX[i]["AudENGWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
 		pIdX[i]["AudENGEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
 		pIdX[i]["AudENGEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
