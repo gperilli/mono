@@ -14,8 +14,11 @@ AnnotType: "HLight",
 	//Word Item
 	WI: {ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	WIr: {ENG: "/fruːt/", ITA: "/ˈfrutta/", JPN: "kudamono", JPNRu: "<ruby>果物<rt>くだもの</rt></ruby>",},
-	
-	//Sematic Tags
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
+	//Semantic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
@@ -32,9 +35,9 @@ AnnotType: "HLight",
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/269325", ITA: "https://tatoeba.org/eng/sentences/show/3353313", JPN: "https://tatoeba.org/eng/sentences/show/145238",},
     
 	// Dictionary search suffixes
-    engLhyph: "fruit", engLperc: "fruit", engLplus: "fruit", engForv: "fruit/#en",
-    itaLhyph: "frutta", itaLplus: "frutta", itaForv: "frutta/#it",
-    jpnLpercen: "%E6%9E%9C%E7%89%A9", jpnLgoo: "61805/meaning/m1u/", jpnForv: "果物/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -64,7 +67,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "strawberry", ITA: "fragola", JPN: "苺",},
 	WIr: {ENG: "/ˈstrɔː.bər.i/", ITA: "/ˈfraɡola/", JPN: "ichigo", JPNRu: "<ruby>苺<rt>いちご</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
     semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -78,9 +84,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "strawberry", engLperc: "strawberry", engLplus: "strawberry", engForv: "strawberry/#en",
-    itaLhyph: "fragola", itaLplus: "fragola", itaForv: "fragola/#it",
-    jpnLpercen: "%e8%8b%ba", jpnLgoo: "12415/meaning/m1u/", jpnForv: "苺/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -109,7 +116,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "apple", ITA: "mela", JPN: "りんご",},
 	WIr: {ENG: "/ˈæp.əl/", ITA: "/ˈmela/", JPN: "ringo", JPNRu: "<ruby>りんご<rt>りんご</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -123,9 +133,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/60349", ITA: "https://tatoeba.org/eng/sentences/show/376597", JPN: "https://tatoeba.org/eng/sentences/show/223018",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/29632", ITA: "https://tatoeba.org/eng/sentences/show/380220", JPN: "https://tatoeba.org/eng/sentences/show/192468",},
     
-    engLhyph: "apple", engLperc: "apple", engLplus: "apple", engForv: "apple/#en",
-    itaLhyph: "mela", itaLplus: "mela", itaForv: "mela/#it",
-    jpnLpercen: "%e3%82%8a%e3%82%93%e3%81%94", jpnLgoo: "233206/meaning/m1u/", jpnForv: "りんご/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -154,7 +165,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "orange", ITA: "arancia", JPN: "オレンジ",},
 	WIr: {ENG: "/ˈɒr.ɪndʒ/", ITA: "/aˈrantʃa/", JPN: "orenji", JPNRu: "<ruby>オレンジ<rt>おれんじ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -168,9 +182,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/64776", ITA: "https://tatoeba.org/eng/sentences/show/382277", JPN: "https://tatoeba.org/eng/sentences/show/227424",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/64783", ITA: "https://tatoeba.org/eng/sentences/show/5116414", JPN: "https://tatoeba.org/eng/sentences/show/227431",},
 
-    engLhyph: "orange", engLperc: "orange", engLplus: "orange", engForv: "orange/#en",
-    itaLhyph: "arancia", itaLplus: "arancia", itaForv: "arancia/#it",
-    jpnLpercen: "%e3%82%aa%e3%83%ac%e3%83%b3%e3%82%b8", jpnLgoo: "34124/meaning/m1u/", jpnForv: "オレンジ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -199,7 +214,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "banana", ITA: "banana", JPN: "バナナ",},
 	WIr: {ENG: "/bəˈnɑː.nə/", ITA: "/baˈnana/", JPN: "banana", JPNRu: "<ruby>バナナ<rt>ばなな</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -213,9 +231,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "banana", engLperc: "banana", engLplus: "banana", engForv: "banana/#en",
-    itaLhyph: "banana", itaLplus: "banana", itaForv: "banana/#it",
-    jpnLpercen: "%e3%83%90%e3%83%8a%e3%83%8a", jpnLgoo: "178452/meaning/m1u/", jpnForv: "バナナ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -244,7 +263,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "cherry", ITA: "ciliegia", JPN: "桜んぼ",},
 	WIr: {ENG: "/ˈtʃer.i/", ITA: "/tʃiˈljɛdʒa/", JPN: "seki", JPNRu: "<ruby>桜んぼ<rt>さくらんぼ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -258,9 +280,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "cherry", engLperc: "cherry", engLplus: "cherry", engForv: "cherry/#en",
-    itaLhyph: "ciliega", itaLplus: "ciliega", itaForv: "ciliega/#it",
-    jpnLpercen: "%e6%a1%9c%e3%82%93%e3%81%bc", jpnLgoo: "87212/meaning/m1u/", jpnForv: "桜んぼ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -289,7 +312,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "pear", ITA: "pera", JPN: "梨",},
 	WIr: {ENG: "/peər/", ITA: "/ˈpera/", JPN: "nashi", JPNRu: "<ruby>梨<rt>なし</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -303,9 +329,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "pear", engLperc: "pear", engLplus: "pear", engForv: "pear/#en",
-    itaLhyph: "pera", itaLplus: "pera", itaForv: "pera/#it",
-    jpnLpercen: "%e6%a2%a8", jpnLgoo: "163930/meaning/m1u/", jpnForv: "梨/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -333,7 +360,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "peach", ITA: "pesca", JPN: "桃",},
 	WIr: {ENG: "/ˈpeska/", ITA: "/ˈpeska/", JPN: "momo", JPNRu: "<ruby>桃<rt>もも</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -347,9 +377,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/244698", ITA: "https://tatoeba.org/eng/sentences/show/169788", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "peach", engLperc: "peach", engLplus: "peach", engForv: "peach/#en",
-    itaLhyph: "pesca", itaLplus: "pesca", itaForv: "pesca/#it",
-    jpnLpercen: "%e6%a1%83", jpnLgoo: "220207/meaning/m1u/", jpnForv: "桃/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -378,7 +409,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "blueberry", ITA: "mirtillo", JPN: "ブルーベリー",},
 	WIr: {ENG: "/ˈbluːˌbər.i/", ITA: "/mirˈtillo/", JPN: "buruuberii", JPNRu: "<ruby>ブルーベリー<rt>ぶるーべりー</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
 	semtag2: {Dsp: "block", ENG: "food", ITA: "cibo", JPN: "食べ物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -392,9 +426,10 @@ AnnotType: "HLight",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "blueberry", engLperc: "blueberry", engLplus: "blueberry", engForv: "blueberry/#en",
-    itaLhyph: "mirtillo", itaLplus: "mirtillo", itaForv: "mirtillo/#it",
-    jpnLpercen: "%e3%83%96%e3%83%ab%e3%83%bc%e3%83%99%e3%83%aa%e3%83%bc", jpnLgoo: "195998/meaning/m1u/", jpnForv: "スーツケース/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
