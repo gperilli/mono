@@ -14,7 +14,10 @@ AnnotType: "Annot",
 	//Word Item
 	WI: {ENG: "park", ITA: "parco", JPN: "公園",},
 	WIr: {ENG: "/pɑːk/", ITA: "/ˈparko/", JPN: "kouen", JPNRu: "<ruby>公園<rt>こうえん</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "places", ITA: "posti", JPN: "場所",},
@@ -32,9 +35,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/245691", ITA: "https://tatoeba.org/eng/sentences/show/3488782", JPN: "https://tatoeba.org/eng/sentences/show/168800",},
 	
 	// Dictionary search suffixes
-    engLhyph: "park", engLperc: "park", engLplus: "park", engForv: "park/#en",
-    itaLhyph: "parco", itaLplus: "parco", itaForv: "parco/#it",
-    jpnLpercen: "%E5%85%AC%E5%9C%92", jpnLgoo: "71817/meaning/m1u/", jpnForv: "公園/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -69,6 +72,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "tree", ITA: "albero", JPN: "木",},
 	WIr: {ENG: "/triː/", ITA: "/ˈalbero/", JPN: "ki", JPNRu: "<ruby>木<rt>き</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
     semtag1: {Dsp: "block", ENG: "plants", ITA: "piante", JPN: "植物",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -83,9 +89,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/25868", ITA: "https://tatoeba.org/eng/sentences/show/1980357", JPN: "https://tatoeba.org/eng/sentences/show/188723",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/55879", ITA: "https://tatoeba.org/eng/sentences/show/2601465", JPN: "https://tatoeba.org/eng/sentences/show/218565",},
 
-    engLhyph: "tree", engLperc: "tree", engLplus: "tree", engForv: "tree/#en",
-    itaLhyph: "albero", itaLplus: "albero", itaForv: "albero/#it",
-    jpnLpercen: "%E6%9C%A8", jpnLgoo: "50048/meaning/m1u/", jpnForv: "木/#ja",
+	// Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -120,6 +127,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "branch", ITA: "ramo", JPN: "枝",},
 	WIr: {ENG: "/brɑːnʧ/", ITA: "/ˈramo/", JPN: "eda", JPNRu: "<ruby>枝<rt>えだ</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -134,9 +144,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
 
-    engLhyph: "branch", engLperc: "branch", engLplus: "branch", engForv: "branch/#en",
-    itaLhyph: "ramo", itaLplus: "ramo", itaForv: "ramo/#it",
-    jpnLpercen: "%E6%9E%9D", jpnLgoo: "23896/meaning/m1u/", jpnForv: "枝/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -171,6 +182,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "leaf", ITA: "foglia", JPN: "葉っぱ",},
 	WIr: {ENG: "/liːf/", ITA: "/ˈfɔʎʎa/", JPN: "happa", JPNRu: "<ruby>葉っぱ<rt>はっぱ</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -185,9 +199,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/43510", ITA: "https://tatoeba.org/eng/sentences/show/3519742", JPN: "https://tatoeba.org/eng/sentences/show/206264",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-    engLhyph: "leaf", engLperc: "leaf", engLplus: "leaf", engForv: "leaf/#en",
-    itaLhyph: "foglio", itaLplus: "foglio", itaForv: "foglio/#it",
-    jpnLpercen: "%E8%91%89%E3%81%A3%E3%81%B1", jpnLgoo: "172797/meaning/m1u/", jpnForv: "葉っぱ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -212,6 +227,7 @@ AnnotType: "Annot",
 4: {imgfile: "p005/monop005-wi4.svg",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
+
 	
 	imgbckg: "wht",
 
@@ -222,6 +238,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "bench", ITA: "panchina", JPN: "ベンチ",},
 	WIr: {ENG: "/bɛnʧ/", ITA: "/panˈkina/", JPN: "benchi", JPNRu: "<ruby>ベンチ<rt>べんち</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -236,9 +255,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/40473", ITA: "https://tatoeba.org/eng/sentences/show/1004008", JPN: "https://tatoeba.org/eng/sentences/show/203237",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282055", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/121948",},
 	
-    engLhyph: "bench", engLperc: "bench", engLplus: "bench", engForv: "bench/#en",
-    itaLhyph: "panchina", itaLplus: "panchina", itaForv: "panchina/#it",
-    jpnLpercen: "%E3%83%99%E3%83%B3%E3%83%81", jpnLgoo: "200500/meaning/m1u/", jpnForv: "ベンチ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -273,6 +293,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "waste bin", ITA: "cestino dei rifiuti", JPN: "ゴミ箱",},
 	WIr: {ENG: "/weɪst bɪn/", ITA: "/tʃesˈtino 'dei riˈfjuti/", JPN: "gomibako", JPNRu: "<ruby>ゴミ箱<rt>ごみばこ</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -287,9 +310,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "waste-bin", engLperc: "waste%20bin", engLplus: "waste+bin", engForv: "waste_bin/#en",
-    itaLhyph: "cestino", itaLplus: "cestino", itaForv: "cestino/#it",
-    jpnLpercen: "%E3%82%B4%E3%83%9F%E7%AE%B1", jpnLgoo: "82043/meaning/m1u/", jpnForv: "ゴミ箱/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -324,6 +348,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "cloud", ITA: "nuvolo", JPN: "雲",},
 	WIr: {ENG: "/klaʊd/", ITA: "/ˈnuvolo/", JPN: "kumo", JPNRu: "<ruby>雲<rt>くも</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -338,9 +365,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/18321", ITA: "https://tatoeba.org/eng/sentences/show/2206815", JPN: "https://tatoeba.org/eng/sentences/show/179452",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/26530", ITA: "https://tatoeba.org/eng/sentences/show/3377481", JPN: "https://tatoeba.org/eng/sentences/show/189379",},
 	
-    engLhyph: "cloud", engLperc: "cloud", engLplus: "cloud", engForv: "cloud/#en",
-    itaLhyph: "nuvolo", itaLplus: "nuvolo", itaForv: "nuvolo/#it",
-    jpnLpercen: "%E9%9B%B2", jpnLgoo: "63094/meaning/m1u/", jpnForv: "雲/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -375,6 +403,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "bird", ITA: "uccello", JPN: "鳥",},
 	WIr: {ENG: "/bɜːd/", ITA: "/utˈtʃɛllo/", JPN: "tori", JPNRu: "<ruby>鳥<rt>とり</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "animals", ITA: "animali", JPN: "動物",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -389,9 +420,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1780327", ITA: "https://tatoeba.org/eng/sentences/show/5414690", JPN: "https://tatoeba.org/eng/sentences/show/1780328",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/244454", ITA: "https://tatoeba.org/eng/sentences/show/1933077", JPN: "https://tatoeba.org/eng/sentences/show/170032",},
 
-    engLhyph: "bird", engLperc: "bird", engLplus: "bird", engForv: "bird/#en",
-    itaLhyph: "uccello", itaLplus: "uccello", itaForv: "uccello/#it",
-    jpnLpercen: "%E9%B3%A5", jpnLgoo: "160952/meaning/m1u/", jpnForv: "鳥/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -419,7 +451,6 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",
 
-
 	LnContPosLeft: "73%", LnContPosTop: "1%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
 	LnPosX1: "25%", LnPosY1: "25%",
@@ -427,6 +458,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "sun", ITA: "sole", JPN: "太陽",},
 	WIr: {ENG: "/sʌn/", ITA: "/ˈsole/", JPN: "taiyou", JPNRu: "<ruby>太陽<rt>たいよう</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -441,9 +475,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/277137", ITA: "https://tatoeba.org/eng/sentences/show/1405111", JPN: "https://tatoeba.org/eng/sentences/show/126951",},
 	
-    engLhyph: "sun", engLperc: "sun", engLplus: "sun", engForv: "sun/#en",
-    itaLhyph: "sole", itaLplus: "sole", itaForv: "sole/#it",
-    jpnLpercen: "%E5%A4%AA%E9%99%BD", jpnLgoo: "134682/meaning/m1u/", jpnForv: "太陽/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
