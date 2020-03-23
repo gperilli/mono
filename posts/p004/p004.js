@@ -14,7 +14,10 @@ AnnotType: "Annot",
 	//Word Item
 	WI: {ENG: "countryside", ITA: "campagna", JPN: "田舎",},
 	WIr: {ENG: "/ˈkʌntrɪˌsaɪd/", ITA: "/kamˈpaɲɲa/", JPN: "inaka", JPNRu: "<ruby>田舎<rt>いなか</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+		
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
@@ -32,9 +35,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/253129", ITA: "https://tatoeba.org/eng/sentences/show/6638082", JPN: "https://tatoeba.org/eng/sentences/show/152686",},
 	
 	// Dictionary search suffixes
-    engLhyph: "countryside", engLperc: "countryside", engLplus: "countryside", engForv: "countryside/#en",
-    itaLhyph: "campagna", itaLplus: "campagna", itaForv: "campagna/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "田舎/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -69,7 +72,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "airplane", ITA: "aeroplano", JPN: "飛行機",},
 	WIr: {ENG: "/ˈɛərpleɪn/", ITA: "/aeroˈplano/", JPN: "hikouki", JPNRu: "<ruby>飛行機<rt>ひこうき</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
     semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "vehicles", ITA: "veicolo", JPN: "乗り物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -83,9 +89,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/291244", ITA: "https://tatoeba.org/eng/sentences/show/2395274", JPN: "https://tatoeba.org/eng/sentences/show/112433",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/318038", ITA: "https://tatoeba.org/eng/sentences/show/947448", JPN: "https://tatoeba.org/eng/sentences/show/85675",},
 
-    engLhyph: "airplane", engLperc: "airplane", engLplus: "airplane", engForv: "airplane/#en",
-    itaLhyph: "aeroplano", itaLplus: "aeroplano", itaForv: "aeroplano/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 		ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -119,7 +126,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "mountain", ITA: "montagna", JPN: "山",},
 	WIr: {ENG: "/ˈmaʊntən/", ITA: "/monˈtaɲɲa/", JPN: "yama", JPNRu: "<ruby>山<rt>やま</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "scenery", ITA: "paesaggio", JPN: "景色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -133,9 +143,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/47719", ITA: "https://tatoeba.org/eng/sentences/show/1687435", JPN: "https://tatoeba.org/eng/sentences/show/210451",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/257880", ITA: "https://tatoeba.org/eng/sentences/show/35455408", JPN: "https://tatoeba.org/eng/sentences/show/156654",},
 
-    engLhyph: "mountain", engLperc: "mountain", engLplus: "mountain", engForv: "mountain/#en",
-    itaLhyph: "montagna", itaLplus: "montagna", itaForv: "montagna/#it",
-    jpnLpercen: "%E5%B1%B1", jpnLgoo: "142609/meaning/m1u/", jpnForv: "山/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -163,18 +174,17 @@ AnnotType: "Annot",
 	imgbckg: "wht",
 
 	dirmode: "down",
-	LnContPosLeft: "2%",
-	LnContPosTop: "56%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "41%",
-	LnPosY2: "62%",
+	LnContPosLeft: "2%", LnContPosTop: "56%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "41%", LnPosY2: "62%",
 
 	WI: {ENG: "house", ITA: "casa", JPN: "家",},
 	WIr: {ENG: "/ˈhaʊs/", ITA: "/ˈkasa/", JPN: "ie", JPNRu: "<ruby>家<rt>いえ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
 	semtag2: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -188,9 +198,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/49382", ITA: "https://tatoeba.org/eng/sentences/show/3087258", JPN: "https://tatoeba.org/eng/sentences/show/187001",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/60147", ITA: "https://tatoeba.org/eng/sentences/show/438662", JPN: "https://tatoeba.org/eng/sentences/show/222817",},
 
-    engLhyph: "house", engLperc: "house", engLplus: "house", engForv: "house/#en",
-    itaLhyph: "casa", itaLplus: "casa", itaForv: "casa/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -225,7 +236,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "forest", ITA: "foresta", JPN: "森",},
 	WIr: {ENG: "/ˈfɒrɪst/", ITA: "/foˈrɛsta/", JPN: "mori", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "scenery", ITA: "paesaggio", JPN: "景色景",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -239,9 +253,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/255821", ITA: "https://tatoeba.org/eng/sentences/show/1512723", JPN: "https://tatoeba.org/eng/sentences/show/155699",},
 	TatSrcEx3: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/19082", ITA: "https://tatoeba.org/eng/sentences/show/384832", JPN: "https://tatoeba.org/eng/sentences/show/180220",},
 
-    engLhyph: "forest", engLperc: "forest", engLplus: "forest", engForv: "forest/#en",
-    itaLhyph: "foresta", itaLplus: "foresta", itaForv: "foresta/#it",
-    jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -276,7 +291,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "tractor", ITA: "trattore", JPN: "トラクター",},
 	WIr: {ENG: "/ˈtræktə/", ITA: "/tratˈtore/", JPN: "seki", JPNRu: "<ruby>トラクター<rt>とらくたー</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "vehicle", ITA: "veicolo", JPN: "乗り物",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -290,10 +308,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "席/#ja",
+	// Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -321,18 +339,17 @@ AnnotType: "Annot",
 	
 	imgbckg: "blk",
 
-	LnContPosLeft: "55%",
-	LnContPosTop: "45%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "49%",
-	LnPosY2: "59%",
+	LnContPosLeft: "55%", LnContPosTop: "45%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "49%", LnPosY2: "59%",
 
 	WI: {ENG: "wind turbine", ITA: "turbina eolica", JPN: "風力原動機",},
 	WIr: {ENG: "/wɪnd ˈtɜːbɪn/", ITA: "/turˈbina eˈɔlika/", JPN: "fuuryokugendouki", JPNRu: "<ruby>風力原動機<rt>ふうりょくげんどうき</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
 	semtag2: {Dsp: "block", ENG: "electricity", ITA: "elettricità", JPN: "電気",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -346,9 +363,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -375,18 +393,17 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",
 
-	LnContPosLeft: "69%",
-	LnContPosTop: "9%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "6%",
-	LnPosX1: "25%",
-	LnPosY1: "50%",
-	LnPosX2: "65%",
-	LnPosY2: "50%",
+	LnContPosLeft: "69%", LnContPosTop: "9%",
+	BtnPosLeft: "0%", BtnPosTop: "6%",
+	LnPosX1: "25%", LnPosY1: "50%",
+	LnPosX2: "65%", LnPosY2: "50%",
 
-	WI: {ENG: "hot air balloon", ITA: "mongolfiera", JPN: "熱気球",},
+	WI: {ENG: "hot-air balloon", ITA: "mongolfiera", JPN: "熱気球",},
 	WIr: {ENG: "/hɒt eə bəˈluːn/", ITA: "/mongolˈfjɛra/", JPN: "netsukikyuu", JPNRu: "<ruby>熱気球<rt>ねつききゅう</rt></ruby>",},
-
+	WIcmp: {ENG: "2", EngCmp1: "hot-air", EngCmp2: "balloon",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "vehicles", ITA: "veicolo", JPN: "空港",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -400,9 +417,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/967723", ITA: "", JPN: "https://tatoeba.org/eng/sentences/show/2242463",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "hot-air-balloon", engLperc: "hot%20air%20balloon", engLplus: "hot+air+balloon", engForv: "hot_air_balloon/#en",
-    itaLhyph: "mongolfiera", itaLplus: "mongolfiera", itaForv: "mongolfiera/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -429,18 +447,17 @@ AnnotType: "Annot",
 		
 	imgbckg: "wht",
 
-	LnContPosLeft: "46%",
-	LnContPosTop: "71%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "12%",
-	LnPosX1: "25%",
-	LnPosY1: "75%",
-	LnPosX2: "55%",
-	LnPosY2: "45%",
+	LnContPosLeft: "46%", LnContPosTop: "71%",
+	BtnPosLeft: "0%", BtnPosTop: "12%",
+	LnPosX1: "25%", LnPosY1: "75%",
+	LnPosX2: "55%", LnPosY2: "45%",
 
 	WI: {ENG: "field", ITA: "campo", JPN: "畑",},
 	WIr: {ENG: "/fiːld/", ITA: "/ˈkampo/", JPN: "hatake", JPNRu: "<ruby>畑<rt>はたけ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "field", ITA: "campo", JPN: "畑",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -454,9 +471,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/967723", ITA: "https://tatoeba.org/eng/sentences/show/967725", JPN: "https://tatoeba.org/eng/sentences/show/2242463",},
 	TatSrcEx3: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/324108", ITA: "https://tatoeba.org/eng/sentences/show/351075", JPN: "https://tatoeba.org/eng/sentences/show/79610",},
 
-    engLhyph: "field", engLperc: "field", engLplus: "field", engForv: "field/#en",
-    itaLhyph: "campo", itaLplus: "campo", itaForv: "campo/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/285733", ITA: "https://tatoeba.org/eng/sentences/show/375301", JPN: "https://tatoeba.org/eng/sentences/show/117932",},
