@@ -14,6 +14,9 @@ AnnotType: "Annot",
 	//Word Item
 	WI: {ENG: "body", ITA: "corpo", JPN: "体",},
 	WIr: {ENG: "/ˈbɒd·i/", ITA: "/ˈkɔrpo/", JPN: "karada", JPNRu: "<ruby>体<rt>からだ</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -32,9 +35,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/238769", ITA: "https://tatoeba.org/eng/sentences/show/1005812", JPN: "https://tatoeba.org/eng/sentences/show/175696",},
     
 	// Dictionary search suffixes
-    engLhyph: "body", engLperc: "body", engLplus: "body", engForv: "body/#en",
-    itaLhyph: "corpo", itaLplus: "corpo", itaForv: "corpo/#it",
-    jpnLpercen: "%E4%BD%93", jpnLgoo: "45827/meaning/m1u/", jpnForv: "体/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -69,7 +72,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "man", ITA: "uomo", JPN: "男",},
 	WIr: {ENG: "/mæn/", ITA: "/ˈwɔmo/", JPN: "otoko", JPNRu: "<ruby>男<rt>おとこ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
     semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -83,9 +89,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/301645", ITA: "https://tatoeba.org/eng/sentences/show/1258300", JPN: "https://tatoeba.org/eng/sentences/show/102048",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/72664", ITA: "https://tatoeba.org/eng/sentences/show/1266623", JPN: "https://tatoeba.org/eng/sentences/show/3468493",},
 
-    engLhyph: "man", engLperc: "man", engLplus: "man", engForv: "man/#en",
-    itaLhyph: "uomo", itaLplus: "uomo", itaForv: "uomo/#it",
-    jpnLpercen: "%e7%94%b7", jpnLgoo: "27046/meaning/m1u/", jpnForv: "男/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -113,7 +120,6 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",
 
-	dirmode: "right",
 	LnContPosLeft: "13%", LnContPosTop: "3%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
 	LnPosX1: "75%", LnPosY1: "25%",
@@ -121,6 +127,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "woman", ITA: "donna", JPN: "女",},
 	WIr: {ENG: "/ˈwʊm·ən/", ITA: "/ˈdɔnna/", JPN: "onna", JPNRu: "<ruby>女<rt>おんな</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -135,9 +144,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/69862", ITA: "https://tatoeba.org/eng/sentences/show/3636666", JPN: "https://tatoeba.org/eng/sentences/show/232492",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/252218", ITA: "https://tatoeba.org/eng/sentences/show/1134004", JPN: "https://tatoeba.org/eng/sentences/show/162296",},
 
-    engLhyph: "woman", engLperc: "woman", engLplus: "woman", engForv: "woman/#en",
-    itaLhyph: "donna", itaLplus: "donna", itaForv: "donna/#it",
-    jpnLpercen: "%e5%a5%b3", jpnLgoo: "34574/meaning/m1u/", jpnForv: "女/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -160,25 +170,21 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 		
 	imgbckg: "wht",
 
-	dirmode: "down",
-	LnContPosLeft: "64%",
-	LnContPosTop: "76%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "6%",
-	LnPosX1: "75%",
-	LnPosY1: "50%",
-	LnPosX2: "35%",
-	LnPosY2: "50%",
+	LnContPosLeft: "64%", LnContPosTop: "76%",
+	BtnPosLeft: "9%", BtnPosTop: "6%",
+	LnPosX1: "75%", LnPosY1: "50%",
+	LnPosX2: "35%", LnPosY2: "50%",
 
 	WI: {ENG: "foot", ITA: "piede", JPN: "足",},
 	WIr: {ENG: "/fʊt/", ITA: "/ˈpjɛde/", JPN: "ashi", JPNRu: "<ruby>足<rt>あし</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -193,9 +199,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/274468", ITA: "https://tatoeba.org/eng/sentences/show/2576245", JPN: "https://tatoeba.org/eng/sentences/show/139873",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/292381", ITA: "https://tatoeba.org/eng/sentences/show/1067371", JPN: "https://tatoeba.org/eng/sentences/show/111302",},
 
-    engLhyph: "foot", engLperc: "foot", engLplus: "foot", engForv: "foot/#en",
-    itaLhyph: "piede", itaLplus: "piede", itaForv: "piede/#it",
-    jpnLpercen: "%e8%b6%b3", jpnLgoo: "3635/meaning/m1u/", jpnForv: "足/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -218,25 +225,21 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 		
 	imgbckg: "wht",
 
-	dirmode: "up",
-	LnContPosLeft: "64%",
-	LnContPosTop: "51%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "6%",
-	LnPosX1: "75%",
-	LnPosY1: "50%",
-	LnPosX2: "35%",
-	LnPosY2: "50%",
+	LnContPosLeft: "64%", LnContPosTop: "51%",
+	BtnPosLeft: "9%", BtnPosTop: "6%",
+	LnPosX1: "75%", LnPosY1: "50%",
+	LnPosX2: "35%", LnPosY2: "50%",
 
 	WI: {ENG: "leg", ITA: "gamba", JPN: "脚",},
 	WIr: {ENG: "/leɡ/", ITA: "/ˈɡamba/", JPN: "ashi", JPNRu: "<ruby>脚<rt>あし</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -251,10 +254,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/287066", ITA: "https://tatoeba.org/eng/sentences/show/6596753", JPN: "https://tatoeba.org/eng/sentences/show/116603",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/3326794", ITA: "https://tatoeba.org/eng/sentences/show/3326814", JPN: "https://tatoeba.org/eng/sentences/show/3366828",},
 
-    engLhyph: "leg", engLperc: "leg", engLplus: "leg", engForv: "leg/#en",
-    itaLhyph: "gamba", itaLplus: "gamba", itaForv: "gamba/#it",
-    jpnLpercen: "%e8%84%9a", jpnLgoo: "3635/meaning/m1u/", jpnForv: "脚/#ja",
-	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -284,18 +287,16 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",
 
-	dirmode: "downleft",
-	LnContPosLeft: "45%",
-	LnContPosTop: "39%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "6%",
-	LnPosX1: "25%",
-	LnPosY1: "50%",
-	LnPosX2: "65%",
-	LnPosY2: "50%",
+	LnContPosLeft: "45%", LnContPosTop: "39%",
+	BtnPosLeft: "0%", BtnPosTop: "6%",
+	LnPosX1: "25%", LnPosY1: "50%",
+	LnPosX2: "65%", LnPosY2: "50%",
 
 	WI: {ENG: "hand", ITA: "mano", JPN: "手",},
 	WIr: {ENG: "/hænd/", ITA: "/ˈmano/", JPN: "te", JPNRu: "<ruby>手<rt>て</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -310,10 +311,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/69234", ITA: "https://tatoeba.org/eng/sentences/show/717902", JPN: "https://tatoeba.org/eng/sentences/show/148654",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/314875", ITA: "https://tatoeba.org/eng/sentences/show/962170", JPN: "https://tatoeba.org/eng/sentences/show/88832",},
 
-
-    engLhyph: "hand", engLperc: "hand", engLplus: "hand", engForv: "hand/#en",
-    itaLhyph: "mano", itaLplus: "mano", itaForv: "mano/#it",
-    jpnLpercen: "%e6%89%8b", jpnLgoo: "148831/meaning/m1u/", jpnForv: "手/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -335,25 +336,21 @@ AnnotType: "Annot",
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
 	imgbckg: "wht",
 
-	dirmode: "up",
-	LnContPosLeft: "47%",
-	LnContPosTop: "24%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "6%",
-	LnPosX1: "25%",
-	LnPosY1: "50%",
-	LnPosX2: "65%",
-	LnPosY2: "50%",
+	LnContPosLeft: "47%", LnContPosTop: "24%",
+	BtnPosLeft: "0%", BtnPosTop: "6%",
+	LnPosX1: "25%", LnPosY1: "50%",
+	LnPosX2: "65%", LnPosY2: "50%",
 
 	WI: {ENG: "arm", ITA: "braccio", JPN: "腕",},
 	WIr: {ENG: "/ɑːm/", ITA: "/ˈbrattʃo/", JPN: "ude", JPNRu: "<ruby>腕<rt>うで</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -368,9 +365,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/300870", ITA: "https://tatoeba.org/eng/sentences/show/2449877", JPN: "https://tatoeba.org/eng/sentences/show/102824",},
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/326609", ITA: "https://tatoeba.org/eng/sentences/show/2716252", JPN: "https://tatoeba.org/eng/sentences/show/77111",},
 
-    engLhyph: "arm", engLperc: "arm", engLplus: "arm", engForv: "arm/#en",
-    itaLhyph: "braccio", itaLplus: "braccio", itaForv: "braccio/#it",
-    jpnLpercen: "%e8%85%95", jpnLgoo: "19888/meaning/m1u/", jpnForv: "腕/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -392,26 +390,21 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
 	imgbckg: "wht",
 
-	dirmode: "down",
-	LnContPosLeft: "59%",
-	LnContPosTop: "20%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "45%",
-	LnPosY2: "55%",
+	LnContPosLeft: "59%", LnContPosTop: "20%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%",
+	LnPosX2: "45%", LnPosY2: "55%",
 
 	WI: {ENG: "chest", ITA: "petto", JPN: "胸",},
 	WIr: {ENG: "/tʃest/", ITA: "/ˈpɛtto/", JPN: "mune", JPNRu: "<ruby>胸<rt>むね</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -426,9 +419,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-    engLhyph: "chest", engLperc: "chest", engLplus: "chest", engForv: "chest/#en",
-    itaLhyph: "petto", itaLplus: "petto", itaForv: "petto/#it",
-    jpnLpercen: "%e8%83%b8", jpnLgoo: "215770/meaning/m1u/", jpnForv: "胸/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -450,26 +444,21 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
 	
 	imgbckg: "wht",
 
-	dirmode: "up",
-	LnContPosLeft: "56%",
-	LnContPosTop: "0%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "0%",
-	LnPosX1: "25%",
-	LnPosY1: "25%",
-	LnPosX2: "55%",
-	LnPosY2: "55%",
+	LnContPosLeft: "56%", LnContPosTop: "0%",
+	BtnPosLeft: "0%", BtnPosTop: "0%",
+	LnPosX1: "25%", LnPosY1: "25%",
+	LnPosX2: "55%", LnPosY2: "55%",
 	
 	WI: {ENG: "head", ITA: "testa", JPN: "頭",},
 	WIr: {ENG: "/hed/", ITA: "/ˈtɛsta/", JPN: "atama", JPNRu: "<ruby>頭<rt>あたま</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 	
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -484,10 +473,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/303763", ITA: "https://tatoeba.org/eng/sentences/show/937783", JPN: "https://tatoeba.org/eng/sentences/show/99934",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-
-    engLhyph: "head", engLperc: "head", engLplus: "head", engForv: "head/#en",
-    itaLhyph: "testa", itaLplus: "testa", itaForv: "testa/#it",
-    jpnLpercen: "%e9%a0%ad", jpnLgoo: "4583/meaning/m1u/", jpnForv: "頭/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -508,5 +497,3 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 }
-
-//var p00X = 007;
