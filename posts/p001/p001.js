@@ -5,13 +5,18 @@ No: "001",
 Date: "18/08/2018",
 AnnotType: "Annot",
 
-0: {imgfile: "", imgsrc: "deriv", imgattrsrcfle: "", imgattrsite: "", imgattrurl: "", 	
+0: {imgfile: "", 
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 	
 	
 	imgbckg: "wht",	
 	
 	//Word Item
 	WI: {ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "kuukou", JPNRu: "<ruby>空港<rt>くうこう</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -30,9 +35,9 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/18189", ITA: "https://tatoeba.org/ita/sentences/show/702836", JPN: "https://tatoeba.org/jpn/sentences/show/179332",},
     
 	// Dictionary search suffixes
-    engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
-    itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -54,7 +59,9 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-1: {imgfile: "", imgsrc: "original", imgattrsrcfle: "", imgattrsite: "", imgattrurl: "",
+1: {imgfile: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
@@ -62,9 +69,13 @@ AnnotType: "Annot",
 	LnContPosLeft: "0%", LnContPosTop: "12%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
 	LnPosX1: "75%", LnPosY1: "25%", LnPosX2: "46%", LnPosY2: "53%",
-
+	
+	
 	WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
+	WIcmp: {ENG: "2", EngCmp1: "control", EngCmp2: "tower",
+			ITA: "3", ItaCmp1: "torre", ItaCmp2: "di", ItaCmp3: "controllo",
+			JPN: "1", JpnCmp1: "管制塔",},
 
     semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -76,11 +87,12 @@ AnnotType: "Annot",
 
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
-	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "control-tower", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
-    itaLhyph: "torre-di-controllo", itaLplus: "torre+di+controllo", itaForv: "torre_di_controllo/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -114,6 +126,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", EngCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -128,9 +143,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "land", engLperc: "land", engLplus: "land", engForv: "land/#en",
-    itaLhyph: "atterraggio", itaLplus: "atterraggio", itaForv: "atterraggio/#it",
-    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "着陸/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -151,25 +167,23 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 	
 	dirmode: "down",
-	LnContPosLeft: "62%",
-	LnContPosTop: "23%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "50%",
-	LnPosY2: "55%",
-
+	LnContPosLeft: "62%", LnContPosTop: "23%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "50%", LnPosY2: "55%",
+	
+	
 	WI: {ENG: "take off", ITA: "decollare", JPN: "離陸",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>離陸<rt>りりく</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -184,9 +198,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "take-off", engLperc: "take%20off", engLplus: "take+off", engForv: "take_off/#en",
-    itaLhyph: "decollo", itaLplus: "decollo", itaForv: "decollo/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -214,18 +229,16 @@ AnnotType: "Annot",
 	imgbckg: "wht",	
 
 	dirmode: "left",
-	LnContPosLeft: "46%",
-	LnContPosTop: "4%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "6%",
-	LnPosX1: "75%",
-	LnPosY1: "50%",
-	LnPosX2: "35%",
-	LnPosY2: "50%",
+	LnContPosLeft: "46%", LnContPosTop: "4%",
+	BtnPosLeft: "9%", BtnPosTop: "6%",
+	LnPosX1: "75%", LnPosY1: "50%",
+	LnPosX2: "35%", LnPosY2: "50%",
 
 	WI: {ENG: "departure board", ITA: "tabellone delle partenze", JPN: "出発案内表示板",},
 	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
-
+	WIcmp: {ENG: "2", EngCmp1: "departure", EngCmp2: "board",
+			ITA: "3", ItaCmp1: "tabellone", ItaCmp2: "delle", ItaCmp3: "partenze",
+			JPN: "1", JpnCmp1: "出発案内表示板",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -240,9 +253,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "departure-board", engLperc: "departure%20board", engLplus: "departure+board", engForv: "departure_board/#en",
-    itaLhyph: "tabellone-delle-partenze", itaLplus: "tabellone+delle+partenze", itaForv: "tabellone/#it",
-    jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -264,26 +278,22 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
 	dirmode: "upright",
-	LnContPosLeft: "40%",
-	LnContPosTop: "56%",
-	BtnPosLeft: "0%",
-	BtnPosTop: "12%",
-	LnPosX1: "25%",
-	LnPosY1: "75%",
-	LnPosX2: "55%",
-	LnPosY2: "45%",
+	LnContPosLeft: "40%", LnContPosTop: "56%",
+	BtnPosLeft: "0%", BtnPosTop: "12%",
+	LnPosX1: "25%", LnPosY1: "75%",
+	LnPosX2: "55%", LnPosY2: "45%",
 
 	WI: {ENG: "seat", ITA: "sedile", JPN: "席",},
 	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag2: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
@@ -298,9 +308,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "席/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -322,10 +333,8 @@ AnnotType: "Annot",
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p001/monop001wi6src.png",
-	imgattrsite: "commons.wikimedia.org",
-	imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
@@ -336,6 +345,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -350,9 +362,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -374,25 +387,22 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p001/monop001wi7src.png",
-	imgattrsite: "commons.wikimedia.org",
-	imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
 	dirmode: "downleft",
-	LnContPosLeft: "77%",
-	LnContPosTop: "27%",
-	BtnPosLeft: "9%",
-	BtnPosTop: "0%",
-	LnPosX1: "75%",
-	LnPosY1: "25%",
-	LnPosX2: "45%",
-	LnPosY2: "55%",
+	LnContPosLeft: "77%", LnContPosTop: "27%",
+	BtnPosLeft: "9%", BtnPosTop: "0%",
+	LnPosX1: "75%", LnPosY1: "25%",
+	LnPosX2: "45%", LnPosY2: "55%",
 
 	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
 	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -407,9 +417,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "passenger", engLperc: "passenger", engLplus: "passenger", engForv: "passenger/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "passeggero/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
@@ -431,25 +442,22 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",	
 
 	dirmode: "down",
-	LnContPosLeft: "82%",
-	LnContPosTop: "54%",
-	BtnPosLeft: "4.5%",
-	BtnPosTop: "0%",
-	LnPosX1: "50%",
-	LnPosY1: "25%",
-	LnPosX2: "58%",
-	LnPosY2: "62%",
+	LnContPosLeft: "82%", LnContPosTop: "54%",
+	BtnPosLeft: "4.5%", BtnPosTop: "0%",
+	LnPosX1: "50%", LnPosY1: "25%",
+	LnPosX2: "58%", LnPosY2: "62%",
 
 	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
 	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -464,9 +472,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "suitcase", engLperc: "suitcase", engLplus: "suitcase", engForv: "suitcase/#en",
-    itaLhyph: "valigia", itaLplus: "valigia", itaForv: "valigia/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
 	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
 			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
