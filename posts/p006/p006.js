@@ -14,6 +14,9 @@ AnnotType: "Annot",
 	//Word Item
 	WI: {ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	WIr: {ENG: "/ˈkɪʧɪn/", ITA: "/kuˈtʃina/", JPN: "daidokoro", JPNRu: "<ruby>台所<rt>だいどころ</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -32,10 +35,10 @@ AnnotType: "Annot",
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
 	// Dictionary search suffixes
-    engLhyph: "kitchen", engLperc: "kitchen", engLplus: "kitchen", engForv: "kitchen/#en",
-    itaLhyph: "cucina", itaLplus: "cucina", itaForv: "cucina/#it",
-    jpnLpercen: "%E5%8F%B0%E6%89%80", jpnLgoo: "45226/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
-
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -70,7 +73,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "towel", ITA: "asciugamano", JPN: "タオル",},
 	WIr: {ENG: "/ˈtaʊəl/", ITA: "/aʃʃuɡaˈmano/", JPN: "taoru", JPNRu: "<ruby>タオル<rt>たおる</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
     semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -84,9 +90,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "towel", engLperc: "towel", engLplus: "towel", engForv: "towel/#en",
-    itaLhyph: "asciugamano", itaLplus: "asciugamano", itaForv: "asciugamano/#it",
-    jpnLpercen: "%E3%82%BF%E3%82%AA%E3%83%AB", jpnLgoo: "45596/meaning/m1u/", jpnForv: "タオル/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -121,6 +128,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "cupboard", ITA: "credenza", JPN: "戸棚",},
 	WIr: {ENG: "/ˈkʌbəd/", ITA: "/kreˈdɛntsa/", JPN: "todana", JPNRu: "<ruby>戸棚<rt>とだな</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -135,9 +145,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: '', ITA: '', JPN: '',},
 	TatSrcEx3: {Dsp: "none", ENG: '', ITA: '', JPN: '',},
 
-    engLhyph: "cupboard", engLperc: "cupboard", engLplus: "cupboard", engForv: "cupboard/#en",
-    itaLhyph: "credenza", itaLplus: "credenza", itaForv: "credenza/#it",
-    jpnLpercen: "%E6%88%B8%E6%A3%9A", jpnLgoo: "159121/meaning/m1u/", jpnForv: "戸棚/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -172,6 +183,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "drain", ITA: "scarico", JPN: "排水口",},
 	WIr: {ENG: "/dreɪn/", ITA: "/ˈskariko/", JPN: "haisuikou", JPNRu: "<ruby>排水口<rt>はいすいこう</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -186,9 +200,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "drain", engLperc: "drain", engLplus: "drain", engForv: "drain/#en",
-    itaLhyph: "scarico", itaLplus: "scarico", itaForv: "scarico/#it",
-    jpnLpercen: "%E6%8E%92%E6%B0%B4%E5%8F%A3", jpnLgoo: "59712/meaning/m1u/", jpnForv: "排水口/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -223,6 +238,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "tap", ITA: "rubinetto", JPN: "蛇口",},
 	WIr: {ENG: "/tæp/", ITA: "/rubiˈnetto/", JPN: "jaguchi", JPNRu: "<ruby>蛇口<rt>じゃぐち</rt></ruby>",},
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -237,9 +255,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-    engLhyph: "tap", engLperc: "tap", engLplus: "tap", engForv: "tap/#en",
-    itaLhyph: "rubinetto", itaLplus: "rubinetto", itaForv: "rubinetto/#it",
-    jpnLpercen: "%E8%9B%87%E5%8F%A3", jpnLgoo: "33020/meaning/m1u/", jpnForv: "蛇口/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -272,9 +291,12 @@ AnnotType: "Annot",
 	LnPosX1: "25%", LnPosY1: "25%",
 	LnPosX2: "55%", LnPosY2: "55%",
 
-	WI: {ENG: "dish washing liquid", ITA: "detersivo per i piatti", JPN: "洗剤",},
-	WIr: {ENG: "/dɪʃ ˈwɒʃɪŋ ˈlɪkwɪd/", ITA: "/deterˈsivo per i ˈpjatti/", JPN: "senzai", JPNRu: "<ruby>洗剤<rt>せんざい</rt></ruby>",},
-
+	WI: {ENG: "dishwashing liquid", ITA: "detersivo", JPN: "洗剤",},
+	WIr: {ENG: "/dɪʃˈwɒʃɪŋ ˈlɪkwɪd/", ITA: "/deterˈsivo/", JPN: "senzai", JPNRu: "<ruby>洗剤<rt>せんざい</rt></ruby>",},
+	WIcmp: {ENG: "2", EngCmp1: "dishwashing", EngCmp2: "liquid",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -288,9 +310,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
     
-    engLhyph: "dish-washing-liquid", engLperc: "dish%20washing%20liquid", engLplus: "dish+washing+liquid", engForv: "dish_washing_liquid/#en",
-    itaLhyph: "detersivo", itaLplus: "detersivo", itaForv: "detersivo/#it",
-    jpnLpercen: "%E6%B4%97%E5%89%A4", jpnLgoo: "42031/meaning/m1u/", jpnForv: "洗剤/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -326,7 +349,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "sponge", ITA: "spugna", JPN: "スポンジ",},
 	WIr: {ENG: "/spʌnʤ/", ITA: "/ˈspuɲɲa/", JPN: "suponji", JPNRu: "<ruby>スポンジ<rt>すぽんじ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -340,9 +366,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "sponge", engLperc: "sponge", engLplus: "sponge", engForv: "sponge/#en",
-    itaLhyph: "spugna", itaLplus: "spugna", itaForv: "spugna/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B8", jpnLgoo: "39544/meaning/m1u/", jpnForv: "スポンジ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
@@ -379,7 +406,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "sink", ITA: "lavandino della cucina", JPN: "流し",},
 	WIr: {ENG: "/sɪŋk/", ITA: "/lavanˈdino/", JPN: "nagashi", JPNRu: "<ruby>流し<rt>ながし</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -393,10 +423,11 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "sink", engLperc: "sink", engLplus: "sink", engForv: "sink/#en",
-    itaLhyph: "lavandino", itaLplus: "lavandino", itaForv: "lavandino/#it",
-    jpnLpercen: "%E6%B5%81%E3%81%97", jpnLgoo: "55992/meaning/m1u/", jpnForv: "流し/#ja",
-
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
@@ -431,7 +462,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "microwave", ITA: "forno a microonde", JPN: "電子レンジ",},
 	WIr: {ENG: "/ˈmaɪkrəʊweɪv/", ITA: "/ˈforno a mikroˈonda/", JPN: "denshirenji", JPNRu: "<ruby>電子レンジ<rt>でんしれんじ</rt></ruby>",},
-    
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+	
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -445,9 +479,10 @@ AnnotType: "Annot",
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 
-    engLhyph: "microwave", engLperc: "microwave", engLplus: "microwave", engForv: "microwave/#en",
-	itaLhyph: "forno-a-microonde", itaLplus: "forno+a+microonde", itaForv: "forno_a_microonde/#it",
-    jpnLpercen: "%E9%9B%BB%E5%AD%90%E3%83%AC%E3%83%B3%E3%82%B8", jpnLgoo: "52267/meaning/m1u/", jpnForv: "電子レンジ/#ja",
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
