@@ -1,11 +1,11 @@
 
 
-function pageload(pnovar) {
+function pageload(pno) {
 	
-  pId = window[pnovar];
+  pId = window["p".concat(pno)];
   
   setposter(pId);
-  pno = pId.No; //make sure
+  //pno = pId.No; //make sure
 
   //Prepare Main User Interface Template  
   MUITempPrp(pno);
