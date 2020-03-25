@@ -1,21 +1,6 @@
 
 var p015 = {
-SetPost: function() {
-	for(var i = 0; i < 9; ++i) {
-	this[i]["imgfile"] = "p".concat(this["No"], "/monop", this["No"], "-wi", i, ".svg");
-	this[i]["AudENGWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENG.wav");
-	this[i]["AudENGEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex1.wav");
-	this[i]["AudENGEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex2.wav");
-	this[i]["AudENGEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex3.wav");
-	this[i]["AudITAWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITA.wav");
-	this[i]["AudITAEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex1.wav");
-	this[i]["AudITAEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex2.wav");
-	this[i]["AudITAEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex3.wav");
-	this[i]["AudJPNWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPN.wav");
-	this[i]["AudJPNEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex1.wav");
-	this[i]["AudJPNEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex2.wav");
-	this[i]["AudJPNEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex3.wav");}
-	},
+
 No: "015",
 Date: "18/08/2018",
 
@@ -31,9 +16,12 @@ AnnotType: "Annot",
 	imgbckg: "blk",	
 	
 	//Word Item
-	WI: {ENG: "diving", ITA: "divingITA", JPN: "ダイビング",},
+	WI: {ENG: "under the sea", ITA: "sotto il mare", JPN: "海の中",},
 	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "kuukou", JPNRu: "<ruby>空港<rt>くうこう</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
@@ -106,7 +94,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
     semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
@@ -164,8 +155,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
-
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -223,7 +215,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "take off", ITA: "decollare", JPN: "離陸",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>離陸<rt>りりく</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
@@ -280,7 +275,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "departure board", ITA: "tabellone delle partenze", JPN: "出発案内表示板",},
 	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -338,7 +335,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "seat", ITA: "sedile", JPN: "席",},
 	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag2: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
@@ -397,7 +396,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -455,7 +457,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
 	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -512,7 +517,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
 	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "", ENG: "", ITA: "", JPN: "",},
