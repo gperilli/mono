@@ -82,14 +82,20 @@ function GetPostNo() {
 	script1.src = pnosrc;
 	
 	//Test to see if post object is defined 
-	setTimeout(function() { pIdTstr(pnovar) }, 550);
+	//pId = window[pnovar];
+	//alert(pnovar);
+	pIdTstr(pnovar)
+	//setTimeout(function() { pIdTstr(pnovar) }, 100);//wait half a second for script to load in
 
 }
 
 
-function pIdTstr(pnovar) {
-	if (typeof window["p".concat(pno)] === 'undefined') { 
-		setTimeout(function() { pIdTstr(pnovar) }, 25);
+function pIdTstr(pnovar) {//test that script is present
+	pId = window[pnovar];
+	if (typeof pId === 'undefined') {
+		alert("u is for undefined");
+		setTimeout(function() { pIdTstr(pnovar) }, 100);
+		
 	} else { 
 		pageload(pnovar);
 	} 	
