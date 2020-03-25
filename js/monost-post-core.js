@@ -3,8 +3,12 @@
 function pageload(pno) {
 	
   pId = window["p".concat(pno)];
+  if (typeof pId !== "undefined") {
+	setposter(pId);
+  } else {
+	setTimeout(function() { pageload(pno) }, 100);
+  }
   
-  setposter(pId);
   //pno = pId.No; //make sure
 
   //Prepare Main User Interface Template  
