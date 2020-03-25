@@ -1,5 +1,7 @@
 //Set post object data
-function setposter(pIdX) {
+function setposter(pId) {
+	
+	pIdX = pId;
 	
 	for(var i = 0; i < 9; ++i) {
 		//image file names
