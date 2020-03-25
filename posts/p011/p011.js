@@ -35,7 +35,10 @@ AnnotType: "HLight",
 	//Word Item
 	WI: {ENG: "colors", ITA: "colori", JPN: "色",},
 	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "iro", JPNRu: "<ruby>色<rt>いろ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
@@ -83,7 +86,10 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "red", ITA: "rosso", JPN: "赤",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "aka", JPNRu: "<ruby>赤<rt>あか</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -126,7 +132,10 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "brown", ITA: "marrone", JPN: "茶色",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chairo", JPNRu: "<ruby>茶色<rt>ちゃいろ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -169,7 +178,10 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "yellow", ITA: "giallo", JPN: "黄色",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "kiiro", JPNRu: "<ruby>黄色<rt>きいろ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -212,8 +224,9 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "departure board", ITA: "tabellone delle partenze", JPN: "出発案内表示板",},
 	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
-
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
@@ -256,7 +269,10 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "seat", ITA: "sedile", JPN: "席",},
 	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -299,7 +315,10 @@ AnnotType: "HLight",
 
 	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -341,7 +360,10 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
 	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -384,7 +406,10 @@ AnnotType: "HLight",
 	
 	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
 	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
