@@ -33,23 +33,16 @@ AnnotType: "Annot",
 	//Word Item
 	WI: {ENG: "weather", ITA: "tempo", JPN: "天気",},
 	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "kuukou", JPNRu: "<ruby>天気<rt>てんき</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "places", ITA: "posti", JPN: "場所",},
 	
-	
-	
-	BtnContPosLeft: "0%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "-5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "0%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit1",
 
 	//Examples
 	EX1: {ENG: "I'm going to go to the airport.", ITA: "Andrò all'aeroporto.", JPN: "私は空港に行くつもりです。",},
@@ -106,7 +99,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "sunny", ITA: "solegiatto", JPN: "晴れ",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "hare", JPNRu: "<ruby>晴れ<rt>はれ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
     semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "buildings", ITA: "edifici", JPN: "建物",},
@@ -164,7 +160,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "cloudy", ITA: "nuvoloso", JPN: "曇り",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "kumori", JPNRu: "<ruby>曇り<rt>くもり</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
@@ -223,7 +221,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "rainy", ITA: "piovoso", JPN: "雨",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ame", JPNRu: "<ruby>雨<rt>あめ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "block", ENG: "verbs", ITA: "verbi", JPN: "動詞",},
@@ -280,7 +281,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "snowy", ITA: "nevoso", JPN: "雪",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "yuki", JPNRu: "<ruby>雪<rt>ゆき</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
@@ -338,7 +341,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "stormy", ITA: "tempestoso", JPN: "嵐",},
 	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "arashi", JPNRu: "<ruby>嵐<rt>あらし</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag2: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
@@ -397,7 +402,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "cold", ITA: "freddo", JPN: "寒い",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "samui", JPNRu: "<ruby>寒い<rt>さむい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -455,7 +463,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "hot", ITA: "caldo", JPN: "暑い",},
 	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "atsui", JPNRu: "<ruby>暑い<rt>あつい</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -512,7 +523,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "windy", ITA: "ventoso", JPN: "風",},
 	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "kaze", JPNRu: "<ruby>風<rt>かぜ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "travel", ITA: "viaggi", JPN: "旅行",},
 	semtag2: {Dsp: "block", ENG: "airport", ITA: "aeroporto", JPN: "空港",},
 	semtag3: {Dsp: "", ENG: "", ITA: "", JPN: "",},
