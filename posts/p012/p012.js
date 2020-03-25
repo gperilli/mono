@@ -15,19 +15,14 @@ AnnotType: "Annot",
 		
 	imgbckg: "wht",
 
-	BtnContPosLeft: "82%",
-	BtnContPosTop: "76%",
-	BtnPosLeft: "5%",
-	BtnPosTop: "25%",
-	BtnTxtOffSet: "7%",
-	BtnChar1: "digit0",
-	BtnChar2: "digit0",
-	BtnChar3: "digit6",
 
 	//Word Item
 	WI: {ENG: "wall", ITA: "muro", JPN: "壁",},
 	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "kabe", JPNRu: "<ruby>壁<rt>かべ</rt></ruby>",},
-	
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
@@ -90,7 +85,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "curtain", ITA: "tenda", JPN: "カーテン",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kaaten", JPNRu: "<ruby>カーテン<rt>かーてん</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
     semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -147,8 +145,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "window", ITA: "finestra", JPN: "窓",},
 	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "mado", JPNRu: "<ruby>窓<rt>まど</rt></ruby>",},
-
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -208,7 +207,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "pot", ITA: "vaso", JPN: "植木鉢",},
 	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "uekibachi", JPNRu: "<ruby>植木鉢<rt>うえきばち</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -266,7 +268,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "cactus", ITA: "cactus", JPN: "サボテン",},
 	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "saboten", JPNRu: "<ruby>サボテン<rt>さぼてん</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "block", ENG: "plants", ITA: "piante", JPN: "植物",},
@@ -324,7 +329,9 @@ AnnotType: "Annot",
 
 	WI: {ENG: "shelf", ITA: "mensola", JPN: "棚",},
 	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "tana", JPNRu: "<ruby>棚<rt>たな</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "block", ENG: "furniture", ITA: "mobili", JPN: "家具",},
@@ -384,7 +391,10 @@ imgbckg: "wht",
 
 	WI: {ENG: "book", ITA: "libro", JPN: "本",},
 	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "hon", JPNRu: "<ruby>本<rt>ほん</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -443,7 +453,9 @@ imgbckg: "wht",
 
 	WI: {ENG: "photo", ITA: "foto", JPN: "写真",},
 	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "shashin", JPNRu: "<ruby>写真<rt>しゃしん</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
 
 
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
@@ -504,7 +516,10 @@ imgbckg: "wht",
 
 	WI: {ENG: "frame", ITA: "cornice", JPN: "フレーム",},
 	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "fureemu", JPNRu: "<ruby>フレーム<rt>すーつけーす</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "home", ITA: "casa", JPN: "家",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
