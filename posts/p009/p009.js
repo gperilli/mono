@@ -62,9 +62,6 @@ AnnotType: "Annot",
 1: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
-	WIcmp: {ENG: "1", EngCmp1: "",
-			ITA: "1", ItaCmp1: "",
-			JPN: "1", JpnCmp1: "",},
 		
 	imgbckg: "wht",	
 
@@ -75,7 +72,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "glass", ITA: "bicchiere", JPN: "コップ",},
 	WIr: {ENG: "/glɑːs/", ITA: "/bikˈkjɛre/", JPN: "koppu", JPNRu: "<ruby>コップ<rt>こっぷ</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
     semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -295,7 +295,10 @@ AnnotType: "Annot",
 
 	WI: {ENG: "straw", ITA: "cannuccia", JPN: "ストロー",},
 	WIr: {ENG: "/strɔː/", ITA: "/kanˈnuttʃa/", JPN: "sutoro", JPNRu: "<ruby>ストロー<rt>すとろー</rt></ruby>",},
-
+	WIcmp: {ENG: "1", EngCmp1: "",
+			ITA: "1", ItaCmp1: "",
+			JPN: "1", JpnCmp1: "",},
+			
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
