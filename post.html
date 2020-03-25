@@ -84,6 +84,7 @@ function GetPostNo() {
 	//Test to see if post object is defined 
 	//pId = window[pnovar];
 	//alert(pnovar);
+	u = 1;
 	pIdTstr(pnovar)
 	//setTimeout(function() { pIdTstr(pnovar) }, 100);//wait half a second for script to load in
 
@@ -93,10 +94,11 @@ function GetPostNo() {
 function pIdTstr(pnovar) {//test that script is present
 	pId = window[pnovar];
 	if (typeof pId === 'undefined') {
-		alert("u is for undefined");
+		u = u + 1;
 		setTimeout(function() { pIdTstr(pnovar) }, 100);
 		
 	} else { 
+		alert("u was undefined ", u, "times" );
 		pageload(pnovar);
 	} 	
 }
