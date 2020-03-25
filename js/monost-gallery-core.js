@@ -341,13 +341,19 @@ function PMuis() {
 			} else {
 				pno = "0".concat(PstN);
 			}
+			
 		} else {
 			pno = pindex[flprfx][PstN];
+			
 	}
 	
-	pId = window["p".concat(pno)]; //(not necessary?)
-	//pId.SetPost();//Load in repetetive object values
-	setposter(pId);
+	pId = window["p".concat(pno)];
+	if (typeof pId !== "undefined") {//testing for undefined object
+		setposter(pId);
+	} else {//if undefined
+		setTimeout(function() { PMuis() }, 100);
+	}
+	
 	
 	//Prepare Main User Interface Template
 	MUITempPrp(pno);
@@ -393,7 +399,7 @@ function PMuis() {
 	pTtl = pId["0"]["WI"][L1];
 	PDte = pId["Date"];
 	PstLnkTxtId = pId["No"];
-	
+	//alert(pTtl);
 	spacer = `
 	<div class="" style="background-color: #fff; width: 100%; height: 100px; border-top: 1px solid #808080; margin-top: 10px;">
 		<p align="left" style="float: left; font-size: 11px; display: inline-block;">${PDte}</p>
@@ -405,7 +411,7 @@ function PMuis() {
 	
 	document.getElementById("MUICont").insertAdjacentHTML("beforeend", spacer);
 	
-	SetImgData();
+	SetImgData(pId);
 	
 	MUIUpdP00X(pno, CurrentBtn, "LoadClk");
 	
