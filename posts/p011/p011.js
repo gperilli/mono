@@ -1,68 +1,54 @@
 
 var p011 = {
-SetPost: function() {
-		for(var i = 0; i < 9; ++i) {
-		this[i]["imgfile"] = "p".concat(this["No"], "/monop", this["No"], "-wi", i, ".svg");
-		this[i]["AudENGWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENG.wav");
-		this[i]["AudENGEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex1.wav");
-		this[i]["AudENGEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex2.wav");
-		this[i]["AudENGEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex3.wav");
-		this[i]["AudITAWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITA.wav");
-		this[i]["AudITAEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex1.wav");
-		this[i]["AudITAEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex2.wav");
-		this[i]["AudITAEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex3.wav");
-		this[i]["AudJPNWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPN.wav");
-		this[i]["AudJPNEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex1.wav");
-		this[i]["AudJPNEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex2.wav");
-		this[i]["AudJPNEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex3.wav");
-		}
-		
-	},
-No: "011",
-Date: "18/08/2018",
 
-ShareImg: "graphics/shareimg.png",
+No: "011",
+Date: "29/03/2018",
 AnnotType: "HLight",
+
 0: {imgfile: "",
-	imgattrurl: "",
-	imgsrc: "original",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+	imgsrc: "original", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "wht",
 	
 	//Word Item
-	WI: {ENG: "colors", ITA: "colori", JPN: "色",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "iro", JPNRu: "<ruby>色<rt>いろ</rt></ruby>",},
+	WI: {ENG: "color", ITA: "colore", JPN: "色",},
+	WIr: {ENG: "/ˈkʌlə/", ITA: "/koˈlore/", JPN: "iro", JPNRu: "<ruby>色<rt>いろ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
+	WIt: {ENG: "colors", ITA: "colori", JPN: "色",},
+	WItr: {ENG: "/ˈkʌləz/", ITA: "/koˈlori/", JPN: "iro", JPNRu: "<ruby>色<rt>いろ</rt></ruby>",},
 			
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
-	semtag1: {Dsp: "block", ENG: "adjectives", ITA: "aggetivi", JPN: "形容詞",},
-	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
+	semtag1: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
+	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: "I'm going to go to the airport.", ITA: "Andrò all'aeroporto.", JPN: "私は空港に行くつもりです。",},
-	EX2: {ENG: "The airport is over there.", ITA: "L'aeroporto è laggiù.", JPN: "空港はそこにあります。",},
-	EX3: {ENG: "How far is it to the airport?", ITA: "Quanto dista l'aeroporto?", JPN: "空港まではどれぐらい遠いですか？",},
-
+	EX1: {ENG: 'What <span class="wihlight">colour</span> is it?', ITA: 'Che <span class="wihlight">colore</span> è?', JPN: '何<span class="wihlight">色</span>ですか？',},
+	EX2: {ENG: 'Which <span class="wihlight">colour</span> do you prefer?', ITA: 'Che <span class="wihlight">colore</span> preferisci?', JPN: 'あなたはどの<span class="wihlight">色</span>が好きですか？',},
+	EX3: {ENG: 'I like this <span class="wihlight">colour</span>.', ITA: 'Mi piace questo <span class="wihlight">colore</span>.', JPN: 'この<span class="wihlight">色</span>が好きです。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+    
 	// Dictionary search suffixes
-    engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
-    itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
 	
 	// Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
-			JPN: {ENG: "可算", ITA: "可算", JPN: "可算",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
 	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
 			ITA: {ENG: "", ITA: "masc.", JPN: "",},
-			JPN: {ENG: "名詞", ITA: "名詞", JPN: "名詞",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -77,15 +63,13 @@ AnnotType: "HLight",
 	},
 
 1: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-	WI: {ENG: "red", ITA: "rosso", JPN: "赤",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "aka", JPNRu: "<ruby>赤<rt>あか</rt></ruby>",},
+	WI: {ENG: "red", ITA: "rosso", JPN: "赤い",},
+	WIr: {ENG: "/rɛd/", ITA: "/ˈrosso/", JPN: "akai", JPNRu: "<ruby>赤いrt>あかい</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -94,22 +78,29 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Send a message to the control tower.", ITA: "Invii un messaggio alla torre di controllo.", JPN: "管制塔にメッセージを送信します。",},
-	EX2: {ENG: "The pilot asks permission to depart from the control tower.", ITA: "Il pilota chiede alla torre di controllo il permesso per partire.", JPN: "パイロットは管制塔に出発する許可を求めます。",},
-	EX3: {ENG: "The pilots asked the control tower to go back to the airport.", ITA: "I piloti hanno chiesto alla torre di controllo di poter tornare all’aeroporto.", JPN: "パイロットは、管制塔に空港に戻るように頼んだ。",},
-
-
-    engLhyph: "control-tower", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
-    itaLhyph: "torre-di-controllo", itaLplus: "torre+di+controllo", itaForv: "torre_di_controllo/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+	//Examples
+	EX1: {ENG: 'I prefer <span class="wihlight">red</span>.', ITA: 'Preferisco il <span class="wihlight">rosso</span>.', JPN: '私は<span class="wihlight">赤</span>が好きです。',},
+	EX2: {ENG: 'Apples are <span class="wihlight">red</span>.', ITA: 'Le mele sono <span class="wihlight">rosse</span>.', JPN: 'リンゴは<span class="wihlight">赤</span>です。',},
+	EX3: {ENG: '<span class="wihlight">Red</span> wine, please.', ITA: 'Vino <span class="wihlight">rosso</span>, per favore.', JPN: '<span class="wihlight">赤</span>ワインをお願いします。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1038951", ITA: "https://tatoeba.org/eng/sentences/show/1064287", JPN: "https://tatoeba.org/eng/sentences/show/1037903",},
+    
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "i",}, 
+			ITA: {ENG: "aggettivo", ITA: "aggettivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "い",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "i",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -123,15 +114,13 @@ AnnotType: "HLight",
 	},
 
 2: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
 	WI: {ENG: "brown", ITA: "marrone", JPN: "茶色",},
-	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chairo", JPNRu: "<ruby>茶色<rt>ちゃいろ</rt></ruby>",},
+	WIr: {ENG: "/braʊn/", ITA: "/marˈrone/", JPN: "chairo", JPNRu: "<ruby>茶色<rt>ちゃいろ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -140,22 +129,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Looks like we have to make an emergency landing.", ITA: "Dovremo tentare un atterraggio di emergenza.", JPN: "緊急着陸する必要があるようです。",},
-	EX2: {ENG: "The plane made a perfect landing.", ITA: "L'aereo effettuò un atterraggio perfetto.", JPN: "飛行機は完璧な着陸をした。",},
-	EX3: {ENG: "They say most airplane accidents occur at landing or takeoff stages.", ITA: "Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di atterraggio o di decollo.", JPN: "ほとんどの飛行機事故は着陸または離陸の時に発生すると言います。",},
-
-
-    engLhyph: "land", engLperc: "land", engLplus: "land", engForv: "land/#en",
-    itaLhyph: "atterraggio", itaLplus: "atterraggio", itaForv: "atterraggio/#it",
-    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "着陸/#ja",
+	//Examples
+	EX1: {ENG: 'I would take this <span class="wihlight">brown</span> tie.', ITA: 'Vorrei questa cravatta <span class="wihlight">marrone</span>.', JPN: 'この<span class="wihlight">茶色</span>のネクタイをいただきたいのですが。',},
+	EX2: {ENG: 'The bread is <span class="wihlight">brown</span>.', ITA: 'Il pane è <span class="wihlight">marrone</span>.', JPN: 'パンは<span class="wihlight">茶色</span>です。',},
+	EX3: {ENG: 'I have <span class="wihlight">brown</span> eyes.', ITA: 'Ho gli occhi <span class="wihlight">marroni</span>.', JPN: '私の目は<span class="wihlight">茶色</span>です。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/57887", ITA: "https://tatoeba.org/eng/sentences/show/1316977", JPN: "https://tatoeba.org/eng/sentences/show/220566",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+    
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "no",}, 
+			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "の",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "no",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -169,15 +164,13 @@ AnnotType: "HLight",
 	},
 
 3: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-	WI: {ENG: "yellow", ITA: "giallo", JPN: "黄色",},
-	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "kiiro", JPNRu: "<ruby>黄色<rt>きいろ</rt></ruby>",},
+	WI: {ENG: "yellow", ITA: "giallo", JPN: "黄色い",},
+	WIr: {ENG: "/ˈjɛləʊ/", ITA: "/ˈdʒallo/", JPN: "kiiro", JPNRu: "<ruby>黄色<rt>きいろ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -186,22 +179,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Gold squadron, begin take-off procedure.", ITA: "Squadra Oro, iniziare procedura di decollo.", JPN: "ゴールド飛行隊、離陸手続きを開始する。",},
-	EX2: {ENG: "The crew prepares for take off.", ITA: "L'equipaggio si prepara al decollo.", JPN: "乗組員は離陸を準備する。",},
-	EX3: {ENG: "We may not serve beverages during take-off or landing.", ITA: "Non possiamo servire da bere durante il decollo o l'atterraggio.", JPN: "離陸または着陸中に飲み物を提供することはできません。",},
-
-
-    engLhyph: "take-off", engLperc: "take%20off", engLplus: "take+off", engForv: "take_off/#en",
-    itaLhyph: "decollo", itaLplus: "decollo", itaForv: "decollo/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
+	//Examples
+	EX1: {ENG: 'Bananas are <span class="wihlight">yellow</span>.', ITA: 'Le banane sono <span class="wihlight">gialle</span>.', JPN: 'バナナは<span class="wihlight">黄色</span>です。',},
+	EX2: {ENG: 'He lives in the <span class="wihlight">yellow</span> house.', ITA: 'Abita nella casa <span class="wihlight">gialla</span>.', JPN: '彼は<span class="wihlight">黄色い</span>あの家に住んでいる。',},
+	EX3: {ENG: 'She is wearing a <span class="wihlight">yellow</span> dress.', ITA: 'Lei sta indossando un vestito <span class="wihlight">giallo</span>.', JPN: '彼女は<span class="wihlight">黄色</span>のドレスを着ています。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/559000", ITA: "https://tatoeba.org/eng/sentences/show/691467", JPN: "https://tatoeba.org/eng/sentences/show/553870",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1343185", ITA: "https://tatoeba.org/eng/sentences/show/4955591", JPN: "https://tatoeba.org/eng/sentences/show/109521",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+	// Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "i",}, 
+			ITA: {ENG: "aggettivo", ITA: "aggettivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "い",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "i",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -215,15 +214,13 @@ AnnotType: "HLight",
 	},
 
 4: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-	WI: {ENG: "departure board", ITA: "tabellone delle partenze", JPN: "出発案内表示板",},
-	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
+	WI: {ENG: "purple", ITA: "viola", JPN: "紫",},
+	WIr: {ENG: "/ˈpɜːpl/", ITA: "/viˈɔla/", JPN: "murasaki", JPNRu: "<ruby>紫<rt>むらさき</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -232,21 +229,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I looked at the departure board.", ITA: "Ho guardato il tabellone delle partenze.", JPN: "私は出発案内表示板を見た。",},
-	EX2: {ENG: "The departure board is full of cancelled flights.", ITA: "Il tabellone delle partenze e degli arrivi è denso di voli cancellati.", JPN: "出発案内表示板にはキャンセルされたフライトがいっぱいです。",},
-	EX3: {ENG: "There are 27 flights in arrival that have been cancelled, while 24 are those disappeared from the departure board.", ITA: "Sono al momento 27 i voli in arrivo che sono stati cancellati mentre 24 sono quelli scomparsi dal tabellone delle partenze.", JPN: "27便の到着がはキャンセルされ、24便は出発案内表示板から消えています。",},
-
-    engLhyph: "departure-board", engLperc: "departure%20board", engLplus: "departure+board", engForv: "departure_board/#en",
-    itaLhyph: "tabellone-delle-partenze", itaLplus: "tabellone+delle+partenze", itaForv: "tabellone/#it",
-    jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
+	//Examples
+	EX1: {ENG: 'Her sweater is <span class="wihlight">purple</span>.', ITA: 'Il suo maglione è <span class="wihlight">viola</span>.', JPN: '彼女のセーターは<span class="wihlight">紫</span>色です。',},
+	EX2: {ENG: 'My favourite colour is <span class="wihlight">purple</span>.', ITA: 'Il mio colore preferito è il <span class="wihlight">viola</span>.', JPN: '私の好きな色は<span class="wihlight">紫</span>です。',},
+	EX3: {ENG: 'I liked the <span class="wihlight">purple</span> bag.', ITA: 'Mi è piaciuta la borsa <span class="wihlight">viola</span>.', JPN: '<span class="wihlight">紫</span>色のバッグが気に入りました。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "no",}, 
+			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "の",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "no",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -260,15 +264,13 @@ AnnotType: "HLight",
 	},
 
 5: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-	WI: {ENG: "seat", ITA: "sedile", JPN: "席",},
-	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
+	WI: {ENG: "blue", ITA: "azzurro", JPN: "青い",},
+	WIr: {ENG: "/bluː/", ITA: "/adˈdzurro/", JPN: "aoi", JPNRu: "<ruby>青い<rt>あおい</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -277,22 +279,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Where is my seat?", ITA: "Dov'è il mio sedile?", JPN: "私の席はどこですか？",},
-	EX2: {ENG: "I was in the front seat.", ITA: "Ero sul sedile anteriore.", JPN: "私は前方座席にいた。",},
-	EX3: {ENG: "It was under the seat in my vehicle.", ITA: "Era sotto il sedile della mia auto.", JPN: "それは私の車の座席の下にあった。",},
-
-
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "席/#ja",
+	//Examples
+	EX1: {ENG: 'The sky is <span class="wihlight">blue</span>.', ITA: 'Il cielo è <span class="wihlight">azzurro</span>.', JPN: '空は<span class="wihlight">青い</span>。',},
+	EX2: {ENG: 'He has <span class="wihlight">blue</span> eyes.', ITA: 'Lui ha gli occhi <span class="wihlight">azzurri</span>.', JPN: '彼は<span class="wihlight">青い</span>目をしています。',},
+	EX3: {ENG: 'We have some <span class="wihlight">blue</span> boots.', ITA: 'Abbiamo degli stivali <span class="wihlight">azzurri</span>.', JPN: '<span class="wihlight">青い</span>ブーツがいくつかあります。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "i",}, 
+			ITA: {ENG: "aggettivo", ITA: "aggettivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "い",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "i",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -306,15 +314,13 @@ AnnotType: "HLight",
 	},
 
 6: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 
-	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
-	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
+	WI: {ENG: "green", ITA: "verde", JPN: "緑",},
+	WIr: {ENG: "/griːn/", ITA: "/ˈverde/", JPN: "midori", JPNRu: "<ruby>緑<rt>みどり</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -323,21 +329,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I will buy the tickets.", ITA: "Comprerò i biglietti.", JPN: "私がチケットを買うよ。",},
-	EX2: {ENG: "Do you have the tickets?", ITA: "Avete i biglietti?", JPN: "チケットを持っていますか？",},
-	EX3: {ENG: "He was checking a ticket.", ITA: "Controllava un biglietto.", JPN: "彼はチケットを確認していた。",},
-
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+	//Examples
+	EX1: {ENG: 'Courgettes are <span class="wihlight">green</span>.', ITA: 'Gli zucchini sono <span class="wihlight">verdi</span>.', JPN: 'ズッキーニは<span class="wihlight">緑</span>色です。',},
+	EX2: {ENG: 'I prefer <span class="wihlight">green</span> socks.', ITA: 'Preferisco le calze <span class="wihlight">verdi</span>.', JPN: '<span class="wihlight">緑</span>の靴下が好きです。',},
+	EX3: {ENG: 'My car is <span class="wihlight">green</span>.', ITA: 'La mia macchina è <span class="wihlight">verde</span>.', JPN: '私の車は<span class="wihlight">緑</span>です。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/851834", ITA: "https://tatoeba.org/eng/sentences/show/853758", JPN: "https://tatoeba.org/eng/sentences/show/982227",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "no",}, 
+			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "の",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "no",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -351,15 +364,13 @@ AnnotType: "HLight",
 	},
 
 7: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
+	WI: {ENG: "pink", ITA: "rosa", JPN: "ピンク",},
+	WIr: {ENG: "/pɪŋk/", ITA: "/ˈrɔza/", JPN: "pinku", JPNRu: "<ruby>ピンク<rt>ぴんく</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -368,22 +379,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "There were fifty passengers on the plane.", ITA: "C'erano cinquanta passeggeri sull'aereo.", JPN: "飛行機には50人の乗客がいた。",},
-	EX2: {ENG: "The train was full of passengers.", ITA: "Il treno era pieno di passeggeri.", JPN: "列車には乗客がいっぱいだった。",},
-	EX3: {ENG: "He was a passenger on the Flight 627.", ITA: "Era un passeggero del volo 627.", JPN: "彼は627便の乗客だった。",},
-
-
-    engLhyph: "passenger", engLperc: "passenger", engLplus: "passenger", engForv: "passenger/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "passeggero/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+	//Examples
+	EX1: {ENG: 'He has a <span class="wihlight">pink</span> cap.', ITA: 'Lui ha un cappello <span class="wihlight">rosa</span>.', JPN: '彼は<span class="wihlight">ピンク</span>の帽子を持っています。',},
+	EX2: {ENG: 'The skirt is <span class="wihlight">pink</span>.', ITA: 'La gonna è <span class="wihlight">rosa</span>.', JPN: 'スカートは<span class="wihlight">ピンク</span>です。',},
+	EX3: {ENG: 'She wore a <span class="wihlight">pink</span> blouse.', ITA: 'lei indossava una camicetta <span class="wihlight">rosa</span>.', JPN: '彼女は<span class="wihlight">ピンク</span>のブラウスを着ていた。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "no",}, 
+			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "の",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "no",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
@@ -397,15 +414,13 @@ AnnotType: "HLight",
 	},
 
 8: {imgfile: "",
-	imgsrc: "original",
-	imgattrsrcfle: "",
-	imgattrsite: "",
-	imgattrurl: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
 	imgbckg: "wht",
 	
-	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
-	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
+	WI: {ENG: "orange", ITA: "arancione", JPN: "オレンジ色",},
+	WIr: {ENG: "/ˈɒrɪnʤ/", ITA: "/aranˈtʃone/", JPN: "orenjiiro", JPNRu: "<ruby>オレンジ色<rt>おれんじいろ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -414,21 +429,28 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "block", ENG: "colors", ITA: "colori", JPN: "色",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Take this suitcase and put it on the bed.", ITA: "Prendi questa valigia e mettila sul letto.", JPN: "このスーツケースを持ってベッドの上に置いてください。",},
-	EX2: {ENG: "Open your suitcase.", ITA: "Apri la tua valigia.", JPN: "スーツケースを開けてください。",},
-	EX3: {ENG: "Which is your suitcase?", ITA: "Qual è la tua valigia?", JPN: "どれがあなたのスーツケースですか？",},
-
-    engLhyph: "suitcase", engLperc: "suitcase", engLplus: "suitcase", engForv: "suitcase/#en",
-    itaLhyph: "valigia", itaLplus: "valigia", itaForv: "valigia/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
-
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Examples
+	EX1: {ENG: 'My tie is <span class="wihlight">orange</span>.', ITA: 'La mia cravatta è <span class="wihlight">arancione</span>.', JPN: '私のネクタイは<span class="wihlight">オレンジ色</span>です。',},
+	EX2: {ENG: 'I like <span class="wihlight">orange</span>.', ITA: 'A me piace l&#39;<span class="wihlight">arancione</span>.', JPN: '<span class="wihlight">オレンジ色</span>が好きです。',},
+	EX3: {ENG: 'The evening sun is <span class="wihlight">orange</span>.', ITA: 'Il sole di sera non è <span class="wihlight">arancione</span>.', JPN: '夕日は<span class="wihlight">オレンジ色</span>です。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "no",}, 
+			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggettivo",},
+			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "の",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "", JPN: "adjective",}, 
+			ITA: {ENG: "", ITA: "", JPN: "no",},
+			JPN: {ENG: "", ITA: "", JPN: "形容詞",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
