@@ -1,43 +1,25 @@
 // p010 data
 var p013 = {
-SetPost: function() {
-	for(var i = 0; i < 9; ++i) {
-	this[i]["imgfile"] = "p".concat(this["No"], "/monop", this["No"], "-wi", i, ".svg");
-	this[i]["AudENGWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENG.wav");
-	this[i]["AudENGEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex1.wav");
-	this[i]["AudENGEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex2.wav");
-	this[i]["AudENGEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ENGex3.wav");
-	this[i]["AudITAWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITA.wav");
-	this[i]["AudITAEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex1.wav");
-	this[i]["AudITAEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex2.wav");
-	this[i]["AudITAEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "ITAex3.wav");
-	this[i]["AudJPNWI"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPN.wav");
-	this[i]["AudJPNEx1"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex1.wav");
-	this[i]["AudJPNEx2"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex2.wav");
-	this[i]["AudJPNEx3"] = "p".concat(this["No"], "/p", this["No"], "wi", i, "JPNex3.wav");}
-	},
-No: "013",
-Date: "18/08/2018",
 
-ShareImg: "graphics/shareimg.png",
+No: "013",
+Date: "01/04/2020",
 AnnotType: "HLight",
-0: {imgfile: "p010/monop010-wi0.svg",
-	imgattrurl: "", //unused
-	imgsrc: "deriv",
-	imgattrsrcfle: "", //non existent
-	imgattrsite: "", //unused
-	imgattrurl: "", //unused
+
+0: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "wht",	
 	
-
 	//Word Item
 	WI: {ENG: "animals", ITA: "animali", JPN: "動物",},
-	WIr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "kuukou", JPNRu: "<ruby>空港<rt>くうこう</rt></ruby>",},
+	WIr: {ENG: "/ˈænɪməlz/", ITA: "/aniˈmali/", JPN: "doubutsu", JPNRu: "<ruby>動物<rt>どうぶつ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
-			
+	WIt: {ENG: "animals", ITA: "animali", JPN: "動物",},
+	WItr: {ENG: "/ˈænɪməlz/", ITA: "/aniˈmali/", JPN: "doubutsu", JPNRu: "<ruby>動物<rt>どうぶつ</rt></ruby>",},
+	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "animals", ITA: "animali", JPN: "動物",},
@@ -45,29 +27,34 @@ AnnotType: "HLight",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: "I'm going to go to the airport.", ITA: "Andrò all'aeroporto.", JPN: "私は空港に行くつもりです。",},
-	EX2: {ENG: "The airport is over there.", ITA: "L'aeroporto è laggiù.", JPN: "空港はそこにあります。",},
-	EX3: {ENG: "How far is it to the airport?", ITA: "Quanto dista l'aeroporto?", JPN: "空港まではどれぐらい遠いですか？",},
-    
+	EX1: {ENG: 'Do you have any pet <span class="wihlight">animals</span>?', ITA: 'Avete degli <span class="wihlight">animali</span> domestici?', JPN: 'あなたは何か<span class="wihlight">動物</span>を飼っていますか。',},
+	EX2: {ENG: 'Cats are social <span class="wihlight">animals</span>.', ITA: 'I gatti sono <span class="wihlight">animali</span> sociali.', JPN: '猫は社会的な<span class="wihlight">動物</span>です。',},
+	EX3: {ENG: 'What is your favorite <span class="wihlight">animal</span>?', ITA: 'Qual è il suo <span class="wihlight">animale</span> preferito?', JPN: '好きな<span class="wihlight">動物</span>は何ですか？',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/69616", ITA: "https://tatoeba.org/eng/sentences/show/380439", JPN: "https://tatoeba.org/eng/sentences/show/232246",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1032980", ITA: "https://tatoeba.org/eng/sentences/show/1032979", JPN: "https://tatoeba.org/eng/sentences/show/1032999",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/2569031", ITA: "https://tatoeba.org/eng/sentences/show/2758639", JPN: "https://tatoeba.org/eng/sentences/show/2759287",},
+	
 	// Dictionary search suffixes
-    engLhyph: "airport", engLperc: "airport", engLplus: "airport", engForv: "airport/#en",
-    itaLhyph: "aeroporto", itaLplus: "aeroporto", itaForv: "aeroporto/#it",
-    jpnLpercen: "%E7%A9%BA%E6%B8%AF", jpnLgoo: "60382/meaning/m1u/", jpnForv: "くうこう_%28空港%29/#ja",
-
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
     // Part of Speech Data
 	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
 			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
-			JPN: {ENG: "可算", ITA: "可算", JPN: "可算",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
 	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
 			ITA: {ENG: "", ITA: "masc.", JPN: "",},
-			JPN: {ENG: "名詞", ITA: "名詞", JPN: "名詞",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
 			JPN: {ENG: "", ITA: "男性形", JPN: "",},
-			},	
-	
+			},
+			
 	//Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
@@ -75,17 +62,13 @@ AnnotType: "HLight",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi1-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/Gat3.png",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 			
 	imgbckg: "wht",
 
-
-	WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
-	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
+	WI: {ENG: "cat", ITA: "gatto", JPN: "猫",},
+	WIr: {ENG: "/kæt/", ITA: "/ˈɡatto/", JPN: "neko", JPNRu: "<ruby>猫<rt>ねこ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -94,44 +77,49 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Send a message to the control tower.", ITA: "Invii un messaggio alla torre di controllo.", JPN: "管制塔にメッセージを送信します。",},
-	EX2: {ENG: "The pilot asks permission to depart from the control tower.", ITA: "Il pilota chiede alla torre di controllo il permesso per partire.", JPN: "パイロットは管制塔に出発する許可を求めます。",},
-	EX3: {ENG: "The pilots asked the control tower to go back to the airport.", ITA: "I piloti hanno chiesto alla torre di controllo di poter tornare all’aeroporto.", JPN: "パイロットは、管制塔に空港に戻るように頼んだ。",},
-
-
-    engLhyph: "control-tower", engLperc: "control%20tower", engLplus: "control+tower", engForv: "tower_control/#en",
-    itaLhyph: "torre-di-controllo", itaLplus: "torre+di+controllo", itaForv: "torre_di_controllo/#it",
-    jpnLpercen: "%E7%AE%A1%E5%88%B6%E5%A1%94", jpnLgoo: "48697/meaning/m1u/", jpnForv: "管制塔/#ja",
+	//Examples
+	EX1: {ENG: 'We have a white <span class="wihlight">cat</span>.', ITA: 'Abbiamo un <span class="wihlight">gatto</span> bianco.', JPN: '白い<span class="wihlight">猫</span>を飼っています。',},
+	EX2: {ENG: 'I prefer <span class="wihlight">cats</span> to dogs.', ITA: 'Preferisco i <span class="wihlight">gatti</span> ai cani.', JPN: '私は犬よりも<span class="wihlight">猫</span>が好きです。',},
+	EX3: {ENG: 'I was scratched by a <span class="wihlight">cat</span>.', ITA: 'Un <span class="wihlight">gatto</span> mi ha graffiato.', JPN: '<span class="wihlight">猫</span>にひっかかれました。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1045519", ITA: "https://tatoeba.org/eng/sentences/show/1045532", JPN: "https://tatoeba.org/eng/sentences/show/1046238",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/257246", ITA: "https://tatoeba.org/eng/sentences/show/1389670", JPN: "https://tatoeba.org/eng/sentences/show/157287",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/282018", ITA: "https://tatoeba.org/eng/sentences/show/1461517", JPN: "https://tatoeba.org/eng/sentences/show/121985",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
-
+			
     //Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
-2: {imgfile: "p013/monop013-wi2.svg",
-	imgsrc: "deriv",
-	imgsrccr: "CC BY-SA 4.0",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi2-src.png",
-	imgattrsite: "commons.wikimedia.org",
-	imgattrurl: "https://commons.wikimedia.org/wiki/File:Vector_diagram_of_laboratory_mouse_(black_and_white).svg",
+
+2: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "wht",
 
-	WI: {ENG: "land", ITA: "atterrare", JPN: "着陸",},
-	WIr: {ENG: "/lænd/", ITA: "/atterˈrare/", JPN: "chakuriku", JPNRu: "<ruby>着陸<rt>ちゃくりく</rt></ruby>",},
+	WI: {ENG: "mouse", ITA: "topo", JPN: "ネズミ",},
+	WIr: {ENG: "/maʊs/", ITA: "/ˈtɔpo/", JPN: "nezumi", JPNRu: "<ruby>ネズミ<rt>ねずみ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -140,26 +128,33 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Looks like we have to make an emergency landing.", ITA: "Dovremo tentare un atterraggio di emergenza.", JPN: "緊急着陸する必要があるようです。",},
-	EX2: {ENG: "The plane made a perfect landing.", ITA: "L'aereo effettuò un atterraggio perfetto.", JPN: "飛行機は完璧な着陸をした。",},
-	EX3: {ENG: "They say most airplane accidents occur at landing or takeoff stages.", ITA: "Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di atterraggio o di decollo.", JPN: "ほとんどの飛行機事故は着陸または離陸の時に発生すると言います。",},
-
-
-    engLhyph: "land", engLperc: "land", engLplus: "land", engForv: "land/#en",
-    itaLhyph: "atterraggio", itaLplus: "atterraggio", itaForv: "atterraggio/#it",
-    jpnLpercen: "%E7%9D%80%E9%99%B8", jpnLgoo: "142609/meaning/m1u/", jpnForv: "着陸/#ja",
+	//Examples
+	EX1: {ENG: 'Cats catch <span class="wihlight">mice</span>.', ITA: 'I gatti prendono i <span class="wihlight">topi</span>.', JPN: 'ネコは<span class="wihlight">ネズミ</span>を捕まえる。',},
+	EX2: {ENG: 'I saw a <span class="wihlight">mouse</span>.', ITA: 'Ho visto un <span class="wihlight">topo</span>.', JPN: '<span class="wihlight">ネズミ</span>を見た。',},
+	EX3: {ENG: 'Are you frightened of <span class="wihlight">mice</span>?', ITA: 'Tu hai paura dei <span class="wihlight">topi</span>?', JPN: 'あなたは<span class="wihlight">ネズミ</span>を怖がっていますか？',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/35814", ITA: "https://tatoeba.org/eng/sentences/show/2321940", JPN: "https://tatoeba.org/eng/sentences/show/198621",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
 
     //Audio
@@ -168,17 +163,14 @@ AnnotType: "HLight",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-3: {imgfile: "p013/monop013-wi3.svg",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi3-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/1370965038.png",
+3: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 		
 	imgbckg: "wht",
 
-	WI: {ENG: "take off", ITA: "decollare", JPN: "離陸",},
-	WIr: {ENG: "/teɪk ɒf/", ITA: "/dekolˈlare/", JPN: "ririku", JPNRu: "<ruby>離陸<rt>りりく</rt></ruby>",},
+	WI: {ENG: "spider", ITA: "ragno", JPN: "クモ",},
+	WIr: {ENG: "/ˈspaɪdə/", ITA: "/ˈraɲɲo/", JPN: "kumo", JPNRu: "<ruby>クモ<rt>くも</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -187,26 +179,33 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Gold squadron, begin take-off procedure.", ITA: "Squadra Oro, iniziare procedura di decollo.", JPN: "ゴールド飛行隊、離陸手続きを開始する。",},
-	EX2: {ENG: "The crew prepares for take off.", ITA: "L'equipaggio si prepara al decollo.", JPN: "乗組員は離陸を準備する。",},
-	EX3: {ENG: "We may not serve beverages during take-off or landing.", ITA: "Non possiamo servire da bere durante il decollo o l'atterraggio.", JPN: "離陸または着陸中に飲み物を提供することはできません。",},
-
-
-    engLhyph: "take-off", engLperc: "take%20off", engLplus: "take+off", engForv: "take_off/#en",
-    itaLhyph: "decollo", itaLplus: "decollo", itaForv: "decollo/#it",
-    jpnLpercen: "%E9%9B%A2%E9%99%B8", jpnLgoo: "233036/meaning/m1u/", jpnForv: "離陸/#ja",
+	//Examples
+	EX1: {ENG: 'He hates <span class="wihlight">spiders</span>.', ITA: 'Odia i <span class="wihlight">ragni</span>.', JPN: '彼は<span class="wihlight">クモ</span>が大嫌いだ。',},
+	EX2: {ENG: 'I&#39;m afraid of <span class="wihlight">spiders</span>.', ITA: 'Ho paura dei <span class="wihlight">ragni</span>.', JPN: '<span class="wihlight">クモ</span>が怖いんです。',},
+	EX3: {ENG: 'There are <span class="wihlight">spiders</span> everywhere.', ITA: 'Ci sono <span class="wihlight">ragni</span> dappertutto.', JPN: '至る所に<span class="wihlight">クモ</span>がいます。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/289720", ITA: "https://tatoeba.org/eng/sentences/show/1815018", JPN: "https://tatoeba.org/eng/sentences/show/113952",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/453111", ITA: "https://tatoeba.org/eng/sentences/show/3267099", JPN: "https://tatoeba.org/eng/sentences/show/1486289",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
 
     //Audio
@@ -215,17 +214,14 @@ AnnotType: "HLight",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-4: {imgfile: "p013/monop013-wi4.svg",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi4-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/Schlange.png",
+4: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 		
 	imgbckg: "wht",
 
-	WI: {ENG: "departure board", ITA: "tabellone delle partenze", JPN: "出発案内表示板",},
-	WIr: {ENG: "/dɪˈpɑː.tʃər bɔːd/", ITA: "/tabelˈlone ˈdelle parˈtɛntsa/", JPN: "shuppatsuannaihyoujiban", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
+	WI: {ENG: "snake", ITA: "serpente", JPN: "ヘビ",},
+	WIr: {ENG: "/sneɪk/", ITA: "/serˈpɛnte/", JPN: "hebi", JPNRu: "<ruby>ヘビ<rt>へび</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -234,25 +230,33 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I looked at the departure board.", ITA: "Ho guardato il tabellone delle partenze.", JPN: "私は出発案内表示板を見た。",},
-	EX2: {ENG: "The departure board is full of cancelled flights.", ITA: "Il tabellone delle partenze e degli arrivi è denso di voli cancellati.", JPN: "出発案内表示板にはキャンセルされたフライトがいっぱいです。",},
-	EX3: {ENG: "There are 27 flights in arrival that have been cancelled, while 24 are those disappeared from the departure board.", ITA: "Sono al momento 27 i voli in arrivo che sono stati cancellati mentre 24 sono quelli scomparsi dal tabellone delle partenze.", JPN: "27便の到着がはキャンセルされ、24便は出発案内表示板から消えています。",},
-
-    engLhyph: "departure-board", engLperc: "departure%20board", engLplus: "departure+board", engForv: "departure_board/#en",
-    itaLhyph: "tabellone-delle-partenze", itaLplus: "tabellone+delle+partenze", itaForv: "tabellone/#it",
-    jpnLpercen: "%E6%8E%B2%E7%A4%BA%E6%9D%BF", jpnLgoo: "66523/meaning/m1u/", jpnForv: "表示板/#ja",
+	//Examples
+	EX1: {ENG: 'The <span class="wihlight">snake</span> is an animal without legs.', ITA: 'Il <span class="wihlight">serpente</span> e un anuimale senza zampe.', JPN: '<span class="wihlight">ヘビ</span>は足のない動物です。',},
+	EX2: {ENG: 'Some <span class="wihlight">snakes</span> are poisonous.', ITA: 'Alcuni <span class="wihlight">serpenti</span> sono velenosi.', JPN: '<span class="wihlight">ヘビ</span>の中には毒を持つものもある。',},
+	EX3: {ENG: 'There are a lot of <span class="wihlight">snakes</span> in this forest.', ITA: 'Ci sono molti <span class="wihlight">serpenti</span> in questa foresta.', JPN: 'この森には<span class="wihlight">ヘビ</span>がたくさんいます。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/33908", ITA: "https://tatoeba.org/eng/sentences/show/427747", JPN: "https://tatoeba.org/eng/sentences/show/196728",},
+	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
 
     //Audio
@@ -261,17 +265,14 @@ AnnotType: "HLight",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-5: {imgfile: "p013/monop013-wi5.svg",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi5-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Standing-dog-silhouette-vector-image/22448.html",
+5: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 		
 	imgbckg: "wht",
 
-	WI: {ENG: "seat", ITA: "sedile", JPN: "席",},
-	WIr: {ENG: "/ˈsiː.t/", ITA: "/seˈdile/", JPN: "seki", JPNRu: "<ruby>席<rt>せき</rt></ruby>",},
+	WI: {ENG: "dog", ITA: "cane", JPN: "犬",},
+	WIr: {ENG: "/dɒg/", ITA: "/ˈkane/", JPN: "inu", JPNRu: "<ruby>犬<rt>いぬ</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -280,26 +281,33 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "Where is my seat?", ITA: "Dov'è il mio sedile?", JPN: "私の席はどこですか？",},
-	EX2: {ENG: "I was in the front seat.", ITA: "Ero sul sedile anteriore.", JPN: "私は前方座席にいた。",},
-	EX3: {ENG: "It was under the seat in my vehicle.", ITA: "Era sotto il sedile della mia auto.", JPN: "それは私の車の座席の下にあった。",},
-
-
-    engLhyph: "seat", engLperc: "seat", engLplus: "seat", engForv: "seat/#en",
-    itaLhyph: "sedile", itaLplus: "sedile", itaForv: "sedile/#it",
-    jpnLpercen: "%E5%B8%AD", jpnLgoo: "123323/meaning/m1u/", jpnForv: "席/#ja",
+	//Examples
+	EX1: {ENG: 'He heard the <span class="wihlight">dog</span> barking.', ITA: 'Sentì il <span class="wihlight">cane</span> abbaiare.', JPN: '彼は<span class="wihlight">犬</span>がほえているのを聞いた。',},
+	EX2: {ENG: 'That <span class="wihlight">dog</span> doesn&#39;t bite.', ITA: 'Quel <span class="wihlight">cane</span> non morde.', JPN: 'その<span class="wihlight">犬</span>はかみついたりしませんよ。',},
+	EX3: {ENG: 'The <span class="wihlight">dog</span> looks hungry.', ITA: 'Il <span class="wihlight">cane</span> sembra affamato.', JPN: 'その<span class="wihlight">犬</span>はお腹がすいているように見える。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/295968", ITA: "https://tatoeba.org/eng/sentences/show/377231", JPN: "https://tatoeba.org/eng/sentences/show/107717",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1008904", ITA: "https://tatoeba.org/eng/sentences/show/1008932", JPN: "https://tatoeba.org/eng/sentences/show/211003",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/48275", ITA: "https://tatoeba.org/eng/sentences/show/3495982", JPN: "https://tatoeba.org/eng/sentences/show/211004",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
 
    //Audio
@@ -308,17 +316,14 @@ AnnotType: "HLight",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-6: {imgfile: "p013/monop013-wi6.svg",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi6-src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/detail/48841/black-bird",
+6: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "", 
 		
 	imgbckg: "wht",
 
-	WI: {ENG: "ticket", ITA: "biglietto", JPN: "チケット",},
-	WIr: {ENG: "/ˈtɪk.ɪt/", ITA: "/biʎˈʎetto/", JPN: "chiketto", JPNRu: "<ruby>チケット<rt>ちけっと</rt></ruby>",},
+	WI: {ENG: "bird", ITA: "uccello", JPN: "鳥",},
+	WIr: {ENG: "/bɜːd/", ITA: "/utˈtʃɛllo/", JPN: "tori", JPNRu: "<ruby>鳥<rt>とり</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -327,44 +332,49 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "I will buy the tickets.", ITA: "Comprerò i biglietti.", JPN: "私がチケットを買うよ。",},
-	EX2: {ENG: "Do you have the tickets?", ITA: "Avete i biglietti?", JPN: "チケットを持っていますか？",},
-	EX3: {ENG: "He was checking a ticket.", ITA: "Controllava un biglietto.", JPN: "彼はチケットを確認していた。",},
-
-    engLhyph: "ticket", engLperc: "ticket", engLplus: "ticket", engForv: "ticket/#en",
-    itaLhyph: "biglietto", itaLplus: "biglietto", itaForv: "biglietto/#it",
-    jpnLpercen: "%E3%83%81%E3%82%B1%E3%83%83%E3%83%88", jpnLgoo: "141577/meaning/m1u/", jpnForv: "チケット/#ja",
+	//Examples
+	EX1: {ENG: 'The <span class="wihlight">birds</span> sang.', ITA: 'Gli <span class="wihlight">uccelli</span> cantavano.', JPN: '<span class="wihlight">鳥</span>がさえずった。',},
+	EX2: {ENG: '<span class="wihlight">Birds</span> build nests.', ITA: 'Gli <span class="wihlight">uccelli</span> costruiscono nidi.', JPN: '<span class="wihlight">鳥</span>は巣をつくる。',},
+	EX3: {ENG: '<span class="wihlight">Birds</span> have wings.', ITA: 'Gli <span class="wihlight">uccelli</span> hanno delle ali.', JPN: '<span class="wihlight">鳥</span>には翼がある。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/278157", ITA: "https://tatoeba.org/eng/sentences/show/612016", JPN: "https://tatoeba.org/eng/sentences/show/125835",},
+	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/278206", ITA: "https://tatoeba.org/eng/sentences/show/1258204", JPN: "https://tatoeba.org/eng/sentences/show/1166043",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1476885", ITA: "https://tatoeba.org/eng/sentences/show/1493765", JPN: "https://tatoeba.org/eng/sentences/show/125809",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
-
+			
     //Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-7: {imgfile: "p013/monop013-wi7.svg",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi7-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Trout-fish-silhouette-vector-image/16421.html",
+7: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 		
 	imgbckg: "wht",
 
-	WI: {ENG: "passenger", ITA: "passeggero", JPN: "乗客",},
-	WIr: {ENG: "/ˈpæs.ən.dʒər/", ITA: "/passedˈdʒɛro/", JPN: "joukyaku", JPNRu: "<ruby>乗客<rt>じょうきゃく</rt></ruby>",},
+	WI: {ENG: "fish", ITA: "pesce", JPN: "魚",},
+	WIr: {ENG: "/fɪʃ/", ITA: "/ˈpeʃʃe/", JPN: "sakana", JPNRu: "<ruby>魚<rt>さかな</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -373,26 +383,33 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: "There were fifty passengers on the plane.", ITA: "C'erano cinquanta passeggeri sull'aereo.", JPN: "飛行機には50人の乗客がいた。",},
-	EX2: {ENG: "The train was full of passengers.", ITA: "Il treno era pieno di passeggeri.", JPN: "列車には乗客がいっぱいだった。",},
-	EX3: {ENG: "He was a passenger on the Flight 627.", ITA: "Era un passeggero del volo 627.", JPN: "彼は627便の乗客だった。",},
-
-
-    engLhyph: "passenger", engLperc: "passenger", engLplus: "passenger", engForv: "passenger/#en",
-    itaLhyph: "passeggero", itaLplus: "passeggero", itaForv: "passeggero/#it",
-    jpnLpercen: "%E4%B9%97%E5%AE%A2", jpnLgoo: "107916/meaning/m1u/", jpnForv: "乗客/#ja",
+	//Examples
+	EX1: {ENG: 'The <span class="wihlight">fish</span> can swim.', ITA: 'Il <span class="wihlight">pesce</span> può nuotare.', JPN: '<span class="wihlight">魚</span>は泳ぐことができます。',},
+	EX2: {ENG: 'This <span class="wihlight">fish</span> lives in the sea.', ITA: 'Questo <span class="wihlight">pesce</span> vive nel mare.', JPN: 'この<span class="wihlight">魚</span>は海に住んでいる。',},
+	EX3: {ENG: 'There are a lot of <span class="wihlight">fish</span> in the pond.', ITA: 'Ci sono molti <span class="wihlight">pesci</span> nello stagno.', JPN: '池には<span class="wihlight">魚</span>がたくさんいる。',},
 	
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1102797", ITA: "https://tatoeba.org/eng/sentences/show/3873579", JPN: "https://tatoeba.org/eng/sentences/show/3875292",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/277298", ITA: "https://tatoeba.org/eng/sentences/show/5448608", JPN: "https://tatoeba.org/eng/sentences/show/126792",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "masc.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "masc.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "男性形", JPN: "",},
 			},
 
     //Audio
@@ -401,17 +418,14 @@ AnnotType: "HLight",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-8: {imgfile: "p013/monop013-wi8.svg",
-	imgsrc: "deriv",
-	imgsrccr: "public domain",
-	imgattrsrcfle: "p013/imgsrcs/p013-wi8-src.png",
-	imgattrsite: "publicdomainvectors.org",
-	imgattrurl: "https://publicdomainvectors.org/photos/Frog_by_Rones.png",
+8: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgattrsite: "", imgattrurl: "",
 		
 	imgbckg: "wht",
 
-	WI: {ENG: "suitcase", ITA: "valigia", JPN: "スーツケース",},
-	WIr: {ENG: "/ˈsuːt.keɪs/", ITA: "/vaˈlidʒa/", JPN: "suutsukeesu", JPNRu: "<ruby>スーツケース<rt>すーつけーす</rt></ruby>",},
+	WI: {ENG: "frog", ITA: "rana", JPN: "カエル",},
+	WIr: {ENG: "/frɒg/", ITA: "/ˈrana/", JPN: "kaeru", JPNRu: "<ruby>カエル<rt>かえる</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -420,25 +434,33 @@ AnnotType: "HLight",
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
-	EX1: {ENG: 'Take this <span class="wihlight">suitcase</span> and put it on the bed.', ITA: 'Prendi questa <span class="wihlight">valigia</span> e mettila sul letto.', JPN: 'この<span class="wihlight">スーツケース</span>を持ってベッドの上に置いてください。',},
-	EX2: {ENG: 'Open your <span class="wihlight">suitcase</span>.', ITA: 'Apri la tua <span class="wihlight">valigia</span>.', JPN: '<span class="wihlight">スーツケース</span>を開けてください。',},
-	EX3: {ENG: 'Which is your <span class="wihlight">suitcase</span>?', ITA: 'Qual è la tua <span class="wihlight">valigia</span>?', JPN: 'どれがあなたの<span class="wihlight">スーツケース</span>ですか？',},
-
-    engLhyph: "suitcase", engLperc: "suitcase", engLplus: "suitcase", engForv: "suitcase/#en",
-    itaLhyph: "valigia", itaLplus: "valigia", itaForv: "valigia/#it",
-    jpnLpercen: "%E3%82%B9%E3%83%BC%E3%83%84%E3%82%B1%E3%83%BC%E3%82%B9", jpnLgoo: "117095/meaning/m1u/", jpnForv: "スーツケース/#ja",
-
-	PoSp1: {ENG: {ENG: "adjective", ITA: "adjective", JPN: "adjective",}, 
-			ITA: {ENG: "aggetivo", ITA: "aggetivo", JPN: "aggetivo",},
-			JPN: {ENG: "形容詞", ITA: "形容詞", JPN: "形容詞",},
+	//Examples
+	EX1: {ENG: '<span class="wihlight">Frogs</span> eat small animals.', ITA: 'Le <span class="wihlight">rane</span> mangiano piccoli animaletti.', JPN: '<span class="wihlight">カエル</span>は小動物を食べます。',},
+	EX2: {ENG: '<span class="wihlight">Frogs</span> live in ponds.', ITA: ' Le <span class="wihlight">rane</span> vivono negli stagni.', JPN: '<span class="wihlight">カエル</span>は池に住んでいます。',},
+	EX3: {ENG: 'Tadpoles become <span class="wihlight">frogs</span>.', ITA: 'I girini diventano <span class="wihlight">rane</span>.', JPN: 'オタマジャクシは<span class="wihlight">カエル</span>になる。',},
+	
+	//Tatoeba Srcs
+	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
+	TatSrcEx3: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/64999", ITA: "https://tatoeba.org/eng/sentences/show/3633839", JPN: "https://tatoeba.org/eng/sentences/show/227646",},
+	
+    // Dictionary search suffixes
+    engLhyph: "", engLperc: "", engLplus: "", engForv: "",
+    itaLhyph: "", itaLplus: "", itaForv: "",
+    jpnLpercen: "", jpnLgoo: "", jpnForv: "",
+	
+	// Part of Speech Data
+	PoSp1: {ENG: {ENG: "noun", ITA: "noun", JPN: "noun",}, 
+			ITA: {ENG: "sostantivo", ITA: "sostantivo", JPN: "sostantivo",},
+			JPN: {ENG: "可算", ITA: "可算", JPN: "名詞",},
 			},
-	PoSp2: {ENG: {ENG: "", ITA: "(invar)", JPN: "i/na",}, 
-			ITA: {ENG: "", ITA: "()", JPN: "i/na",},
-			JPN: {ENG: "", ITA: "()", JPN: "i/na",},
+	PoSp2: {ENG: {ENG: "", ITA: "fem.", JPN: "",}, 
+			ITA: {ENG: "", ITA: "femm.", JPN: "",},
+			JPN: {ENG: "名詞", ITA: "名詞", JPN: "",},
 			},
 	PoSp3: {ENG: {ENG: "", ITA: "", JPN: "",}, 
 			ITA: {ENG: "", ITA: "", JPN: "",},
-			JPN: {ENG: "", ITA: "", JPN: "",},
+			JPN: {ENG: "", ITA: "女性形", JPN: "",},
 			},
 
     //Audio
@@ -473,7 +495,7 @@ AnnotType: "HLight",
 <path  d="M598.85916 701.28873C633.84396 698.8432 663.52306 691.35817 691.60896 677.8974C709.18226 669.47506 716.76106 662.20024 723.00306 647.76259C727.67096 636.96567 729.82486 620.8256 727.72816 612.35557C724.53336 599.45009 713.98196 585.99617 699.61266 576.50602C688.95906 569.46983 681.00836 566.69874 656.71566 561.55493C638.89246 557.781 633.41866 556.16631 626.72046 552.70682C620.28696 549.38405 616.59146 546.38485 614.47006 542.7647C608.65726 532.84524 615.57906 523.52691 631.47156 519.87682C638.42166 518.28056 651.99346 518.27568 660.29996 519.86642C667.09436 521.16759 670.93436 520.84592 679.17866 518.28494C687.17216 515.80187 693.59846 511.13501 693.59846 507.81305C693.59846 506.62875 690.07976 506.96972 683.29616 508.8114C676.05776 510.77655 667.22036 511.44879 645.66296 511.67406C624.28676 511.89743 622.79956 512.11773 614.18546 516.33674C605.66986 520.50749 599.45056 528.37035 599.35106 535.0912C599.29406 538.96505 601.42156 543.57223 605.75966 548.96725C613.26886 558.30585 628.85836 566.6303 658.87576 577.32995C672.17626 582.07088 677.09086 584.2568 682.10486 587.66171C691.41306 593.9828 696.19006 604.00772 695.26056 615.26967C694.86096 620.10972 691.24996 632.03326 689.15916 635.41631C687.16596 638.64141 680.63666 644.36106 673.92746 648.75936C654.18036 661.70469 629.76786 667.95504 595.20466 668.9148C565.89936 669.72856 537.43096 665.87363 512.01556 657.6501C500.41486 653.89653 492.57336 650.61982 488.52516 647.83432C482.86776 643.94144 478.61476 639.50945 476.59026 635.39706C474.78966 631.73959 474.63216 630.90764 474.65256 625.16258C474.67956 617.46549 475.49776 613.62312 477.83016 610.23461C481.76176 604.52266 489.51346 598.85089 498.23506 595.30475C500.86366 594.23595 501.78706 593.5559 501.57846 592.84249C499.85686 586.95535 496.18056 566.63241 496.18026 563.00098C496.18006 560.85978 495.88246 560.85381 488.83966 562.85353C476.26916 566.42278 464.86236 571.49592 456.60696 577.18892C451.08416 580.9975 441.15466 591.24774 438.24476 596.1443C431.08206 608.19696 430.31936 617.82311 435.32816 632.95526C439.41686 645.30768 445.60376 655.55957 454.73156 665.10742C472.76886 683.97476 505.31786 695.73983 552.31506 700.37968C563.82266 701.51578 588.66886 702.00104 598.85916 701.28871C598.85916 701.28871 598.85916 701.28873 598.85916 701.28873" style="fill:#808000" />
 <path d="M596.80546 647.60601C609.31296 646.2898 621.35186 641.77263 626.75656 636.36795C633.19976 629.9247 636.05746 619.74616 634.11796 610.14802C632.54476 602.36269 625.98816 589.61911 620.63746 583.94707C608.38066 570.95421 584.07306 563.04749 544.18486 559.07867C538.84606 558.54747 533.28746 558.11284 531.83236 558.11284C531.83236 558.11284 529.18686 558.11284 529.18686 558.11284C529.18686 558.11284 529.70576 562.0549 529.70576 562.0549C530.69586 569.5767 532.20136 575.03726 534.64356 579.96521C538.59366 587.93591 538.40696 587.80012 545.80526 588.08076C558.30086 588.55477 576.34626 592.46874 584.06156 596.37843C588.39306 598.57332 592.62616 602.68253 594.34796 606.36364C597.24096 612.54877 596.12106 613.95209 587.20406 615.31487C580.49536 616.34016 567.71556 616.12007 563.60116 614.90839C560.54656 614.00882 555.21056 610.48927 547.53426 604.31087C540.65876 598.77703 537.24126 594.7258 533.32696 587.46907C528.02986 577.64862 525.98796 570.64002 523.63576 554.20623C520.75786 534.09969 515.05546 518.96188 505.79106 506.83504C500.58886 500.02553 491.25966 493.29179 486.87686 493.18296C484.02766 493.11216 485.55146 491.94673 488.73526 491.76154C488.73526 491.76154 492.01286 491.57089 492.01286 491.57089C492.01286 491.57089 490.00136 489.2853 490.00136 489.2853C488.89506 488.02823 486.49956 486.35862 484.67816 485.57505C481.77316 484.32535 480.70756 484.19879 476.00096 484.54448C464.52536 485.38736 452.84976 489.67797 444.24406 496.21476C441.87026 498.01787 438.56326 500.18472 436.89516 501.02999C433.66136 502.6687 431.21496 505.24422 431.21496 507.01009C431.21496 508.68109 437.17426 513.30727 441.86606 515.27857C448.98456 518.26945 460.55576 520.26967 470.71486 520.26543C482.13246 520.26043 485.79686 519.63174 489.46296 517.04765C493.11166 514.47577 493.99966 515.10262 490.87806 518.04667C489.28196 519.5519 487.11156 520.68832 484.06606 521.61336C480.00026 522.84831 478.65026 522.93856 469.12406 522.61226C452.76486 522.0519 439.74636 519.26373 435.48566 515.40789C434.11626 514.16856 433.23106 514.79859 434.38616 516.19045C438.52016 521.17161 454.67126 524.87697 472.58286 524.9535C472.58286 524.9535 483.36046 524.9996 483.36046 524.9996C483.36046 524.9996 489.36676 522.01993 489.36676 522.01993C495.59756 518.92895 499.56856 515.44373 500.33386 512.39452C500.78956 510.57868 499.02276 507.90377 494.37536 503.37384C489.56256 498.6827 493.18576 498.87625 498.56196 503.59748C506.50146 510.56964 505.51836 515.76904 494.75756 523.71979C494.75756 523.71979 492.38896 525.46989 492.38896 525.46989C492.38896 525.46989 494.45306 527.75766 494.45306 527.75766C500.94956 534.95799 503.38296 543.40775 507.50576 573.08193C510.60216 595.36905 513.98486 606.44446 521.71616 619.60901C530.03676 633.77698 536.55956 639.43438 549.66426 643.849C559.87016 647.28715 582.61246 649.09965 596.80546 647.60606C596.80546 647.60606 596.80546 647.60601 596.80546 647.60601" style="fill:#808000" />
 </g>
-<path id="P013BtnImgId5" onClick="MUIUpdP00X(5, 'BtnClk')" style="fill:#803300;" d="M352.43392069 428.949759843C347.593469451 434.155473315 336.168609362 435.004199353 333.600147345 443.831531466C331.031685329 452.658863578 321.685041394 493.109960389 310.114851504 512.194669856C308.457122907 534.066804907 305.036059391 554.170760712 308.254630051 578.23253143C308.750689105 581.940379087 311.031398115 584.761714957 311.742545275 588.696277102C314.403049499 591.396504805 322.69847454 590.771586661 322.438818629 595.67210755C322.231481446 599.594074447 306.952475034 599.906049086 303.837572966 597.299801322C297.849016299 592.288829783 299.87394486 579.152953503 295.001521065 573.581977798C295.380347413 581.160442488 294.0026209 588.76119108 297.325829016 594.276941461C299.049440456 597.137031944 306.273300431 598.396556886 306.161880917 602.415410317C305.982640829 608.85158277 287.918146564 603.987878764 286.629555662 601.950354954C284.593969583 598.731784294 284.777085132 592.913747927 282.909112757 587.999662923C280.787297662 582.414154238 279.592686698 582.591456595 279.886252896 575.443168117C280.18466342 568.197993104 277.558069484 558.546156587 276.398337672 550.56173732C274.850090858 539.90421858 273.504336901 529.727257049 270.585145632 522.658415528C237.687323012 517.886753729 213.572264699 504.332327622 177.34154531 502.893562592C163.261994189 525.709372484 140.787224897 540.128995339 120.372263318 556.607457042C118.964501979 563.362386192 121.345004119 570.910816056 121.767429408 578.000003749C124.621706699 579.928045775 131.196426897 578.755718714 131.068536672 583.115612744C130.96293035 586.701383367 118.388027102 587.404779604 115.024126641 585.207393013C108.436811195 580.906599769 111.661195046 563.886542341 106.885657785 558.002623131C92.5047895437 562.30244751 90.4149470053 580.906599769 85.2605833965 595.206083322C87.6691826318 597.419940624 94.7980938035 597.42478495 92.9339968893 601.949386088C90.901317406 606.8828484 73.8696335942 603.271887277 73.1691439533 599.625078138C71.9755018545 593.403993789 76.3431468072 583.223156797 77.5871699037 577.53397952C78.9290483996 571.401061918 79.3417850345 561.009012281 82.2377235357 555.67637745C83.1029202844 554.083562831 86.3457125773 552.987776131 87.5858602125 551.723406863C93.3825815418 545.816234885 103.604110879 537.402608272 105.723019377 528.703166384C109.141176297 514.667214204 113.75200645 499.289383527 112.698849825 481.500047019C108.627677667 497.545425915 101.191636182 508.066334642 88.7484986205 514.98403317C73.6971755636 523.351154246 53.1969538346 516.464459409 35.4996595341 516.844254623C44.4732903132 510.423584014 63.243118545 513.87371349 75.2618930877 511.728645627C109.27972404 505.659673138 96.3744377117 457.73571796 126.41798304 446.620894779C146.660486588 439.132534567 167.140362145 434.994510699 195.711232157 434.994510699C204.699395916 434.994510699 242.429918851 433.729172565 254.540735601 431.971650839C266.651552351 430.214129112 280.502451252 420.354955412 294.302969155 412.904380947C308.103487058 405.453806483 323.35536524 378.98731199 345.92411447 377.327645663C357.505930744 376.476013029 365.97090722 380.528776746 371.502159446 386.163697563C380.044645149 394.867983778 380.925343743 408.415627827 392.894706153 414.7646024C395.333340214 416.058037629 397.372801755 415.685993339 397.777787467 418.252517624C398.375577382 422.048532026 394.39644743 428.609688109 392.428681925 430.576484749C382.701273911 440.302923897 362.103196783 435.475067908 352.43392069 428.948790978C352.43392069 428.948790978 352.43392069 428.949759843 352.43392069 428.949759843" />
+<path id="P013BtnImgId5" onClick="MUIUpdP00X('013', 5, 'BtnClk')" style="fill:#803300;" d="M352.43392069 428.949759843C347.593469451 434.155473315 336.168609362 435.004199353 333.600147345 443.831531466C331.031685329 452.658863578 321.685041394 493.109960389 310.114851504 512.194669856C308.457122907 534.066804907 305.036059391 554.170760712 308.254630051 578.23253143C308.750689105 581.940379087 311.031398115 584.761714957 311.742545275 588.696277102C314.403049499 591.396504805 322.69847454 590.771586661 322.438818629 595.67210755C322.231481446 599.594074447 306.952475034 599.906049086 303.837572966 597.299801322C297.849016299 592.288829783 299.87394486 579.152953503 295.001521065 573.581977798C295.380347413 581.160442488 294.0026209 588.76119108 297.325829016 594.276941461C299.049440456 597.137031944 306.273300431 598.396556886 306.161880917 602.415410317C305.982640829 608.85158277 287.918146564 603.987878764 286.629555662 601.950354954C284.593969583 598.731784294 284.777085132 592.913747927 282.909112757 587.999662923C280.787297662 582.414154238 279.592686698 582.591456595 279.886252896 575.443168117C280.18466342 568.197993104 277.558069484 558.546156587 276.398337672 550.56173732C274.850090858 539.90421858 273.504336901 529.727257049 270.585145632 522.658415528C237.687323012 517.886753729 213.572264699 504.332327622 177.34154531 502.893562592C163.261994189 525.709372484 140.787224897 540.128995339 120.372263318 556.607457042C118.964501979 563.362386192 121.345004119 570.910816056 121.767429408 578.000003749C124.621706699 579.928045775 131.196426897 578.755718714 131.068536672 583.115612744C130.96293035 586.701383367 118.388027102 587.404779604 115.024126641 585.207393013C108.436811195 580.906599769 111.661195046 563.886542341 106.885657785 558.002623131C92.5047895437 562.30244751 90.4149470053 580.906599769 85.2605833965 595.206083322C87.6691826318 597.419940624 94.7980938035 597.42478495 92.9339968893 601.949386088C90.901317406 606.8828484 73.8696335942 603.271887277 73.1691439533 599.625078138C71.9755018545 593.403993789 76.3431468072 583.223156797 77.5871699037 577.53397952C78.9290483996 571.401061918 79.3417850345 561.009012281 82.2377235357 555.67637745C83.1029202844 554.083562831 86.3457125773 552.987776131 87.5858602125 551.723406863C93.3825815418 545.816234885 103.604110879 537.402608272 105.723019377 528.703166384C109.141176297 514.667214204 113.75200645 499.289383527 112.698849825 481.500047019C108.627677667 497.545425915 101.191636182 508.066334642 88.7484986205 514.98403317C73.6971755636 523.351154246 53.1969538346 516.464459409 35.4996595341 516.844254623C44.4732903132 510.423584014 63.243118545 513.87371349 75.2618930877 511.728645627C109.27972404 505.659673138 96.3744377117 457.73571796 126.41798304 446.620894779C146.660486588 439.132534567 167.140362145 434.994510699 195.711232157 434.994510699C204.699395916 434.994510699 242.429918851 433.729172565 254.540735601 431.971650839C266.651552351 430.214129112 280.502451252 420.354955412 294.302969155 412.904380947C308.103487058 405.453806483 323.35536524 378.98731199 345.92411447 377.327645663C357.505930744 376.476013029 365.97090722 380.528776746 371.502159446 386.163697563C380.044645149 394.867983778 380.925343743 408.415627827 392.894706153 414.7646024C395.333340214 416.058037629 397.372801755 415.685993339 397.777787467 418.252517624C398.375577382 422.048532026 394.39644743 428.609688109 392.428681925 430.576484749C382.701273911 440.302923897 362.103196783 435.475067908 352.43392069 428.948790978C352.43392069 428.948790978 352.43392069 428.949759843 352.43392069 428.949759843" />
 
 <g id="P013BtnImgId6" onClick="MUIUpdP00X('013', 6, 'BtnClk')">
 <path style="fill:#784421" d="M920.0 453.398004C921.3899 455.359704 921.2004 456.550804 924.2961 459.003004C927.3918 461.455204 929.0976 460.754604 932.3829 463.206704C935.6681 465.658904 934.91 466.429604 937.4371 468.811704C939.9642 471.193804 939.7747 470.283004 942.4913 472.735204C945.2079 475.187404 945.8397 475.327504 948.3037 478.620404C950.7676 481.913304 952.0312 484.085204 952.3471 485.906904C952.66299 487.728504 950.3254 484.856004 949.5673 485.906904C948.80916 486.957804 950.45179 489.339904 949.31459 490.110604C948.17739 490.881284 946.53479 488.429104 945.01849 488.989604C943.50219 489.550104 944.19718 491.932204 943.24949 492.352604C942.30182 492.772984 942.55453 490.180704 941.22779 490.671104C939.90109 491.161544 939.45879 493.753804 937.94259 494.314304C936.42629 494.874794 936.74219 493.123204 935.16279 492.913104C933.58339 492.702914 932.31979 491.652004 931.62479 493.473614C930.92983 495.295214 934.15189 499.148614 932.38292 500.199614C930.61392 501.250514 927.89732 498.378014 924.54892 497.677414C921.20052 496.976794 922.65362 500.690114 918.98922 497.397154C915.32492 494.104254 913.55592 488.989654 909.89162 484.506154C906.22732 480.022154 907.42772 481.633554 904.33202 479.461654C901.23632 477.289754 900.73092 477.149654 897.50882 475.818454C894.28672 474.487254 890.74882 476.168774 891.44372 474.136954C892.13868 472.105154 896.81382 470.213454 900.28862 467.691254C903.76342 465.169054 903.70022 467.411004 905.34282 464.048054C906.98542 460.685104 906.98542 458.653254 906.85912 454.239354C906.73276 449.825454 906.03781 449.755354 904.83742 446.392354C903.63703 443.029354 904.07929 444.010254 902.05762 440.787354C900.03595 437.564454 899.08822 436.513554 896.75062 433.500854C894.41302 430.488154 894.28672 431.539154 892.70722 428.736654C891.12782 425.934154 890.30642 423.411954 890.43282 422.290954C890.55917 421.169954 891.69642 422.290954 893.21262 424.252654C894.72892 426.214354 894.79212 427.615654 896.49792 430.137854C898.20372 432.660054 898.33012 432.449854 900.03592 434.341554C901.74172 436.233254 901.04672 436.093154 903.32112 437.704554C905.59552 439.315954 906.10092 438.405184 909.13352 440.787254C912.16602 443.169354 913.05052 444.640654 915.45132 447.232954C917.85212 449.825254 917.59932 449.615054 918.73652 451.156454C919.87372 452.697854 918.61017 451.436704 920.00012 453.398454C920.00012 453.398454 920.0 453.398004 920.0 453.398004" />
