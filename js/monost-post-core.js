@@ -2,6 +2,8 @@
 
 function pageload(pno) {
 	
+responsiveVoice.speak("hello world");
+	
   pId = window["p".concat(pno)];
   if (typeof pId !== "undefined") {
 	setposter(pId);
