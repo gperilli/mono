@@ -524,7 +524,7 @@ function AudPlay() {
 
 function AudPause() {
   document.getElementById("AudObjX").pause();
-responsiveVoice.canccel
+responsiveVoice.cancel;
   document.getElementById(PlayIcoId).style.display = 'block';
   document.getElementById(PauseIcoId).style.display = 'none';
 }
