@@ -517,12 +517,14 @@ function AudLoad() {
 
 function AudPlay() {	
   document.getElementById("AudObjX").play();
+  responsiveVoice.speak("hello world", "UK English Male");
   document.getElementById(PlayIcoId).style.display = 'none';
   document.getElementById(PauseIcoId).style.display = 'block';
 }
 
 function AudPause() {
   document.getElementById("AudObjX").pause();
+responsiveVoice.canccel
   document.getElementById(PlayIcoId).style.display = 'block';
   document.getElementById(PauseIcoId).style.display = 'none';
 }
