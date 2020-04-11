@@ -2,13 +2,22 @@
 
 
 function WIXUpd(l1, l2) {
-	//alert("testing");
-	document.getElementById(MUIL1TCont).innerHTML = pId[CurrentBtn]["WI"][l1]
+	//alert(CurrentBtn);
+	if (CurrentBtn == 0) {
+		WIx = "WIt";
+		WIrx = "WItr";
+	} else {
+		WIx = "WI";
+		WIrx = "WIr";
+	}
+	
+	//L1
+	document.getElementById(MUIL1TCont).innerHTML = pId[CurrentBtn][WIx][l1];
 	//L2
 	if (L2Selected == "JPN") {
-		document.getElementById(MUIL2TCont).innerHTML = pId[CurrentBtn]["WIr"][l2.concat("Ru")]
+		document.getElementById(MUIL2TCont).innerHTML = pId[CurrentBtn][WIrx]["JPNRu"];
 	} else {
-		document.getElementById(MUIL2TCont).innerHTML = pId[CurrentBtn]["WI"][l2]
+		document.getElementById(MUIL2TCont).innerHTML = pId[CurrentBtn][WIx][l2];
 	}
 }
 
@@ -27,12 +36,11 @@ function WIWordsSet(l1, l2) {
 		document.getElementById('Ex1L1WI'.concat(i)).innerHTML = pId[i]["EX1"][l1];
 		document.getElementById('Ex2L1WI'.concat(i)).innerHTML = pId[i]["EX2"][l1];
 		document.getElementById('Ex3L1WI'.concat(i)).innerHTML = pId[i]["EX3"][l1];
-		//L2
 		
+		//L2
 		document.getElementById('Ex1L2WI'.concat(i)).innerHTML = pId[i]["EX1"][l2];
 		document.getElementById('Ex2L2WI'.concat(i)).innerHTML = pId[i]["EX2"][l2];
-		document.getElementById('Ex3L2WI'.concat(i)).innerHTML = pId[i]["EX3"][l2];
-		
+		document.getElementById('Ex3L2WI'.concat(i)).innerHTML = pId[i]["EX3"][l2];	
 	}
  
 }
@@ -168,12 +176,10 @@ function TatoebaExSrcs(lang) {
 		var TatSrcId1 = "Ex1L1TatSrcWI".concat(i);
 		document.getElementById(TatSrcId1).style.display = pId[i]["TatSrcEx1"]["Dsp"];
 		document.getElementById(TatSrcId1).href = pId[i]["TatSrcEx1"][lang];
-
 		
 		var TatSrcId2 = "Ex2L1TatSrcWI".concat(i);
 		document.getElementById(TatSrcId2).style.display = pId[i]["TatSrcEx2"]["Dsp"];
 		document.getElementById(TatSrcId2).href = pId[i]["TatSrcEx2"][lang];
-
 		
 		var TatSrcId3 = "Ex3L1TatSrcWI".concat(i);
 		document.getElementById(TatSrcId3).style.display = pId[i]["TatSrcEx3"]["Dsp"];
