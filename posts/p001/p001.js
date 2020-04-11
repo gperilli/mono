@@ -17,6 +17,8 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
+	WIt: {ENG: "at the airport", ITA: "all'aeroporto", JPN: "空港",},
+	WItr: {ENG: "/ˈeə.pɔːt/", ITA: "/aeroˈpɔrto/", JPN: "kuukou", JPNRu: "<ruby>空港<rt>くうこう</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
@@ -65,12 +67,10 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",	
 
-	dirmode: "downleft",
 	LnContPosLeft: "0%", LnContPosTop: "12%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
 	LnPosX1: "75%", LnPosY1: "25%", LnPosX2: "46%", LnPosY2: "53%",
-	
-	
+		
 	WI: {ENG: "control tower", ITA: "torre di controllo", JPN: "管制塔",},
 	WIr: {ENG: "/kənˈtrəʊl ˌtaʊər/", ITA: "/ˈtorre di konˈtrɔllo/", JPN: "kanseitou", JPNRu: "<ruby>管制塔<rt>かんせいとう</rt></ruby>",},
 	WIcmp: {ENG: "2", EngCmp1: "control", EngCmp2: "tower",
@@ -119,7 +119,7 @@ AnnotType: "Annot",
 	
 	imgbckg: "wht",	
 
-	dirmode: "down",
+	
 	LnContPosLeft: "15%", LnContPosTop: "31%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
 	LnPosX1: "50%", LnPosY1: "25%", LnPosX2: "50%", LnPosY2: "57%",
@@ -138,7 +138,6 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The plane made a perfect <span class="wihlight">land</span>ing.', ITA: 'L&#39;aereo effettuò un <span class="wihlight">atterraggio</span> perfetto.', JPN: '飛行機は完璧な<span class="wihlight">着陸</span>をした。',},
 	EX3: {ENG: 'They say most airplane accidents occur at <span class="wihlight">land</span>ing or takeoff stages.', ITA: 'Si dice che la maggior parte degli incidenti aerei avviene nelle fasi di <span class="wihlight">atterraggio</span> o di decollo.', JPN: 'ほとんどの飛行機事故は<span class="wihlight">着陸</span>または離陸の時に発生すると言います。',},
 
-	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -161,6 +160,7 @@ AnnotType: "Annot",
 			JPN: {ENG: "", ITA: "", JPN: "",},
 			},
 
+    //Audio
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
