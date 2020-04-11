@@ -6,6 +6,7 @@ function setposter(pId) {
 	for(var i = 0; i < 9; ++i) {
 		//image file names
 		pIdX[i]["imgfile"] = "posts/p".concat(pIdX["No"], "/monop", pIdX["No"], "-wi", i, ".svg");
+		
 		//percent encode Japanese words
 		pIdX[i]["jpnLpercen"] = encodeURIComponent(pIdX[i]["WI"]["JPN"]);
 		
@@ -19,6 +20,7 @@ function setposter(pId) {
 		if (pIdX[i]["WIcmp"]["ITA"] == 1) {
 			pIdX[i]["itaLhyph"] = pIdX[i]["WI"]["ITA"];
 			pIdX[i]["itaLplus"] = pIdX[i]["WI"]["ITA"];
+			pIdX[i]["itaLpercen"] = pIdX[i]["WI"]["ITA"];
 			pIdX[i]["itaForv"] = pIdX[i]["WI"]["ITA"].concat("/#it");
 		}
 		if (pIdX[i]["WIcmp"]["JPN"] == 1) {
@@ -38,6 +40,7 @@ function setposter(pId) {
 		if (pIdX[i]["WIcmp"]["ITA"] == 2) {
 			pIdX[i]["itaLhyph"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("-", pIdX[i]["WIcmp"]["ItaCmp2"]);
 			pIdX[i]["itaLplus"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("+", pIdX[i]["WIcmp"]["ItaCmp2"]);
+			pIdX[i]["itaLpercen"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("%20", pIdX[i]["WIcmp"]["ItaCmp2"]);
 			pIdX[i]["itaForv"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("_", pIdX[i]["WIcmp"]["ItaCmp2"], "/#it");
 		}
 		
@@ -52,23 +55,16 @@ function setposter(pId) {
 		if (pIdX[i]["WIcmp"]["ITA"] == 3) {
 			pIdX[i]["itaLhyph"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("-", pIdX[i]["WIcmp"]["ItaCmp2"], "-", pIdX[i]["WIcmp"]["ItaCmp3"]);
 			pIdX[i]["itaLplus"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("+", pIdX[i]["WIcmp"]["ItaCmp2"], "+", pIdX[i]["WIcmp"]["ItaCmp3"]);
+			
+			pIdX[i]["itaLpercen"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("%20", pIdX[i]["WIcmp"]["ItaCmp2"], "%20", pIdX[i]["WIcmp"]["ItaCmp3"]);
+			//alert(pIdX[i]["itaLpercen"]);
 			pIdX[i]["itaForv"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("_", pIdX[i]["WIcmp"]["ItaCmp2"], "_", pIdX[i]["WIcmp"]["ItaCmp3"], "/#it");
 		}
-
-		//audio file names
-		pIdX[i]["AudENGWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENG.wav");
-		pIdX[i]["AudENGEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex1.wav");
-		pIdX[i]["AudENGEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex2.wav");
-		pIdX[i]["AudENGEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ENGex3.wav");
-		pIdX[i]["AudITAWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITA.wav");
-		pIdX[i]["AudITAEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex1.wav");
-		pIdX[i]["AudITAEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex2.wav");
-		pIdX[i]["AudITAEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "ITAex3.wav");
-		pIdX[i]["AudJPNWI"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPN.wav");
-		pIdX[i]["AudJPNEx1"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex1.wav");
-		pIdX[i]["AudJPNEx2"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex2.wav");
-		pIdX[i]["AudJPNEx3"] = "posts/p".concat(pIdX["No"], "/p", pIdX["No"], "wi", i, "JPNex3.wav");
+		
+		//alert(pId["No"]);
+		
 	}
+	
 }
 
 //Generate 8 Btns
@@ -160,7 +156,7 @@ function sitewidetemps() {
 
 centralcolumnhead = `
 <div id="CentralColumn" class="centralcolumn" align=left style="border: 0px solid blue;">
-<audio id="AudObjX" onended="resetAudObjX()"></audio>
+
 `;
 
 centralcolumntail = `
@@ -527,7 +523,7 @@ linkdata = {
 			  WIxLink4UrlHd: "https://www.merriam-webster.com/dictionary/", Link4PDatalkUp: "engLperc", WIxLink4Dsp: "block", WIxLink4Label: "mwebster.com",
 			  WIxLink5UrlHd: "http://context.reverso.net/translation/english-japanese/", Link5PDatalkUp: "engLplus", WIxLink5Dsp: "block", WIxLink5Label: "reverso.net",
 			  WIxLink6UrlHd: "https://ejje.weblio.jp/content/", Link6PDatalkUp: "engLplus", WIxLink6Dsp: "block", WIxLink6Label: "weblio.jp",},
-		ITA: {WIxLink1UrlHd: "https://www.dict.com/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E8%AA%9E-%E6%97%A5%E6%9C%AC%E8%AA%9E/", Link1PDatalkUp: "ita", WIxLink1Dsp: "block", WIxLink1Label: "dict.com",
+		ITA: {WIxLink1UrlHd: "https://www.dict.com/%E3%82%A4%E3%82%BF%E3%83%AA%E3%82%A2%E8%AA%9E-%E6%97%A5%E6%9C%AC%E8%AA%9E/", Link1PDatalkUp: "itaLpercen", WIxLink1Dsp: "block", WIxLink1Label: "dict.com",
 			  WIxLink2UrlHd: "https://ja.forvo.com/word/", Link2PDatalkUp: "itaForv", WIxLink2Dsp: "block", WIxLink2Label: "forvo.com",
 			  WIxLink3UrlHd: "http://context.reverso.net/translation/italian-japanese/", Link3PDatalkUp: "itaLplus", WIxLink3Dsp: "block", WIxLink3Label: "reverso.net",
 			  WIxLink4UrlHd: "", Link4PDatalkUp: "", WIxLink4Dsp: "none", WIxLink4Label: "",
