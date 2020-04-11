@@ -17,7 +17,9 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
-			
+	WIt: {ENG: "drinks", ITA: "bevande", JPN: "飲み物",},
+	WItr: {ENG: "/drɪŋks/", ITA: "/beˈvande/", JPN: "nomimono", JPNRu: "<ruby>飲み物<rt>のみもの</rt></ruby>",},
+	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "kitchen", ITA: "cucina", JPN: "台所",},
@@ -415,7 +417,7 @@ AnnotType: "Annot",
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	
 	//Examples
-	EX1: {ENG: 'I need a <span class="wihlight">bottle opener</span.', ITA: 'Mi serve un <span class="wihlight">apribottiglie</span>.', JPN: '<span class="wihlight">栓抜き</span>が必要です。。',},
+	EX1: {ENG: 'I need a <span class="wihlight">bottle opener</span.', ITA: 'Mi serve un <span class="wihlight">apribottiglie</span>.', JPN: '<span class="wihlight">栓抜き</span>が必要です。',},
 	EX2: {ENG: 'Where do you keep your <span class="wihlight">bottle opener<span?', ITA: 'Dove tieni il tuo <span class="wihlight">apribottiglie?</span>', JPN: '<span class="wihlight">栓抜き</span>はどこに保管しますか？',},
 	EX3: {ENG: 'How do you use the <span class="wihlight">bottle opener</span>?', ITA: 'Come si usa l&#39;<span class="wihlight">apribottiglie?', JPN: '<span class="wihlight">栓抜</span>はどうやって使うの？',},
     
