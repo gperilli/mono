@@ -17,7 +17,9 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
-			
+	WIt: {ENG: "park", ITA: "parco", JPN: "公園",},
+	WItr: {ENG: "/pɑːk/", ITA: "/ˈparko/", JPN: "kouen", JPNRu: "<ruby>公園<rt>こうえん</rt></ruby>",},
+	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "places", ITA: "posti", JPN: "場所",},
@@ -75,7 +77,9 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
-
+	WIt: {ENG: "tree", ITA: "albero", JPN: "木",},
+	WItr: {ENG: "/triː/", ITA: "/ˈalbero/", JPN: "ki", JPNRu: "<ruby>木<rt>き</rt></ruby>",},
+	
     semtag1: {Dsp: "block", ENG: "plants", ITA: "piante", JPN: "植物",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	semtag3: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
