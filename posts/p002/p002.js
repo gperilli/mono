@@ -17,6 +17,8 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
+	WIt: {ENG: "the body", ITA: "il corpo", JPN: "体",},
+	WItr: {ENG: "/ˈbɒd·i/", ITA: "/ˈkɔrpo/", JPN: "karada", JPNRu: "<ruby>体<rt>からだ</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
