@@ -266,6 +266,7 @@ function MUIUpdP00X(pno, n, ClkSrc) {
 	
 	pId = window["p".concat(pno)];
 	
+	
 	if (PlyAllKll == 1 && pno != CrntPlyAllPno) {//Kill play-all process
 		PlyAllKll = 0; //reset
 		PlyAllAudKll = 1; //In case MUIUpdP00X function is triggered from play-all process audio function will be killed before outputting audio
@@ -298,7 +299,7 @@ function MUIUpdP00X(pno, n, ClkSrc) {
 		
 		pnoint = parseInt(pno, 10);
 		CrntBtnP00X[pnoint] = n;
-	    
+	    //alert(pno);
 		BtnHLight(pId.AnnotType);
 
 		// Set variables before sending through WIXUpd Function
@@ -377,9 +378,9 @@ function BtnHLight(type) {
 }
 
 
-function SetImgData() {
+function SetImgData(pId) {
   //Word Item Images
-  //alert(pId.AnnotType)
+  
   if (pId.AnnotType == "HLight") {
 	//Load in blank 1024x768 box MUI Image
 	document.getElementById(P00XMUIImgCont).src = "graphics/HlightBox.svg";
@@ -486,83 +487,94 @@ function WIXPOfSpUpd(l1, l2) {
 }
 
 
+function PlyAllIcoOff(pno) {
+	//alert(pno);
+	PlyAllIcoOnP00X = "PlyAllIcoOnP".concat(pno);
+	PlyAllIcoOffP00X = "PlyAllIcoOffP".concat(pno);
+	document.getElementById(PlyAllIcoOffP00X).style.display = 'block';
+	document.getElementById(PlyAllIcoOnP00X).style.display = 'none';
+	PlyAllStng = 0;
+}
 
+function PlyAllIcoOn(pno) {
+	
+	PlyAllIcoOnP00X = "PlyAllIcoOnP".concat(pno);
+	PlyAllIcoOffP00X = "PlyAllIcoOffP".concat(pno);
+	document.getElementById(PlyAllIcoOffP00X).style.display = 'none';
+	document.getElementById(PlyAllIcoOnP00X).style.display = 'block';
+	PlyAllStng = 1;
+}
 
 
 
 
 function AudioCntrl(pno, wi, ex, ClkSrc) {
-		
+	//alert(pno);	
 	if (PlyAllAudKll == 1 && pno != CrntPlyAllPno) {//exit process here	
 		PlyAllAudKll = 0; //reset
 	} else {
 		// Under these conditions proceed with audio play/pause functions
 		if ((PlyAllMde == "Pse" && AutAud == 1 && ClkSrc == "BtnClk") || (PlyAllMde == "Ply" && AutAud == 1) || (PlyAllMde == "Ply" && AutAud == 0) || (ClkSrc == "IAudClk")) {	
 			
-			// Change Audio file name depending on Ex value
-			if (ex == 0) {
-			  AudFleCnt = "Aud".concat(L2Selected + "WI");
-			} else {
-			  AudFleCnt = "Aud".concat(L2Selected + "Ex" + ex);
-			}	
-		
 			OldPlayIcoId = PlayIcoId;
 			OldPauseIcoId = PauseIcoId;
-		
+			
+			AudFileId = "Ex".concat(ex, "WI", wi);
+			RespVoiLng = {ENG: "UK English Male", ITA: "Italian Male", JPN: "Japanese Male",};
+			PlayIcoId = "P".concat(pno, "Ex", ex, "PlayIco", "WIx");
+			PauseIcoId = "P".concat(pno, "Ex", ex, "PauseIco", "WIx");
+			
 			if (wi == 'x') {
 			//'x' indicates that the user is triggering the play WI button on the MUI
 			//Otherwise audio is being triggered from the MUI annotation btns or autoplay
 				pnoint = parseInt(pno, 10);
 				wi = CrntBtnP00X[pnoint];
 			}
-		
-			pId = window["p".concat(pno)];
-			AudioFile = pId[wi][AudFleCnt];
-		
-			AudFileId = "Ex".concat(ex, "WI", wi);
-			PlayIcoId = "P".concat(pno, "Ex", ex, "PlayIco", "WIx");
-			PauseIcoId = "P".concat(pno, "Ex", ex, "PauseIco", "WIx");
 			
-			if (AudStat == 0) {// Audio is off
-			// determine play from pause pos or new audio file
-				
-				if (AudFileId == CurrentAudFileId) {//Same audio requested and audio is off, so play from pause
-					AudPlay();
-					AudStat = 1; 
-					CurrentAudFileId = AudFileId;
-				} else {//Different audio requested, so play new file procedure
-					AudLoad();// load audio file
-					// play new file from start
+			pId = window["p".concat(pno)];
+			// Set text for audio playback
+			if (ex == 0) {
+				SpkTxt = pId[wi]["WI"][L2Selected];
+			} else {
+				SpkTxt = pId[wi]["EX".concat(ex)][L2Selected];
+			}
+		
+			if (AudStat == 0) {
+				// Audio is off
+				// determine play from pause pos or new audio file
+				if (AudFileId == CurrentAudFileId) {// play from pause
+					AudStat = 1;
+					responsiveVoice.resume();
+					AudPlayIco();
+				} else {//play new file from start
 					if (PlyAllMde == "Ply" && AutAud == 0) {//In case auto audio option is off for play all procedure
 						AudStat = 0; 					
-						AudDur = document.getElementById("AudObjX").duration;
-						CurrentAudFileId = AudFileId;
-						setTimeout(function() { PlyAllAudReps(pno) },100);
-					} else {
-						AudPlay();
+						responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], {onstart: voiceStartCallback, onend: voiceEndCallback, volume: 0});
+					} else {//Play audio in other cases
 						AudStat = 1; 
-						AudDur = document.getElementById("AudObjX").duration;
+						responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], {onstart: voiceStartCallback, onend: voiceEndCallback, volume: 0.7});
+						AudPlayIco();
 					}
-					
-					CurrentAudFileId = AudFileId;//Set new current audio file variable for comparison on next click
 				}
-
-			} else {// Audio is on
-			// determine pause or new audio file
-				if (AudFileId == CurrentAudFileId) {// pause
-					AudPause();
-					AudStat = 0;
-					CurrentAudFileId = AudFileId;
-				} else {// Interrupt current Audio with new audio file
-				AudLoad();// load audio file
-				AudPlay();// play new file from start
-				AudStat = 1;
 				CurrentAudFileId = AudFileId;
-				// Reset play UI for previous btn
-				document.getElementById(OldPlayIcoId).style.display = 'block';
-				document.getElementById(OldPauseIcoId).style.display = 'none';
+				
+			} else {
+				// Audio is on
+				// determine pause or new audio file
+				if (AudFileId == CurrentAudFileId) {// pause
+					AudStat = 0;
+					responsiveVoice.pause();
+					AudPauseIco();
+				} else {// Interrupt current Audio with new audio file
+					AudStat = 1;
+					responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], parameters);
+					AudPlayIco();
+					// Reset play UI for previous btn
+					document.getElementById(OldPlayIcoId).style.display = 'block';
+					document.getElementById(OldPauseIcoId).style.display = 'none';
 				}
-		
+				CurrentAudFileId = AudFileId;
+				
 			}
 	
 		}
@@ -632,16 +644,13 @@ function AutAudSet(pno, swtch) {
 
 
 function PlyAllAud(pno) {
-
-
-
+	//alert(pno);
 	PlyAllPno = pno;
 	pnoint = parseInt(pno, 10);
 	ClkSrc = "AlBtnClk";
 	
 	//play all audio is off and the current MUI for the click source is in off position for play-all mode 
 	if (PlyAllStng == 0 && PnoPlyAllPos[pnoint] == 0) {//Play play-all process
-		
 		PlyAllIcoOff(CrntPlyAllPno);//set previous PlyAll icon to off
 		for (i = StrtPstN; i > (EndPstN - 1); --i) {//set PnoPlyAllPos to off for all other MUIs
 			PnoPlyAllPos[i] = 0;
@@ -657,7 +666,6 @@ function PlyAllAud(pno) {
 	}
 	
 	if (PlyAllStng == 1 && pno != CrntPlyAllPno) {//Start different interupting play-all process
-	
 		PlyAllIcoOff(CrntPlyAllPno);
 		
 		PlyAllKll = 1;
@@ -706,90 +714,59 @@ function PlyAllAud(pno) {
 	
 	
 
-
-
-function PlyAllIcoOff(pno) {
-	
-	PlyAllIcoOnP00X = "PlyAllIcoOnP".concat(pno);
-	PlyAllIcoOffP00X = "PlyAllIcoOffP".concat(pno);
-	document.getElementById(PlyAllIcoOffP00X).style.display = 'block';
-	document.getElementById(PlyAllIcoOnP00X).style.display = 'none';
-	PlyAllStng = 0;
-}
-
-function PlyAllIcoOn(pno) {
-	
-	PlyAllIcoOnP00X = "PlyAllIcoOnP".concat(pno);
-	PlyAllIcoOffP00X = "PlyAllIcoOffP".concat(pno);
-	document.getElementById(PlyAllIcoOffP00X).style.display = 'none';
-	document.getElementById(PlyAllIcoOnP00X).style.display = 'block';
-	PlyAllStng = 1;
-}
-
 function PlyAllAudReps(pno) {
- 
-	if (PlyAllStng == 1) {
+	
+	if (PlyAllStng == 1) {//Play next
 	  
 		//Calculate listen and repeat time
-		AudDur = document.getElementById("AudObjX").duration;
-		RepWt = (AudDur*1000) + 1000;
-	  
-		//If auto audio is off double silence interval
-		if (PlyAllMde == "Ply" && AutAud == 0) {
-			RepWt = ((AudDur*2)*1000) + 1000;
-		}
+		RepWt = AudDur + 1000;
 	   
 		//Proceed or stop process
 		if (7 >= PlyAllN) {//If WI is between 0 and-or equal to 7, proceed to next WI.
 			PlyAllN = PlyAllN + 1;
 			CrntPlyAllN = PlyAllN;
-	
 			setTimeout(function() { MUIUpdP00X(pno, PlyAllN, 'AlBtnClk') }, RepWt);
 			ClkSrc = 'AlBtnClk';
-			
 			setTimeout(function() { AudioCntrl(pno, PlyAllN, 0) }, RepWt);
 			PnoPlyAllPos[pnoint] = 1;
-			
 		} else {//If WI is WI8, reset to 0
 			setTimeout(function() { MUIUpdP00X(pno, 0, 'AlBtnClk') }, RepWt);
 			setTimeout(function() { PlyAllIcoOff(pno) }, RepWt);
 			CrntPlyAllN = 0;
 			pnoint = parseInt(pno, 10);
-			
 			PnoPlyAllPos[pnoint] = 0;
-			
 		} 
 	}
   
 }
 
-function AudLoad() {
-  document.getElementById("AudObjX").src = AudioFile;
+var startTime, endTime;
+
+function voiceStartCallback() {
+	startTime = performance.now();
 }
 
-function AudPlay() {	
-  document.getElementById("AudObjX").play();
+function voiceEndCallback() {
+	endTime = performance.now();
+	AudStat = 0;
+	CurrentAudFileId = "AudioEnd";	
+	AudPauseIco();
+	//alert(PlyAllPno);
+	var timeDiff = endTime - startTime;//in ms 
+	timeDiff /= 1000;  
+	AudDur = Math.round(timeDiff);// get seconds
+	
+	if (PlyAllMde == "Ply") {//Play All Rep Function
+		PlyAllAudReps(PlyAllPno);
+	}
+}
+ 
+function AudPlayIco() {	
   document.getElementById(PlayIcoId).style.display = 'none';
   document.getElementById(PauseIcoId).style.display = 'block';
 }
 
-function AudPause() {
-  document.getElementById("AudObjX").pause();
+function AudPauseIco() {
   document.getElementById(PlayIcoId).style.display = 'block';
   document.getElementById(PauseIcoId).style.display = 'none';
 }
-
-function resetAudObjX() {
-  AudStat = 0;
-  CurrentAudFileId = "AudioEnd";
-  document.getElementById(PlayIcoId).style.display = 'block';
-  document.getElementById(PauseIcoId).style.display = 'none';
-  
-  //Play All Rep Function
-  if (PlyAllMde == "Ply") {
-	pno = PlyAllPno;
-	PlyAllAudReps(pno);
-  } 
-   
-}
-	
