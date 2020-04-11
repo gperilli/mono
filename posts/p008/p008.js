@@ -17,7 +17,9 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
-			
+	WIt: {ENG: "the planets", ITA: "i pianeti", JPN: "惑星",},
+	WItr: {ENG: "/ˈplænɪts/", ITA: "/pjaˈneti/", JPN: "wakusei", JPNRu: "<ruby>惑星<rt>わくせい</rt></ruby>",},
+	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "science", ITA: "scienza", JPN: "理科",},
