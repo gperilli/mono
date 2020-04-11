@@ -17,7 +17,9 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "internal", EngCmp2: "organs",
 			ITA: "2", ItaCmp1: "organi", ItaCmp2: "interni",
 			JPN: "2", JpnCmp1: "",},
-			
+	WIt: {ENG: "internal organs", ITA: "organi interni", JPN: "内臓",},
+	WItr: {ENG: "/ɪnˈtɜːnl ˈɔːgənz/", ITA: "/ˈɔrɡani inˈtɛrni/", JPN: "naizou", JPNRu: "<ruby>内臓<rt>ないぞう</rt></ruby>",},
+	
 	//Sematic Tags
 	semtag1: {Dsp: "block", ENG: "body", ITA: "corpo", JPN: "体",},
 	semtag2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
