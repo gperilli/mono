@@ -348,9 +348,13 @@ function PMuis() {
 	}
 	
 	pId = window["p".concat(pno)];
+	
 	if (typeof pId !== "undefined") {//testing for undefined object
+		//alert("End post number:".concat(EndPstN, ", Current post number:", PstN));
 		setposter(pId);
+		
 	} else {//if undefined
+		alert("undefined");
 		setTimeout(function() { PMuis() }, 100);
 	}
 	
@@ -366,7 +370,6 @@ function PMuis() {
 	if (pId.AnnotType == "Annot") {
 		SetAnnotations(pId);
 	}
-	
 	
 	L1 = localStorage.getItem("Lang1");
 	L2 = localStorage.getItem("Lang2");
@@ -418,8 +421,11 @@ function PMuis() {
 	LSel(1, L1, 'pgld');
 
 	//Loop process
+	
 	PstN--;
-	if( PstN >= EndPstN ) {
+	
+	if( PstN >= EndPstN) {
+		
 	  setTimeout( PMuis, 125 );
 	}
 	
@@ -447,7 +453,7 @@ function PImgs() {
 		setTimeout(PImgs, 50);	 
 	}
 	
-	pTtl = pId["0"]["WI"][L1];
+	pTtl = pId["0"]["WIt"][L1];
 	PDte = pId["Date"];
 
 	PstLnkTxtId = pId["No"];
@@ -498,12 +504,8 @@ function PImgs() {
 	
 		AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead);
 	
-	
-		
 		pnavexp = IndxPstImgHd.concat(AnottBtns, IndxPstImgTl);
 			
-		
-		
 	} else {
 	var pnavexp = `
 
@@ -535,10 +537,8 @@ function PImgs() {
 	//Loop process
 	PstN--;
 
-	if( PstN >= EndPstN ) {
-		
+	if( PstN >= EndPstN ) {	
 	  setTimeout( PImgs, 125 );
-	  
 	}
 
 }
@@ -674,7 +674,7 @@ function IndxNms(L1) {
 
 	//Get post title from JS file
 	var pId = window["p".concat(PstLnkTxtId)];
-	pTtl = pId["0"]["WI"][L1];
+	pTtl = pId["0"]["WIt"][L1];
 	document.getElementById(PstLnkTxtId).innerHTML = pTtl;
 
 	}
