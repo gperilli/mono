@@ -433,7 +433,7 @@ function PMuis() {
 
 function PImgs() {
 	//Image gallery/post index loading with delay
-
+	alert("b");
 	if (flprfx == "ALL") {
 		if (PstN < 10) {
 			pno = "00".concat(PstN);
@@ -453,6 +453,7 @@ function PImgs() {
 		setTimeout(PImgs, 50);	 
 	}
 	
+	alert(pId["0"]["WIt"][L1]);
 	pTtl = pId["0"]["WIt"][L1];
 	PDte = pId["Date"];
 
