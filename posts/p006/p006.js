@@ -17,6 +17,8 @@ AnnotType: "Annot",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
+	WIt: {ENG: "kitchen", ITA: "cucina", JPN: "台所",},
+	WItr: {ENG: "/ˈkɪʧɪn/", ITA: "/kuˈtʃina/", JPN: "daidokoro", JPNRu: "<ruby>台所<rt>だいどころ</rt></ruby>",},
 	
 	//Sematic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
