@@ -1,566 +1,684 @@
- 
-function MUITempPrp(pno) {
 
-P00XMUIImgCont = "P".concat(pno, "MUIImgCont");
-P00XMUIBtnsCont = "P".concat(pno, "MUIBtnsCont");
+function indexpage() {
 
-// MUI Btn0 Temp Placeholders
-P00XBtnImgId0T = "P".concat(pno, "BtnImgId0T");
+	//Set L1 in local storage to ENG if non existent
+	if (localStorage.getItem("Lang1") === undefined || localStorage.getItem("Lang1") === null) {
+		localStorage.setItem("Lang1", "ENG");
+	}
 
-// MUI Btn1-8 Temp Placeholder Heads
-P00XId1VarHead = "BtnContainer".concat("P", pno, "BtnID");
-P00XId24VarHead = "P".concat(pno, "BtnImgId");
-P00XId3VarHead = "P".concat(pno, "DigitPath");
-P00XId5VarHead = "AnnotDivLn-p".concat(pno, "-ID");
-P00XId6VarHead = "AnnotDivLnPos-P".concat(pno, "-ID");
+	//Set L2 in local storage to JPN if non existent
+	if (localStorage.getItem("Lang2") === undefined || localStorage.getItem("Lang2") === null) {
+		localStorage.setItem("Lang2", "JPN");
+	}
 
-// MUI Text Box Temp Placeholders
-MUITContP00X = "MUITContP".concat(pno);
+	//Set GlType in local storage to BW if non existent
+	if (localStorage.getItem("GlType") === undefined || localStorage.getItem("GlType") === null) {
+		localStorage.setItem("GlType", "BW");
+	}
 
-MUIL2TContP00X = "MUIL2TContP".concat(pno);
-P00XL2POfSp1WIx = "P".concat(pno, "L2POfSp1WIx");
-P00XL2POfSp2WIx = "P".concat(pno, "L2POfSp2WIx");
-P00XL2POfSp3WIx = "P".concat(pno, "L2POfSp3WIx");
+	//Set IndxMde in local storage to LST if non existent
+	if (localStorage.getItem("IndxMde") === undefined || localStorage.getItem("IndxMde") === null) {
+		localStorage.setItem("IndxMde", "LST");	
+	}
 
-MUIL1TContP00X = "MUIL1TContP".concat(pno);
-MUILink1ContP00X = "MUILink1ContP".concat(pno);
-MUILink2ContP00X = "MUILink2ContP".concat(pno);
-MUILink3ContP00X = "MUILink3ContP".concat(pno);
-MUILink4ContP00X = "MUILink4ContP".concat(pno);
-MUILink5ContP00X = "MUILink5ContP".concat(pno);
-MUILink6ContP00X = "MUILink6ContP".concat(pno);
-
-}
-
-
-// MUI Btn0 Temp Placeholders
-//P00XBtnImgId0T = "P00XBtnImgId0T";
-
-//P00XBtnImgId0B = "P00XBtnImgId0B";
-//TBtnP00XRectPos = "TBtnP00XRectPos";
-//BtnContainerP00XBtnIDT = "BtnContainerP00XBtnIDT";
-
-
-
-// MUI Text Box Temp Placeholders
-//L2LangDisplayP00X = "L2LangDisplayP00X";
-//L1LangDisplayP00X = "L1LangDisplayP00X";
-
-
-
-function MUITempSet(type) {
-
-
-
-var MUIHeadTemp = `
-<div class="column" style="z-index: 99; background-color: #fff;">
-  <div class="img-overlay-wrap">
-  <img id=${P00XMUIImgCont} src="" class="wht" width="100%">
-    <svg viewBox="0 0 1024 768" width="100%">
-      <!-- Buttons Loaded here -->
-`;
-
-for(var i = 1; i < 9; ++i) {
-
-var BtnContainerP00XBtnIDX = P00XId1VarHead.concat(i);
-var P00XBtnImgIdXT = P00XId24VarHead.concat(i, "T");
-var P00XDigitPathX = P00XId3VarHead.concat(i);
-var P00XBtnImgIdXB = P00XId24VarHead.concat(i, "B");
-var AnnotDivLnP00XIDX = P00XId5VarHead.concat(i);
-var AnnotDivLnPosP00XIDX = P00XId6VarHead.concat(i);
-
-var BtnTemp = `
-<svg id=${AnnotDivLnP00XIDX} x="0%" y="76%">
-	<svg width="18%" height="24%">
-	  <rect class="box"/>
-	</svg>
-
-	<svg width="18%" height="24%">
-	  <g transform="scale(1, 1)">
-		<svg>
-		  <line class="line" id=${AnnotDivLnPosP00XIDX} x1="25%" y1="75%" x2="75%" y2="25%"/>
-		  Sorry, your browser does not support inline SVG.
-		</svg>
-	  </g>
-	</svg>
-
-	<svg class="AnBtn" id=${BtnContainerP00XBtnIDX} x="0%" y="12%" width="9%" height="12%">
-	  <g transform="scale(1, 1)">
-		
-		<svg id=${P00XBtnImgIdXB} class="btnCoff" onClick="MUIUpdP00X('${pno}', ${i}, 'BtnClk')">
-			<circle class="" cx="50%" cy="50%" r="40%"/>
-			Sorry, your browser does not support inline SVG.
-		</svg>
-		
-		<svg class="btnToff" id=${P00XBtnImgIdXT} onClick="MUIUpdP00X('${pno}', ${i}, 'BtnClk')">
-			<g>
-				<circle cx="51%" cy="50%" r="20%"/>
-				Sorry, your browser does not support inline SVG.
-			</g>
-		</svg>
-		
-	  </g>
-	</svg>
-</svg>
-`;
-
-BtnTempX = "BtnTemp".concat(i);
-window[BtnTempX] = BtnTemp;
-
-}
-
-var AudBtnTemp = `
-<svg id="AudBtnPos" x="1%" y="86%">
-
-<svg class="AAbutton" width="9%" height="12%" onClick="AutAudSet(1)">
+	//ShareAdr = 'https://www.google.com';
+	//Prepare template strings
+	sitewidetemps();
+	GallTemps();
   
-	<rect class="AAbuttonR"  x="0" y="0" height="100%" width="100%" rx="10" ry="10" style="fill: #ccc; opacity: 0.5;"/>
+	//Load templates from strings
+	document.getElementById("TemplateContainer").insertAdjacentHTML("beforeend", centralcolumnhead);
+	document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", HeaderTemp);
+	document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", ColumnATemp);
+	document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", ColumnBHead);
 
-    <svg x="0%" y="0%" width="100%" height="100%" viewBox="0 0 120 120" style="">
-     
-	<path
-	   style="fill:blue;"
-       d="M52.546307 96.563052C50.574302 94.844602 45.153635 89.605852 40.500381 84.921382C40.500381 84.921382 32.039916 76.404164 32.039916 76.404164C32.039916 76.404164 22.733247 76.404164 22.733247 76.404164C10.032796 76.404164 11.125427 77.955252 11.125427 59.925843C11.125427 42.0607 10.031272 43.595831 22.764529 43.595831C22.764529 43.595831 31.954168 43.595831 31.954168 43.595831C31.954168 43.595831 42.838755 32.836325 42.838755 32.836325C48.825279 26.918594 54.379592 21.651537 55.181676 21.131753C56.42993 20.322827 56.869207 20.281627 58.231113 20.845747C59.193979 21.244579 59.97627 22.052941 60.212366 22.893028C60.71812 24.692615 60.72379 95.288012 60.218366 97.083232C59.876336 98.297992 57.957761 99.687493 56.622491 99.687493C56.352616 99.687493 54.518352 98.281492 52.546349 96.563052C52.546349 96.563052 52.546307 96.563052 52.546307 96.563052" />
-	   
-    <path id="AutAudDSl1" style="fill:blue;" d="" />
-	   
-    <path id="AutAudDSl2" style="fill:blue;" d="" />
+	document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", ColumnBTail);
+	document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", ShareBtmTemp);
+	document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", AttrTemp);
+	document.getElementById("TemplateContainer").insertAdjacentHTML("beforeend", centralcolumntail);
 
-    </svg>
+	document.getElementById("ColumnB").insertAdjacentHTML("beforeend", PgntionCnt);
+	document.getElementById("ColumnB").insertAdjacentHTML("afterbegin", GalCnt);
 
-</svg>
+	//Language data
+	L1 = localStorage.getItem("Lang1");
+	L2 = localStorage.getItem("Lang2");
+	lselstr = {1: L1, 2: L2};
+	LSel(1, L1, 'pgld'); //language select source is from page load
 
-</svg>
-`;
+	//Variables to determine pagination and items per page
+	if (localStorage.getItem("IndxMde") == "LST") {
+		PstsPerPg = 6;
+	} else {
+		PstsPerPg = 15; //Input by me
+	}
 
-var PlyAlBtnTemp = `
-<svg id="AudBtnPos" x="11%" y="86%">
+	pindex = {
+	BW: {1: "001", 2: "002", 3: "004", 4: "005", 5: "006", 6: "007", 7: "008", 8: "009", 9: "010", 10: "012", 11: "015",},
+	CLR: {1: "003", 2: "011", 3: "013", 4: "014",},
+	}
 
-  <svg class="AAbutton" width="9%" height="12%" onClick="PlyAllAud()">
-	<rect class="AAbuttonR"  x="0" y="0" height="100%" width="100%" rx="10" ry="10" style="fill: #ccc; opacity: 0.5;"/>
-    <svg id="PlyAllIcoOff" x="20%" y="15%" width="100%" height="100%" viewBox="0 0 300 300" style="">
-		<path style="fill:blue;" d="m 35.514374,174.65227 -0.08473,-74.652722 -0.08473,-74.652718 64.693518,37.252981 64.69352,37.25298 -64.60879,37.399739 z" />
-	</svg>
+	if (localStorage.getItem("GlType") == "BW") {PstTotl = 11;} //Input by me - BW total cards
+	if (localStorage.getItem("GlType") == "CLR") {PstTotl = 4;} //Input by me - CLR total cards
+	if (localStorage.getItem("GlType") == "ALL") {PstTotl = 15;} //Input by me - CLR and BW total cards
+
+	PgMx = Math.ceil(PstTotl/PstsPerPg);
+
+	//testing for rogue/non existent local storage item
+	var storeditm = localStorage.getItem("PageId");
+	if (storeditm === undefined || storeditm === null || storeditm > PgMx) {
+		CrntPgN = 1;
+		localStorage.setItem("PageId", 1);
+	} else {
+		CrntPgN = localStorage.getItem("PageId"); //Comes from local storage (user)
+	}
 	
-	<g id="PlyAllIcoOn" style="display: none;">
-		<rect x="20%" y="25%" width="20%" height="50%" style="fill:blue;" />
-		<rect x="55%" y="25%" width="20%" height="50%" style="fill:blue;" />
-	</g>
-  </svg>
+	//Gallery Type Selection className update
+	if (localStorage.getItem("GlType") == "BW") {document.getElementById("GlBWOptn").className += " GlOpSlct";}
+	if (localStorage.getItem("GlType") == "CLR") {document.getElementById("GlCLROptn").className += " GlOpSlct";}
+	if (localStorage.getItem("GlType") == "ALL") {document.getElementById("GlALLOptn").className += " GlOpSlct";}
+	if (localStorage.getItem("IndxMde") == "GAL") {document.getElementById("GlGALOptn").className += " GlOpSlct";}
+	if (localStorage.getItem("IndxMde") == "LST") {document.getElementById("GlLSTOptn").className += " GlOpSlct";}
+	
+	//Set IndxMde before updating language text. Gallery mode will trigger the gallery text lagnuage updater
+	IndxMde = localStorage.getItem("IndxMde");
+	
 
-</svg>
-`;
+	//Generate pagination content from initial variables
+	for (i=1; i<(PgMx+1); ++i) {
+	  var PgId = "Pg".concat(i);
+	  var PgionItm = `
+	  <a id=${PgId} href="index.html" onClick="SetPgId('${i}')">${i}</a>
+	  `;
+	  var PgionItmX = [];
+	  PgionItmX[i] = PgionItm;
 
+	  document.getElementById("PgntionCnt").insertAdjacentHTML("beforeend", PgionItmX[i]);
+	}
 
-var MUITailTemp = `
-</svg>
+	StrtPstN = PstTotl-(PstsPerPg*(CrntPgN-1));
+	EndPstN = StrtPstN-(PstsPerPg-1);
 
-</div>
-</div>
-`;
+	//In case of last page, display posts until final in existence
+	if (CrntPgN == PgMx) {
+	EndPstN = 1;
+	}
+	
+	PstsThisPg = StrtPstN-(EndPstN-1);
 
-var MUITBoxTemp = `
-<div id=${MUITContP00X} class="column" style="background-color: #fff; z-index: 99;">
-  <div>
-    
-  </div>
-  <h3 id=${MUIL2TContP00X}>-</h3>
-  <br>
-  <div class="L2WTCont">
-     <p class="L2WordType L2WT1" id=${P00XL2POfSp1WIx}></p>
-  </div>
-  <div class="L2WTCont">
-     <p class="L2WordType L2WT2" id=${P00XL2POfSp2WIx}></p>
-  </div>
-  <div class="L2WTCont">
-     <p class="L2WordType L2WT3" id=${P00XL2POfSp3WIx}></p>
-  </div>
-  <br>
-  <h5>
-	<div class="icon baseline" onClick="AudioCntrl('x', 0, 'IAudClk')">
-		<svg class="Container" viewBox="0 0 300 300">
-			<g x="20%" y="15%" id="Ex0PlayIcoWIx">
-				<path class="AudBtn-PlayTri"/>
-			</g>
-			<g transform="translate(50, 45)" id="Ex0PauseIcoWIx" class="AudBtn-PauseBrs">
-				<rect class="AudBtn-PauseRectL" />
-				<rect class="AudBtn-PauseRectR" />
-			</g>
-		</svg>
+	//Pagination highlighting
+	for (var i=1; i<(PgMx+1); ++i) {
+		if (i == CrntPgN) {
+			document.getElementById("Pg".concat(i)).className = "active";
+		} else {
+			document.getElementById("Pg".concat(i)).className = "";
+		}
+	}
+	
+	LoadInPstScrpts();
+	GallSeq(1);
+}
+
+function GallSeq(step) {
+	
+	if (step == 1) {
+		itimes = ((StrtPstN + 1) - EndPstN);
+		loadincre = 50;
+		//Stagger image load and page header+footer
+		SocialMBtns();
+		PstN = StrtPstN;
+		//alert(PstN);
+		if (localStorage.getItem("IndxMde") == "LST") {
+			setTimeout(PMuis, ((itimes*loadincre)));
+		} else {
+			setTimeout(PImgs, ((itimes*loadincre)));
+		}
+	}
+	
+	if (step == 2) {
+		
+	}
+}
+
+function GallTemps() {
+	
+	//Pagination Container
+	PgntionCnt = `
+	<div class="pagination" id="PgntionCnt" style="border: 0px solid #000; background-color: #fff; ">
+			<!-- Pagination Buttons Go Here -->
 	</div>
-</h5>
-  <br>
-  <div align=right style="width: 100%;">
-    
-  </div>
-  <h4 align=right id=${MUIL1TContP00X}></h4>
-  <br>
-</div>
-
-<div style="display: inline-block; width: 100%; float: right;">
-  <a id=${MUILink1ContP00X} class="WIsLink1 dictR" href="" target="_blank"></a>
-  <a id=${MUILink2ContP00X} class="WIsLink2 dictR" href="" target="_blank"></a>
-  <a id=${MUILink3ContP00X} class="WIsLink3 dictR" href="" target="_blank"></a>
-  <a id=${MUILink4ContP00X} class="WIsLink4 dictR" href="" target="_blank"></a>
-  <a id=${MUILink5ContP00X} class="WIsLink5 dictR" href="" target="_blank"></a>
-  <a id=${MUILink6ContP00X} class="WIsLink6 dictR" href="" target="_blank"></a>
-</div>
-`;
-
-
-
-if (type == "HLight") {
-	
-//Highlighted annotations will load in the inline svg data held in ImgBtnTemp variable
-	MUIXtemp = MUIHeadTemp.concat(pId.ImgBtnTemp, AudBtnTemp, PlyAlBtnTemp, MUITailTemp, MUITBoxTemp);
-	
-} else {
-//Numbered Annotations will load in transparent box and 8 buttons
-	var Btn0bTemp = `		
-	<rect width="1024" height="768" fill="transparent" id=${P00XBtnImgId0T} onClick="MUIUpdP00X('${pno}', 0, 'BtnClk')"/>
 	`;
-	//'${pno}', ${i}, 'BtnClk'
+	
+	GalCnt = `
 
-	MUIXtemp = MUIHeadTemp.concat(Btn0bTemp, AudBtnTemp, PlyAlBtnTemp, BtnTemp1, BtnTemp2, BtnTemp3, BtnTemp4, BtnTemp5, BtnTemp6, BtnTemp7, BtnTemp8, MUITailTemp, MUITBoxTemp)
+	<div id="GalCnt" style="padding-top: 5px; position: relative; z-index: 99; background-color: #fff;">
 
-}
+		<div style="border: 0px solid red; display: inline-block; float: left; position: relative; width: 100%; height: 100%;">
+			<div style="float: left; border: 0px solid blue; position: relative; height: 100%; display: inline-block; margin-right: 5px;">
+			
+			<!-- contains card type elements -->
+				<p style="margin-left: 5px; border: 0px solid #000; float: left;">
+					<span id="GlCrdTypeTxtId" style="margin-right: 5px; border: 0px solid #000; text-decoration: none;"></span>
+				</p>
+				
+				<a href="index.html" onClick="SetGlType('BW')" style="text-decoration: none; float: left; margin-top: 3px;">
+					<div id="GlBWOptn" class="ClrBtnCnt" style="">
+						<div style="position: relative; height: 100%; width: 100%; display: inline-block; float: left;">
+							<svg class="StretchToContainer" viewbox="0 0 130 130">
+								<rect id="" width="65" height="65" x="0" y="0" fill="#000"/>
+								<rect id="" width="65" height="65" x="65" y="0" fill="#808080"/>
+								<rect id="" width="65" height="65" x="0" y="65" fill="#ccc"/>
+								<rect id="" width="65" height="65" x="65" y="65" fill="#ddd"/>
+							</svg>
+						</div>
+					</div>
+				</a>
+
+				<span id="FwdSlshId" style="margin-left: 5px; margin-right: 5px; float: left;"> / </span>
+
+				<a href="index.html" onClick="SetGlType('CLR')"  style="text-decoration: none; float: left; margin-top: 3px;">
+					<div id="GlCLROptn" class="ClrBtnCnt" style="">
+						<div style="position: relative; height: 100%; width: 100%; display: inline-block; float: left;">
+							<svg class="StretchToContainer" viewbox="0 0 130 130">
+								<rect id="" width="65" height="65" x="0" y="0" fill="blue"/>
+								<rect id="" width="65" height="65" x="65" y="0" fill="red"/>
+								<rect id="" width="65" height="65" x="0" y="65" fill="yellow"/>
+								<rect id="" width="65" height="65" x="65" y="65" fill="green"/>
+							</svg>
+						</div>
+					</div>
+				</a>
+
+				<span id="FwdSlshId" style="margin-left: 5px; margin-right: 5px; float: left;"> / </span>
+
+				<a href="index.html" onClick="SetGlType('ALL')" style="text-decoration: none; float: left; border: 0px solid #000; margin-top: 3px;">
+
+					<div id="GlALLOptn" class="" style="position:relative; display: flex; margin: 0px; padding: 2px; height: 18px; z-index: 10; cursor: pointer;">
+
+							<div id="GlALLOptnCnpnt1" style="position: relative; height: 100%; display: flex; float: left;">
+								<svg class="" style="height: 100%; position: relative;" viewbox="0 0 130 130">
+									<rect id="" width="65" height="65" x="0" y="0" fill="#000"/>
+									<rect id="" width="65" height="65" x="65" y="0" fill="#808080"/>
+									<rect id="" width="65" height="65" x="0" y="65" fill="#ccc"/>
+									<rect id="" width="65" height="65" x="65" y="65" fill="#ddd"/>
+								</svg>
+							</div>
+
+							<div id="" style="position: relative; height: 100%; display: flex; float: left; border: 0px solid #000;">
+								<svg class="" style="height: 100%; position: relative;" viewbox="0 0 130 130">
+									<rect id="" width="65" height="20" x="32.5" y="55" fill="#808080"/>
+									<rect id="" width="20" height="65" x="55" y="32.5" fill="#808080"/>
+								</svg>
+							</div>
+
+							<div id="GlALLOptnCnpnt2" style="position: relative; height: 100%; display: flex; float: left;">
+								<svg class="" style="height: 100%; position: relative;" viewbox="0 0 130 130">
+									<rect id="" width="65" height="65" x="0" y="0" fill="blue"/>
+									<rect id="" width="65" height="65" x="65" y="0" fill="red"/>
+									<rect id="" width="65" height="65" x="0" y="65" fill="yellow"/>
+									<rect id="" width="65" height="65" x="65" y="65" fill="green"/>
+								</svg>
+							</div>
 
 
-}
+					</div>
+				</a>
 
-
-
-
-
-
-
-
-var WIImgContHead = "WIImgCont";
-var L2WordItemHead = "L2WordItem";
-var L1WordItemHead = "L1WordItem";
-var L2WordItemRHead = "L2WordItemR";
-var L2POfSp1WIHead = "L2POfSp1WI";
-var L2POfSp2WIHead = "L2POfSp2WI";
-var L2POfSp3WIHead = "L2POfSp3WI";
-var L2AudBtnWIHead = "L2AudBtnWI";
-var PlayIcoWIHead = "Ex0PlayIcoWI";
-var PauseIcoWIHead = "Ex0PauseIcoWI";
-
-var Link1WIHead = "Link1WI";
-var Link2WIHead = "Link2WI";
-var Link3WIHead = "Link3WI";
-var Link4WIHead = "Link4WI";
-var Link5WIHead = "Link5WI";
-var Link6WIHead = "Link6WI";
-
-var SemTag1Head = "SemTag1WI";
-var SemTag2Head = "SemTag2WI";
-var SemTag3Head = "SemTag3WI";
-
-var AccExsWIHead = "AccExsWI";
-var ACCWIHead = "ACCWI";
-var AccBtnLnVWIHead = "AccBtnLnVWI";
-
-var Ex1L2WIHead = "Ex1L2WI";
-var L2Ex1AudBtnWIHead = "L2Ex1AudBtnWI";
-var Ex1PlayIcoWIHead = "Ex1PlayIcoWI";
-var Ex1PauseIcoWIHead = "Ex1PauseIcoWI";
-var Ex1L1WIHead = "Ex1L1WI";
-var Ex1L1TatSrcWIHead = "Ex1L1TatSrcWI";
-
-var Ex2L2WIHead = "Ex2L2WI";
-var L2Ex2AudBtnWIHead = "L2Ex2AudBtnWI";
-var Ex2PlayIcoWIHead = "Ex2PlayIcoWI";
-var Ex2PauseIcoWIHead = "Ex2PauseIcoWI";
-var Ex2L1WIHead = "Ex2L1WI";
-var Ex2L1TatSrcWIHead = "Ex2L1TatSrcWI";
-
-var Ex3L2WIHead = "Ex3L2WI";
-var L2Ex3AudBtnWIHead = "L2Ex3AudBtnWI";
-var Ex3PlayIcoWIHead = "Ex3PlayIcoWI";
-var Ex3PauseIcoWIHead = "Ex3PauseIcoWI";
-var Ex3L1WIHead = "Ex3L1WI";
-var Ex3L1TatSrcWIHead = "Ex3L1TatSrcWI";
-
-function WIListTempSet() {
-
-WIListCont = `
-<section id="WIListCont" class="columns" style="padding-bottom: 0px; border-top: 1px solid #808080;">
-</section>
-`;
-
-for(var i = 0; i < 9; ++i) {
-
-var WIImgContX = WIImgContHead.concat(i);
-var L2WordItemX = L2WordItemHead.concat(i);
-var L1WordItemX = L1WordItemHead.concat(i);
-var L2WordItemRX = L2WordItemRHead.concat(i);
-var L2POfSp1WIX = L2POfSp1WIHead.concat(i);
-var L2POfSp2WIX = L2POfSp2WIHead.concat(i);
-var L2POfSp3WIX = L2POfSp3WIHead.concat(i);
-var SemTag1WIX = SemTag1Head.concat(i);
-var SemTag2WIX = SemTag2Head.concat(i);
-var SemTag3WIX = SemTag3Head.concat(i);
-var L2AudBtnWIX = L2AudBtnWIHead.concat(i);
-var PlayIcoWIX = PlayIcoWIHead.concat(i);
-var PauseIcoWIX = PauseIcoWIHead.concat(i);
-
-var WIListHeadTemp = `
-<!-- Word Item X -->
-<div class="WordItems">
-	<div class="WIcolumn left">
-		<img id=${WIImgContX} class="" src=""/>
-		<p id=${SemTag1WIX} class="SemTags">tag1</p>
-		<p id=${SemTag2WIX} class="SemTags">tag2</p>
-		<p id=${SemTag3WIX} class="SemTags">tag3</p>
-	</div>
-	<div class="WIcolumn right">
-	<div class="L2WICont">
-		<h3 class="L2WordItem" id=${L2WordItemX} ></h3>
-		<br>
-		<div align="center">
-		<p id=${L2WordItemRX} align="center"></p>
-		</div>
-	</div>
-	<div>
-		<div class="L2WTCont">
-		   <p class="L2WordType" id=${L2POfSp1WIX}></p>
-		</div>
-		<div class="L2WTCont">
-		   <p class="L2WordType" id=${L2POfSp2WIX}></p>
-		</div>
-		<div class="L2WTCont">
-		   <p class="L2WordType" id=${L2POfSp3WIX}></p>
-		</div>
-		<br>
-		<h5>
-			<div class="icon baseline" onClick="AudioCntrl(${i}, 0, 'IAudClk')">
-				<svg viewBox="0 0 300 300">
-					<g x="20%" y="15%" id=${PlayIcoWIX}>
-						<path class="AudBtn-PlayTri"/>
-					</g>
-					<g transform="translate(50, 45)" id=${PauseIcoWIX} class="AudBtn-PauseBrs">
-						<rect class="AudBtn-PauseRectL" />
-						<rect class="AudBtn-PauseRectR" />
-					</g>
-				</svg>
 			</div>
-		</h5>
-	</div>
-	</div>
-	<br>
-	<div class="L1WICont" align="right">
-		<p id=${L1WordItemX}></p>
-	</div>
-</div>
-`;
 
-var Link1WIX = Link1WIHead.concat(i);
-var Link2WIX = Link2WIHead.concat(i);
-var Link3WIX = Link3WIHead.concat(i);
-var Link4WIX = Link4WIHead.concat(i);
-var Link5WIX = Link5WIHead.concat(i);
-var Link6WIX = Link6WIHead.concat(i);
-
-var WIListLnksTemp = `
-<div class="LinkCont">
-	<a id=${Link1WIX} class="WIsLink1 dictR" href="https://www.google.com/" target="_blank"></a>
-	<a id=${Link2WIX} class="WIsLink2 dictR" href="https://www.google.com/" target="_blank"></a>
-	<a id=${Link3WIX} class="WIsLink3 dictR" href="https://www.google.com/" target="_blank"></a>
-	<a id=${Link4WIX} class="WIsLink4 dictR" href="https://www.google.com/" target="_blank"></a>
-	<a id=${Link5WIX} class="WIsLink5 dictR" href="https://www.google.com/" target="_blank"></a>
-	<a id=${Link6WIX} class="WIsLink6 dictR" href="https://www.google.com/" target="_blank"></a>
-</div>
-`;
-
-var AccExsWIX = AccExsWIHead.concat(i);
-var ACCWIXi = ACCWIHead.concat(i);
-var AccBtnLnVWIX = AccBtnLnVWIHead.concat(i);
-
-var WIListAccHeadTemp = `
-<!-- Start Acc. -->
-<div class="WIExs" id=${AccExsWIX}>
-	<!-- Exp. Btn -->
-	<div class="AccBtnCont">
-		<div class="ExpBtnContainerClass">
-			<!-- Button SVG Elements -->
-			<div class="ExpBtnContainer-TextImgClass" id=${ACCWIXi}>
-				<svg class="StretchToContainer" viewbox="0 0 130 130">
-					<rect class="AccBtn-RectH"/>
-					<rect id=${AccBtnLnVWIX} class="AccBtn-RectV"/>
-				</svg>
+			<div style="float: left; border: 0px solid #000;">
+				
+				<span id="IndxMdeTxtId" style="margin-left: 5px; margin-right: 5px; border: 0px solid #000; text-decoration: none; float: left;"></span>
+				<a href="index.html" onClick="SetIndxMde('LST')" style="text-decoration: none; float: left; margin-top: 3px; ">
+					<div id="GlLSTOptn" class="GlMdeBtnCnt" style="">
+						<div id="" style="position: relative; height: 100%; display: flex; float: left;">
+								<svg class="" style="height: 100%; position: relative;" viewbox="0 0 225 145">
+									<rect id="" width="65" height="65" x="0" y="0" fill="#808080"/>
+									<rect id="" width="65" height="65" x="0" y="80" fill="#808080"/>
+									
+									<rect id="" width="145" height="20" x="80" y="0" fill="#ccc"/>
+									<rect id="" width="145" height="20" x="80" y="40" fill="#ccc"/>
+									
+									<rect id="" width="145" height="20" x="80" y="80" fill="#ccc"/>
+									<rect id="" width="145" height="20" x="80" y="120" fill="#ccc"/>
+								</svg>
+							</div>
+					</div>
+				</a>
+				
+				<span id="FwdSlshId" style="margin-left: 5px; margin-right: 5px; float: left;"> / </span>
+				
+				<a href="index.html" onClick="SetIndxMde('GAL')" style="text-decoration: none; float: left; margin-top: 3px;">
+					<div id="GlGALOptn" class="GlMdeBtnCnt" style="">
+						<div id="" style="position: relative; height: 100%; display: flex; float: left;">
+							<svg class="" style="height: 100%; position: relative; display: inline-block;" viewbox="0 0 225 145">
+								<rect id="" width="65" height="65" x="0" y="0" fill="#808080"/>
+								<rect id="" width="65" height="65" x="0" y="80" fill="#808080"/>
+								<rect id="" width="65" height="65" x="80" y="0" fill="#808080"/>
+								<rect id="" width="65" height="65" x="80" y="80" fill="#808080"/>
+								<rect id="" width="65" height="65" x="160" y="0" fill="#808080"/>
+								<rect id="" width="65" height="65" x="160" y="80" fill="#808080"/>
+							</svg>
+						</div>
+					</div>
+				</a>
+			
 			</div>
-			<div class="ExpBtn-CircleContainerClass">
-				<svg class="StretchToContainer">
-					<circle class="ExpBtn-CircleClass">
-					 Sorry, your browser does not support inline SVG.
-					</circle>
-				</svg>
-			</div>
+
 		</div>
+
+	<!-- Gallery Items Go Here -->
 	</div>
-`;
 
-var Ex1L2WIX = Ex1L2WIHead.concat(i);
-var L2Ex1AudBtnWIX = L2Ex1AudBtnWIHead.concat(i);
-var Ex1PlayIcoWIX = Ex1PlayIcoWIHead.concat(i);
-var Ex1PauseIcoWIX = Ex1PauseIcoWIHead.concat(i);
-var Ex1L1WIX = Ex1L1WIHead.concat(i);
-var Ex1L1TatSrcWIX = Ex1L1TatSrcWIHead.concat(i);
-
-
-var Ex2L2WIX = Ex2L2WIHead.concat(i);
-var L2Ex2AudBtnWIX = L2Ex2AudBtnWIHead.concat(i);
-var Ex2PlayIcoWIX = Ex2PlayIcoWIHead.concat(i);
-var Ex2PauseIcoWIX = Ex2PauseIcoWIHead.concat(i);
-var Ex2L1WIX = Ex2L1WIHead.concat(i);
-var Ex2L1TatSrcWIX = Ex2L1TatSrcWIHead.concat(i);
-
-
-var Ex3L2WIX = Ex3L2WIHead.concat(i);
-var L2Ex3AudBtnWIX = L2Ex3AudBtnWIHead.concat(i);
-var Ex3PlayIcoWIX = Ex3PlayIcoWIHead.concat(i);
-var Ex3PauseIcoWIX = Ex3PauseIcoWIHead.concat(i);
-var Ex3L1WIX = Ex3L1WIHead.concat(i);
-var Ex3L1TatSrcWIX = Ex3L1TatSrcWIHead.concat(i);
-
-
-var WIListExsTemp = `
-<h5 id=${Ex1L2WIX}></h5>
-<h5>
-	<div class="icon baseline" onClick="AudioCntrl(${i}, 1, 'IAudClk')">
-		<svg class="Container" viewBox="0 0 300 300">
-			<g x="20%" y="15%" id=${Ex1PlayIcoWIX}>
-				<path class="AudBtn-PlayTri"/>
-		   </g>
-		   <g transform="translate(50, 45)" id=${Ex1PauseIcoWIX} class="AudBtn-PauseBrs">
-				<rect class="AudBtn-PauseRectL" />
-				<rect class="AudBtn-PauseRectR" />
-		   </g>
-		</svg>
-	</div>
-</h5>
-<br>
-<p class="WIL1Exs" id=${Ex1L1WIX} >-</p>
-<a id=${Ex1L1TatSrcWIX} style="display: inline-block; margin: 10px; font-size: 12px;" href="https://www.google.com/" target="_blank">tatoeba.org</a>
-<br><br>
-
-<h5 id=${Ex2L2WIX}></h5>
-<h5>
-	<div class="icon baseline" onClick="AudioCntrl(${i}, 2, 'IAudClk')">
-		<svg class="Container" viewBox="0 0 300 300">
-			<g x="20%" y="15%" id=${Ex2PlayIcoWIX}>
-				<path class="AudBtn-PlayTri"/>
-			</g>
-			<g transform="translate(50, 45)" id=${Ex2PauseIcoWIX} class="AudBtn-PauseBrs">
-				<rect class="AudBtn-PauseRectL" />
-				<rect class="AudBtn-PauseRectR" />
-			</g>
-		</svg>
-	</div>
-</h5>
-<br>
-<p class="WIL1Exs" id=${Ex2L1WIX}>-</p>
-<a id=${Ex2L1TatSrcWIX} style="display: inline; margin-left: 10px; font-size: 12px;" href="https://www.google.com/" target="_blank">tatoeba.org</a>
-<br><br>
-
-<h5 id=${Ex3L2WIX}></h5>
-<h5>
-	<div class="icon baseline" onClick="AudioCntrl(${i}, 3, 'IAudClk')">
-		<svg class="Container" viewBox="0 0 300 300">
-			<g x="20%" y="15%" id=${Ex3PlayIcoWIX}>
-				<path class="AudBtn-PlayTri"/>
-			</g>
-			<g transform="translate(50, 45)" id=${Ex3PauseIcoWIX} class="AudBtn-PauseBrs">
-				<rect class="AudBtn-PauseRectL" />
-				<rect class="AudBtn-PauseRectR" />
-			</g>
-		</svg>
-	</div>
-</h5>
-<br>
-
-<p class="WIL1Exs" id=${Ex3L1WIX}>-</p>
-<a id=${Ex3L1TatSrcWIX} style="display: inline; margin-left: 10px; font-size: 12px;" href="https://www.google.com/" target="_blank">tatoeba.org</a>
-
-`;
-
-
-switch (i) {
-  case 1:
-    WIListHeadTemp1 = WIListHeadTemp;
-  WIListLnksTemp1 = WIListLnksTemp;
-  WIListAccHeadTemp1 = WIListAccHeadTemp;
-  WIListExsTemp1 = WIListExsTemp;
-    break;
-  case 2:
-  WIListHeadTemp2 = WIListHeadTemp;
-  WIListLnksTemp2 = WIListLnksTemp;
-  WIListAccHeadTemp2 = WIListAccHeadTemp;
-  WIListExsTemp2 = WIListExsTemp;
-    break;
-  case 3:
-  WIListHeadTemp3 = WIListHeadTemp;
-  WIListLnksTemp3 = WIListLnksTemp;
-  WIListAccHeadTemp3 = WIListAccHeadTemp;
-  WIListExsTemp3 = WIListExsTemp;
-    break;
-  case 4:
-  WIListHeadTemp4 = WIListHeadTemp;
-  WIListLnksTemp4 = WIListLnksTemp;
-  WIListAccHeadTemp4 = WIListAccHeadTemp;
-  WIListExsTemp4 = WIListExsTemp;
-    break;
-  case 5:
-  WIListHeadTemp5 = WIListHeadTemp;
-  WIListLnksTemp5 = WIListLnksTemp;
-  WIListAccHeadTemp5 = WIListAccHeadTemp;
-  WIListExsTemp5 = WIListExsTemp;
-    break;
-  case 6:
-  WIListHeadTemp6 = WIListHeadTemp;
-  WIListLnksTemp6 = WIListLnksTemp;
-  WIListAccHeadTemp6 = WIListAccHeadTemp;
-  WIListExsTemp6 = WIListExsTemp;
-    break;
-  case 7:
-  WIListHeadTemp7 = WIListHeadTemp;
-  WIListLnksTemp7 = WIListLnksTemp;
-  WIListAccHeadTemp7 = WIListAccHeadTemp;
-  WIListExsTemp7 = WIListExsTemp;
-    break;
-  case 8:
-  WIListHeadTemp8 = WIListHeadTemp;
-  WIListLnksTemp8 = WIListLnksTemp;
-  WIListAccHeadTemp8 = WIListAccHeadTemp;
-  WIListExsTemp8 = WIListExsTemp;
-    break;
-	case 0:
-   WIListHeadTemp0 = WIListHeadTemp;
-  WIListLnksTemp0 = WIListLnksTemp;
-  WIListAccHeadTemp0 = WIListAccHeadTemp;
-  WIListExsTemp0 = WIListExsTemp;
-  break;
-   }
-   
-//end for loop
+	`;
 }
 
+function SetPgId(PgNoStr) {
+  //Send item to local storage before reloading index page
+  localStorage.setItem("PageId", PgNoStr);
+}
 
-WIListAccTailTemp = `
-</div>
-<!-- End Acc. -->
-<div class="WIspacer"></div>
-`;
+function SetGlType(GlTypeStr) {
+  //Send item to local storage before reloading index page
+  localStorage.setItem("GlType", GlTypeStr);
+}
 
+function SetIndxMde(IndxMde) {
+	localStorage.setItem("IndxMde", IndxMde);
+}
 
-WIListTemp = WIListHeadTemp0.concat(WIListLnksTemp0, WIListAccHeadTemp0, WIListExsTemp0, WIListAccTailTemp, WIListHeadTemp1, WIListLnksTemp1, WIListAccHeadTemp1, WIListExsTemp1, WIListAccTailTemp, WIListHeadTemp2, WIListLnksTemp2, WIListAccHeadTemp2, WIListExsTemp2, WIListAccTailTemp, WIListHeadTemp3, WIListLnksTemp3, WIListAccHeadTemp3, WIListExsTemp3, WIListAccTailTemp, WIListHeadTemp4, WIListLnksTemp4, WIListAccHeadTemp4, WIListExsTemp4, WIListAccTailTemp, WIListHeadTemp5, WIListLnksTemp5, WIListAccHeadTemp5, WIListExsTemp5, WIListAccTailTemp, WIListHeadTemp6, WIListLnksTemp6, WIListAccHeadTemp6, WIListExsTemp6, WIListAccTailTemp, WIListHeadTemp7, WIListLnksTemp7, WIListAccHeadTemp7, WIListExsTemp7, WIListAccTailTemp, WIListHeadTemp8, WIListLnksTemp8, WIListAccHeadTemp8, WIListExsTemp8, WIListAccTailTemp);
+var PstArr = [];
+function LoadInPstScrpts() {
 
+	//JS Object data from external scripts
+	for (i = StrtPstN; i > (EndPstN - 1); --i) {
+
+		flprfx = localStorage.getItem("GlType");
+
+		if (flprfx == "ALL") {
+			if (i < 10) {
+				pno = "00".concat(i);
+			} else {
+				pno = "0".concat(i);
+			}
+
+		} else {
+			pno = pindex[flprfx][i];
+		}
+
+		PstArr[i] = pno;
+		//alert(PstArr[i])
+
+		var pnosrc = "posts/p".concat(pno, "/", "p", pno, ".js");
+
+		//Eg: p00x/p00x.js
+		var scriptX = window.document.createElement("script");
+		window.document.body.appendChild(scriptX);
+
+		scriptX.src = pnosrc;
+
+	}
+
+	
 
 }
 
 
 
+var PnoPlyAllPos = [];
 
+function PMuis() {
+	
+	if (PstN == StrtPstN) {
+		document.getElementById("GalCnt").insertAdjacentHTML("beforeend", MUICont);
+	}
+	
+	PnoPlyAllPos[PstN] = 0;
+	
+    if (flprfx == "ALL") {
+			if (PstN < 10) {
+				pno = "00".concat(PstN);
+			} else {
+				pno = "0".concat(PstN);
+			}
+			
+		} else {
+			pno = pindex[flprfx][PstN];
+			
+	}
+	
+	pId = window["p".concat(pno)];
+	
+	if (typeof pId !== "undefined") {//testing for undefined object
+		//alert("End post number:".concat(EndPstN, ", Current post number:", PstN));
+		setposter(pId);
+		
+	} else {//if undefined
+		alert("undefined");
+		setTimeout(function() { PMuis() }, 100);
+	}
+	
+	
+	//Prepare Main User Interface Template
+	MUITempPrp(pno);
+	MUITempSet(pno, pId.AnnotType);
+		
+	//Load in MUI
+	document.getElementById("MUICont").insertAdjacentHTML("beforeend", MUIXtemp);
+	
+	//Load Annotations
+	if (pId.AnnotType == "Annot") {
+		SetAnnotations(pId);
+	}
+	
+	L1 = localStorage.getItem("Lang1");
+	L2 = localStorage.getItem("Lang2");
+  
+	// Initial Settings for annotation highlighting
+	MUIL1TCont = "MUIL1TContP".concat(pno);
+	MUIL2TCont = "MUIL2TContP".concat(pno);
+  
+	CurrentBtn = 0;
+	CurrentBtnBorderId = BtnIdHead.concat(CurrentBtn, "B");
+	CurrentBtnTextId = BtnIdHead.concat(CurrentBtn, "T");
+  
+	//Set Auto Audio Setting in local storage to 0/off if non existent
+	if (localStorage.getItem("AutAudSetng") === undefined || localStorage.getItem("AutAudSetng") === null) {
+		localStorage.setItem("AutAudSetng", "0");
+	}
+	
+	// Play All Settings
+	PlyAllStng = 0; // Set Play All Setting to 0 (off) at page load
+	PlyAllMde = "Pse"; // Initial mode for play all mode is pause
+	CrntPlyAllN = 0; // Initial position for Play All mode is WI0
+	
+	//Image and UI graphics	
+	AutAudSet(pno, 0);
+	 
+	if (PstN == EndPstN) {
+		BtnImgs();
+	}
+	
+	pTtl = pId["0"]["WI"][L1];
+	PDte = pId["Date"];
+	PstLnkTxtId = pId["No"];
+	//alert(pTtl);
+	spacer = `
+	<div class="" style="background-color: #fff; width: 100%; height: 100px; border-top: 1px solid #808080; margin-top: 10px;">
+		<p align="left" style="float: left; font-size: 11px; display: inline-block;">${PDte}</p>
+		<a class="GlLink" href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="float: right; padding-top: 0px; margin-top: 0px;">
+			${pTtl}
+		</a>
+	</div>
+	`;
+	
+	document.getElementById("MUICont").insertAdjacentHTML("beforeend", spacer);
+	
+	SetImgData(pId);
+	
+	MUIUpdP00X(pno, CurrentBtn, "LoadClk");
+	
+	LSel(1, L1, 'pgld');
+
+	//Loop process
+	
+	PstN--;
+	
+	if( PstN >= EndPstN) {
+		
+	  setTimeout( PMuis, 125 );
+	}
+	
+}
+
+function PImgs() {
+	//Image gallery/post index loading with delay
+
+	if (flprfx == "ALL") {
+		if (PstN < 10) {
+			pno = "00".concat(PstN);
+		} else {
+			pno = "0".concat(PstN);
+		}
+
+	} else {
+		pno = pindex[flprfx][PstN];
+	}
+	
+	var PNavImg = "posts/p".concat(pno, "/monop", pno, "-wi0.svg");
+	//var PNavImgA = "p".concat(pno, "/monop", pno, "-wi0a.svg");
+	var pId = window["p".concat(pno)];
+	if (pId === undefined) {
+		//Check for this load problem, then retry
+		setTimeout(PImgs, 50);	 
+	}
+	
+	pTtl = pId["0"]["WIt"][L1];
+	PDte = pId["Date"];
+
+	PstLnkTxtId = pId["No"];
+
+	//Determine the backgrund color for index Nav Imgs
+	if (pId["0"]["imgbckg"] == "blk") {
+		PImgNvBck = "black";
+	} else {
+		PImgNvBck = "white";
+	}
+	
+	if (pId.AnnotType == "Annot") {
+		
+		var IndxPstImgHd = `
+
+		<div class="responsive" style="margin-bottom: 20px;">
+		 <div style="border: 1px solid #808080; border-radius: 3px; position: relative: width: 100%; height: 100%; margin-left: 5px; margin-right: 5px;">
+		  <div class="gallery" style="text-align: right;">
+			<a href="post.html" onClick="SetPstId('${pno}')">
+
+			  <div class="fade-in" width="100%" style="position: relative; background-color: ${PImgNvBck}; z-index: 10;">
+			  <img src=${PNavImg} class="PImgNav" width="100%">
+			  <svg viewBox="0 0 1024 768" width="100%" style="float: left; position: absolute; left: 0%; top: 0%;">
+				<!-- Buttons Loaded here -->
+			  
+		`;
+	
+		var IndxPstImgTl = `
+		
+			  </svg>
+			  </div>
+			</a>
+
+			<p align="left" style="float: left; font-size: 11px; width: 100%; display: inline-block;">${PDte}</p>
+
+			<a href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="padding-top: 0px; margin-top: 0px;">
+				 ${pTtl}
+			</a>
+
+		  </div>
+		 </div>
+		</div>
+		`;
+	
+		P00XId1VarHead = "BtnContainer".concat("P", pno, "BtnID");
+		P00XId5VarHead = "AnnotDivLn-p".concat(pno, "-ID");
+		P00XId6VarHead = "AnnotDivLnPos-P".concat(pno, "-ID");
+	
+		AnnotBtnGen(P00XId1VarHead, P00XId5VarHead, P00XId6VarHead);
+	
+		pnavexp = IndxPstImgHd.concat(AnottBtns, IndxPstImgTl);
+			
+	} else {
+	var pnavexp = `
+
+		<div class="responsive" style="margin-bottom: 20px;">
+		 <div style="border: 1px solid #808080; border-radius: 3px; position: relative: width: 100%; height: 100%; margin-left: 5px; margin-right: 5px;">
+		  <div class="gallery" style="text-align: right;">
+			<a href="post.html" onClick="SetPstId('${pno}')">
+			  <img src=${PNavImg} class="PImgNav" width="600" height="400">
+			</a>
+			<p align="left" style="float: left; font-size: 11px; width: 100%; display: inline-block;">${PDte}</p>
+
+			<a href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="padding-top: 0px; margin-top: 0px;">
+				 ${pTtl}
+			</a>
+		  </div>
+		 </div>
+		</div>
+	`;
+	}
+
+	var PNavItmX = [];
+    PNavItmX[PstN] = pnavexp;
+	document.getElementById("GalCnt").insertAdjacentHTML("beforeend", PNavItmX[PstN]);
+	
+	if (pId.AnnotType == "Annot") {
+		SetAnnotations(pId, pno);	
+		}
+	
+	//Loop process
+	PstN--;
+
+	if( PstN >= EndPstN ) {	
+	  setTimeout( PImgs, 125 );
+	}
+
+}
+
+
+//Send post number to local storage before going to post.html
+function SetPstId(PstNoStr) {
+  localStorage.setItem("PostId", PstNoStr);
+}
+
+
+function LSel(ln, ll, lssrc) {
+
+	LDspId = "LDspL".concat(ln);
+	BrgrLDspId = "BrgrLDspL".concat(ln);
+	lconv = {ENG: "English", ITA: "Italiano", JPN: "日本語"};
+	LNSlId = "L".concat(ln, "Sl", ll);
+	BrgrLNSlId = "BrgrL".concat(ln, "Sl", ll);
+
+	// dehighlight everything
+    for (var i = 0; i < 6; ++i) {
+     var LSelBtns = document.getElementsByClassName("langbtns");
+     LSelBtns[i].className = "langbtns";
+    }
+
+	for (var i = 0; i < 6; ++i) {
+     var LSelBtns = document.getElementsByClassName("langbtnsacc");
+     LSelBtns[i].className = "langbtnsacc";
+    }
+
+	//highlight and update language text
+	document.getElementById(LNSlId).className += " lbtnhlghtd";
+	document.getElementById(LDspId).innerHTML = lconv[ll];
+
+	document.getElementById(BrgrLNSlId).className += " lbtnhlghtd";
+
+	//store selected language
+	lselstr[ln] = ll;
+	
+	//highlight other language previously selected
+	if (ln == 1) {
+		o = "2";
+		localStorage.setItem("Lang1", ll);
+
+		HdrFtrTxt(ll);
+		MnuCntnt(ll, "glr");
+		GalTypeLoader(ll);
+		
+		if (lssrc == "usr" && IndxMde == "GAL") {	
+			IndxNms(ll);
+		}
+
+	} else {
+		o = "1";
+		localStorage.setItem("Lang2", ll);
+	}
+
+	llo = lselstr[o];
+
+	LNSlId = "L".concat(o, "Sl", llo);
+	document.getElementById(LNSlId).className += " lbtnhlghtd";
+
+	BrgrLNSlId = "BrgrL".concat(o, "Sl", llo);
+	document.getElementById(BrgrLNSlId).className += " lbtnhlghtd";
+
+	LDspId = "LDspL".concat(o);
+	document.getElementById(LDspId).innerHTML = lconv[llo];
+	
+	if (lssrc == "usr" && IndxMde == "LST") {
+		LangUpdate(lselstr[1], lselstr[2]);
+	}
+}
+
+
+
+
+function LangUpdate(L1, L2) {
+  
+    for (i = StrtPstN; i > (EndPstN - 1); --i) {
+		
+		
+		L1Selected = L1;
+		L2Selected = L2;
+		
+		MUIL1TCont = "MUIL1TContP".concat(PstArr[i]);
+		MUIL2TCont = "MUIL2TContP".concat(PstArr[i]);
+		//alert(MUIL1TCont);
+		//alert(MUIL2TCont);
+		//alert(L2);
+		pId = window["p".concat(PstArr[i])];
+		
+		//Word Items
+		WIXUpd(L1Selected, L2Selected);
+
+		//Dictionary links
+		WIXLinksUpd(L1Selected, L2Selected);
+
+		//Part of speech data
+		WIXPOfSpUpd(L1Selected, L2Selected);
+    }
+}
+
+function GalTypeLoader(L1) {
+
+	//Card Type Text
+
+	document.getElementById("GlCrdTypeTxtId").innerHTML = UItext[L1]["GlCrdTTxt"];
+	document.getElementById("IndxMdeTxtId").innerHTML = UItext[L1]["GlMdeTTxt"];
+	
+	//Highlight selected gallery type　- after text has been inserted
+	GlType = localStorage.getItem("GlType")
+	GlTypeId = "GlTypeId".concat(GlType);
+	
+}
+
+function IndxNms(L1) {
+//Cycle through all index items and update post titles in selected L1
+
+	//Calculate number of post names to update
+	NTmes = StrtPstN - (EndPstN-1);
+	//alert("b");
+	for (i = EndPstN; i < (StrtPstN + 1); ++i) {
+		//Adjust 0 prefix
+		if (flprfx == "ALL") {
+			if (i < 10) {
+				PstLnkTxtId = "00".concat(i);
+			} else {
+				PstLnkTxtId = "0".concat(i);
+			}
+		} else {
+			PstLnkTxtId = pindex[flprfx][i];
+		}
+
+	//Get post title from JS file
+	var pId = window["p".concat(PstLnkTxtId)];
+	pTtl = pId["0"]["WIt"][L1];
+	document.getElementById(PstLnkTxtId).innerHTML = pTtl;
+
+	}
+
+}
 
 
