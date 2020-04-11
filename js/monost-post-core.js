@@ -2,14 +2,9 @@
 
 function pageload(pno) {
 	
-responsiveVoice.speak("hello world");
-	
   pId = window["p".concat(pno)];
-  if (typeof pId !== "undefined") {
-	setposter(pId);
-  } else {
-	setTimeout(function() { pageload(pno) }, 100);
-  }
+  setposter(pId);
+  
   
   //pno = pId.No; //make sure
 
@@ -354,8 +349,7 @@ function AutAudSet(swtch) {
 
 }
 
-function PlyAllAud() {
-//procedure on button click event
+function PlyAllAud() {//procedure on button click event
 
 	ClkSrc = "AlBtnClk";
 	
@@ -368,7 +362,7 @@ function PlyAllAud() {
 		PlyAllMde = "Ply";
 		PlyAllN = CrntPlyAllN;
 		PlyAllIcoOn();
-		//alert(CrntPlyAllN)
+		
 		MUIUpdP00X(pno, CrntPlyAllN, 'AlBtnClk');
 		AudioCntrl('x', 0);
 	}
@@ -399,82 +393,61 @@ function AudioCntrl(wi, ex, ClkSrc) {
 	if ((PlyAllMde == "Pse" && AutAud == 1 && ClkSrc == "BtnClk") || (PlyAllMde == "Ply" && AutAud == 1) || (PlyAllMde == "Ply" && AutAud == 0) || (ClkSrc == "IAudClk"))
 		
 	{
-
+		
 		OldPlayIcoId = PlayIcoId;
 		OldPauseIcoId = PauseIcoId;
 		
 		AudFileId = "Ex".concat(ex, "WI", wi);
+		RespVoiLng = {ENG: "UK English Male", ITA: "Italian Male", JPN: "Japanese Male",};
 		PlayIcoId = "Ex".concat(ex, "PlayIco", "WI", wi);
 		PauseIcoId = "Ex".concat(ex, "PauseIco", "WI", wi);
 		
 		if (wi == 'x') {
 			wi = CurrentBtn;
-			
 		}
 		
-		// AudEngEx1
+		// Set text for audio playback
 		if (ex == 0) {
-		  AudFleCnt = "Aud".concat(L2Selected + "WI");
+			SpkTxt = pId[wi]["WI"][L2Selected];
 		} else {
-		  AudFleCnt = "Aud".concat(L2Selected + "Ex" + ex);
+			SpkTxt = pId[wi]["EX".concat(ex)][L2Selected];
 		}
-
-	//alert(pId[wi]["ENG"]);
-
-		AudioFile = pId[wi][AudFleCnt];
-		
-		
 		
 		if (AudStat == 0) {
-
 			// Audio is off
 			// determine play from pause pos or new audio file
-			if (AudFileId == CurrentAudFileId) {
-				// play from pause pos
-				AudPlay();
+			if (AudFileId == CurrentAudFileId) {// play from pause pos
 				AudStat = 1; 
-				CurrentAudFileId = AudFileId;
-			} else {
-				// load audio file
-				AudLoad();
-				// play new file from start
-				if (PlyAllMde == "Ply" && AutAud == 0) {//In case auto audio option is off
+				responsiveVoice.resume();
+				AudPlayIco();
+			} else {// play new file from start
+				if (PlyAllMde == "Ply" && AutAud == 0) {//In case auto audio option is off during play all
 					AudStat = 0; 					
-					AudDur = document.getElementById("AudObjX").duration;
-					CurrentAudFileId = AudFileId;
-					setTimeout(PlyAllAudReps, 100);//delay gives time for audio file to load
-				} else {
-					AudPlay();
-					AudStat = 1; 
-					AudDur = document.getElementById("AudObjX").duration;
-					}
-				
-				CurrentAudFileId = AudFileId;
+					responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], {onstart: voiceStartCallback, onend: voiceEndCallback, volume: 0});
+				} else {//Play audio in other cases
+					AudStat = 1;
+					responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], {onstart: voiceStartCallback, onend: voiceEndCallback, volume: 0.7});
+					AudPlayIco();
+				}
 			}
-		
-		
+			CurrentAudFileId = AudFileId;
 		
 		} else {
 			// Audio is on
 			// determine pause or new audio file
-			if (AudFileId == CurrentAudFileId) {
-		  // pause
-		  AudPause();
-		  AudStat = 0;
-				CurrentAudFileId = AudFileId;
-
-			} else {
-		  // Interrupt current Audio with new audio file
-		  // load audio file
-				AudLoad();
-				// play new file from start
-				AudPlay();
-		  AudStat = 1;
-				CurrentAudFileId = AudFileId;
-		  // Reset play UI for previous btn
-		  document.getElementById(OldPlayIcoId).style.display = 'block';
+			if (AudFileId == CurrentAudFileId) {// pause
+				AudStat = 0;
+				responsiveVoice.pause();
+				AudPauseIco();
+			} else {// Interrupt current Audio with new audio file
+				AudStat = 1;
+				responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], parameters);
+				AudPlayIco();
+				// Reset play UI for previous btn
+				document.getElementById(OldPlayIcoId).style.display = 'block';
 				document.getElementById(OldPauseIcoId).style.display = 'none';
 			}
+			CurrentAudFileId = AudFileId;
 		
 		}
 	
@@ -484,18 +457,11 @@ function AudioCntrl(wi, ex, ClkSrc) {
 
 function PlyAllAudReps() {
     
-	//Play next 
-	if (PlyAllStng == 1) {
+	if (PlyAllStng == 1) {//Play next 
 	  
 		//Calculate listen and repeat time
-		AudDur = document.getElementById("AudObjX").duration;
-		RepWt = (AudDur*1000) + 1000;
+		RepWt = AudDur + 1000;
 	  
-		//If auto audio is off double silence interval
-		if (PlyAllMde == "Ply" && AutAud == 0) {
-			RepWt = ((AudDur*2)*1000) + 1000;
-		}
-	   
 		//Proceed or stop process
 		if (7 >= PlyAllN) {//If WI is between 0 and-or equal to 7, proceed to next WI.
 			PlyAllN = PlyAllN + 1;
@@ -512,35 +478,33 @@ function PlyAllAudReps() {
   
 }
 
+var startTime, endTime;
 
-function AudLoad() {
-  document.getElementById("AudObjX").src = AudioFile;
+function voiceStartCallback() {
+	startTime = performance.now();
 }
 
-function AudPlay() {	
-  document.getElementById("AudObjX").play();
-  responsiveVoice.speak("hello world", "UK English Male");
+function voiceEndCallback() {
+	endTime = performance.now();
+	AudStat = 0;
+	CurrentAudFileId = "AudioEnd";	
+	AudPauseIco();
+	
+	var timeDiff = endTime - startTime;//in ms 
+	timeDiff /= 1000;  
+	AudDur = Math.round(timeDiff);// get seconds
+  
+	if (PlyAllMde == "Ply") {//Play All Rep Function
+		PlyAllAudReps();
+	} 
+}
+ 
+function AudPlayIco() {	
   document.getElementById(PlayIcoId).style.display = 'none';
   document.getElementById(PauseIcoId).style.display = 'block';
 }
 
-function AudPause() {
-  document.getElementById("AudObjX").pause();
-responsiveVoice.cancel;
+function AudPauseIco() {
   document.getElementById(PlayIcoId).style.display = 'block';
   document.getElementById(PauseIcoId).style.display = 'none';
 }
-
-function resetAudObjX() {
-  AudStat = 0;
-  CurrentAudFileId = "AudioEnd";
-  document.getElementById(PlayIcoId).style.display = 'block';
-  document.getElementById(PauseIcoId).style.display = 'none';
-  
-  //Play All Rep Function
-  if (PlyAllMde == "Ply") {
-	PlyAllAudReps();
-  } 
-   
-}
-	
