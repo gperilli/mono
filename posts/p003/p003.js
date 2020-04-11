@@ -17,7 +17,9 @@ AnnotType: "HLight",
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
-			
+	WIt: {ENG: "fruit", ITA: "frutta", JPN: "果物",},
+	WItr: {ENG: "/fruːt/", ITA: "/ˈfrutta/", JPN: "kudamono", JPNRu: "<ruby>果物<rt>くだもの</rt></ruby>",},
+	
 	//Semantic Tags
 	//3 parametrs to get 1: display/hide, 2: text content, 3: class name (from ENG)
 	semtag1: {Dsp: "block", ENG: "fruit", ITA: "frutta", JPN: "果物",},
