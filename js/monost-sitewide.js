@@ -207,11 +207,6 @@ HeaderTemp = `
 		<a id="Brgrmenu-home" href="index">Home</a><br>
 		</div>
 		
-		<div style="border-top: 1px solid #ddd; border-bottom: 0px solid #ccc; padding-top: 5px; padding-bottom: 5px; margin-left: 5px;">
-		<a id="Brgrmenu-gallery" href="gallery.html">Gallery</a><br>
-		</div>
-		
-		
 		<div style="border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding-top: 5px; padding-bottom: 5px; margin-left: 5px;">
 				
 			<div style="display: inline-block; margin-right: 20px;">
@@ -420,10 +415,23 @@ AttrTemp = `
 		</div>
 		<br><br>
     <p id="Footer2"></p>
-    <br><br>
+    <br>
+	<br>
   <div id="CCCont" style="display: inline;">
     <p id="CRCont" style="display: inline;"></p>
   </div>
+  
+  <div style="width:300px;vertical-align:top;font-family: Arial;font-size:9pt;line-height: normal">
+	<a rel="license" href="//responsivevoice.org/">
+		
+			<img class="lazy" title="ResponsiveVoice Text To Speech" src="https://www.responsivevoice.org/wp-content/uploads/2014/08/120x31.png" style="float:left;padding-right:2px">
+		
+	</a>
+	<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
+		<a href="//responsivevoice.org/" target="_blank" title="ResponsiveVoice Text To Speech" rel="noopener noreferrer">ResponsiveVoice</a>
+	</span> used under 
+	<a rel="license nofollow" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" title="Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License">Non-Commercial License</a>
+</div>
   
 </div>
 </section>
@@ -543,14 +551,14 @@ ENG: {lang: "ENG",
 	//Lander text
 	LSel: "Language Select", MonoTxt: "Features", LndrVsl1Txt: "- 15 SVG image sets and counting", LndrVsl2Txt: "- simple clickable annotations", LndrVsl3Txt: "- parts of speech, audio playback, dictionary links, and word categories for all word items", CTA: "START STUDYING",
 	//Menu text
-	share: "Share", gallery: "Gallery", home: "Home", 
+	share: "Share", home: "Home", 
 	//Card Type
 	GlCrdTTxt: "card type: ", CrdTCLRTxt: "color", CrdTBWTxt: "back and white", GlMdeTTxt: "mode: ",
 	//Header
 	HeadN: "An SVG based visual dictionary, and language learning tool. Currently in English, Japanese, and Italian.", 
 	//Footer	
 	FootN1: "Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source.", 
-	FootN2: "Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
+	FootN2: "Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY. Audio is provided by the ResponsiveVoice API.",
 	//Site Copyright
 	CRText1: '&copy; G. Perilli', 
 
@@ -565,16 +573,16 @@ ITA: {lang: "ITA",
 	//Lander text
 	LSel: "Selezione Lingua", MonoTxt: "Caratteristiche", LndrVsl1Txt: "- 15 gruppi di imagini SVG", LndrVsl2Txt: "- annotazione semplice cliccabile", LndrVsl3Txt: "- parte del discorso, riproduzione audio, collegamenti ai dizionari, categorie di parole", CTA: "Comincia a Studiare",
 	//Menu text
-	share: "Condividi", gallery: "Galleria", home: "Home", 
+	share: "Condividi", home: "Home", 
 	//Card Type
 	GlCrdTTxt: "tipo di carta: ", CrdTCLRTxt: "colore", CrdTBWTxt: "bianco e nero", GlMdeTTxt: "modalità : ",
 	//Header
 	HeadN: "[ITA]An SVG based visual dictionary, and language learning tool. Currently in English, Japanese, and Italian.", 
 	//Footer
 	FootN1: "[ITA]Designed and coded by G.Perilli. Image data is either original or derived from public domain sources - in both cases the image files have been created or adapted by the author. Where possible all files have been attributed to their source.", 
-	FootN2: "[ITA]Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY.",
+	FootN2: "[ITA]Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY. Audio is provided by the ResponsiveVoice API.",
 	//Site Copyright
-	CCText1: '&copy; G. Perilli', 
+	CRText1: '&copy; G. Perilli', 
 	 
 	//Text for image source attribution in modal
 	 
@@ -587,14 +595,14 @@ JPN: {lang: "JPN",
 	//Lander text
 	LSel: "言語選択", MonoTxt: "機能", LndrVsl1Txt: "- 15の画像セット", LndrVsl2Txt: "- シンプルな注釈、クリック可能", LndrVsl3Txt: "- 品詞, オーディオ再生, 辞書リンク, 言葉のカテゴリー", CTA: "勉強を始める",
 	//Menu text
-	share: "シェア", gallery: "ギャラリー", home: "ホーム",
+	share: "シェア", home: "ホーム",
 	//Card Type
 	GlCrdTTxt: "カードの種類： ", CrdTCLRTxt: "カラー", CrdTBWTxt: "モノクロ", GlMdeTTxt: "モード : ",
 	//Header
 	HeadN: "SVGに基づいた図解辞典・語学学習ツールです。", 
 	//Footer
 	FootN1: "デザイン・コーディングはG.ペリーリによる。画像データはオリジナルかパブリック・ドメインのもので、どちらの場合も著者が作成または編集したものである。 すべてのファイルは可能なかざり資料元を記している。", 
-	FootN2: "例文はCC-BYのクリエイティブ・コモンズ・ライセンスを得た「たとえばコーパス」による。",
+	FootN2: "例文はCC-BYのクリエイティブ・コモンズ・ライセンスを得た「たとえばコーパス」による。 Audio is provided by the ResponsiveVoice API.",
 	//Site Copyright
 	CRText1: '&copy; G. Perilli', 
 	
@@ -622,7 +630,7 @@ function MnuCntnt(L1, src) {
 	document.getElementById("menu-shareB").innerHTML = UItext[L1]["share"];
 	
 	document.getElementById("LSelectTxt").innerHTML = UItext[L1]["LSel"];
-	document.getElementById("Brgrmenu-gallery").innerHTML = UItext[L1]["gallery"];
+	//document.getElementById("Brgrmenu-gallery").innerHTML = UItext[L1]["gallery"];
 	document.getElementById("Brgrmenu-home").innerHTML = UItext[L1]["home"];
 
 }
