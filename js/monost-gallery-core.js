@@ -13,7 +13,7 @@ function indexpage() {
 
 	//Set GlType in local storage to BW if non existent
 	if (localStorage.getItem("GlType") === undefined || localStorage.getItem("GlType") === null) {
-		localStorage.setItem("GlType", "BW");
+		localStorage.setItem("GlType", "ALL");
 	}
 
 	//Set IndxMde in local storage to LST if non existent
@@ -105,7 +105,7 @@ function indexpage() {
 	}
 	
 	PstsThisPg = StrtPstN-(EndPstN-1);
-
+ 
 	//Pagination highlighting
 	for (var i=1; i<(PgMx+1); ++i) {
 		if (i == CrntPgN) {
@@ -352,13 +352,16 @@ function PMuis() {
 	if (typeof pId !== "undefined") {//testing for undefined object
 		//alert("End post number:".concat(EndPstN, ", Current post number:", PstN));
 		setposter(pId);
-		
+		PMuisStge2(pno);
 	} else {//if undefined
-		alert("undefined");
-		setTimeout(function() { PMuis() }, 100);
+		console.log("undefined pId");
+		//setTimeout(function() { PMuis() }, 500);
+		//location.reload(true);
 	}
 	
-	
+}
+
+function PMuisStge2(pno) {
 	//Prepare Main User Interface Template
 	MUITempPrp(pno);
 	MUITempSet(pno, pId.AnnotType);
@@ -428,7 +431,6 @@ function PMuis() {
 		
 	  setTimeout( PMuis, 125 );
 	}
-	
 }
 
 function PImgs() {
