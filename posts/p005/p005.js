@@ -31,6 +31,12 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Dad is taking a walk in the <span class="wihlight">park</span>.', ITA: 'Papà sta facendo una passeggiata nel <span class="wihlight">parco</span>.', JPN: '父は<span class="wihlight">公園</span>を散歩している。',},
 	EX3: {ENG: 'The children were playing in the <span class="wihlight">park</span>.', ITA: 'I bambini stavano giocando nel <span class="wihlight">parco</span>.', JPN: '子供たちが<span class="wihlight">公園</span>で遊んでいた。',},
     
+	//EXAudamples
+	EXAud1: {ENG: "There's a pond in the center of the park.", ITA: "C'è uno stagno in mezzo al parco.", JPN: "公園の中央に池がある。",},
+	EXAud2: {ENG: "Dad is taking a walk in the park.", ITA: "Papà sta facendo una passeggiata nel parco.", JPN: "父は公園を散歩している。",},
+	EXAud3: {ENG: "The children were playing in the park.", ITA: "I bambini stavano giocando nel parco.", JPN: "子供たちが公園で遊んでいた。",},
+    
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/240441", ITA: "https://tatoeba.org/eng/sentences/show/1545855", JPN: "https://tatoeba.org/eng/sentences/show/174029",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1556543", ITA: "https://tatoeba.org/eng/sentences/show/2142995", JPN: "https://tatoeba.org/eng/sentences/show/1522699",},
@@ -88,6 +94,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Monkeys climb <span class="wihlight">trees</span>.', ITA: 'Le scimmie si arrampicano sugli <span class="wihlight">alberi</span>.', JPN: '猿は<span class="wihlight">木</span>に登る。',},
 	EX3: {ENG: 'This is a very tall <span class="wihlight">tree</span>.', ITA: 'Questo è un <span class="wihlight">albero</span> molto alto.', JPN: 'これはとても高い<span class="wihlight">木</span>です。',},
 	
+	EXAud1: {ENG: "The tree fell down.", ITA: "L'albero è caduto.", JPN: "木が倒れた。",},
+	EXAud2: {ENG: "Monkeys climb trees.", ITA: "Le scimmie si arrampicano sugli alberi.", JPN: "猿は木に登る。",},
+	EXAud3: {ENG: "This is a very tall tree.", ITA: "Questo è un albero molto alto.", JPN: "これはとても高い木です。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/323574", ITA: "https://tatoeba.org/eng/sentences/show/6555484", JPN: "https://tatoeba.org/eng/sentences/show/80143",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/25868", ITA: "https://tatoeba.org/eng/sentences/show/1980357", JPN: "https://tatoeba.org/eng/sentences/show/188723",},
@@ -143,6 +154,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Carl sat on a <span class="wihlight">branch</span> of the tree.', ITA: 'Carlo stava seduto su un <span class="wihlight">ramo</span> dell&#39;albero.', JPN: 'カールは木の<span class="wihlight">枝</span>の上に座っていた。',},
 	EX3: {ENG: 'The cat hid between the <span class="wihlight">branches</span>.', ITA: 'Il gatto si è nascosto tra i <span class="wihlight">rami</span>.', JPN: '猫は<span class="wihlight">枝</span>の間に隠れた。',},
 	
+	EXAud1: {ENG: "I cut a branch from the tree.", ITA: "Ho tagliato un ramo dall'albero.", JPN: "その木の枝を切った。",},
+	EXAud2: {ENG: "Carl sat on a branch of the tree.", ITA: "Carlo stava seduto su un ramo dell'albero.", JPN: "カールは木の枝の上に座っていた。",},
+	EXAud3: {ENG: "The cat hid between the branches.", ITA: "Il gatto si è nascosto tra i rami.", JPN: "猫は枝の間に隠れた。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -197,6 +213,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'In autumn the <span class="wihlight">leaves</span> fall from the branches', ITA: 'In autunno le <span class="wihlight">foglie</span> cadono dai rami.', JPN: '秋には、木から<span class="wihlight">葉</span>が落ちる。',},
 	EX2: {ENG: 'The <span class="wihlight">leaves</span> turn red in the fall.', ITA: 'Le <span class="wihlight">foglie</span> diventano rosse d&#39;autunno.', JPN: 'その<span class="wihlight">葉</span>は秋に赤くなる。',},
 	EX3: {ENG: 'From waht tree is this <span class="wihlight">leaf</span>?', ITA: 'Di che albero è questa <span class="wihlight">foglia</span>?', JPN: 'この<span class="wihlight">葉っぱ</span>はどこの木からですか。',},
+	
+	EXAud1: {ENG: "In autumn the leaves fall from the branches", ITA: "In autunno le foglie cadono dai rami.", JPN: "秋には、木から葉が落ちる。",},
+	EXAud2: {ENG: "The leaves turn red in the fall.", ITA: "Le foglie diventano rosse d'autunno.", JPN: "その葉は秋に赤くなる。",},
+	EXAud3: {ENG: "From waht tree is this leaf?", ITA: "Di che albero è questa foglia?", JPN: "この葉っぱはどこの木からですか。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -254,6 +275,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Someone has left a bag on the <span class="wihlight">bench</span>.', ITA: 'Qualcuno lasciò una borsa sulla <span class="wihlight">panchina</span>.', JPN: 'だれかが<span class="wihlight">ベンチ</span>にかばんを置き忘れました。',},
 	EX3: {ENG: 'Why did you paint the <span class="wihlight">benches</span> red?', ITA: 'Perché hai dipinto le <span class="wihlight">panchine</span> di rosso?', JPN: 'どうして<span class="wihlight">ベンチ</span>を赤く塗ったのですか。',},
 	
+	EXAud1: {ENG: "Sit on the bench.", ITA: "Siediti sulla panchina.", JPN: "ベンチに座りなさい。",},
+	EXAud2: {ENG: "Someone has left a bag on the bench.", ITA: "Qualcuno lasciò una borsa sulla panchina.", JPN: "だれかがベンチにかばんを置き忘れました。",},
+	EXAud3: {ENG: "Why did you paint the benches red?", ITA: "Perché hai dipinto le panchine di rosso?", JPN: "どうしてベンチを赤く塗ったのですか。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/33808", ITA: "https://tatoeba.org/eng/sentences/show/836249", JPN: "https://tatoeba.org/eng/sentences/show/196629",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/40473", ITA: "https://tatoeba.org/eng/sentences/show/1004008", JPN: "https://tatoeba.org/eng/sentences/show/203237",},
@@ -308,6 +334,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Tom threw the apple in the <span class="wihlight">waste bin</span>.', ITA: 'Tom ha buttato la mela nel <span class="wihlight">cestino dei rifiuti</span>.', JPN: 'トムはりんごを<span class="wihlight">ゴミ箱</span>に捨てた。',},
 	EX2: {ENG: 'I saw him throw away his clothes in the <span class="wihlight">waste bin</span>.', ITA: 'l&#39;ho visto gettare i suoi vestiti nel <span class="wihlight">cestino dei rifiuti</span>.', JPN: '彼が服を<span class="wihlight">ゴミ箱</span>に捨てるのを見た。',},
 	EX3: {ENG: 'Where is the <span class="wihlight">waste bin</span>?.', ITA: 'Dov&#39;è il <span class="wihlight">cestino dei rifiuti</span>?', JPN: '<span class="wihlight">ゴミ箱</span>はどこですか。',},
+	
+	EXAud1: {ENG: "Tom threw the apple in the waste bin.", ITA: "Tom ha buttato la mela nel cestino dei rifiuti.", JPN: "トムはりんごをゴミ箱に捨てた。",},
+	EXAud2: {ENG: "I saw him throw away his clothes in the waste bin.", ITA: "l'ho visto gettare i suoi vestiti nel cestino dei rifiuti.", JPN: "彼が服をゴミ箱に捨てるのを見た。",},
+	EXAud3: {ENG: "Where is the waste bin?.", ITA: "Dov'è il cestino dei rifiuti?", JPN: "ゴミ箱はどこですか。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -364,6 +395,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'There isn&#39;t a single <span class="wihlight">cloud</span> in the sky.', ITA: 'Non c&#39;è una singola <span class="wihlight">nuvola</span> in cielo.', JPN: '空には<span class="wihlight">雲</span>ひとつありません。',},
 	EX3: {ENG: 'The <span class="wihlight">clouds</span> are getting darker.', ITA: 'Le <span class="wihlight">nuvole</span> stanno diventando più scure.', JPN: '<span class="wihlight">雲</span>がだんだん黒くなっています。',},
     
+	EXAud1: {ENG: "The moon came out from behind the clouds.", ITA: "La luna è uscita da dietro le nuvole.", JPN: "月が雲の間から出た。",},
+	EXAud2: {ENG: "There isn't a single cloud in the sky.", ITA: "Non c'è una singola nuvola in cielo.", JPN: "空には雲ひとつありません。",},
+	EXAud3: {ENG: "The clouds are getting darker.", ITA: "Le nuvole stanno diventando più scure.", JPN: "雲がだんだん黒くなっています。",},
+    
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/238779", ITA: "https://tatoeba.org/eng/sentences/show/1636884", JPN: "https://tatoeba.org/eng/sentences/show/175686",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/18321", ITA: "https://tatoeba.org/eng/sentences/show/2206815", JPN: "https://tatoeba.org/eng/sentences/show/179452",},
@@ -419,6 +455,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The <span class="wihlight">bird</span> sang in the tree.', ITA: 'L&#39;<span class="wihlight">uccello</span> cantava nell&#39;albero.', JPN: '木に<span class="wihlight">鳥</span>が鳴いた。',},
 	EX3: {ENG: 'Yesterday morning I saw many <span class="wihlight">birds</span>.', ITA: 'Ieri mattina ho visto molti <span class="wihlight">uccelli</span>.', JPN: '昨日の朝たくさんの<span class="wihlight">鳥</span>を見た。',},
 	
+	EXAud1: {ENG: "Birds build nests.", ITA: "Gli uccelli costruiscono nidi.", JPN: "鳥は巣をつくる。",},
+	EXAud2: {ENG: "The bird sang in the tree.", ITA: "L'uccello cantava nell'albero.", JPN: "木に鳥が鳴いた。",},
+	EXAud3: {ENG: "Yesterday morning I saw many birds.", ITA: "Ieri mattina ho visto molti uccelli.", JPN: "昨日の朝たくさんの鳥を見た。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/278206", ITA: "https://tatoeba.org/eng/sentences/show/1258204", JPN: "https://tatoeba.org/eng/sentences/show/1166043",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1780327", ITA: "https://tatoeba.org/eng/sentences/show/5414690", JPN: "https://tatoeba.org/eng/sentences/show/1780328",},
@@ -473,6 +514,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'The <span class="wihlight">sun</span> descended behind the mountains.', ITA: 'Il <span class="wihlight">sole</span> è andato giù dietro le montagne.', JPN: '<span class="wihlight">太陽</span>は山の向こうへ沈んでいった。',},
 	EX2: {ENG: 'The evening <span class="wihlight">sun</span> us orange.', ITA: 'Il <span class="wihlight">sole</span> di sera non è arancione.', JPN: '夕方の<span class="wihlight">太陽</span>は橙色です。',},
 	EX3: {ENG: 'The earth goes around the <span class="wihlight">sun</span>.', ITA: 'La terra gira attorno al <span class="wihlight">sole</span>.', JPN: '地球は<span class="wihlight">太陽</span>の周りを公転している。',},
+	
+	EXAud1: {ENG: "The sun descended behind the mountains.", ITA: "Il sole è andato giù dietro le montagne.", JPN: "太陽は山の向こうへ沈んでいった。",},
+	EXAud2: {ENG: "The evening sun us orange.", ITA: "Il sole di sera non è arancione.", JPN: "夕方の太陽は橙色です。",},
+	EXAud3: {ENG: "The earth goes around the sun.", ITA: "La terra gira attorno al sole.", JPN: "地球は太陽の周りを公転している。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/245059", ITA: "https://tatoeba.org/eng/sentences/show/5201968", JPN: "https://tatoeba.org/eng/sentences/show/2680856",},
