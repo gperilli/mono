@@ -31,6 +31,10 @@ AnnotType: "HLight",
 	EX2: {ENG: 'Cats are social <span class="wihlight">animals</span>.', ITA: 'I gatti sono <span class="wihlight">animali</span> sociali.', JPN: '猫は社会的な<span class="wihlight">動物</span>です。',},
 	EX3: {ENG: 'What is your favorite <span class="wihlight">animal</span>?', ITA: 'Qual è il suo <span class="wihlight">animale</span> preferito?', JPN: '好きな<span class="wihlight">動物</span>は何ですか？',},
 	
+	EXAud1: {ENG: "Do you have any pet animals?", ITA: "Avete degli animali domestici?", JPN: "あなたは何か動物を飼っていますか。",},
+	EXAud2: {ENG: "Cats are social animals.", ITA: "I gatti sono animali sociali.", JPN: "猫は社会的な動物です。",},
+	EXAud3: {ENG: "What is your favorite animal?", ITA: "Qual è il suo animale preferito?", JPN: "好きな動物は何ですか？",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/69616", ITA: "https://tatoeba.org/eng/sentences/show/380439", JPN: "https://tatoeba.org/eng/sentences/show/232246",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1032980", ITA: "https://tatoeba.org/eng/sentences/show/1032979", JPN: "https://tatoeba.org/eng/sentences/show/1032999",},
@@ -81,6 +85,11 @@ AnnotType: "HLight",
 	EX1: {ENG: 'We have a white <span class="wihlight">cat</span>.', ITA: 'Abbiamo un <span class="wihlight">gatto</span> bianco.', JPN: '白い<span class="wihlight">猫</span>を飼っています。',},
 	EX2: {ENG: 'I prefer <span class="wihlight">cats</span> to dogs.', ITA: 'Preferisco i <span class="wihlight">gatti</span> ai cani.', JPN: '私は犬よりも<span class="wihlight">猫</span>が好きです。',},
 	EX3: {ENG: 'I was scratched by a <span class="wihlight">cat</span>.', ITA: 'Un <span class="wihlight">gatto</span> mi ha graffiato.', JPN: '<span class="wihlight">猫</span>にひっかかれました。',},
+	
+	EXAud1: {ENG: "We have a white cat.", ITA: "Abbiamo un gatto bianco.", JPN: "白い猫を飼っています。",},
+	EXAud2: {ENG: "I prefer cats to dogs.", ITA: "Preferisco i gatti ai cani.", JPN: "私は犬よりも猫が好きです。",},
+	EXAud3: {ENG: "I was scratched by a cat.", ITA: "Un gatto mi ha graffiato.", JPN: "猫にひっかかれました。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1045519", ITA: "https://tatoeba.org/eng/sentences/show/1045532", JPN: "https://tatoeba.org/eng/sentences/show/1046238",},
@@ -133,6 +142,11 @@ AnnotType: "HLight",
 	EX2: {ENG: 'I saw a <span class="wihlight">mouse</span>.', ITA: 'Ho visto un <span class="wihlight">topo</span>.', JPN: '<span class="wihlight">ネズミ</span>を見た。',},
 	EX3: {ENG: 'Are you frightened of <span class="wihlight">mice</span>?', ITA: 'Tu hai paura dei <span class="wihlight">topi</span>?', JPN: 'あなたは<span class="wihlight">ネズミ</span>を怖がっていますか？',},
 	
+	EXAud1: {ENG: "Cats catch mice.", ITA: "I gatti prendono i topi.", JPN: "ネコはネズミを捕まえる。",},
+	EXAud2: {ENG: "I saw a mouse.", ITA: "Ho visto un topo.", JPN: "ネズミを見た。",},
+	EXAud3: {ENG: "Are you frightened of mice?", ITA: "Tu hai paura dei topi?", JPN: "あなたはネズミを怖がっていますか？",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/35814", ITA: "https://tatoeba.org/eng/sentences/show/2321940", JPN: "https://tatoeba.org/eng/sentences/show/198621",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -183,6 +197,11 @@ AnnotType: "HLight",
 	EX1: {ENG: 'He hates <span class="wihlight">spiders</span>.', ITA: 'Odia i <span class="wihlight">ragni</span>.', JPN: '彼は<span class="wihlight">クモ</span>が大嫌いだ。',},
 	EX2: {ENG: 'I&#39;m afraid of <span class="wihlight">spiders</span>.', ITA: 'Ho paura dei <span class="wihlight">ragni</span>.', JPN: '<span class="wihlight">クモ</span>が怖いんです。',},
 	EX3: {ENG: 'There are <span class="wihlight">spiders</span> everywhere.', ITA: 'Ci sono <span class="wihlight">ragni</span> dappertutto.', JPN: '至る所に<span class="wihlight">クモ</span>がいます。',},
+	
+	EXAud1: {ENG: "He hates spiders.", ITA: "Odia i ragni.", JPN: "彼はクモが大嫌いだ。",},
+	EXAud2: {ENG: "I'm afraid of spiders.", ITA: "Ho paura dei ragni.", JPN: "クモが怖いんです。",},
+	EXAud3: {ENG: "There are spiders everywhere.", ITA: "Ci sono ragni dappertutto.", JPN: "至る所にクモがいます。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/289720", ITA: "https://tatoeba.org/eng/sentences/show/1815018", JPN: "https://tatoeba.org/eng/sentences/show/113952",},
@@ -235,6 +254,11 @@ AnnotType: "HLight",
 	EX2: {ENG: 'Some <span class="wihlight">snakes</span> are poisonous.', ITA: 'Alcuni <span class="wihlight">serpenti</span> sono velenosi.', JPN: '<span class="wihlight">ヘビ</span>の中には毒を持つものもある。',},
 	EX3: {ENG: 'There are a lot of <span class="wihlight">snakes</span> in this forest.', ITA: 'Ci sono molti <span class="wihlight">serpenti</span> in questa foresta.', JPN: 'この森には<span class="wihlight">ヘビ</span>がたくさんいます。',},
 	
+	EXAud1: {ENG: "The snake is an animal without legs.", ITA: "Il serpente e un anuimale senza zampe.", JPN: "ヘビは足のない動物です。",},
+	EXAud2: {ENG: "Some snakes are poisonous.", ITA: "Alcuni serpenti sono velenosi.", JPN: "ヘビの中には毒を持つものもある。",},
+	EXAud3: {ENG: "There are a lot of snakes in this forest.", ITA: "Ci sono molti serpenti in questa foresta.", JPN: "この森にはヘビがたくさんいます。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/33908", ITA: "https://tatoeba.org/eng/sentences/show/427747", JPN: "https://tatoeba.org/eng/sentences/show/196728",},
@@ -285,6 +309,10 @@ AnnotType: "HLight",
 	EX1: {ENG: 'He heard the <span class="wihlight">dog</span> barking.', ITA: 'Sentì il <span class="wihlight">cane</span> abbaiare.', JPN: '彼は<span class="wihlight">犬</span>がほえているのを聞いた。',},
 	EX2: {ENG: 'That <span class="wihlight">dog</span> doesn&#39;t bite.', ITA: 'Quel <span class="wihlight">cane</span> non morde.', JPN: 'その<span class="wihlight">犬</span>はかみついたりしませんよ。',},
 	EX3: {ENG: 'The <span class="wihlight">dog</span> looks hungry.', ITA: 'Il <span class="wihlight">cane</span> sembra affamato.', JPN: 'その<span class="wihlight">犬</span>はお腹がすいているように見える。',},
+	
+	EXAud1: {ENG: "He heard the dog barking.", ITA: "Sentì il cane abbaiare.", JPN: "彼は犬がほえているのを聞いた。",},
+	EXAud2: {ENG: "That dog doesn't bite.", ITA: "Quel cane non morde.", JPN: "その犬はかみついたりしませんよ。",},
+	EXAud3: {ENG: "The dog looks hungry.", ITA: "Il cane sembra affamato.", JPN: "その犬はお腹がすいているように見える。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/295968", ITA: "https://tatoeba.org/eng/sentences/show/377231", JPN: "https://tatoeba.org/eng/sentences/show/107717",},
@@ -337,6 +365,11 @@ AnnotType: "HLight",
 	EX2: {ENG: '<span class="wihlight">Birds</span> build nests.', ITA: 'Gli <span class="wihlight">uccelli</span> costruiscono nidi.', JPN: '<span class="wihlight">鳥</span>は巣をつくる。',},
 	EX3: {ENG: '<span class="wihlight">Birds</span> have wings.', ITA: 'Gli <span class="wihlight">uccelli</span> hanno delle ali.', JPN: '<span class="wihlight">鳥</span>には翼がある。',},
 	
+	EXAud1: {ENG: "The birds sang.", ITA: "Gli uccelli cantavano.", JPN: "鳥がさえずった。",},
+	EXAud2: {ENG: "Birds build nests.", ITA: "Gli uccelli costruiscono nidi.", JPN: "鳥は巣をつくる。",},
+	EXAud3: {ENG: "Birds have wings.", ITA: "Gli uccelli hanno delle ali.", JPN: "鳥には翼がある。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/278157", ITA: "https://tatoeba.org/eng/sentences/show/612016", JPN: "https://tatoeba.org/eng/sentences/show/125835",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/278206", ITA: "https://tatoeba.org/eng/sentences/show/1258204", JPN: "https://tatoeba.org/eng/sentences/show/1166043",},
@@ -388,6 +421,10 @@ AnnotType: "HLight",
 	EX2: {ENG: 'This <span class="wihlight">fish</span> lives in the sea.', ITA: 'Questo <span class="wihlight">pesce</span> vive nel mare.', JPN: 'この<span class="wihlight">魚</span>は海に住んでいる。',},
 	EX3: {ENG: 'There are a lot of <span class="wihlight">fish</span> in the pond.', ITA: 'Ci sono molti <span class="wihlight">pesci</span> nello stagno.', JPN: '池には<span class="wihlight">魚</span>がたくさんいる。',},
 	
+	EXAud1: {ENG: "The fish can swim.", ITA: "Il pesce può nuotare.", JPN: "魚は泳ぐことができます。",},
+	EXAud2: {ENG: "This fish lives in the sea.", ITA: "Questo pesce vive nel mare.", JPN: "この魚は海に住んでいる。",},
+	EXAud3: {ENG: "There are a lot of fish in the pond.", ITA: "Ci sono molti pesci nello stagno.", JPN: "池には魚がたくさんいる。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1102797", ITA: "https://tatoeba.org/eng/sentences/show/3873579", JPN: "https://tatoeba.org/eng/sentences/show/3875292",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -438,6 +475,10 @@ AnnotType: "HLight",
 	EX1: {ENG: '<span class="wihlight">Frogs</span> eat small animals.', ITA: 'Le <span class="wihlight">rane</span> mangiano piccoli animaletti.', JPN: '<span class="wihlight">カエル</span>は小動物を食べます。',},
 	EX2: {ENG: '<span class="wihlight">Frogs</span> live in ponds.', ITA: ' Le <span class="wihlight">rane</span> vivono negli stagni.', JPN: '<span class="wihlight">カエル</span>は池に住んでいます。',},
 	EX3: {ENG: 'Tadpoles become <span class="wihlight">frogs</span>.', ITA: 'I girini diventano <span class="wihlight">rane</span>.', JPN: 'オタマジャクシは<span class="wihlight">カエル</span>になる。',},
+	
+	EXAud1: {ENG: "Frogs eat small animals.", ITA: "Le rane mangiano piccoli animaletti.", JPN: "カエルは小動物を食べます。",},
+	EXAud2: {ENG: "Frogs live in ponds.", ITA: " Le rane vivono negli stagni.", JPN: "カエルは池に住んでいます。",},
+	EXAud3: {ENG: "Tadpoles become frogs.", ITA: "I girini diventano rane.", JPN: "オタマジャクシはカエルになる。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
