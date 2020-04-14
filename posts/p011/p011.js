@@ -2,7 +2,7 @@
 var p011 = {
 
 No: "011",
-Date: "29/03/2018",
+Date: "29/10/2019",
 AnnotType: "HLight",
 
 0: {imgfile: "",
@@ -30,6 +30,10 @@ AnnotType: "HLight",
 	EX1: {ENG: 'What <span class="wihlight">colour</span> is it?', ITA: 'Che <span class="wihlight">colore</span> è?', JPN: '何<span class="wihlight">色</span>ですか？',},
 	EX2: {ENG: 'Which <span class="wihlight">colour</span> do you prefer?', ITA: 'Che <span class="wihlight">colore</span> preferisci?', JPN: 'あなたはどの<span class="wihlight">色</span>が好きですか？',},
 	EX3: {ENG: 'I like this <span class="wihlight">colour</span>.', ITA: 'Mi piace questo <span class="wihlight">colore</span>.', JPN: 'この<span class="wihlight">色</span>が好きです。',},
+	
+	EXAud1: {ENG: "What colour is it?", ITA: "Che colore è?", JPN: "何色ですか？",},
+	EXAud2: {ENG: "Which colour do you prefer?", ITA: "Che colore preferisci?", JPN: "あなたはどの色が好きですか？",},
+	EXAud3: {ENG: "I like this colour.", ITA: "Mi piace questo colore.", JPN: "この色が好きです。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -83,6 +87,10 @@ AnnotType: "HLight",
 	EX2: {ENG: 'Apples are <span class="wihlight">red</span>.', ITA: 'Le mele sono <span class="wihlight">rosse</span>.', JPN: 'リンゴは<span class="wihlight">赤</span>です。',},
 	EX3: {ENG: '<span class="wihlight">Red</span> wine, please.', ITA: 'Vino <span class="wihlight">rosso</span>, per favore.', JPN: '<span class="wihlight">赤</span>ワインをお願いします。',},
 	
+	EXAud1: {ENG: "I prefer red.", ITA: "Preferisco il rosso.", JPN: "私は赤が好きです。",},
+	EXAud2: {ENG: "Apples are red.", ITA: "Le mele sono rosse.", JPN: "リンゴは赤です。",},
+	EXAud3: {ENG: "Red wine, please.", ITA: "Vino rosso, per favore.", JPN: "赤ワインをお願いします。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -134,6 +142,11 @@ AnnotType: "HLight",
 	EX2: {ENG: 'The bread is <span class="wihlight">brown</span>.', ITA: 'Il pane è <span class="wihlight">marrone</span>.', JPN: 'パンは<span class="wihlight">茶色</span>です。',},
 	EX3: {ENG: 'I have <span class="wihlight">brown</span> eyes.', ITA: 'Ho gli occhi <span class="wihlight">marroni</span>.', JPN: '私の目は<span class="wihlight">茶色</span>です。',},
 	
+	EXAud1: {ENG: "I would take this brown tie.", ITA: "Vorrei questa cravatta marrone.", JPN: "この茶色のネクタイをいただきたいのですが。",},
+	EXAud2: {ENG: "The bread is brown.", ITA: "Il pane è marrone.", JPN: "パンは茶色です。",},
+	EXAud3: {ENG: "I have brown eyes.", ITA: "Ho gli occhi marroni.", JPN: "私の目は茶色です。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/57887", ITA: "https://tatoeba.org/eng/sentences/show/1316977", JPN: "https://tatoeba.org/eng/sentences/show/220566",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -183,6 +196,11 @@ AnnotType: "HLight",
 	EX1: {ENG: 'Bananas are <span class="wihlight">yellow</span>.', ITA: 'Le banane sono <span class="wihlight">gialle</span>.', JPN: 'バナナは<span class="wihlight">黄色</span>です。',},
 	EX2: {ENG: 'He lives in the <span class="wihlight">yellow</span> house.', ITA: 'Abita nella casa <span class="wihlight">gialla</span>.', JPN: '彼は<span class="wihlight">黄色い</span>あの家に住んでいる。',},
 	EX3: {ENG: 'She is wearing a <span class="wihlight">yellow</span> dress.', ITA: 'Lei sta indossando un vestito <span class="wihlight">giallo</span>.', JPN: '彼女は<span class="wihlight">黄色</span>のドレスを着ています。',},
+	
+	EXAud1: {ENG: "Bananas are yellow.", ITA: "Le banane sono gialle.", JPN: "バナナは黄色です。",},
+	EXAud2: {ENG: "He lives in the yellow house.", ITA: "Abita nella casa gialla.", JPN: "彼は黄色いあの家に住んでいる。",},
+	EXAud3: {ENG: "She is wearing a yellow dress.", ITA: "Lei sta indossando un vestito giallo.", JPN: "彼女は黄色のドレスを着ています。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/559000", ITA: "https://tatoeba.org/eng/sentences/show/691467", JPN: "https://tatoeba.org/eng/sentences/show/553870",},
@@ -234,6 +252,11 @@ AnnotType: "HLight",
 	EX2: {ENG: 'My favourite colour is <span class="wihlight">purple</span>.', ITA: 'Il mio colore preferito è il <span class="wihlight">viola</span>.', JPN: '私の好きな色は<span class="wihlight">紫</span>です。',},
 	EX3: {ENG: 'I liked the <span class="wihlight">purple</span> bag.', ITA: 'Mi è piaciuta la borsa <span class="wihlight">viola</span>.', JPN: '<span class="wihlight">紫</span>色のバッグが気に入りました。',},
 	
+	EXAud1: {ENG: "Her sweater is purple.", ITA: "Il suo maglione è viola.", JPN: "彼女のセーターは紫色です。",},
+	EXAud2: {ENG: "My favourite colour is purple.", ITA: "Il mio colore preferito è il viola.", JPN: "私の好きな色は紫です。",},
+	EXAud3: {ENG: "I liked the purple bag.", ITA: "Mi è piaciuta la borsa viola.", JPN: "紫色のバッグが気に入りました。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -283,6 +306,11 @@ AnnotType: "HLight",
 	EX1: {ENG: 'The sky is <span class="wihlight">blue</span>.', ITA: 'Il cielo è <span class="wihlight">azzurro</span>.', JPN: '空は<span class="wihlight">青い</span>。',},
 	EX2: {ENG: 'He has <span class="wihlight">blue</span> eyes.', ITA: 'Lui ha gli occhi <span class="wihlight">azzurri</span>.', JPN: '彼は<span class="wihlight">青い</span>目をしています。',},
 	EX3: {ENG: 'We have some <span class="wihlight">blue</span> boots.', ITA: 'Abbiamo degli stivali <span class="wihlight">azzurri</span>.', JPN: '<span class="wihlight">青い</span>ブーツがいくつかあります。',},
+	
+	EXAud1: {ENG: "The sky is blue.", ITA: "Il cielo è azzurro.", JPN: "空は青い。",},
+	EXAud2: {ENG: "He has blue eyes.", ITA: "Lui ha gli occhi azzurri.", JPN: "彼は青い目をしています。",},
+	EXAud3: {ENG: "We have some blue boots.", ITA: "Abbiamo degli stivali azzurri.", JPN: "青いブーツがいくつかあります。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -334,6 +362,10 @@ AnnotType: "HLight",
 	EX2: {ENG: 'I prefer <span class="wihlight">green</span> socks.', ITA: 'Preferisco le calze <span class="wihlight">verdi</span>.', JPN: '<span class="wihlight">緑</span>の靴下が好きです。',},
 	EX3: {ENG: 'My car is <span class="wihlight">green</span>.', ITA: 'La mia macchina è <span class="wihlight">verde</span>.', JPN: '私の車は<span class="wihlight">緑</span>です。',},
 	
+	EXAud1: {ENG: "Courgettes are green.", ITA: "Gli zucchini sono verdi.", JPN: "ズッキーニは緑色です。",},
+	EXAud2: {ENG: "I prefer green socks.", ITA: "Preferisco le calze verdi.", JPN: "緑の靴下が好きです。",},
+	EXAud3: {ENG: "My car is green.", ITA: "La mia macchina è verde.", JPN: "私の車は緑です。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/851834", ITA: "https://tatoeba.org/eng/sentences/show/853758", JPN: "https://tatoeba.org/eng/sentences/show/982227",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -383,6 +415,10 @@ AnnotType: "HLight",
 	EX1: {ENG: 'He has a <span class="wihlight">pink</span> cap.', ITA: 'Lui ha un cappello <span class="wihlight">rosa</span>.', JPN: '彼は<span class="wihlight">ピンク</span>の帽子を持っています。',},
 	EX2: {ENG: 'The skirt is <span class="wihlight">pink</span>.', ITA: 'La gonna è <span class="wihlight">rosa</span>.', JPN: 'スカートは<span class="wihlight">ピンク</span>です。',},
 	EX3: {ENG: 'She wore a <span class="wihlight">pink</span> blouse.', ITA: 'lei indossava una camicetta <span class="wihlight">rosa</span>.', JPN: '彼女は<span class="wihlight">ピンク</span>のブラウスを着ていた。',},
+
+	EXAud1: {ENG: "He has a pink cap.", ITA: "Lui ha un cappello rosa.", JPN: "彼はピンクの帽子を持っています。",},
+	EXAud2: {ENG: "The skirt is pink.", ITA: "La gonna è rosa.", JPN: "スカートはピンクです。",},
+	EXAud3: {ENG: "She wore a pink blouse.", ITA: "lei indossava una camicetta rosa.", JPN: "彼女はピンクのブラウスを着ていた。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -433,6 +469,10 @@ AnnotType: "HLight",
 	EX1: {ENG: 'My tie is <span class="wihlight">orange</span>.', ITA: 'La mia cravatta è <span class="wihlight">arancione</span>.', JPN: '私のネクタイは<span class="wihlight">オレンジ色</span>です。',},
 	EX2: {ENG: 'I like <span class="wihlight">orange</span>.', ITA: 'A me piace l&#39;<span class="wihlight">arancione</span>.', JPN: '<span class="wihlight">オレンジ色</span>が好きです。',},
 	EX3: {ENG: 'The evening sun is <span class="wihlight">orange</span>.', ITA: 'Il sole di sera non è <span class="wihlight">arancione</span>.', JPN: '夕日は<span class="wihlight">オレンジ色</span>です。',},
+	
+	EXAud1: {ENG: "My tie is orange.", ITA: "La mia cravatta è arancione.", JPN: "私のネクタイはオレンジ色です。",},
+	EXAud2: {ENG: "I like orange.", ITA: "A me piace l'arancione.", JPN: "オレンジ色が好きです。",},
+	EXAud3: {ENG: "The evening sun is orange.", ITA: "Il sole di sera non è arancione.", JPN: "夕日はオレンジ色です。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
