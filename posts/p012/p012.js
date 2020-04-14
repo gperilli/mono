@@ -31,6 +31,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'All citizens shall remain <span class="wihlight">indoors</span> until further notice.', ITA: 'Tutti i cittadini devono rimanere <span class="wihlight">in casa</span> fino a nuovo avviso.', JPN: 'すべての市民は、追って通知があるまで<span class="wihlight">家に</span>留まるものとします。',},
 	EX3: {ENG: 'She stayed <span class="wihlight">indoors</span> all day.', ITA: 'Lei rimase <span class="wihlight">in casa</span> tutto il giorno.', JPN: '彼女は１日じゅう<span class="wihlight">家に</span>いました。',},
     
+	EXAud1: {ENG: "Somebody was indoors.", ITA: "Qualcuno era in casa.", JPN: "誰かが家にいた。",},
+	EXAud2: {ENG: "All citizens shall remain indoors until further notice.", ITA: "Tutti i cittadini devono rimanere in casa fino a nuovo avviso.", JPN: "すべての市民は、追って通知があるまで家に留まるものとします。",},
+	EXAud3: {ENG: "She stayed indoors all day.", ITA: "Lei rimase in casa tutto il giorno.", JPN: "彼女は１日じゅう家にいました。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -85,7 +89,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'The <span class="wihlight">curtains</span> and the carpet are a good match.', ITA: 'Le <span class="wihlight">tende</span> e il tappeto vanno bene insieme.', JPN: '<span class="wihlight">カーテン</span>とじゅうたんはよくあっている。',},
 	EX2: {ENG: 'Close the <span class="wihlight">curtains</span>!', ITA: 'Tira le <span class="wihlight">tende</span>!', JPN: '<span class="wihlight">カーテン</span>を閉めて！',},
 	EX3: {ENG: 'She drew up the <span class="wihlight">curtain</span>.', ITA: 'Tirò su la <span class="wihlight">tenda</span>.', JPN: '彼女は<span class="wihlight">カーテン</span>を引き上げた。',},
-
+	
+	EXAud1: {ENG: "The curtains and the carpet are a good match.", ITA: "Le tende e il tappeto vanno bene insieme.", JPN: "カーテンとじゅうたんはよくあっている。",},
+	EXAud2: {ENG: "Close the curtains!", ITA: "Tira le tende!", JPN: "カーテンを閉めて！",},
+	EXAud3: {ENG: "She drew up the curtain.", ITA: "Tirò su la tenda.", JPN: "彼女はカーテンを引き上げた。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/63833", ITA: "https://tatoeba.org/eng/sentences/show/1614819", JPN: "https://tatoeba.org/eng/sentences/show/226488",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/2609566", ITA: "https://tatoeba.org/eng/sentences/show/3511521", JPN: "https://tatoeba.org/eng/sentences/show/1509088",},
@@ -139,6 +147,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Open the <span class="wihlight">window</span>.', ITA: 'Apri la <span class="wihlight">finestra</span>.', JPN: '<span class="wihlight">窓</span>を開けて。',},
 	EX2: {ENG: 'Would you close the <span class="wihlight">window</span>?', ITA: 'Chiuderesti la <span class="wihlight">finestra</span>?', JPN: '<span class="wihlight">窓</span>を閉めていただけませんか？',},
 	EX3: {ENG: 'Who broke the <span class="wihlight">window</span>?', ITA: 'Chi ha rotto la <span class="wihlight">finestra</span>?', JPN: '誰が<span class="wihlight">窓</span>を壊しましたか。',},
+	
+	EXAud1: {ENG: "Open the window.", ITA: "Apri la finestra.", JPN: "窓を開けて。",},
+	EXAud2: {ENG: "Would you close the window?", ITA: "Chiuderesti la finestra?", JPN: "窓を閉めていただけませんか？",},
+	EXAud3: {ENG: "Who broke the window?", ITA: "Chi ha rotto la finestra?", JPN: "誰が窓を壊しましたか。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/274210", ITA: "https://tatoeba.org/eng/sentences/show/377280", JPN: "https://tatoeba.org/eng/sentences/show/226488",},
@@ -194,7 +206,11 @@ AnnotType: "Annot",
 	EX1: {ENG: '<span class="wihlight">Pots</span> for cultivating vegetables on the balcony shouldn&#39;t be too small.', ITA: 'I <span class="wihlight">vasi</span> per coltivare l&#39;orto sul balcone non dovrebbero essere troppo piccoli.', JPN: 'バルコニーで野菜を栽培するための<span class="wihlight">植木鉢</span>は小さすぎてはいけません。',},
 	EX2: {ENG: 'He dropped a <span class="wihlight">pot</span>.', ITA: 'Ha fatto cadere un <span class="wihlight">vaso</span>.', JPN: '彼は<span class="wihlight">植木鉢</span>を落とした。',},
 	EX3: {ENG: 'She changed the soil in the flower <span class="wihlight">pot</span>.', ITA: 'Ha cambiato la terra nel <span class="wihlight">vaso</span> dei fiori.', JPN: '彼女は<span class="wihlight">植木鉢</span>の土を新しくした。',},
-
+	
+	EXAud1: {ENG: "Pots for cultivating vegetables on the balcony shouldn't be too small.", ITA: "I vasi per coltivare l'orto sul balcone non dovrebbero essere troppo piccoli.", JPN: "バルコニーで野菜を栽培するための植木鉢は小さすぎてはいけません。",},
+	EXAud2: {ENG: "He dropped a pot.", ITA: "Ha fatto cadere un vaso.", JPN: "彼は植木鉢を落とした。",},
+	EXAud3: {ENG: "She changed the soil in the flower pot.", ITA: "Ha cambiato la terra nel vaso dei fiori.", JPN: "彼女は植木鉢の土を新しくした。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/294506", ITA: "https://tatoeba.org/eng/sentences/show/3961660", JPN: "https://tatoeba.org/eng/sentences/show/109184",},
@@ -251,6 +267,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The <span class="wihlight">cactus</span> is one the easiest plants to cultivate in pots.', ITA: 'Il <span class="wihlight">cactus</span> è una delle piante più facili da coltivare nei vasi.', JPN: '<span class="wihlight">サボテン</span>は鉢で栽培するのが最も簡単な植物の一つです。',},
 	EX3: {ENG: 'Plant your <span class="wihlight">cactus</span> in a terracotta pot.', ITA: 'Pianta il tuo <span class="wihlight">cactus</span> in un vaso di terracotta', JPN: '<span class="wihlight">サボテン</span>をテラコッタの花瓶に植えます。',},
 	
+	EXAud1: {ENG: "Be careful of the cactus spines.", ITA: "Stai attento alle spine del cactus.", JPN: "サボテンの棘に注意してください。",},
+	EXAud2: {ENG: "The cactus is one the easiest plants to cultivate in pots.", ITA: "Il cactus è una delle piante più facili da coltivare nei vasi.", JPN: "サボテンは鉢で栽培するのが最も簡単な植物の一つです。",},
+	EXAud3: {ENG: "Plant your cactus in a terracotta pot.", ITA: "Pianta il tuo cactus in un vaso di terracotta", JPN: "サボテンをテラコッタの花瓶に植えます。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -306,6 +327,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'These <span class="wihlight">shelves</span> cannot support so many books.', ITA: 'Queste <span class="wihlight">mensole</span> non possono sopportare così tanti libri.', JPN: 'この<span class="wihlight">棚</span>はそんなにたくさんの本は支えられません。',},
 	EX3: {ENG: 'Can you reach the top <span class="wihlight">shelf</span>?', ITA: 'Riesci a raggiungere la <span class="wihlight">mensola</span> più in alto?', JPN: '<span class="wihlight">棚</span>の一番上に手が届きますか。',},
 	
+	EXAud1: {ENG: "What are the measurements of the shelf?", ITA: "Quali sono le dimensioni della mensola?", JPN: "棚の寸法はいくらあるか。",},
+	EXAud2: {ENG: "These shelves cannot support so many books.", ITA: "Queste mensole non possono sopportare così tanti libri.", JPN: "この棚はそんなにたくさんの本は支えられません。",},
+	EXAud3: {ENG: "Can you reach the top shelf?", ITA: "Riesci a raggiungere la mensola più in alto?", JPN: "棚の一番上に手が届きますか。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/276085", ITA: "https://tatoeba.org/eng/sentences/show/1203146", JPN: "https://tatoeba.org/eng/sentences/show/137151",},
 	TatSrcEx2: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/57978", ITA: "https://tatoeba.org/eng/sentences/show/440287", JPN: "https://tatoeba.org/eng/sentences/show/220656",},
@@ -360,6 +385,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'This <span class="wihlight">book</span> looks interesting.', ITA: 'Questo <span class="wihlight">libro</span> sembra interessante.', JPN: 'この<span class="wihlight">本</span>は面白そうだ。',},
 	EX2: {ENG: 'Where is the <span class="wihlight">book</span>?', ITA: 'Dov&#39;è il <span class="wihlight">libro</span>?', JPN: 'その<span class="wihlight">本</span>はどこにありますか。',},
 	EX3: {ENG: 'Give me the <span class="wihlight">book</span>.', ITA: 'Datemi il <span class="wihlight">libro</span>.', JPN: 'その<span class="wihlight">本</span>をとってくれ。',},
+	
+	EXAud1: {ENG: "This book looks interesting.", ITA: "Questo libro sembra interessante.", JPN: "この本は面白そうだ。",},
+	EXAud2: {ENG: "Where is the book?", ITA: "Dov'è il libro?", JPN: "その本はどこにありますか。",},
+	EXAud3: {ENG: "Give me the book.", ITA: "Datemi il libro.", JPN: "その本をとってくれ。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/56855", ITA: "https://tatoeba.org/eng/sentences/show/350390", JPN: "https://tatoeba.org/eng/sentences/show/219534",},
@@ -417,6 +446,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'This a recent <span class="wihlight">photo</span>?', ITA: 'Questa è una <span class="wihlight">foto</span> recente?', JPN: 'これは、最近の<span class="wihlight">写真</span>？',},
 	EX3: {ENG: 'What a beautiful <span class="wihlight">photo</span>!', ITA: 'Che bella <span class="wihlight">foto</span>!', JPN: 'なんてキレイな<span class="wihlight">写真</span>なんでしょう。',},
 	
+	EXAud1: {ENG: "Let's take a photo.", ITA: "Facciamo una foto.", JPN: "写真を撮ろう。",},
+	EXAud2: {ENG: "This a recent photo?", ITA: "Questa è una foto recente?", JPN: "これは、最近の写真？",},
+	EXAud3: {ENG: "What a beautiful photo!", ITA: "Che bella foto!", JPN: "なんてキレイな写真なんでしょう。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/265313", ITA: "https://tatoeba.org/eng/sentences/show/3115296", JPN: "https://tatoeba.org/eng/sentences/show/149245",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/328544", ITA: "https://tatoeba.org/eng/sentences/show/374254", JPN: "https://tatoeba.org/eng/sentences/show/75175",},
@@ -471,6 +504,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'We could put the photo in a nice <span class="wihlight">frame</span>.', ITA: 'Potremmo mettere questa foto in una bella <span class="wihlight">cornice</span>.', JPN: 'そして素敵な<span class="wihlight">フレーム</span>に写真を入れることができます。',},
 	EX2: {ENG: 'The <span class="wihlight">frame</span> is too big.', ITA: 'La <span class="wihlight">cornice</span> è troppo grande.', JPN: '<span class="wihlight">フレーム</span>が大きすぎます。',},
 	EX3: {ENG: 'The <span class="wihlight">frame</span> is very ornate.', ITA: 'La <span class="wihlight">cornice</span> è molto ornata.', JPN: '<span class="wihlight">フレーム</span>はとても華やかです。',},
+	
+	EXAud1: {ENG: "We could put the photo in a nice frame.", ITA: "Potremmo mettere questa foto in una bella cornice.", JPN: "そして素敵なフレームに写真を入れることができます。",},
+	EXAud2: {ENG: "The frame is too big.", ITA: "La cornice è troppo grande.", JPN: "フレームが大きすぎます。",},
+	EXAud3: {ENG: "The frame is very ornate.", ITA: "La cornice è molto ornata.", JPN: "フレームはとても華やかです。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
