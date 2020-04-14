@@ -31,6 +31,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'He has red spots all over his <span class="wihlight">body</span>. ', ITA: 'Ha dei punti rossi su tutto il <span class="wihlight">corpo</span>. ', JPN: '赤いぶつぶつが<span class="wihlight">体</span>中にできています。',},
 	EX3: {ENG: 'Blood circulates around the <span class="wihlight">body</span>. ', ITA: 'Il sangue circola attraverso il <span class="wihlight">corpo</span>.', JPN: '血液は<span class="wihlight">体</span>内を循環する。',},
 	
+	//EXAudamples
+	EXAud1: {ENG: "My body aches all over.", ITA: "Ho dolori in tutto il corpo.", JPN: " 体中が痛い。",},
+	EXAud2: {ENG: "He has red spots all over his body. ", ITA: "Ha dei punti rossi su tutto il corpo. ", JPN: "赤いぶつぶつが体中にできています。",},
+	EXAud3: {ENG: "Blood circulates around the body. ", ITA: "Il sangue circola attraverso il corpo.", JPN: "血液は体内を循環する。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/562053", ITA: "https://tatoeba.org/eng/sentences/show/4745138", JPN: "https://tatoeba.org/eng/sentences/show/226181",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/272287", ITA: "https://tatoeba.org/eng/sentences/show/3034528", JPN: "https://tatoeba.org/eng/sentences/show/142283",},
@@ -85,6 +90,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'She married a rich <span class="wihlight">man</span>.', ITA: 'Sposò un <span class="wihlight">uomo</span> ricco.', JPN: '彼女は金持ちの<span class="wihlight">男</span>と結婚した。',},
 	EX2: {ENG: 'He was a tall <span class="wihlight">man</span>.', ITA: 'Era un <span class="wihlight">uomo</span> alto.', JPN: '彼は長身の<span class="wihlight">男</span>であった。',},
 	EX3: {ENG: 'There were three <span class="wihlight">men</span>.', ITA: 'C&#39;erano tre <span class="wihlight">uomini</span>.', JPN: '<span class="wihlight">男</span>が三人いた。',},
+		
+	EXAud1: {ENG: "She married a rich man.", ITA: "Sposò un uomo ricco.", JPN: "彼女は金持ちの男と結婚した。",},
+	EXAud2: {ENG: "He was a tall man.", ITA: "Era un uomo alto.", JPN: "彼は長身の男であった。",},
+	EXAud3: {ENG: "There were three men.", ITA: "C&#39;erano tre uomini.", JPN: "男が三人いた。",},
 
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/310617", ITA: "https://tatoeba.org/eng/sentences/show/383179", JPN: "https://tatoeba.org/eng/sentences/show/90397",},
@@ -141,6 +150,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Where did you see the <span class="wihlight">woman</span>?', ITA: 'Dove hai visto la <span class="wihlight">donna</span>?', JPN: 'あなたはどこでその<span class="wihlight">女</span>の人を見ましたか。',},
 	EX3: {ENG: 'I saw a <span class="wihlight">woman</span> cross the street.', ITA: 'Vidi una <span class="wihlight">donna</span> attraversare la strada.', JPN: '私は、一人の<span class="wihlight">女</span>の人が通りを横切るのを見た。',},
 
+	EXAud1: {ENG: "Who is that woman?", ITA: "Chi è quella donna ?", JPN: "あの女の人はだれですか。",},
+	EXAud2: {ENG: "Where did you see the woman ?", ITA: "Dove hai visto la donna ?", JPN: "あなたはどこでその女の人を見ましたか。",},
+	EXAud3: {ENG: "I saw a woman cross the street.", ITA: "Vidi una donna attraversare la strada.", JPN: "私は、一人の女の人が通りを横切るのを見た。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/68238", ITA: "https://tatoeba.org/eng/sentences/show/359419", JPN: "https://tatoeba.org/eng/sentences/show/230871",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/69862", ITA: "https://tatoeba.org/eng/sentences/show/3636666", JPN: "https://tatoeba.org/eng/sentences/show/232492",},
@@ -195,7 +208,12 @@ AnnotType: "Annot",
 	EX1: {ENG: 'She has small <span class="wihlight">feet</span>.', ITA: 'Lei ha i <span class="wihlight">piedi</span> piccoli.', JPN: '彼女は<span class="wihlight">足</span>が小さい。',},
 	EX2: {ENG: 'My <span class="wihlight">feet</span> are cold.', ITA: 'Ho freddo ai <span class="wihlight">piedi</span>.', JPN: '<span class="wihlight">足</span>が冷えます。',},
 	EX3: {ENG: 'He put his <span class="wihlight">foot</span> on the ladder.', ITA: 'Ha messo il <span class="wihlight">piede</span> sulla scala.', JPN: '彼ははしごに片<span class="wihlight">足</span>を掛けた。',},
+	
+	EXAud1: {ENG: "She has small feet.", ITA: "Lei ha i piedi piccoli.", JPN: "彼女は足が小さい。",},
+	EXAud2: {ENG: "My feet are cold.", ITA: "Ho freddo ai piedi.", JPN: "足が冷えます。",},
+	EXAud3: {ENG: "He put his foot on the ladder.", ITA: "Ha messo il piede sulla scala.", JPN: "彼ははしごに片足を掛けた。",},
 
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/315604", ITA: "https://tatoeba.org/eng/sentences/show/708351", JPN: "https://tatoeba.org/eng/sentences/show/88102",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/274468", ITA: "https://tatoeba.org/eng/sentences/show/2576245", JPN: "https://tatoeba.org/eng/sentences/show/139873",},
@@ -250,7 +268,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'I broke my <span class="wihlight">leg</span>.', ITA: 'Mi sono rotta la <span class="wihlight">gamba</span>.', JPN: '私は<span class="wihlight">足</span>を骨折した。',},
 	EX2: {ENG: 'His <span class="wihlight">leg</span> was bitten by a crocodile.', ITA: 'La sua <span class="wihlight">gamba</span> è stata morsa da un coccodrillo.', JPN: '出彼の<span class="wihlight">足</span>はワニにかまれた。',},
 	EX3: {ENG: 'Which <span class="wihlight">leg</span> hurts?', ITA: 'Quale <span class="wihlight">gamba</span> fa male?', JPN: 'どっちの<span class="wihlight">脚</span>が痛むの？',},
-
+	
+	EXAud1: {ENG: "I broke my leg.", ITA: "Mi sono rotta la gamba.", JPN: "私は足を骨折した。",},
+	EXAud2: {ENG: "His leg was bitten by a crocodile.", ITA: "La sua gamba è stata morsa da un coccodrillo.", JPN: "出彼の足はワニにかまれた。",},
+	EXAud3: {ENG: "Which leg hurts?", ITA: "Quale gamba fa male?", JPN: "どっちの脚が痛むの？",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/259242", ITA: "https://tatoeba.org/eng/sentences/show/390628", JPN: "https://tatoeba.org/eng/sentences/show/155297",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/287066", ITA: "https://tatoeba.org/eng/sentences/show/6596753", JPN: "https://tatoeba.org/eng/sentences/show/116603",},
@@ -307,7 +329,12 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Wash your <span class="wihlight">hands</span>.', ITA: 'Lavati le <span class="wihlight">mani</span>.', JPN: '<span class="wihlight">手</span>を洗いなさい。',},
 	EX2: {ENG: 'What&#39;s in your <span class="wihlight">hand</span?', ITA: 'Cosa hai in <span class="wihlight">mano</span>?', JPN: '<span class="wihlight">手</span>に何をもっていますか。',},
 	EX3: {ENG: 'She raised her <span class="wihlight">hand</span>.', ITA: 'Ha alzato la <span class="wihlight">mano</span>.', JPN: '彼女は<span class="wihlight">手</span>を上げた。',},
-
+	
+	EXAud1: {ENG: "Wash your hands.", ITA: "Lavati le mani.", JPN: "手を洗いなさい。",},
+	EXAud2: {ENG: "What&#39;s in your hand</span?", ITA: "Cosa hai in mano ?", JPN: "手に何をもっていますか。",},
+	EXAud3: {ENG: "She raised her hand.", ITA: "Ha alzato la mano.", JPN: "彼女は手を上げた。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/464330", ITA: "https://tatoeba.org/eng/sentences/show/3756273", JPN: "https://tatoeba.org/eng/sentences/show/148622",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/69234", ITA: "https://tatoeba.org/eng/sentences/show/717902", JPN: "https://tatoeba.org/eng/sentences/show/148654",},
@@ -361,7 +388,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'The policeman caught the man by the <span class="wihlight">arm</span>.', ITA: 'Il poliziotto prese l&#39;uomo per il <span class="wihlight">braccio</span>.', JPN: '警官はその男の<span class="wihlight">腕</span>をつかまえた。',},
 	EX2: {ENG: 'He watched the Sumo wrestling with folded <span class="wihlight">arms</span>.', ITA: 'Lui guardava il sumo con le <span class="wihlight">braccia</span> incrociate.', JPN: '彼は相撲を、<span class="wihlight">腕</span>組をしてみつめていた。',},
 	EX3: {ENG: 'Let go of my <span class="wihlight">arm</span>!', ITA: 'Mi lasci andare il <span class="wihlight">braccio</span!', JPN: '<span class="wihlight">腕</span>を放して。',},
-
+	
+	EXAud1: {ENG: "The policeman caught the man by the arm.", ITA: "Il poliziotto prese l'uomo per il braccio.", JPN: "警官はその男の腕をつかまえた。",},
+	EXAud2: {ENG: "He watched the Sumo wrestling with folded arms.", ITA: "Lui guardava il sumo con le braccia incrociate.", JPN: "彼は相撲を、腕組をしてみつめていた。",},
+	EXAud3: {ENG: "Let go of my arm !", ITA: "Mi lasci andare il braccio</span!", JPN: "腕を放して。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/238101", ITA: "https://tatoeba.org/eng/sentences/show/1317057", JPN: "https://tatoeba.org/eng/sentences/show/176363",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/300870", ITA: "https://tatoeba.org/eng/sentences/show/2449877", JPN: "https://tatoeba.org/eng/sentences/show/102824",},
@@ -414,7 +445,12 @@ AnnotType: "Annot",
 	
 	EX1: {ENG: 'Tom has a tattoo on his <span class="wihlight">chest</span>.', ITA: 'Tom ha un tatuaggio sul <span class="wihlight">petto</span>.', JPN: 'トムは<span class="wihlight">胸</span>にタツーがある。',},
 	EX2: {ENG: 'I have pain in my <span class="wihlight">chest</span>.', ITA: 'Ho un dolore nel <span class="wihlight">petto</span>.', JPN: '<span class="wihlight">胸</span>がいたい。',},
-	EX3: {ENG: 'He grabbed his <span class="wihlight">chest</span> and collapsed.', ITA: 'Si è stretto il <span class="wihlight">petto</span> ed è crollato.', JPN: '彼は<span class="wihlight">胸</span>を握りしめて倒れた。',},
+	EX3: {ENG: 'He grabbed his <span class="wihlight">chest</span> and collapsed.', ITA: 'Si è stretto il <span class="wihlight">petto</span> ed è crollato.', JPN: '彼は<span class="wihlight">胸</span>を握りしめて倒れた。',},
+	
+	EXAud1: {ENG: "Tom has a tattoo on his chest.", ITA: "Tom ha un tatuaggio sul petto.", JPN: "トムは胸にタツーがある。",},
+	EXAud2: {ENG: "I have pain in my chest.", ITA: "Ho un dolore nel petto.", JPN: "胸がいたい。",},
+	EXAud3: {ENG: "He grabbed his chest and collapsed.", ITA: "Si è stretto il petto ed è crollato.", JPN: "彼は胸を握りしめて倒れた。",},
+
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -469,7 +505,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Watch your <span class="wihlight">head</span>!', ITA: 'Occhio alla <span class="wihlight">testa</span>!', JPN: '<span class="wihlight">頭</span>上に気をつけて！',},
 	EX2: {ENG: 'He hit me on the <span class="wihlight">head</span>.', ITA: 'Mi ha colpito sulla <span class="wihlight">testa</span>.', JPN: '彼は僕の<span class="wihlight">頭</span>を殴った。',},
 	EX3: {ENG: 'He scratched his <span class="wihlight">head</span>.', ITA: 'Si è grattato la <span class="wihlight">testa</span>.', JPN: '彼は<span class="wihlight">頭</span>をかいた',},
-
+	
+	EXAud1: {ENG: "Watch your head !", ITA: "Occhio alla testa !", JPN: "頭上に気をつけて！",},
+	EXAud2: {ENG: "He hit me on the head.", ITA: "Mi ha colpito sulla testa.", JPN: "彼は僕の頭を殴った。",},
+	EXAud3: {ENG: "He scratched his head.", ITA: "Si è grattato la testa.", JPN: "彼は頭をかいた",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/280135", ITA: "https://tatoeba.org/eng/sentences/show/2158008", JPN: "https://tatoeba.org/eng/sentences/show/2158008",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/303763", ITA: "https://tatoeba.org/eng/sentences/show/937783", JPN: "https://tatoeba.org/eng/sentences/show/99934",},
