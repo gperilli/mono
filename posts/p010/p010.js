@@ -30,6 +30,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The <span class="wihlight">weather</span> got worse.', ITA: 'Il <span class="wihlight">tempo</span> è peggiorato.', JPN: '<span class="wihlight">天気</span>が悪くなった。',},
 	EX3: {ENG: 'What nice <span class="wihlight">weather</span>.', ITA: 'Che bel <span class="wihlight">tempo</span>.', JPN: '何ていい<span class="wihlight">天気</span>だろう。',},
 	
+	EX1: {ENG: "How's the weather?", ITA: "Che tempo fa?", JPN: "どんな天気ですか。",},
+	EX2: {ENG: "The weather got worse.", ITA: "Il tempo è peggiorato.", JPN: "天気が悪くなった。",},
+	EX3: {ENG: "What nice weather.", ITA: "Che bel tempo.", JPN: "何ていい天気だろう。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -86,6 +90,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'It&#39;s a <span class="wihlight">sunny</span> day.', ITA: 'È un giorno <span class="wihlight">soleggiato</span>.', JPN: '<span class="wihlight">晴</span>の日です。',},
 	EX2: {ENG: 'We&#39;ve had few <span class="wihlight">sunny</span> days this summer.', ITA: 'Abbiamo avuto pochi giorni <span class="wihlight">soleggiati</span> questa estate.', JPN: 'この夏は<span class="wihlight">晴れ</span>た日が少なかった。',},
 	EX3: {ENG: 'It&#39;s always <span class="wihlight">sunny</span> here.', ITA: 'È sempre <span class="wihlight">soleggiato</span> qui.', JPN: 'ここはいつも<span class="wihlight">晴れ</span>です。',},
+	
+	EXAud1: {ENG: "It's a sunny day.", ITA: "È un giorno soleggiato.", JPN: "晴の日です。",},
+	EXAud2: {ENG: "We've had few sunny days this summer.", ITA: "Abbiamo avuto pochi giorni soleggiati questa estate.", JPN: "この夏は晴れた日が少なかった。",},
+	EXAud3: {ENG: "It's always sunny here.", ITA: "È sempre soleggiato qui.", JPN: "ここはいつも晴れです。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -144,6 +152,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'It&#39;s <span class="wihlight">cloudy</span>, but it doesn&#39;t rain.', ITA: 'È <span class="wihlight">nuvoloso</span>, ma non piove.', JPN: '<span class="wihlight">曇り</span>ですが、雨は降りません。',},
 	EX3: {ENG: 'It was <span class="wihlight">cloudy</span> that night.', ITA: 'Era <span class="wihlight">nuvoloso</span> quella notte.', JPN: 'その夜は<span class="wihlight">曇り</span>だった。',},
 	
+	EXAud1: {ENG: "It's going to be cloudy tomorrow.", ITA: "Sarà nuvoloso domani.", JPN: "明日は曇りです。",},
+	EXAud2: {ENG: "It's cloudy, but it doesn't rain.", ITA: "È nuvoloso, ma non piove.", JPN: "曇りですが、雨は降りません。",},
+	EXAud3: {ENG: "It was cloudy that night.", ITA: "Era nuvoloso quella notte.", JPN: "その夜は曇りだった。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -200,6 +212,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Is it <span class="wihlight">rainy</span>?', ITA: 'C&#39;è <span class="wihlight">pioggia</span>?', JPN: '<span class="wihlight">雨</span>ですか？',},
 	EX2: {ENG: 'When will the <span class="wihlight">rain</span> stop?', ITA: 'Quando smetterà la <span class="wihlight">pioggia</span>?', JPN: '<span class="wihlight">雨</span>はいつ止まるの？',},
 	EX3: {ENG: 'We don&#39;t have much <span class="wihlight">rainy</span>.', ITA: 'Non abbiamo molta <span class="wihlight">pioggia</span>.', JPN: '<span class="wihlight">雨</span>はあまり降っていません。',},
+	
+	EXAud1: {ENG: "Is it rainy?", ITA: "C'è pioggia?", JPN: "雨ですか？",},
+	EXAud2: {ENG: "When will the rain stop?", ITA: "Quando smetterà la pioggia?", JPN: "雨はいつ止まるの？",},
+	EXAud3: {ENG: "We don't have much rainy.", ITA: "Non abbiamo molta pioggia.", JPN: "雨はあまり降っていません。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -259,6 +275,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'A lot of <span class="wihlight">snow</span> fell.', ITA: 'È caduta molta <span class="wihlight">neve</span>.', JPN: '<span class="wihlight">雪</span>がたくさん降った。',},
 	EX3: {ENG: 'The <span class="wihlight">snow</span> melted.', ITA: 'La <span class="wihlight">neve</span> è sciolta.', JPN: '<span class="wihlight">雪</span>が溶けた。',},
 	
+	EXAud1: {ENG: "Do you have much snow here?", ITA: "Avete molta neve qui?", JPN: "ここには雪がたくさんありますか？",},
+	EXAud2: {ENG: "A lot of snow fell.", ITA: "È caduta molta neve.", JPN: "雪がたくさん降った。",},
+	EXAud3: {ENG: "The snow melted.", ITA: "La neve è sciolta.", JPN: "雪が溶けた。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -315,6 +336,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'A <span class="wihlight">storm</span> is coming.', ITA: 'Sta arrivando una <span class="wihlight">tempesta</span>.', JPN: '<span class="wihlight">嵐</span>が来ています。',},
 	EX2: {ENG: 'We had a <span class="wihlight">storm</span> yesterday.', ITA: 'Abbiamo avuto una <span class="wihlight">tempesta</span> ieri.', JPN: '昨日<span class="wihlight">嵐</span>がありました。',},
 	EX3: {ENG: 'The <span class="wihlight">storm</span> has died down.', ITA: 'La <span class="wihlight">tempesta</span> si è calmata.', JPN: '<span class="wihlight">嵐</span>は沈んだ。',},
+	
+	EXAud1: {ENG: "A storm is coming.", ITA: "Sta arrivando una tempesta.", JPN: "嵐が来ています。",},
+	EXAud2: {ENG: "We had a storm yesterday.", ITA: "Abbiamo avuto una tempesta ieri.", JPN: "昨日嵐がありました。",},
+	EXAud3: {ENG: "The storm has died down.", ITA: "La tempesta si è calmata.", JPN: "嵐は沈んだ。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -373,6 +399,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Was it <span class="wihlight">cold</span>?', ITA: 'Era <span class="wihlight">freddo</span>?', JPN: '<span class="wihlight">寒</span>かった？',},
 	EX3: {ENG: 'It will be <span class="wihlight">cold</span> tonight.', ITA: 'Farà <span class="wihlight">freddo</span> stanotte.', JPN: '今夜は<span class="wihlight">寒</span>くなるでしょう。',},
 	
+	EXAud1: {ENG: "It's cold.", ITA: "Fa freddo.", JPN: "寒いです。",},
+	EXAud2: {ENG: "Was it cold?", ITA: "Era freddo?", JPN: "寒かった？",},
+	EXAud3: {ENG: "It will be cold tonight.", ITA: "Farà freddo stanotte.", JPN: "今夜は寒くなるでしょう。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -430,6 +461,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'It was <span class="wihlight">hot</span> yesterday.', ITA: 'Faceva <span class="wihlight">caldo</span> ieri.', JPN: '昨日は<span class="wihlight">暑</span>かった。',},
 	EX3: {ENG: 'It will be <span class="wihlight">hot</span> tomorrow.', ITA: 'Domani farà <span class="wihlight">caldo</span>.', JPN: '明日は<span class="wihlight">暑</span>くなるでしょう。',},
 	
+	EXAud1: {ENG: "Is it hot?", ITA: "Fa caldo?", JPN: "暑いですか？",},
+	EXAud2: {ENG: "It was hot yesterday.", ITA: "Faceva caldo ieri.", JPN: "昨日は暑かった。",},
+	EXAud3: {ENG: "It will be hot tomorrow.", ITA: "Domani farà caldo.", JPN: "明日は暑くなるでしょう。",},
+	
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -486,6 +522,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'It is <span class="wihlight">windy</span> today.', ITA: 'C&#39;è <span class="wihlight">vento</span> oggi.', JPN: '日は<span class="wihlight">風</span>が強いです。',},
 	EX2: {ENG: 'The <span class="wihlight">wind</span> calmed down.', ITA: 'Il <span class="wihlight">vento</span> si è calmato.', JPN: '<span class="wihlight">風</span>が落ち着いた。',},
 	EX3: {ENG: 'There was a lot of <span class="wihlight">wind</span>.', ITA: 'C&#39;era molto <span class="wihlight">vento</span>.', JPN: '<span class="wihlight">風</span>が強かった。',},
+	
+	EXAud1: {ENG: "It is windy today.", ITA: "C'è vento oggi.", JPN: "日は風が強いです。",},
+	EXAud2: {ENG: "The wind calmed down.", ITA: "Il vento si è calmato.", JPN: "風が落ち着いた。",},
+	EXAud3: {ENG: "There was a lot of wind.", ITA: "C'era molto vento.", JPN: "風が強かった。",},
+	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
