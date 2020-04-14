@@ -31,6 +31,11 @@ AnnotType: "Annot",
 	EX2: {ENG: 'He prefers the <span class="wihlight">country</span> to the town.', ITA: 'Preferisce la <span class="wihlight">campagna</span> alla città.', JPN: '彼は都会より<span class="wihlight">いなか</span>の方が好きだ。',},
 	EX3: {ENG: 'I go to the <span class="wihlight">country</span> every summer.', ITA: 'Io vado in <span class="wihlight">campagna</span> ogni estate.', JPN: '私は毎年夏は<span class="wihlight">田舎</span>へ帰る。',},
     
+	//EXAudamples
+	EXAud1: {ENG: "I live in the country<span>.", ITA: "Abito in campagna.", JPN: "田舎に住んでいます。",},
+	EXAud2: {ENG: "He prefers the country to the town.", ITA: "Preferisce la campagna alla città.", JPN: "彼は都会よりいなかの方が好きだ。",},
+	EXAud3: {ENG: "I go to the country every summer.", ITA: "Io vado in campagna ogni estate.", JPN: "私は毎年夏は田舎へ帰る。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/279086", ITA: "https://tatoeba.org/eng/sentences/show/975789", JPN: "https://tatoeba.org/eng/sentences/show/124907",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/301834", ITA: "https://tatoeba.org/eng/sentences/show/350608", JPN: "https://tatoeba.org/eng/sentences/show/101861",},
@@ -85,7 +90,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'I saw a <span class="wihlight">plane</span>.', ITA: 'Ho visto un <span class="wihlight">aeroplano</span>.', JPN: '<span class="wihlight">飛行機</span>が見えた。',},
 	EX2: {ENG: 'He went aboard the <span class="wihlight">plane</span>.', ITA: 'È salito sull&#39;<span class="wihlight">aeroplano</span>.', JPN: '彼はその<span class="wihlight">飛行機</span>に乗り込んだ。',},
 	EX3: {ENG: 'The <span class="wihlight">plane</span> took off at seven.', ITA: 'L&#39;<span class="wihlight">aeroplano</span> è decollato alle sette.', JPN: '<span class="wihlight">飛行機</span>は７時に離陸した。',},
-
+	
+	EXAud1: {ENG: "I saw a plane.", ITA: "Ho visto un aeroplano.", JPN: "飛行機が見えた。",},
+	EXAud2: {ENG: "He went aboard the plane.", ITA: "È salito sull'aeroplano.", JPN: "彼はその飛行機に乗り込んだ。",},
+	EXAud3: {ENG: "The plane took off at seven.", ITA: "L'aeroplano è decollato alle sette.", JPN: "飛行機は７時に離陸した。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/317979", ITA: "https://tatoeba.org/eng/sentences/show/1646183", JPN: "https://tatoeba.org/eng/sentences/show/85733",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/291244", ITA: "https://tatoeba.org/eng/sentences/show/2395274", JPN: "https://tatoeba.org/eng/sentences/show/112433",},
@@ -139,6 +148,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'I was in the <span class="wihlight">mountains</span>.', ITA: 'Ero in <span class="wihlight">montagna</span>.', JPN: '私は<span class="wihlight">山</span>にいました。',},
 	EX2: {ENG: 'How high is the <span class="wihlight">mountain</span>?', ITA: 'Quanto è alta la <span class="wihlight">montagna</span>?', JPN: 'その<span class="wihlight">山</span>はどれくらいの高さですか。',},
 	EX3: {ENG: 'I like climbing <span class="wihlight">mountains</span>.', ITA: 'Mi piace scalare le <span class="wihlight">montagne</span>.', JPN: '私は<span class="wihlight">山</span>登りが好きです。',},
+	
+	EXAud1: {ENG: "I was in the mountains.", ITA: "Ero in montagna.", JPN: "私は山にいました。",},
+	EXAud2: {ENG: "How high is the mountain?", ITA: "Quanto è alta la montagna?", JPN: "その山はどれくらいの高さですか。",},
+	EXAud3: {ENG: "I like climbing mountains.", ITA: "Mi piace scalare le montagne.", JPN: "私は山登りが好きです。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/1290", ITA: "https://tatoeba.org/eng/sentences/show/380464", JPN: "https://tatoeba.org/eng/sentences/show/4715",},
@@ -195,6 +208,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'That <span class="wihlight">house</span> looks nice.', ITA: 'Quella <span class="wihlight">casa</span> sembra carina.', JPN: 'あの<span class="wihlight">家</span>はいいですね。',},
 	EX3: {ENG: 'This <span class="wihlight">house</span> is mine.', ITA: 'Questa <span class="wihlight">casa</span> è mia.', JPN: 'この<span class="wihlight">家</span>は私のです。',},
 	
+	EXAud1: {ENG: "The house requires repairs.", ITA: "La casa ha bisogno di riparazioni.", JPN: "家は修理が必要です。",},
+	EXAud2: {ENG: "That house looks nice.", ITA: "Quella casa sembra carina.", JPN: "あの家はいいですね。",},
+	EXAud3: {ENG: "This house is mine.", ITA: "Questa casa è mia.", JPN: "この家は私のです。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/49342", ITA: "https://tatoeba.org/eng/sentences/show/1544249", JPN: "https://tatoeba.org/eng/sentences/show/212064",},
 	TatSrcEx2: {Dsp: "none", ENG: "https://tatoeba.org/eng/sentences/show/49382", ITA: "https://tatoeba.org/eng/sentences/show/3087258", JPN: "https://tatoeba.org/eng/sentences/show/187001",},
@@ -250,6 +267,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'I got lost in the <span class="wihlight">forest</span>.', ITA: 'Mi sono persa nella <span class="wihlight">foresta</span>.', JPN: '私は<span class="wihlight">森</span>林の中で道に迷った。',},
 	EX3: {ENG: 'The church is surrounded by <span class="wihlight">forests</span> and lakes.', ITA: 'La chiesa è circondata dalla <span class="wihlight">foresta</span> e da laghi.', JPN: '教会は<span class="wihlight">森</span>と湖に囲まれている。',},
 	
+	EXAud1: {ENG: "I walk in the forest every day.", ITA: "Cammino nella foresta ogni giorno.", JPN: "私は毎日森の中を歩く。",},
+	EXAud2: {ENG: "I got lost in the forest.", ITA: "Mi sono persa nella foresta.", JPN: "私は森林の中で道に迷った。",},
+	EXAud3: {ENG: "The church is surrounded by forests and lakes.", ITA: "La chiesa è circondata dalla foresta e da laghi.", JPN: "教会は森と湖に囲まれている。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/261845", ITA: "https://tatoeba.org/eng/sentences/show/1316562", JPN: "https://tatoeba.org/eng/sentences/show/152704",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/255821", ITA: "https://tatoeba.org/eng/sentences/show/1512723", JPN: "https://tatoeba.org/eng/sentences/show/155699",},
@@ -304,7 +325,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'I can&#39;t get my <span class="wihlight">tractor</span> started.', ITA: 'Non riesco a mettere in moto il mio trattore.', JPN: '私はエンジンがかけられない。',},
 	EX2: {ENG: 'The <span class="wihlight">tractor</span> plows the land.', ITA: 'Il <span class="wihlight">trattore</span> ara il terreno.', JPN: '<span class="wihlight">トラクター</span>は土地を耕します。',},
 	EX3: {ENG: 'You have to load the <span class="wihlight">tractor</span>.', ITA: 'Devi caricare il <span class="wihlight">trattore</span>.', JPN: 'あなたは<span class="wihlight">トラクター</span>を積まなければなりません。',},
-
+	
+	EXAud1: {ENG: "I can't get my tractor started.", ITA: "Non riesco a mettere in moto il mio trattore.", JPN: "私はエンジンがかけられない。",},
+	EXAud2: {ENG: "The tractor plows the land.", ITA: "Il trattore ara il terreno.", JPN: "トラクターは土地を耕します。",},
+	EXAud3: {ENG: "You have to load the tractor.", ITA: "Devi caricare il trattore.", JPN: "あなたはトラクターを積まなければなりません。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -360,6 +385,10 @@ AnnotType: "Annot",
 	EX2: {ENG: '<span class="wihlight">Wind turbines</span> are preferably installed in places that guarantee adequate wind conditions.', ITA: 'Le <span class="wihlight">turbine eoliche</span> vengono installate di preferenza in luoghi che garantiscono adeguate condizioni di vento.', JPN: '<span class="wihlight">風力原動機</span>は、適切な風の状態を保証する場所に設置することが好ましい。',},
 	EX3: {ENG: 'Producing electricity from a <span class="wihlight">wind turbine</span> does not involve the emission of greenhouse gases.', ITA: 'Produrre elettricitá da una <span class="wihlight">turbina eolica</span> non comporta l´emissione di gas serra.', JPN: '<span class="wihlight">風力原動機</span>から電力を生産することは温室効果ガスの排出を含みません。',},
 	
+	EXAud1: {ENG: "Wind turbines transform wind into energy.", ITA: "Le turbine eoliche trasformano il vento in energia.", JPN: "風力原動機は風をエネルギーに変える",},
+	EXAud2: {ENG: "Wind turbines are preferably installed in places that guarantee adequate wind conditions.", ITA: "Le turbine eoliche vengono installate di preferenza in luoghi che garantiscono adeguate condizioni di vento.", JPN: "風力原動機は、適切な風の状態を保証する場所に設置することが好ましい。",},
+	EXAud3: {ENG: "Producing electricity from a wind turbine does not involve the emission of greenhouse gases.", ITA: "Produrre elettricitá da una turbina eolica non comporta l´emissione di gas serra.", JPN: "風力原動機から電力を生産することは温室効果ガスの排出を含みません。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -414,6 +443,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The basket of a <span class="wihlight">hot air balloon</span> can contain from four to ten people.', ITA: 'Il cesto di un <span class="wihlight">mongolfiera</span> può contenere da quattro a dieci persone.', JPN: '<span class="wihlight">熱気球</span>のバスケットには4人から10人まで収容できます。',},
 	EX3: {ENG: 'The <span class="wihlight">hot air balloon</span> flies high in the sky.', ITA: 'La <span class="wihlight">mongolfiera</span> vola in alto nel cielo.', JPN: '<span class="wihlight">熱気球</span>は空に高く飛ぶ。',},
 	
+	EXAud1: {ENG: "Have you ever ridden in a hot air balloon?", ITA: "Sei mai salito in mongolfiera?", JPN: "熱気球に乗ったことありますか。",},
+	EXAud2: {ENG: "The basket of a hot air balloon can contain from four to ten people.", ITA: "Il cesto di un mongolfiera può contenere da quattro a dieci persone.", JPN: "熱気球のバスケットには4人から10人まで収容できます。",},
+	EXAud3: {ENG: "The hot air balloon flies high in the sky.", ITA: "La mongolfiera vola in alto nel cielo.", JPN: "熱気球は空に高く飛ぶ。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/282121", ITA: "https://tatoeba.org/eng/sentences/show/1837946", JPN: "https://tatoeba.org/eng/sentences/show/121883",},
 	TatSrcEx2: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/967723", ITA: "", JPN: "https://tatoeba.org/eng/sentences/show/2242463",},
@@ -467,6 +500,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'His family works in the <span class="wihlight">fields</span>.', ITA: 'La sua famiglia lavora nei <span class="wihlight">campi</span>.', JPN: '彼の家族は<span class="wihlight">畑</span>で働いている。',},
 	EX2: {ENG: 'The house was surrounded by <span class="wihlight">fields</span>.', ITA: 'La casa era circondata da <span class="wihlight">campi</span>.', JPN: '家は<span class="wihlight">畑</span>に囲まれていた。',},
 	EX3: {ENG: 'There is a path through the <span class="wihlight">fields</span>.', ITA: 'C&#39;è un sentiero tra i <span class="wihlight">campi</span>.', JPN: '<span class="wihlight">野原</span>の間に１本の小道があります。',},
+	
+	EXAud1: {ENG: "His family works in the fields.", ITA: "La sua famiglia lavora nei campi.", JPN: "彼の家族は畑で働いている。",},
+	EXAud2: {ENG: "The house was surrounded by fields.", ITA: "La casa era circondata da campi.", JPN: "家は畑に囲まれていた。",},
+	EXAud3: {ENG: "There is a path through the fields.", ITA: "C'è un sentiero tra i campi.", JPN: "野原の間に１本の小道があります。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/285733", ITA: "https://tatoeba.org/eng/sentences/show/375301", JPN: "https://tatoeba.org/eng/sentences/show/117932",},
