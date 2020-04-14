@@ -31,6 +31,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Do you have any <span class="wihlight">drinks</ without alcohol.', ITA: 'Hai delle <span class="wihlight">bevande</span> analcoliche?', JPN: 'アルコール分の入っていない<span class="wihlight">飲み物</span>はありますか。',},
 	EX3: {ENG: 'Cocacola is a popular <span class="wihlight">drink</span>.', ITA: 'Cocacola è una <span class="wihlight">bevanda</span> popolare', JPN: 'コカコーラは人気の<span class="wihlight">飲み物</span>です。',},
 	
+	EXAud1: {ENG: "Which drinks do you like?", ITA: "Quali bevande ti piacciono?", JPN: "好きな飲み物は何ですか。",},
+	EXAud2: {ENG: "Do you have any drinks without alcohol.", ITA: "Hai delle bevande analcoliche?", JPN: "アルコール分の入っていない飲み物はありますか。",},
+	EXAud3: {ENG: "Cocacola is a popular drink.", ITA: "Cocacola è una bevanda popolare", JPN: "コカコーラは人気の飲み物です。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -87,6 +91,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Don&#39;t drop that <span class="wihlight">glass</span>.', ITA: 'Non fare cadere quel <span class="wihlight">bicchiere</span>.', JPN: 'その<span class="wihlight">コップ</span>を落すな。',},
 	EX3: {ENG: 'I want a few empty <span class="wihlight">glasses</span>.', ITA: 'Io voglio qualche <span class="wihlight">bicchiere</span> vuoto.', JPN: '空の<span class="wihlight">コップ</span>がいくつか欲しい。',},
     
+	EXAud1: {ENG: "I broke a glass.", ITA: "Ho rotto un bicchiere.", JPN: "コップを割った。",},
+	EXAud2: {ENG: "Don't drop that glass.", ITA: "Non fare cadere quel bicchiere.", JPN: "そのコップを落すな。",},
+	EXAud3: {ENG: "I want a few empty glasses.", ITA: "Io voglio qualche bicchiere vuoto.", JPN: "空のコップがいくつか欲しい。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/62898", ITA: "https://tatoeba.org/eng/sentences/show/4477511", JPN: "https://tatoeba.org/eng/sentences/show/225562",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/675419", ITA: "https://tatoeba.org/eng/sentences/show/677384", JPN: "https://tatoeba.org/eng/sentences/show/213202",},
@@ -141,6 +149,10 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Open the <span class="wihlight">bottle</span>.', ITA: 'Apri la <span class="wihlight">bottiglia</span>.', JPN: 'その<span class="wihlight">ビン</span>をあけてくれ。',},
 	EX2: {ENG: 'Fill the <span class="wihlight">bottle</span> with water.', ITA: 'Riempi la <span class="wihlight">bottiglia</span> d&#39;acqua.', JPN: 'その<span class="wihlight">瓶</span>を水でいっぱいにしなさい。',},
 	EX3: {ENG: 'The <span class="wihlight">bottle</span> is made of glass.', ITA: 'La <span class="wihlight">bottiglia</span> è fatta di vetro.', JPN: 'この<span class="wihlight">ビン</span>はガラス製です。',},
+	
+	EXAud1: {ENG: "Open the bottle.", ITA: "Apri la bottiglia.", JPN: "そのビンをあけてくれ。",},
+	EXAud2: {ENG: "Fill the bottle with water.", ITA: "Riempi la bottiglia d'acqua.", JPN: "その瓶を水でいっぱいにしなさい。",},
+	EXAud3: {ENG: "The bottle is made of glass.", ITA: "La bottiglia è fatta di vetro.", JPN: "このビンはガラス製です。",},
 	
     //Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/49963", ITA: "https://tatoeba.org/eng/sentences/show/995492", JPN: "https://tatoeba.org/eng/sentences/show/212680",},
@@ -197,7 +209,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Hand me my <span class="wihlight">cup</span>.', ITA: 'Passami la mia <span class="wihlight">tazza</span>.', JPN: '私のマグ<span class="wihlight">カップ</span>取って。',},
 	EX2: {ENG: 'Whose <span class="wihlight">cup</span> is this?', ITA: 'Di chi è questa <span class="wihlight">tazza</span>?', JPN: 'これ誰の<span class="wihlight">カップ</span>？',},
 	EX3: {ENG: 'The handle of the <span class="wihlight">cup</span> is broken.', ITA: 'La <span class="wihlight">tazza</span> ha il manico rotto.', JPN: '<span class="wihlight">カップ</span>の取っ手がこわれている。',},
-    
+   
+	EXAud1: {ENG: "Hand me my cup.", ITA: "Passami la mia tazza.", JPN: "私のマグカップ取って。",},
+	EXAud2: {ENG: "Whose cup is this?", ITA: "Di chi è questa tazza?", JPN: "これ誰のカップ？",},
+	EXAud3: {ENG: "The handle of the cup is broken.", ITA: "La tazza ha il manico rotto.", JPN: "カップの取っ手がこわれている。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/3327120", ITA: "https://tatoeba.org/eng/sentences/show/3565207", JPN: "https://tatoeba.org/eng/sentences/show/3565420",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/3416475", ITA: "https://tatoeba.org/eng/sentences/show/4393691", JPN: "https://tatoeba.org/eng/sentences/show/3416307",},
@@ -254,6 +270,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The <span class="wihlight">teapot</span> is on the table.', ITA: 'La <span class="wihlight">teiera</span> è sul tavolo.', JPN: '<span class="wihlight">ポット</span>をテーブルの上に置いてある。',},
 	EX3: {ENG: 'Bring me the <span class="wihlight">teapot<s/apn> please.', ITA: 'Portami la <span class="wihlight">teiera</span>, per favore.', JPN: '<span class="wihlight">ポット</span>を持ってきて下さい。',},
     
+	EXAud1: {ENG: "That teapot is dirty.", ITA: "Quella teiera è sporca.", JPN: "そのポットは汚れている。",},
+	EXAud2: {ENG: "The teapot is on the table.", ITA: "La teiera è sul tavolo.", JPN: "ポットをテーブルの上に置いてある。",},
+	EXAud3: {ENG: "Bring me the teapot please.", ITA: "Portami la teiera, per favore.", JPN: "ポットを持ってきて下さい。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -310,6 +330,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'Where are the <span class="wihlight">straws</span>?', ITA: 'Dove sono le <span class="wihlight">cannucce</span>?', JPN: '<span class="wihlight">ストロー</span>はどこですか。',},
 	EX3: {ENG: 'Plastic <span class="wihlight">straws</span> take a long time to decompose.', ITA: 'Le <span class="wihlight">cannucce</span> di plastica richiedono molto tempo per decomporsi.', JPN: 'プラスチック<span class="wihlight">ストロー</span>は分解に時間がかかります。',},
     
+	EXAud1: {ENG: "May I have a straw, please?", ITA: "Posso avere una cannuccia, per favore?", JPN: "ストローをもらっていいですか。",},
+	EXAud2: {ENG: "Where are the straws?", ITA: "Dove sono le cannucce?", JPN: "ストローはどこですか。",},
+	EXAud3: {ENG: "Plastic straws take a long time to decompose.", ITA: "Le cannucce di plastica richiedono molto tempo per decomporsi.", JPN: "プラスチックストローは分解に時間がかかります。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -366,6 +390,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'You don&#39;t have <span class="wihlight">ice</span> anymore in the glass.', ITA: 'Non hai più <span class="wihlight">ghiaccio</span> nel bicchiere.', JPN: 'もうグラスに<span class="wihlight">氷</span>は入っていません。',},
 	EX3: {ENG: 'Is there some ice in the fridge?', ITA: 'C&#39;è del <span class="wihlight">ghiaccio</span> nel frigorifero?', JPN: '冷蔵庫に<span class="wihlight">氷</span>が入っていますか？',},
     
+	EXAud1: {ENG: "Would you like ice?", ITA: "Vuoi del ghiaccio?", JPN: "氷は入れますか",},
+	EXAud2: {ENG: "You don't have ice anymore in the glass.", ITA: "Non hai più ghiaccio nel bicchiere.", JPN: "もうグラスに氷は入っていません。",},
+	EXAud3: {ENG: "Is there some ice in the fridge?", ITA: "C'è del ghiaccio nel frigorifero?", JPN: "冷蔵庫に氷が入っていますか？",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "display-block", ENG: "https://tatoeba.org/eng/sentences/show/318331", ITA: "https://tatoeba.org/eng/sentences/show/379731", JPN: "https://tatoeba.org/eng/sentences/show/85382",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -420,7 +448,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'I need a <span class="wihlight">bottle opener</span.', ITA: 'Mi serve un <span class="wihlight">apribottiglie</span>.', JPN: '<span class="wihlight">栓抜き</span>が必要です。',},
 	EX2: {ENG: 'Where do you keep your <span class="wihlight">bottle opener<span?', ITA: 'Dove tieni il tuo <span class="wihlight">apribottiglie?</span>', JPN: '<span class="wihlight">栓抜き</span>はどこに保管しますか？',},
 	EX3: {ENG: 'How do you use the <span class="wihlight">bottle opener</span>?', ITA: 'Come si usa l&#39;<span class="wihlight">apribottiglie?', JPN: '<span class="wihlight">栓抜</span>はどうやって使うの？',},
-    
+    	
+	EXAud1: {ENG: "I need a bottle opener.", ITA: "Mi serve un apribottiglie.", JPN: "栓抜きが必要です。",},
+	EXAud2: {ENG: "Where do you keep your bottle opener", ITA: "Dove tieni il tuo apribottiglie?", JPN: "栓抜きはどこに保管しますか？",},
+	EXAud3: {ENG: "How do you use the bottle opener?", ITA: "Come si usa l'apribottiglie?", JPN: "栓抜はどうやって使うの？",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -478,6 +510,10 @@ AnnotType: "Annot",
 	EX2: {ENG: 'This <span class="wihlight">table</span> is made from wood.', ITA: 'Questa <span class="wihlight">tavola</span> è di legno.', JPN: 'この<span class="wihlight">テーブル</span>は木製である。',},
 	EX3: {ENG: 'A fork fell from the <span class="wihlight">table</span>', ITA: 'Una forchetta è caduta dal <span class="wihlight">tavolo</span>.', JPN: 'フォークは<span class="wihlight">テーブル</span>から落ちた。',},
     
+	EXAud1: {ENG: "Put the glass on the table.", ITA: "Metti il bicchiere sulla tavola.", JPN: "コップをテーブルの上に置いて。",},
+	EXAud2: {ENG: "This table is made from wood.", ITA: "Questa tavola è di legno.", JPN: "このテーブルは木製である。",},
+	EXAud3: {ENG: "A fork fell from the table", ITA: "Una forchetta è caduta dal tavolo.", JPN: "フォークはテーブルから落ちた。",},
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
