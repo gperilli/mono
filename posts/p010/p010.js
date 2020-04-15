@@ -30,9 +30,9 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The <span class="wihlight">weather</span> got worse.', ITA: 'Il <span class="wihlight">tempo</span> è peggiorato.', JPN: '<span class="wihlight">天気</span>が悪くなった。',},
 	EX3: {ENG: 'What nice <span class="wihlight">weather</span>.', ITA: 'Che bel <span class="wihlight">tempo</span>.', JPN: '何ていい<span class="wihlight">天気</span>だろう。',},
 	
-	EX1: {ENG: "How's the weather?", ITA: "Che tempo fa?", JPN: "どんな天気ですか。",},
-	EX2: {ENG: "The weather got worse.", ITA: "Il tempo è peggiorato.", JPN: "天気が悪くなった。",},
-	EX3: {ENG: "What nice weather.", ITA: "Che bel tempo.", JPN: "何ていい天気だろう。",},
+	EXAud1: {ENG: "How's the weather?", ITA: "Che tempo fa?", JPN: "どんな天気ですか。",},
+	EXAud2: {ENG: "The weather got worse.", ITA: "Il tempo è peggiorato.", JPN: "天気が悪くなった。",},
+	EX3Aud: {ENG: "What nice weather.", ITA: "Che bel tempo.", JPN: "何ていい天気だろう。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
