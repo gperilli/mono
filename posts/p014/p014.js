@@ -31,6 +31,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'Where do you buy <span class="wihlight">vegetables</span>?', ITA: 'Dove compri la <span class="wihlight">verdura</span>?', JPN: 'どこで<span class="wihlight">野菜</span>を買っていますか？',},
 	EX3: {ENG: 'He likes all <span class="wihlight">vegetables</span>, except cabbage.', ITA: 'Gli piacciono tutte le <span class="wihlight">verdure</span> tranne il cavolo.', JPN: '彼はキャベツを除くすべての<span class="wihlight">野菜</span>が好きです',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "Eat more vegetables.", ITA: "Mangi più verdure.", JPN: "野菜をもっと食べる。",},
+	EXAud2: {ENG: "Where do you buy vegetables?", ITA: "Dove compri la verdura?", JPN: "どこで野菜を買っていますか？",},
+	EXAud3: {ENG: "He likes all vegetables, EXAudcept cabbage.", ITA: "Gli piacciono tutte le verdure tranne il cavolo.", JPN: "彼はキャベツを除くすべての野菜が好きです",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/1495791", ITA: "https://tatoeba.org/eng/sentences/show/1496920", JPN: "https://tatoeba.org/eng/sentences/show/1721479",},
@@ -82,6 +88,11 @@ AnnotType: "HLight",
 	EX2: {ENG: 'How much do the <span class="wihlight">carrots</span> cost?', ITA: 'Quanto costano le <span class="wihlight">carote</span>?', JPN: '<span class="wihlight">ニンジン</span>はいくらですか？',},
 	EX3: {ENG: 'Put the <span class="wihlight">carrots</span> in the pot.', ITA: 'Metti le <span class="wihlight">carote</span> nella pentola.', JPN: '<span class="wihlight">ニンジン</span>を鍋に入れます',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "I hate carrots.", ITA: "Odio le carote.", JPN: "私はニンジンが嫌いです。",},
+	EXAud2: {ENG: "How much do the carrots cost?", ITA: "Quanto costano le carote?", JPN: "ニンジンはいくらですか？",},
+	EXAud3: {ENG: "Put the carrots in the pot.", ITA: "Metti le carote nella pentola.", JPN: "ニンジンを鍋に入れます",},
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -134,6 +145,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'I only need one <span class="wihlight">onion</span> for this recipe.', ITA: 'Mi serve solo una <span class="wihlight">cipolla</span> per questa ricetta.', JPN: 'このレシピに必要な<span class="wihlight">タマネギ</span>は1つだけです。',},
 	EX3: {ENG: 'The <span class="wihlight">onion</span> has a string taste.', ITA: 'La <span class="wihlight">cipolla</span> ha sapore forte.', JPN: '<span class="wihlight">タマネギ</span>は紐の味がします。',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "I always cry when I cut an onion.", ITA: "Piango sempre quando affetto una cipolla.", JPN: "タマネギを切るといつも泣きます。",},
+	EXAud2: {ENG: "I only need one onion for this recipe.", ITA: "Mi serve solo una cipolla per questa ricetta.", JPN: "このレシピに必要なタマネギは1つだけです。",},
+	EXAud3: {ENG: "The onion has a string taste.", ITA: "La cipolla ha sapore forte.", JPN: "タマネギは紐の味がします。",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -185,6 +202,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'This <span class="wihlight">cucumber</span> is very long!', ITA: 'Questo <span class="wihlight">cetriolo</span>. è molto lungo!', JPN: 'この<span class="wihlight">きゅうり</span>はとても長いです！',},
 	EX3: {ENG: '<span class="wihlight">Cucumbers</span> are ideal ingredients for a salad.', ITA: '<span class="wihlight">cetrioli</span>. sono ideali come ingrediente di un&#39;insalata', JPN: '<span class="wihlight">きゅうり</span>はサラダに理想的な材料です。',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "Cut the cucumbers.", ITA: "Affetta i cetrioli.", JPN: "きゅうり.を切って。",},
+	EXAud2: {ENG: "This cucumber is very long!", ITA: "Questo cetriolo. è molto lungo!", JPN: "このきゅうりはとても長いです！",},
+	EXAud3: {ENG: "Cucumbers are ideal ingredients for a salad.", ITA: "cetrioli. sono ideali come ingrediente di un'insalata", JPN: "きゅうりはサラダに理想的な材料です。",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -236,6 +259,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'I&#39;ve got to get these <span class="wihlight">potatoes</span> to the kitchen.', ITA: 'Devo portare le <span class="wihlight">patate</span> in cucina.', JPN: '私はこれらの<span class="wihlight">じゃがいも</span>を台所に持っていかなければなりません。',},
 	EX3: {ENG: 'We ate <span class="wihlight">potato</span> soup.', ITA: 'Abbiamo mangiato una zuppa di <span class="wihlight">patate</span>.', JPN: '<span class="wihlight">じゃがいも</span>スープを食べました。',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "I wash the potatoes.", ITA: "Lavo le patate.", JPN: "じゃがいもを洗います。",},
+	EXAud2: {ENG: "I've got to get these potatoes to the kitchen.", ITA: "Devo portare le patate in cucina.", JPN: "私はこれらのじゃがいもを台所に持っていかなければなりません。",},
+	EXAud3: {ENG: "We ate potato soup.", ITA: "Abbiamo mangiato una zuppa di patate.", JPN: "じゃがいもスープを食べました。",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -286,6 +315,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'I have never eaten <span class="wihlight">turnips</span>.', ITA: 'Non ho mai mangiato <span class="wihlight">rape</span>.', JPN: '<span class="wihlight">カブ</span>は食べたことがありません。',},
 	EX3: {ENG: 'Many types of <span class="wihlight">turnip</span> exist.', ITA: 'Esistono molte varietà di <span class="wihlight">rape</span>.', JPN: '<span class="wihlight">カブ</span>には多くの種類があります。',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "How do you cook turnips?", ITA: "Come si cucinano le rape?", JPN: "カブはどのように調理しますか？",},
+	EXAud2: {ENG: "I have never eaten turnips.", ITA: "Non ho mai mangiato rape.", JPN: "カブは食べたことがありません。",},
+	EXAud3: {ENG: "Many types of turnip EXAudist.", ITA: "Esistono molte varietà di rape.", JPN: "カブには多くの種類があります。",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -337,6 +372,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'He added some <span class="wihlight">broccoli</span> to the stew.', ITA: 'Lui ha aggiunto dei <span class="wihlight">broccoli</span> allo stufato.', JPN: '彼はシチューに<span class="wihlight">ブロッコリー</span>を加えた。',},
 	EX3: {ENG: 'Wash the <span class="wihlight">broccoli</span> and boil them.', ITA: 'Lava i <span class="wihlight">broccoli</span> e fateli bollire.', JPN: '<span class="wihlight">ブロッコリー</span>を洗ってゆでます。',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "Eat your broccoli!", ITA: "Mangia i tuoi broccoli!", JPN: "ブロッコリーを食べなさい。",},
+	EXAud2: {ENG: "He added some broccoli to the stew.", ITA: "Lui ha aggiunto dei broccoli allo stufato.", JPN: "彼はシチューにブロッコリーを加えた。",},
+	EXAud3: {ENG: "Wash the broccoli and boil them.", ITA: "Lava i broccoli e fateli bollire.", JPN: "ブロッコリーを洗ってゆでます。",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -387,6 +428,13 @@ AnnotType: "HLight",
 	EX2: {ENG: 'Add the <span class="wihlight">pepper</span> to the fryig pan.', ITA: 'In una padella aggiungi il <span class="wihlight">peperone</span>.', JPN: '<span class="wihlight">パプリカ</span>をフライパンに加えます。',},
 	EX3: {ENG: 'Cook the <span class="wihlight">peppers</span> in the oven at 180°C for twenty minutes.', ITA: 'Cuocere i <span class="wihlight">peperoni</span> in forno a 180°C per venti minuti.', JPN: '<span class="wihlight">パプリカ</span>をオーブンで180℃で20分間調理します。',},
 	
+    
+    	//EXAudamples
+	EXAud1: {ENG: "Wash the pepper and remove the seeds.", ITA: "Lavare il peperone, togliere i semi.", JPN: "パプリカを洗って種を取り除きます。",},
+	EXAud2: {ENG: "Add the pepper to the fryig pan.", ITA: "In una padella aggiungi il peperone.", JPN: "パプリカをフライパンに加えます。",},
+	EXAud3: {ENG: "Cook the peppers in the oven at 180°C for twenty minutes.", ITA: "Cuocere i peperoni in forno a 180°C per venti minuti.", JPN: "パプリカをオーブンで180℃で20分間調理します。",},
+	
+    
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -439,6 +487,12 @@ AnnotType: "HLight",
 	EX2: {ENG: 'He cut sliced the <span class="wihlight">tomato</span>.', ITA: 'Lui ha affettato il <span class="wihlight">pomodoro</span>.', JPN: '彼は<span class="wihlight">トマト</span>をスライスして切った。',},
 	EX3: {ENG: 'The <span class="wihlight">tomato</span> is a fruit and also a vegetable.', ITA: 'Il <span class="wihlight">pomodoro</span> è un frutto ma anche una verdura.', JPN: '<span class="wihlight">トマト</span>は果物であり、野菜でもあります。',},
 	
+    	//EXAudamples
+	EXAud1: {ENG: "She grows tomatoes in the garden.", ITA: "Lei coltiva pomodori in giardino.", JPN: "彼女は菜園でトマトを育てている。",},
+	EXAud2: {ENG: "He cut sliced the tomato.", ITA: "Lui ha affettato il pomodoro.", JPN: "彼はトマトをスライスして切った。",},
+	EXAud3: {ENG: "The tomato is a fruit and also a vegetable.", ITA: "Il pomodoro è un frutto ma anche una verdura.", JPN: "トマトは果物であり、野菜でもあります。",},
+	
+   
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
 	TatSrcEx2: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
