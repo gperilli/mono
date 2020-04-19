@@ -410,7 +410,7 @@ function AudioCntrl(wi, ex, ClkSrc) {
 		if (ex == 0) {
 			SpkTxt = pId[wi]["WI"][L2Selected];
 		} else {
-			SpkTxt = pId[wi]["EX".concat(ex)][L2Selected];
+			SpkTxt = pId[wi]["EXAud".concat(ex)][L2Selected];
 		}
 		
 		if (AudStat == 0) {
