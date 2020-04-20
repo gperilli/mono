@@ -492,7 +492,7 @@ function PImgs() {
 
 			<p align="left" style="float: left; font-size: 11px; width: 100%; display: inline-block;">${PDte}</p>
 
-			<a href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="padding-top: 0px; margin-top: 0px;">
+			<a class="GlLink" href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="padding-top: 0px; margin-top: 0px;">
 				 ${pTtl}
 			</a>
 
@@ -520,7 +520,7 @@ function PImgs() {
 			</a>
 			<p align="left" style="float: left; font-size: 11px; width: 100%; display: inline-block;">${PDte}</p>
 
-			<a href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="padding-top: 0px; margin-top: 0px;">
+			<a class="GlLink" href="post.html" onClick="SetPstId('${pno}')" id="${PstLnkTxtId}" style="padding-top: 0px; margin-top: 0px;">
 				 ${pTtl}
 			</a>
 		  </div>
