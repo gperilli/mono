@@ -1,0 +1,296 @@
+.img-overlay-wrap {
+	position: relative;
+	width: 100%;
+}
+
+.img-overlay-wrap img { /* <= optional, for responsiveness */
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-overlay-wrap svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.Whtbckon {
+	fill: #fff;
+	cursor: default;
+}
+.Whtbckon:hover {
+	fill: #F8F8F8;
+	cursor: default;
+}
+.Whtbckoff {
+	fill: #fff;
+	cursor: pointer;
+}
+.Whtbckoff:hover {
+	fill: #F8F8F8;
+	cursor: pointer;
+}
+
+.line {
+	stroke-linecap: round;
+	stroke-width: 6%;
+	stroke: blue;
+}
+/* For Analysis */
+.box {
+	stroke-width:0px;
+	stroke:green;
+	height: 100%;
+	width: 100%;
+	fill: none;
+}
+
+.AAbutton {
+	cursor: pointer;
+}
+
+.btnbckon {
+	cursor: default;
+}
+
+.btnbckoff {
+	cursor: pointer;
+}
+
+.circle {
+	fill: blue;
+}
+
+.btnTon {
+	cursor: default;
+	fill: white;	
+	z-index: 89;
+}
+
+.btnToff {
+	cursor: pointer;
+	fill: blue;
+	z-index: 89;
+}
+
+.btnCon {
+	cursor: default;
+	fill: blue;
+	stroke: blue;
+	stroke-width: 10%;
+}
+
+.btnCoff {
+	cursor: pointer;
+	fill: white;
+	stroke: blue;
+	stroke-width: 10%;
+}
+
+.AnBtn {
+	width: 9%;
+	height: 12%;
+}
+
+.AnBtn:hover .btnCoff {
+	fill: blue;
+} 
+.AnBtn:hover .btnToff {
+	fill: white;
+} 
+
+.btnImgon {
+	cursor: default;
+	opacity: 1:
+}
+.btnImgoff {
+	cursor: pointer;
+	opacity: 0.5;
+}
+.btnImgoff:hover {
+	opacity: 1;
+}
+
+.btnImgonAll {
+	cursor: pointer;
+	opacity: 1;
+}
+
+/* Dictionary links Container */
+.LinkCont {
+	background-color: #fff;
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+/* Dictionary links */
+.dict:link, a:visited {
+	background-color: white;
+	border: 1px solid #666;
+	border-radius: 5px;
+	color: red;
+	font-size: 11px;
+	padding: 2px 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+}
+
+a.dictR:link {
+	background-color: #fff;
+	border: 1px solid #666;
+	border-radius: 5px;
+	color: black;
+	font-size: 11px;
+	padding: 2px 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+}
+
+.dictR:link, a.dictR:visited {
+	background-color: #eee;
+	border: 1px solid #666;
+	border-radius: 5px;
+	color: black;
+	font-size: 11px;
+	padding: 2px 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+}
+
+
+/* L1/L2 MUI styling */
+
+
+/* Part of Speech Container */
+.L2WTCont {
+	display: inline-block;
+}
+/* Part of Speech styling */
+p.L2WordType {
+	background-color: #bbb;
+	border-radius: 4px;
+	color: white;
+	font-size: 11px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+	text-decoration: none;
+	line-height: normal;
+	display: inline-block;
+}
+
+p.L2WordTypeBlnk {
+	background-color: #fff;
+	border-radius: 4px;
+	color: white;
+	font-size: 11px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+	text-decoration: none;
+	line-height: normal;
+	display: inline-block;
+}
+
+/* MUI L2 */
+h3 {
+	display: inline-block;
+	font-size: calc(2em + 1vw);
+	margin-top: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: normal;
+	text-align:left;
+}
+
+/* MUI L1 */
+h4 {
+	display: inline-block;
+	font-size: calc(1em + 1vw);
+	margin-top: 0;
+	margin-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: normal;
+	text-align: right;
+	float: right;
+}
+
+/* Play Button Icon */
+h5 {
+	font-size:20px;
+	border: 0px solid;
+	font-weight:normal;
+	display: inline;
+	margin-top: 0px;
+	color: black;
+}
+.icon {
+	display: inline-flex;
+	align-self: center;
+	z-index: 80;
+	background-color: white;
+}
+.icon svg, .icon img {
+	height: 1em;
+	width: 1em;
+	background-color: white;
+	cursor: pointer;
+}
+.icon.baseline svg, .icon img {
+	top: .125em;
+	position: relative;
+	border-radius: 50%;
+}
+.icon svg:hover {
+	background-color: #000;
+}
+
+/* Play/Pause Button */
+.AudBtn-PauseBrs {
+	fill: #000;
+	display: none;
+}
+.AudBtn-PlayTri {
+	fill:#000;
+	stroke:#000;
+	stroke-width:17;
+	stroke-linejoin:round;
+}
+.icon svg:hover .AudBtn-PauseBrs{
+	fill: #fff;
+}
+.icon svg:hover .AudBtn-PlayTri{
+	fill:#fff;
+	stroke:#fff;
+}
