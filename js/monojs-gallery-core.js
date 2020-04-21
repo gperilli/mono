@@ -318,9 +318,7 @@ function LoadInPstScrpts() {
 		scriptX.src = pnosrc;
 
 	}
-
 	
-
 }
 
 
@@ -586,8 +584,9 @@ function LSel(ln, ll, lssrc) {
 		o = "2";
 		localStorage.setItem("Lang1", ll);
 
-		HdrFtrTxt(ll);
-		MnuCntnt(ll, "glr");
+		uitext(ll);
+		//HdrFtrTxt(ll);
+		//MnuCntnt(ll, "glr");
 		GalTypeLoader(ll);
 		
 		if (lssrc == "usr" && IndxMde == "GAL") {	
