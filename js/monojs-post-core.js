@@ -26,7 +26,17 @@ function pageload(pno) {
 		document.getElementById("CentralColumn").insertAdjacentHTML("beforeend", AttrTemp);
 			document.getElementById("imgattrblk").insertAdjacentHTML("beforeend", AttrImgsBlk);
 	document.getElementById("TemplateContainer").insertAdjacentHTML("beforeend", centralcolumntail);
-
+	
+	
+	var mySVG = document.getElementById("wi0objsvg");
+	var svgDoc;
+	mySVG.addEventListener("load",function() {
+	  svgDoc = mySVG.contentDocument;
+	  alert("SVG contentDocument Loaded!");
+	}, false);
+	
+	document.getElementById("anttnsblk").style.display = "none";
+	
 	//set annotation positions
 	if (pId.AnnotType == "Annot") {SetAnnotations(pId);}
 
@@ -62,8 +72,8 @@ function pageload(pno) {
 	
 	// hover effect on background color
 	if (pId.AnnotType == "Annot") { 
-		document.getElementById(P00XBtnImgId0T).addEventListener("mouseover", BckImgHver);
-		document.getElementById(P00XBtnImgId0T).addEventListener("mouseout", BckImgOut);
+		//document.getElementById(P00XBtnImgId0T).addEventListener("mouseover", BckImgHver);
+		//document.getElementById(P00XBtnImgId0T).addEventListener("mouseout", BckImgOut);
 	} 
 	
 	//Set all initial Accordion statuses to 0
@@ -78,6 +88,19 @@ function pageload(pno) {
 	lselstr = {1: L1, 2: L2};
 	LSel(1, L1, 'pgld'); //language select source is from page load
   
+	//document.getElementById('wi0objsvg').style.display = "none";
+  
+}
+
+function WI0ObjLd() {
+	console.log("WI0ObjLd");
+	//hide annotations from monop00X.svg file
+	
+	//document.getElementsByClassName("anttnsblk")[1].style.display = "none";
+	
+	//document.getElementsByClassName('anttnsblk')[1].style.display = "none";
+
+	
 }
 
 
@@ -437,7 +460,7 @@ function BtnHLight(type) {
 			document.getElementById(BtnTextId).className.baseVal = "btnToff";
 			document.getElementById(BtnBordId).className.baseVal = "btnCoff";
 		}
-		document.getElementById(P00XBtnImgId0T).className.baseVal= "btnbckoff";
+		//document.getElementById(P00XBtnImgId0T).className.baseVal= "btnbckoff";
 
 		//update button ID for newly selected button
 		CurrentBtnBorderId = BtnIdHead.concat(CurrentBtn, "B");
@@ -445,7 +468,7 @@ function BtnHLight(type) {
 
 		//highlight selected button
 		if (CurrentBtn == 0) {
-			document.getElementById(P00XBtnImgId0T).className.baseVal = "btnbckon";
+			//document.getElementById(P00XBtnImgId0T).className.baseVal = "btnbckon";
 			for(var i = 1; i < 9; ++i) {
 				BtnTextId = BtnIdHead.concat(i, "T");
 			} 
@@ -459,12 +482,41 @@ function BtnHLight(type) {
 }
 
 // hover effect for image background
-function BckImgHver() {
-	document.getElementById(P00XMUIImgCont).className = pId[0].imgbckg.concat("hvr");
+function BckImgHver(n) {
+	hvrhlght = {white: "#F8F8F8", black: "#383838",};
+	if (n == 'x') {
+		//console.log(n);
+		document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = hvrhlght[pId[0].imgbckg];
+	} else {
+		if (n == 0) {
+			if (pId["AnnotType"] == "HLight") {
+				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = hvrhlght[pId[0].imgbckg];
+			} else {
+			//console.log("P".concat(pno, "WIImgRct0"));
+				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[1].style.fill = hvrhlght[pId[0].imgbckg];
+			}
+		} else {
+		P00XWIImgRctx = "P".concat(pno, "WIImgRct", n);
+		document.getElementById(P00XWIImgRctx).style.fill = hvrhlght[pId[n].imgbckg];
+		}
+	}
+	
 }
 
-function BckImgOut() {
-	document.getElementById(P00XMUIImgCont).className = pId[0].imgbckg;
+function BckImgOut(n) {
+	if (n == 'x') {
+		document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = pId[0].imgbckg;
+	} else {
+		if (n == 0) {
+			if (pId["AnnotType"] == "HLight") {
+				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = pId[0].imgbckg;
+			} else {
+				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[1].style.fill = pId[0].imgbckg;
+			}
+		} else {
+			document.getElementById(P00XWIImgRctx).style.fill = pId[n].imgbckg;
+		}
+	}
 }
 
 
@@ -542,7 +594,9 @@ function PlyAllIcoOn() {
 
 
 function AudioCntrl(wi, ex, ClkSrc) {
-		
+	
+	pId = window["p".concat(pno)];
+	
 	// If Play All mode is set to Pause, reset and stop audio
 	if (PlyAllMde == "Pse" && AutAud == 1  && ClkSrc == "AlBtnClk") {
 		//exit process here
@@ -600,7 +654,7 @@ function AudioCntrl(wi, ex, ClkSrc) {
 				AudPauseIco();
 			} else {// Interrupt current Audio with new audio file
 				AudStat = 1;
-				responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], parameters);
+				responsiveVoice.speak(SpkTxt, RespVoiLng[L2Selected], {onstart: voiceStartCallback, onend: voiceEndCallback, volume: 0.7});
 				AudPlayIco();
 				// Reset play UI for previous btn
 				document.getElementById(OldPlayIcoId).style.display = 'block';
