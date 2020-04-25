@@ -32,10 +32,12 @@ function pageload(pno) {
 	var svgDoc;
 	mySVG.addEventListener("load",function() {
 	  svgDoc = mySVG.contentDocument;
-	  alert("SVG contentDocument Loaded!");
+	  //alert("SVG contentDocument Loaded!");
+	  //svgDoc.getElementById("anttnsblk").style.display = "none";
+	  document.getElementById("wi0objsvg").contentDocument.getElementById("anttnsblk").style.display = "none";
 	}, false);
 	
-	document.getElementById("anttnsblk").style.display = "none";
+	
 	
 	//set annotation positions
 	if (pId.AnnotType == "Annot") {SetAnnotations(pId);}
