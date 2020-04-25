@@ -59,9 +59,12 @@ function setposter(pId) {
 			pIdX[i]["itaLplus"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("+", pIdX[i]["WIcmp"]["ItaCmp2"], "+", pIdX[i]["WIcmp"]["ItaCmp3"]);
 			
 			pIdX[i]["itaLpercen"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("%20", pIdX[i]["WIcmp"]["ItaCmp2"], "%20", pIdX[i]["WIcmp"]["ItaCmp3"]);
-			//alert(pIdX[i]["itaLpercen"]);
 			pIdX[i]["itaForv"] = pIdX[i]["WIcmp"]["ItaCmp1"].concat("_", pIdX[i]["WIcmp"]["ItaCmp2"], "_", pIdX[i]["WIcmp"]["ItaCmp3"], "/#it");
 		}
+		
+		//if (pIdX[i]["imgsrc"] == "deriv") {
+			//pIdX[i]["imgattrsrcfle"] = "posts/p".concat(pno, "/monop", pno, "wi", i, "src.png");
+		//}
 		
 	}
 	
@@ -441,7 +444,7 @@ function sitewidetemps() {
 
 			<img class="modal-content" id="srcimg" style="" src="">
 			<div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
-				<p style="display: inline;">Source image. This work is public domain.</p>
+				<p id="srcimagetxt" style="display: inline;">Source image. This work is public domain.</p>
 				<a id="ImgAttrLnkCnt" target="_blank" class="ImgAttrLnk" href="" style="display: inline;"></a>
 			</div>
 
@@ -451,7 +454,7 @@ function sitewidetemps() {
 
 			<img class="modal-content wht" id="modalimg">
 			<div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
-			  <p style="display: inline;">By G. Perilli.</p>
+			  <p style="display: inline;" id="bytxt">By G. Perilli.</p>
 			  
 			  <p id="CRContMine" style="display: inline;"></p>
 			
@@ -552,6 +555,8 @@ function sitewidetemps() {
 		FootN2: "Example sentnces are where stated from the Tatoeba corpus licenced under Creative Commons CC-BY. Audio is provided by the ResponsiveVoice API.",
 		//Site Copyright
 		CRText1: '&copy; G. Perilli', 
+		bytxt: "By G. Perilli.",
+		ImgSrcPD: "Source image. This work is public domain.",
 
 		//Text for image source attribution in modal
 		
@@ -574,12 +579,14 @@ function sitewidetemps() {
 		FootN2: "Le frasi di esempio sono quelle indicate dal corpus Tatoeba concesso in licenza in base alla licenza Creative Commons CC-BY. L&#39;audio è fornito dall&#39;API ResponsiveVoice.",
 		//Site Copyright
 		CRText1: "&copy; G. Perilli", 
+		bytxt: "Di G. Perilli.",
+		ImgSrcPD: "Immagine originale. Questo lavoro è di dominio pubblico.",
 		 
 		//Text for image source attribution in modal
 		 
 		CRTextWI0: "Questo è un opera derivata. L&#39;attribuzione è fornita per ogni singolo componente. &copy; G. Perilli", 
 		CRTextWIO: "Questa è un&#39;opera originale. &copy; G. Perilli", 
-		CRTextWID: "This is a derivative work. &copy; G. Perilli", 
+		CRTextWID: "Questa è un&#39;opera derivata. &copy; G. Perilli", 
 		},
 
 	JPN: {lang: "JPN", 
@@ -596,11 +603,13 @@ function sitewidetemps() {
 		FootN2: "例文はCC-BYのクリエイティブ・コモンズ・ライセンスを得た「たとえばコーパス」による。 オーディオは、ResponsiveVoice APIによって提供されます。",
 		//Site Copyright
 		CRText1: '&copy; G. Perilli', 
+		bytxt: "G.Perilliによって。",
+		ImgSrcPD: "ソース画像。この作品はパブリックドメインです。",
 		
 		//Text for image source attribution in modal
 		
 		CRTextWI0: 'これは派生作品です。属性は、個々のコンポーネントごとに提供されます。 &copy; G. Perilli', 
-		CRTextWIO: 'Tこれはオリジナル作品です。 &copy; G. Perilli', 
+		CRTextWIO: 'これはオリジナル作品です。 &copy; G. Perilli', 
 		CRTextWID: 'これは派生作品です。 &copy; G. Perilli', 
 		},
 	}
@@ -621,6 +630,8 @@ function uitext(L1) {
 	document.getElementById('Footer1').innerHTML = UItext[L1]["FootN1"];
 	document.getElementById('Footer2').innerHTML = UItext[L1]["FootN2"];
 	document.getElementById('CRCont').innerHTML = UItext[L1]["CRText1"];
+	document.getElementById('srcimagetxt').innerHTML = UItext[L1]["ImgSrcPD"];
+	document.getElementById('bytxt').innerHTML = UItext[L1]["bytxt"];
 }
 
 
