@@ -6,7 +6,8 @@ function MUITempPrp(pno) {
 	P00XMUIBtnsCont = "P".concat(pno, "MUIBtnsCont");
 
 	// MUI Btn0 Temp Placeholders
-	P00XBtnImgId0T = "P".concat(pno, "BtnImgId0T");
+	P00XWIImgRct0 = "P".concat(pno, "WIImgRct0");
+	//P00XBtnImgId0T = "P".concat(pno, "BtnImgId0T");
 	// MUI Btn1-8 Temp Placeholder Heads
 	P00XId1VarHead = "BtnContainer".concat("P", pno, "BtnID");
 	P00XId24VarHead = "P".concat(pno, "BtnImgId");
@@ -51,8 +52,8 @@ function MUITempSet(pno, type) {
 	var MUIHeadTemp = `
 	<div class="column" style="z-index: 99; background-color: #fff;">
 	  <div class="img-overlay-wrap">
-	  <img id=${P00XMUIImgCont} src=${P00XMUIImgSrc} class="${P00XMUIImgCls}" width="100%">
-		<svg viewBox="0 0 1024 768" width="100%">
+	  <object data="posts/p001/monop001-wi0.svg" type="image/svg+xml" id="muiobjsvg" width="100%" style="position: absolute; float: left; display: inline-block;"></object>
+		<svg viewBox="0 0 1024 768" width="100%" class="${P00XMUIImgCls}" style="position: relative; float: left;">
 		  <!-- Buttons Loaded here -->
 	`;
 
@@ -192,7 +193,7 @@ function MUITempSet(pno, type) {
 	} else {
 		//Annotated images will load in transparent box with 8 buttons
 		var Btn0bTemp = `		
-			<rect width="1024" height="768" fill="transparent" id=${P00XBtnImgId0T} onClick="MUIUpdP00X('${pno}', 0, 'BtnClk')"/>
+			<rect width="1024" height="768" fill="transparent" id="P00XWIImgRct0" onClick="MUIUpdP00X('${pno}', 0, 'BtnClk')" onmouseover="BckImgHver('x')" onmouseout="BckImgOut('x')"/>
 		`;
 		MUIXtemp = MUIHeadTemp.concat(Btn0bTemp, AudBtnTemp, PlyAlBtnTemp, BtnTemp1, BtnTemp2, BtnTemp3, BtnTemp4, BtnTemp5, BtnTemp6, BtnTemp7, BtnTemp8, MUITailTemp, MUITBoxTemp)
 	}
@@ -259,7 +260,14 @@ function WIListTempSet() {
 	for(var i = 0; i < 9; ++i) {//generate 8 word item sections
 		var WIImgContX = WIImgContHead.concat(i);
 		
-		var WIImgSrcX = pId[i].imgfile;
+		if (i == 0) {
+			var WIXImgSrcX = "posts/p".concat(pno, "/monop", pno, ".svg");
+			
+		} else {
+			var WIXImgSrcX = "posts/p".concat(pno, "/monop", pno, "-wi", i, ".svg");
+		}
+		var WIWIXObjId = "wi".concat(i, "objsvg");
+		//var WIXImgSrcX = "posts/p".concat(pno, "/monop", pno, "-wi", i, ".svg");
 		var WIImgClsX = "WIPic ".concat(pId[i]["imgbckg"], "bckhv");
 		
 		var L2WordItemX = L2WordItemHead.concat(i);
@@ -274,13 +282,19 @@ function WIListTempSet() {
 		var L2AudBtnWIX = L2AudBtnWIHead.concat(i);
 		var PlayIcoWIX = PlayIcoWIHead.concat(i);
 		var PauseIcoWIX = PauseIcoWIHead.concat(i);
-	
-		var WIListHeadTemp = `
+		
+		var WIListHeadTempA = `
 		<!-- Word Item X -->
 		<div class="WordItems">
-			<div class="WIcolumn left">
-				<img id=${WIImgContX} class="${WIImgClsX}" src=${WIImgSrcX} />
-				<p id=${SemTag1WIX} class="SemTags">tag1</p>
+			<div class="WIcolumn left">	
+		`;
+		
+		var WIXsvgfle = `
+		<object data="${WIXImgSrcX}" id="${WIWIXObjId}" width="100%"></object>
+		`;
+		
+		var WIListHeadTempB = `
+			<p id=${SemTag1WIX} class="SemTags">tag1</p>
 				<p id=${SemTag2WIX} class="SemTags">tag2</p>
 				<p id=${SemTag3WIX} class="SemTags">tag3</p>
 			</div>
@@ -323,8 +337,14 @@ function WIListTempSet() {
 				<p id=${L1WordItemX}></p>
 			</div>
 		</div>
+		
 		`;
-
+		
+		
+		
+		var WIListHeadTemp = WIListHeadTempA.concat(WIXsvgfle, WIListHeadTempB);
+		
+		
 		var Link1WIX = Link1WIHead.concat(i);
 		var Link2WIX = Link2WIHead.concat(i);
 		var Link3WIX = Link3WIHead.concat(i);
