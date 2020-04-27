@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	//Word Item
 	WI: {ENG: "countryside", ITA: "campagna", JPN: "田舎",},
@@ -31,7 +31,6 @@ AnnotType: "Annot",
 	EX2: {ENG: 'He prefers the <span class="wihlight">country</span> to the town.', ITA: 'Preferisce la <span class="wihlight">campagna</span> alla città.', JPN: '彼は都会より<span class="wihlight">いなか</span>の方が好きだ。',},
 	EX3: {ENG: 'I go to the <span class="wihlight">country</span> every summer.', ITA: 'Io vado in <span class="wihlight">campagna</span> ogni estate.', JPN: '私は毎年夏は<span class="wihlight">田舎</span>へ帰る。',},
     
-	//EXAudamples
 	EXAud1: {ENG: "I live in the country<span>.", ITA: "Abito in campagna.", JPN: "田舎に住んでいます。",},
 	EXAud2: {ENG: "He prefers the country to the town.", ITA: "Preferisce la campagna alla città.", JPN: "彼は都会よりいなかの方が好きだ。",},
 	EXAud3: {ENG: "I go to the country every summer.", ITA: "Io vado in campagna ogni estate.", JPN: "私は毎年夏は田舎へ帰る。",},
@@ -67,10 +66,10 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi1-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p004/monop004wi1src.png",
 	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Airplane_silhouette_S.png",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "0%", LnContPosTop: "3%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -128,7 +127,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "17%", LnContPosTop: "27%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
@@ -186,7 +185,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	dirmode: "down",
 	LnContPosLeft: "2%", LnContPosTop: "56%",
@@ -245,7 +244,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",
+	imgbckg: "black",
 
 	dirmode: "left",
 	LnContPosLeft: "28%", LnContPosTop: "43%",
@@ -254,7 +253,7 @@ AnnotType: "Annot",
 	LnPosX2: "45%", LnPosY2: "55%",
 
 	WI: {ENG: "forest", ITA: "foresta", JPN: "森",},
-	WIr: {ENG: "/ˈfɒrɪst/", ITA: "/foˈrɛsta/", JPN: "mori", JPNRu: "<ruby>出発<rt>しゅっぱつ</rt></ruby><ruby>案内<rt>あんない</rt></ruby><ruby>表示板<rt>ひょうじばん</rt></ruby>",},
+	WIr: {ENG: "/ˈfɒrɪst/", ITA: "/foˈrɛsta/", JPN: "mori", JPNRu: "<ruby>森<rt>もり</rt></ruby>",},
 	WIcmp: {ENG: "1", EngCmp1: "",
 			ITA: "1", ItaCmp1: "",
 			JPN: "1", JpnCmp1: "",},
@@ -301,10 +300,10 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi5-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p004/monop004wi5src.png",
 	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/194019/tractor",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	dirmode: "upright",
 	LnContPosLeft: "33%", LnContPosTop: "62%",
@@ -361,10 +360,10 @@ AnnotType: "Annot",
 
 
 6: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi6-src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/282339/OldifluffWindTurbine.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p004/monop004wi6src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/282339/wind%20turbine",
 	
-	imgbckg: "blk",
+	imgbckg: "black",
 
 	LnContPosLeft: "55%", LnContPosTop: "45%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -373,8 +372,8 @@ AnnotType: "Annot",
 
 	WI: {ENG: "wind turbine", ITA: "turbina eolica", JPN: "風力原動機",},
 	WIr: {ENG: "/wɪnd ˈtɜːbɪn/", ITA: "/turˈbina eˈɔlika/", JPN: "fuuryokugendouki", JPNRu: "<ruby>風力原動機<rt>ふうりょくげんどうき</rt></ruby>",},
-	WIcmp: {ENG: "1", EngCmp1: "",
-			ITA: "1", ItaCmp1: "",
+	WIcmp: {ENG: "2", EngCmp1: "wind", EngCmp2: "turbine",
+			ITA: "2", ItaCmp1: "turbina", ItaCmp2: "eolica",
 			JPN: "1", JpnCmp1: "",},
 	
 	semtag1: {Dsp: "block", ENG: "country", ITA: "campagna", JPN: "田舎",},
@@ -419,10 +418,10 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi7-src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/264659/Hot-Air-Balloon-Silhouette.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p004/monop004wi7src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/264659/Hot-Air-Balloon-Silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "69%", LnContPosTop: "9%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -477,10 +476,10 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p004/imgsrcs/p004-wi8-src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/194019/tractor",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "46%", LnContPosTop: "71%",
 	BtnPosLeft: "0%", BtnPosTop: "12%",
