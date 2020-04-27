@@ -378,10 +378,10 @@ img {
 	background-color: #383838;
 }
 .wht {
-	background-color: #fff;
+	fill: #fff;
 }
 .whthvr {
-	background-color: #F8F8F8;
+	fill: #F8F8F8;
 	cursor: pointer;
 }
 
@@ -413,7 +413,19 @@ img {
 	float: left;
 	width: 50px;
 	padding: 10px;
+	position: relative;
+	
 }
+
+.imgattrov {
+	opacity: 0.3; width: 50px; position: absolute; z-index: 90; float: left; padding: 10px; margin-top: -10px; margin-left: -40px; border-radius: 5px; transition: 0.3s;
+}
+
+.imgattrov:hover {
+	opacity: 0;
+	cursor: pointer;
+}
+
 
 /* Img Attr. Styling */
 .imgattr {
@@ -425,6 +437,8 @@ img {
 .imgattr:hover {
 	opacity: 0.7;
 }
+
+
 
 /* The Modal (background) */
 .modal {
