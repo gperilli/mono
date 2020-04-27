@@ -9,7 +9,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	//Word Item
 	WI: {ENG: "color", ITA: "colore", JPN: "色",},
@@ -70,7 +70,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "red", ITA: "rosso", JPN: "赤い",},
 	WIr: {ENG: "/rɛd/", ITA: "/ˈrosso/", JPN: "akai", JPNRu: "<ruby>赤いrt>あかい</rt></ruby>",},
@@ -125,7 +125,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "brown", ITA: "marrone", JPN: "茶色",},
 	WIr: {ENG: "/braʊn/", ITA: "/marˈrone/", JPN: "chairo", JPNRu: "<ruby>茶色<rt>ちゃいろ</rt></ruby>",},
@@ -180,7 +180,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "yellow", ITA: "giallo", JPN: "黄色い",},
 	WIr: {ENG: "/ˈjɛləʊ/", ITA: "/ˈdʒallo/", JPN: "kiiro", JPNRu: "<ruby>黄色<rt>きいろ</rt></ruby>",},
@@ -235,7 +235,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "purple", ITA: "viola", JPN: "紫",},
 	WIr: {ENG: "/ˈpɜːpl/", ITA: "/viˈɔla/", JPN: "murasaki", JPNRu: "<ruby>紫<rt>むらさき</rt></ruby>",},
@@ -290,7 +290,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "blue", ITA: "azzurro", JPN: "青い",},
 	WIr: {ENG: "/bluː/", ITA: "/adˈdzurro/", JPN: "aoi", JPNRu: "<ruby>青い<rt>あおい</rt></ruby>",},
@@ -345,7 +345,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "green", ITA: "verde", JPN: "緑",},
 	WIr: {ENG: "/griːn/", ITA: "/ˈverde/", JPN: "midori", JPNRu: "<ruby>緑<rt>みどり</rt></ruby>",},
@@ -399,7 +399,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "pink", ITA: "rosa", JPN: "ピンク",},
 	WIr: {ENG: "/pɪŋk/", ITA: "/ˈrɔza/", JPN: "pinku", JPNRu: "<ruby>ピンク<rt>ぴんく</rt></ruby>",},
@@ -453,7 +453,7 @@ AnnotType: "HLight",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	WI: {ENG: "orange", ITA: "arancione", JPN: "オレンジ色",},
 	WIr: {ENG: "/ˈɒrɪnʤ/", ITA: "/aranˈtʃone/", JPN: "orenjiiro", JPNRu: "<ruby>オレンジ色<rt>おれんじいろ</rt></ruby>",},
