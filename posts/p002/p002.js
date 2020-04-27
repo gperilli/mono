@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "",  imgattrurl: "", 
 
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	//Word Item
 	WI: {ENG: "body", ITA: "corpo", JPN: "体",},
@@ -67,10 +67,10 @@ AnnotType: "Annot",
 	},
  
 1: {imgfile: "", 
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png", 
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	dirmode: "right",
 	LnContPosLeft: "0%", LnContPosTop: "3%",
@@ -90,11 +90,11 @@ AnnotType: "Annot",
 	EX1: {ENG: 'She married a rich <span class="wihlight">man</span>.', ITA: 'Sposò un <span class="wihlight">uomo</span> ricco.', JPN: '彼女は金持ちの<span class="wihlight">男</span>と結婚した。',},
 	EX2: {ENG: 'He was a tall <span class="wihlight">man</span>.', ITA: 'Era un <span class="wihlight">uomo</span> alto.', JPN: '彼は長身の<span class="wihlight">男</span>であった。',},
 	EX3: {ENG: 'There were three <span class="wihlight">men</span>.', ITA: 'C&#39;erano tre <span class="wihlight">uomini</span>.', JPN: '<span class="wihlight">男</span>が三人いた。',},
-		
+	
 	EXAud1: {ENG: "She married a rich man.", ITA: "Sposò un uomo ricco.", JPN: "彼女は金持ちの男と結婚した。",},
 	EXAud2: {ENG: "He was a tall man.", ITA: "Era un uomo alto.", JPN: "彼は長身の男であった。",},
 	EXAud3: {ENG: "There were three men.", ITA: "C&#39;erano tre uomini.", JPN: "男が三人いた。",},
-
+	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/310617", ITA: "https://tatoeba.org/eng/sentences/show/383179", JPN: "https://tatoeba.org/eng/sentences/show/90397",},
 	TatSrcEx2: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/301645", ITA: "https://tatoeba.org/eng/sentences/show/1258300", JPN: "https://tatoeba.org/eng/sentences/show/102048",},
@@ -126,10 +126,10 @@ AnnotType: "Annot",
 	},
 
 2: {imgfile: "", 
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/279283/Female-Body-Silhouette.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi2src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/279283/female-body-silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "13%", LnContPosTop: "3%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -149,7 +149,7 @@ AnnotType: "Annot",
 	EX1: {ENG: 'Who is that <span class="wihlight">woman</span>?', ITA: 'Chi è quella <span class="wihlight">donna</span>?', JPN: 'あの<span class="wihlight">女</span>の人はだれですか。',},
 	EX2: {ENG: 'Where did you see the <span class="wihlight">woman</span>?', ITA: 'Dove hai visto la <span class="wihlight">donna</span>?', JPN: 'あなたはどこでその<span class="wihlight">女</span>の人を見ましたか。',},
 	EX3: {ENG: 'I saw a <span class="wihlight">woman</span> cross the street.', ITA: 'Vidi una <span class="wihlight">donna</span> attraversare la strada.', JPN: '私は、一人の<span class="wihlight">女</span>の人が通りを横切るのを見た。',},
-
+	
 	EXAud1: {ENG: "Who is that woman?", ITA: "Chi è quella donna ?", JPN: "あの女の人はだれですか。",},
 	EXAud2: {ENG: "Where did you see the woman ?", ITA: "Dove hai visto la donna ?", JPN: "あなたはどこでその女の人を見ましたか。",},
 	EXAud3: {ENG: "I saw a woman cross the street.", ITA: "Vidi una donna attraversare la strada.", JPN: "私は、一人の女の人が通りを横切るのを見た。",},
@@ -185,10 +185,10 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "64%", LnContPosTop: "76%",
 	BtnPosLeft: "9%", BtnPosTop: "6%",
@@ -212,7 +212,6 @@ AnnotType: "Annot",
 	EXAud1: {ENG: "She has small feet.", ITA: "Lei ha i piedi piccoli.", JPN: "彼女は足が小さい。",},
 	EXAud2: {ENG: "My feet are cold.", ITA: "Ho freddo ai piedi.", JPN: "足が冷えます。",},
 	EXAud3: {ENG: "He put his foot on the ladder.", ITA: "Ha messo il piede sulla scala.", JPN: "彼ははしごに片足を掛けた。",},
-
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/315604", ITA: "https://tatoeba.org/eng/sentences/show/708351", JPN: "https://tatoeba.org/eng/sentences/show/88102",},
@@ -245,10 +244,10 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "64%", LnContPosTop: "51%",
 	BtnPosLeft: "9%", BtnPosTop: "6%",
@@ -304,12 +303,10 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv",
-	imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org",
-	imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "45%", LnContPosTop: "39%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -333,7 +330,6 @@ AnnotType: "Annot",
 	EXAud1: {ENG: "Wash your hands.", ITA: "Lavati le mani.", JPN: "手を洗いなさい。",},
 	EXAud2: {ENG: "What&#39;s in your hand</span?", ITA: "Cosa hai in mano ?", JPN: "手に何をもっていますか。",},
 	EXAud3: {ENG: "She raised her hand.", ITA: "Ha alzato la mano.", JPN: "彼女は手を上げた。",},
-	
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/464330", ITA: "https://tatoeba.org/eng/sentences/show/3756273", JPN: "https://tatoeba.org/eng/sentences/show/148622",},
@@ -365,10 +361,10 @@ AnnotType: "Annot",
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "47%", LnContPosTop: "24%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -423,10 +419,10 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "59%", LnContPosTop: "20%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -445,12 +441,11 @@ AnnotType: "Annot",
 	
 	EX1: {ENG: 'Tom has a tattoo on his <span class="wihlight">chest</span>.', ITA: 'Tom ha un tatuaggio sul <span class="wihlight">petto</span>.', JPN: 'トムは<span class="wihlight">胸</span>にタツーがある。',},
 	EX2: {ENG: 'I have pain in my <span class="wihlight">chest</span>.', ITA: 'Ho un dolore nel <span class="wihlight">petto</span>.', JPN: '<span class="wihlight">胸</span>がいたい。',},
-	EX3: {ENG: 'He grabbed his <span class="wihlight">chest</span> and collapsed.', ITA: 'Si è stretto il <span class="wihlight">petto</span> ed è crollato.', JPN: '彼は<span class="wihlight">胸</span>を握りしめて倒れた。',},
+	EX3: {ENG: 'He grabbed his <span class="wihlight">chest</span> and collapsed.', ITA: 'Si è stretto il <span class="wihlight">petto</span> ed è crollato.', JPN: '彼は<span class="wihlight">胸</span>を握りしめて倒れた。',},
 	
 	EXAud1: {ENG: "Tom has a tattoo on his chest.", ITA: "Tom ha un tatuaggio sul petto.", JPN: "トムは胸にタツーがある。",},
 	EXAud2: {ENG: "I have pain in my chest.", ITA: "Ho un dolore nel petto.", JPN: "胸がいたい。",},
 	EXAud3: {ENG: "He grabbed his chest and collapsed.", ITA: "Si è stretto il petto ed è crollato.", JPN: "彼は胸を握りしめて倒れた。",},
-
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -482,10 +477,10 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p002/monop002wi1src.png",
-	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/314198/1548372886.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p002/monop002wi1src.png", 
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/314198/man-body-silhouette",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "56%", LnContPosTop: "0%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
@@ -506,7 +501,7 @@ AnnotType: "Annot",
 	EX2: {ENG: 'He hit me on the <span class="wihlight">head</span>.', ITA: 'Mi ha colpito sulla <span class="wihlight">testa</span>.', JPN: '彼は僕の<span class="wihlight">頭</span>を殴った。',},
 	EX3: {ENG: 'He scratched his <span class="wihlight">head</span>.', ITA: 'Si è grattato la <span class="wihlight">testa</span>.', JPN: '彼は<span class="wihlight">頭</span>をかいた',},
 	
-	EXAud1: {ENG: "Watch your head !", ITA: "Occhio alla testa !", JPN: "頭上に気をつけて！",},
+	EXAud1: {ENG: "Watch your head!", ITA: "Occhio alla testa !", JPN: "頭上に気をつけて！",},
 	EXAud2: {ENG: "He hit me on the head.", ITA: "Mi ha colpito sulla testa.", JPN: "彼は僕の頭を殴った。",},
 	EXAud3: {ENG: "He scratched his head.", ITA: "Si è grattato la testa.", JPN: "彼は頭をかいた",},
 	
