@@ -1,4 +1,4 @@
-// p005 data
+
 var p014 = {
 
 No: "014",
@@ -9,7 +9,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	//Word Item
 	WI: {ENG: "vegetables", ITA: "verdure", JPN: "野菜",},
@@ -71,7 +71,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "carrot", ITA: "carota", JPN: "人参",},
 	WIr: {ENG: "/ˈkærət/", ITA: "/kaˈrɔta/", JPN: "ninjin", JPNRu: "<ruby>人参<rt>にんじん</rt></ruby>",},
@@ -127,7 +127,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 
-	imgbckg: "wht",
+	imgbckg: "white",
 
 
 	WI: {ENG: "onion", ITA: "cipolla", JPN: "玉ねぎ",},
@@ -185,7 +185,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 				
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "cucumber", ITA: "cetriolo", JPN: "きゅうり",},
 	WIr: {ENG: "/ˈkjuːkʌmbə/", ITA: "/tʃetriˈɔlo/", JPN: "kyuuri", JPNRu: "<ruby>きゅうり<rt>きゅうり</rt></ruby>",},
@@ -242,7 +242,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "potato", ITA: "patata", JPN: "じゃが芋",},
 	WIr: {ENG: "/pəˈteɪtəʊ/", ITA: "/paˈtata/", JPN: "jagaimo", JPNRu: "<ruby>じゃが芋<rt>じゃがいも</rt></ruby>",},
@@ -298,7 +298,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "turnip", ITA: "rapa", JPN: "かぶ",},
 	WIr: {ENG: "/ˈtɜːnɪp/", ITA: "/ˈrapa/", JPN: "kabu", JPNRu: "<ruby>かぶ<rt>かぶ</rt></ruby>",},
@@ -355,7 +355,7 @@ AnnotType: "HLight",
 	imgsrc: "", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "broccoli", ITA: "broccoli", JPN: "ブロコリ",},
 	WIr: {ENG: "/ˈbrɒkəli/", ITA: "/ˈbrɔkkoli/", JPN: "burokori", JPNRu: "<ruby>ブロコリ<rt>ぶろこり</rt></ruby>",},
@@ -411,7 +411,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "red pepper", ITA: "peperone", JPN: "パプリカ",},
 	WIr: {ENG: "/rɛd ˈpɛpə/", ITA: "/pepeˈrone/", JPN: "papurika", JPNRu: "<ruby>レッドペッパー<rt>れっどぺっぱー</rt></ruby>",},
@@ -470,7 +470,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "tomato", ITA: "pomodoro", JPN: "トマト",},
 	WIr: {ENG: "/təˈmɑːtəʊ/", ITA: "/pomoˈdɔro/", JPN: "tomato", JPNRu: "<ruby>トマト<rt>とまと</rt></ruby>",},
