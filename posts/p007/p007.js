@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 	
 	//Word Item
 	WI: {ENG: "internal organs", ITA: "organi interni", JPN: "内臓",},
@@ -67,10 +67,10 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi2src.png",
+	imgattrsite: "clker.com", imgattrurl: "http://www.clker.com/clipart-intestines-1.html",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "4%", LnContPosTop: "19%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -129,10 +129,10 @@ AnnotType: "Annot",
 	},
 
 2: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi2src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Vector-drawing-of-heart-electrical-system/28648.html",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "29%", LnContPosTop: "18%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -190,11 +190,11 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-3: {imgfile: "", 
-	imgsrc: "original", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "",
+3: {imgfile: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi3src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Illustration-of-kidneys/49789.html",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "53%", LnContPosTop: "22%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -256,7 +256,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "77%", LnContPosTop: "17%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -315,10 +315,9 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
-	
-	imgbckg: "wht",	
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi5src.png",
+	imgattrsite: "clker.com", imgattrurl: "http://www.clker.com/clipart-lungs-4.html",
+	imgbckg: "white",	
 
 	LnContPosLeft: "5%", LnContPosTop: "62%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -377,10 +376,10 @@ AnnotType: "Annot",
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi6-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi6src.png",
+	imgattrsite: "clker.com", imgattrurl: "http://www.clker.com/clipart-stomach.html",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "28%", LnContPosTop: "59%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -439,10 +438,10 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi7-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "51%", LnContPosTop: "67%",
 	BtnPosLeft: "0%", BtnPosTop: "12%",
@@ -501,10 +500,10 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi8src.png",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/38533/brain-side-cutaway",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "82%", LnContPosTop: "59%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
