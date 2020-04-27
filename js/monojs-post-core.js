@@ -34,7 +34,7 @@ function pageload(pno) {
 	  svgDoc = mySVG.contentDocument;
 	  //alert("SVG contentDocument Loaded!");
 	  //svgDoc.getElementById("anttnsblk").style.display = "none";
-	  document.getElementById("wi0objsvg").contentDocument.getElementById("anttnsblk").style.display = "none";
+	  //document.getElementById("wi0objsvg").contentDocument.getElementById("anttnsblk").style.display = "none";
 	}, false);
 	
 	
@@ -453,7 +453,7 @@ function BtnHLight(type) {
 				document.getElementById(BtnTextId).className.baseVal = "btnImgonAll";
 			}
 		}
-
+//"P001BtnImgId"
 	} else {
 		//dehighlight Everything
 		for(var i = 1; i < 9; ++i) {
@@ -462,7 +462,7 @@ function BtnHLight(type) {
 			document.getElementById(BtnTextId).className.baseVal = "btnToff";
 			document.getElementById(BtnBordId).className.baseVal = "btnCoff";
 		}
-		//document.getElementById(P00XBtnImgId0T).className.baseVal= "btnbckoff";
+		document.getElementById(P00XBtnImgId0T).className.baseVal= "btnbckoff";
 
 		//update button ID for newly selected button
 		CurrentBtnBorderId = BtnIdHead.concat(CurrentBtn, "B");
@@ -470,7 +470,7 @@ function BtnHLight(type) {
 
 		//highlight selected button
 		if (CurrentBtn == 0) {
-			//document.getElementById(P00XBtnImgId0T).className.baseVal = "btnbckon";
+			document.getElementById(P00XBtnImgId0T).className.baseVal = "btnbckon";
 			for(var i = 1; i < 9; ++i) {
 				BtnTextId = BtnIdHead.concat(i, "T");
 			} 
@@ -485,39 +485,31 @@ function BtnHLight(type) {
 
 // hover effect for image background
 function BckImgHver(n) {
-	hvrhlght = {white: "#F8F8F8", black: "#383838",};
+	
+	hvrhlght = {white: "#F8F8F8", black: "#383838", grey: "#626567"};
+	
+	wiXobjsvg = "wi".concat(n, "objsvg");
+	P00XWIImgRctx = "P".concat(pno, "WIImgRct", n);
+	
 	if (n == 'x') {
-		//console.log(n);
-		document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = hvrhlght[pId[0].imgbckg];
+		document.getElementById("muiobjsvg").contentDocument.getElementById("P".concat(pno, "WIImgRctX")).style.fill = hvrhlght[pId[0].imgbckg];
 	} else {
-		if (n == 0) {
-			if (pId["AnnotType"] == "HLight") {
-				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = hvrhlght[pId[0].imgbckg];
-			} else {
-			//console.log("P".concat(pno, "WIImgRct0"));
-				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[1].style.fill = hvrhlght[pId[0].imgbckg];
-			}
-		} else {
-		P00XWIImgRctx = "P".concat(pno, "WIImgRct", n);
-		document.getElementById(P00XWIImgRctx).style.fill = hvrhlght[pId[n].imgbckg];
-		}
+		document.getElementById(wiXobjsvg).contentDocument.getElementById(P00XWIImgRctx).style.fill = hvrhlght[pId[n].imgbckg];
 	}
 	
 }
 
+
+
 function BckImgOut(n) {
+	
+	wiXobjsvg = "wi".concat(n, "objsvg");
+	P00XWIImgRctx = "P".concat(pno, "WIImgRct", n);
+	
 	if (n == 'x') {
-		document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = pId[0].imgbckg;
+		document.getElementById("muiobjsvg").contentDocument.getElementById("P".concat(pno, "WIImgRctX")).style.fill = pId[0].imgbckg;
 	} else {
-		if (n == 0) {
-			if (pId["AnnotType"] == "HLight") {
-				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[0].style.fill = pId[0].imgbckg;
-			} else {
-				document.getElementsByClassName("P".concat(pno, "WIImgRct0"))[1].style.fill = pId[0].imgbckg;
-			}
-		} else {
-			document.getElementById(P00XWIImgRctx).style.fill = pId[n].imgbckg;
-		}
+		document.getElementById(wiXobjsvg).contentDocument.getElementById(P00XWIImgRctx).style.fill = pId[n].imgbckg;
 	}
 }
 
@@ -750,7 +742,7 @@ function modaldisp(x) {
 	span.onclick = function() {
 	  modal.style.display = "none";
 	}
-	
+	console.log("hello");
     modal.style.display = "block";
 
     if (pId[x].imgsrc == "original") {
