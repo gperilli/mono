@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	//Word Item
 	WI: {ENG: "indoors", ITA: "in casa", JPN: "家に",},
@@ -69,7 +69,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "11%", LnContPosTop: "21%",
 	BtnPosLeft: "9%", BtnPosTop: "12%",
@@ -127,7 +127,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "33%", LnContPosTop: "54%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -186,7 +186,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "13%", LnContPosTop: "70%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -245,7 +245,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "7%", LnContPosTop: "49%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -306,7 +306,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "63%", LnContPosTop: "44%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -365,7 +365,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "62%", LnContPosTop: "24%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -424,7 +424,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "p012/imgsrcs/p012-wi7-src.png",
 	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/download/262174/Nuclear-Family-Silhouette.svg",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "82%", LnContPosTop: "24%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -484,7 +484,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "p012/imgsrcs/p012-wi8-src.png",
 	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/download/262174/Nuclear-Family-Silhouette.svg",
 		
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "75%", LnContPosTop: "17%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
