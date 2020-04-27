@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 	
 	//Word Item
 	WI: {ENG: "under the sea", ITA: "sotto il mare", JPN: "海の中",},
@@ -71,7 +71,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "2%", LnContPosTop: "17%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -132,7 +132,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "8%", LnContPosTop: "47%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
@@ -192,7 +192,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 	
 	LnContPosLeft: "25%", LnContPosTop: "33%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -252,7 +252,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "37%", LnContPosTop: "76%",
 	BtnPosLeft: "9%", BtnPosTop: "6%",
@@ -312,9 +312,9 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
-	LnContPosLeft: "60%", LnContPosTop: "75%",
+	LnContPosLeft: "68%", LnContPosTop: "75%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
 	LnPosX1: "25%", LnPosY1: "25%",
 	LnPosX2: "55%", LnPosY2: "55%",
@@ -374,7 +374,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "52%", LnContPosTop: "35%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -436,7 +436,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "67%", LnContPosTop: "50%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -496,7 +496,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "78%", LnContPosTop: "75%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
