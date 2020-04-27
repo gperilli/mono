@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 	
 	//Word Item
 	WI: {ENG: "planets", ITA: "pianeti", JPN: "惑星",},
@@ -63,13 +63,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 1: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "3.6%", LnContPosTop: "42%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -123,13 +124,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 2: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "8%", LnContPosTop: "34%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -183,13 +185,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 3: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "13.3%", LnContPosTop: "42%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -243,13 +246,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 4: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "18.4%", LnContPosTop: "34%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -304,13 +308,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 5: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "32%", LnContPosTop: "53%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -365,13 +370,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi6-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "54%", LnContPosTop: "26%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -425,13 +431,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi7-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "77%", LnContPosTop: "46%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -486,13 +493,14 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 8: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "blk",	
+	imgbckg: "black",	
 
 	LnContPosLeft: "79.5%", LnContPosTop: "32%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -546,5 +554,7 @@ AnnotType: "Annot",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
+	
 	},
 };
