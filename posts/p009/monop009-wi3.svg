@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 384">
-<rect y="0" x="0" height="384" width="512" style="fill:none;)" />
+<rect width="512" height="384" id="P009WIImgRct3" fill="#fff"/>
+
 <rect style="fill:none" width="1024" height="768" x="339.92474" y="58.876556" />
 <g style="fill:#808080" transform="matrix(1.2573593,0,0,1.2573593,-442.18414,-734.97515)" >
 <rect ry="18" y="796.36206" x="78" height="36" width="868"

@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 	
 	//Word Item
 	WI: {ENG: "drinks", ITA: "bevande", JPN: "飲み物",},
@@ -69,7 +69,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 		
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "4%", LnContPosTop: "38%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -128,7 +128,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "25%", LnContPosTop: "39%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -188,7 +188,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "45%", LnContPosTop: "43%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -248,7 +248,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "68%", LnContPosTop: "57%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -308,7 +308,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "10%", LnContPosTop: "30%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -368,7 +368,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi6-src.png",
 	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "11%", LnContPosTop: "57%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -427,7 +427,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi7-src.png",
 	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "30%", LnContPosTop: "8%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -488,7 +488,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 		
 	LnContPosLeft: "40%", LnContPosTop: "71%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
