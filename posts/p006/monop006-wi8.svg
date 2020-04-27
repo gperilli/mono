@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 384"> 
-<rect y="0" x="0" height="384" width="512" style="fill:none;" /> 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 384">
+<rect width="512" height="384" id="P006WIImgRct8" fill="#fff"/>
+
 <rect y="297.29953" x="-38.563488" height="123.61051" width="643.83453" style="fill:#808080;" /> 
 <circle style="fill:#000000;stroke:none;stroke-width:3.96635032;stroke-linejoin:round;stroke-miterlimit:4;" cx="380.31183" cy="804.42157" r="122.5" /> 
 <ellipse style="fill:#000000;stroke:#000000;stroke-width:6;stroke-linejoin:round;stroke-miterlimit:4;" id="path1170-3" cx="-329.75464" cy="595.27142" rx="122.5" ry="65.399628" /> 
