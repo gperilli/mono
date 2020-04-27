@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 	
 	//Word Item
 	WI: {ENG: "weather", ITA: "tempo", JPN: "天気",},
@@ -30,9 +30,9 @@ AnnotType: "Annot",
 	EX2: {ENG: 'The <span class="wihlight">weather</span> got worse.', ITA: 'Il <span class="wihlight">tempo</span> è peggiorato.', JPN: '<span class="wihlight">天気</span>が悪くなった。',},
 	EX3: {ENG: 'What nice <span class="wihlight">weather</span>.', ITA: 'Che bel <span class="wihlight">tempo</span>.', JPN: '何ていい<span class="wihlight">天気</span>だろう。',},
 	
-	EXAud1: {ENG: "How's the weather?", ITA: "Che tempo fa?", JPN: "どんな天気ですか。",},
-	EXAud2: {ENG: "The weather got worse.", ITA: "Il tempo è peggiorato.", JPN: "天気が悪くなった。",},
-	EX3Aud: {ENG: "What nice weather.", ITA: "Che bel tempo.", JPN: "何ていい天気だろう。",},
+	EX1: {ENG: "How's the weather?", ITA: "Che tempo fa?", JPN: "どんな天気ですか。",},
+	EX2: {ENG: "The weather got worse.", ITA: "Il tempo è peggiorato.", JPN: "天気が悪くなった。",},
+	EX3: {ENG: "What nice weather.", ITA: "Che bel tempo.", JPN: "何ていい天気だろう。",},
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "none", ENG: "", ITA: "", JPN: "",},
@@ -68,7 +68,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "6%", LnContPosTop: "6%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -129,7 +129,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "29%", LnContPosTop: "23%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -190,7 +190,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 	
 	LnContPosLeft: "51%", LnContPosTop: "15%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
@@ -251,7 +251,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 
 	LnContPosLeft: "78%", LnContPosTop: "14%",
@@ -314,7 +314,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "2%", LnContPosTop: "59%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",
@@ -376,7 +376,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi6-src.png",
 	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "30%", LnContPosTop: "54%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -438,7 +438,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi7-src.png",
 	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "52%", LnContPosTop: "54%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -500,7 +500,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "78%", LnContPosTop: "57%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
