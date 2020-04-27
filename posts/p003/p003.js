@@ -9,7 +9,7 @@ AnnotType: "HLight",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	//Word Item
 	WI: {ENG: "fruit", ITA: "frutta", JPN: "果物",},
@@ -63,13 +63,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi1-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi1src.png",
 	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/image/2400px/svg_to_png/20544/rg1024-strawberry.png",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "strawberry", ITA: "fragola", JPN: "苺",},
 	WIr: {ENG: "/ˈstrɔː.bər.i/", ITA: "/ˈfraɡola/", JPN: "ichigo", JPNRu: "<ruby>苺<rt>いちご</rt></ruby>",},
@@ -116,13 +117,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 2: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi2-src.png",
-	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/apple-02.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi2src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Red-apple-vector-illustration-with-a-leaf/29634.html",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "apple", ITA: "mela", JPN: "りんご",},
 	WIr: {ENG: "/ˈæp.əl/", ITA: "/ˈmela/", JPN: "ringo", JPNRu: "<ruby>りんご<rt>りんご</rt></ruby>",},
@@ -169,13 +171,16 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
+
+
 3: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi3-src.png",
-	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/1451796100.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi3src.png",
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Simple-sweet-orange/66119.html",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "orange", ITA: "arancia", JPN: "オレンジ",},
 	WIr: {ENG: "/ˈɒr.ɪndʒ/", ITA: "/aˈrantʃa/", JPN: "orenji", JPNRu: "<ruby>オレンジ<rt>おれんじ</rt></ruby>",},
@@ -222,13 +227,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 4: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi4-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi4src.png",
 	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/1457235075.png",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "banana", ITA: "banana", JPN: "バナナ",},
 	WIr: {ENG: "/bəˈnɑː.nə/", ITA: "/baˈnana/", JPN: "banana", JPNRu: "<ruby>バナナ<rt>ばなな</rt></ruby>",},
@@ -275,13 +281,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi5-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi5src.png",
 	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/Ciliege.png",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "cherry", ITA: "ciliegia", JPN: "桜んぼ",},
 	WIr: {ENG: "/ˈtʃer.i/", ITA: "/tʃiˈljɛdʒa/", JPN: "seki", JPNRu: "<ruby>桜んぼ<rt>さくらんぼ</rt></ruby>",},
@@ -300,7 +307,6 @@ AnnotType: "HLight",
 	EXAud1: {ENG: "Cherries are red.", ITA: "Le ciliegie sono rosse.", JPN: "サクランボは赤い。",},
 	EXAud2: {ENG: "Cherries are the fruit of the cherry tree.", ITA: "La ciliegia è il frutto del ciliegio.", JPN: "さくらんぼは桜の実です。",},
 	EXAud3: {ENG: "I can't taste the cherries.", ITA: "Non sento il sapore delle ciliegie.", JPN: "さくらんぼは味わえません。",},
-
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/370553", ITA: "https://tatoeba.org/eng/sentences/show/635269", JPN: "https://tatoeba.org/eng/sentences/show/1169756",},
@@ -329,13 +335,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 6: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi6-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi6src.png",
 	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/1515286068.png",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "pear", ITA: "pera", JPN: "梨",},
 	WIr: {ENG: "/peər/", ITA: "/ˈpera/", JPN: "nashi", JPNRu: "<ruby>梨<rt>なし</rt></ruby>",},
@@ -354,7 +361,6 @@ AnnotType: "HLight",
 	EXAud1: {ENG: "This pear smells nice.", ITA: "Questa pera ha un buon odore.", JPN: "この梨はいい香りがする。",},
 	EXAud2: {ENG: "How much are the pears?", ITA: "Quanto vengono le pere?", JPN: "梨はいくらですか",},
 	EXAud3: {ENG: "This isn't an apple. It's a pear.", ITA: "Questa non è una mela. È una pera.", JPN: "これはりんごではありません。梨です。",},
-
 	
 	//Tatoeba Srcs
 	TatSrcEx1: {Dsp: "inline-block", ENG: "https://tatoeba.org/eng/sentences/show/60753", ITA: "https://tatoeba.org/eng/sentences/show/3630957", JPN: "https://tatoeba.org/eng/sentences/show/223419",},
@@ -382,13 +388,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi7-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi7src.png",
 	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/Gerald_G_Simple_Fruit_(FF_Menu)_15.png",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "peach", ITA: "pesca", JPN: "桃",},
 	WIr: {ENG: "/ˈpeska/", ITA: "/ˈpeska/", JPN: "momo", JPNRu: "<ruby>桃<rt>もも</rt></ruby>",},
@@ -435,13 +442,14 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p003/imgsrcs/p003-wi8-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p003/monop003wi8src.png",
 	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/photos/blueberry.png",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	WI: {ENG: "blueberry", ITA: "mirtillo", JPN: "ブルーベリー",},
 	WIr: {ENG: "/ˈbluːˌbər.i/", ITA: "/mirˈtillo/", JPN: "buruuberii", JPNRu: "<ruby>ブルーベリー<rt>ぶるーべりー</rt></ruby>",},
@@ -488,6 +496,7 @@ AnnotType: "HLight",
 	AudENGWI: "", AudENGEx1: "", AudENGEx2: "", AudENGEx3: "",
     AudITAWI: "", AudITAEx1: "", AudITAEx2: "", AudITAEx3: "",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
+	
 	},
 	
 	ImgBtnTemp: `
