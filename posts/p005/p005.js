@@ -9,7 +9,7 @@ AnnotType: "Annot",
 	imgsrc: "deriv", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	//Word Item
 	WI: {ENG: "park", ITA: "parco", JPN: "公園",},
@@ -68,10 +68,10 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p005/imgsrcs/p005-wi1-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Fraxinus_excelsior_tree_illustration.jpg",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",		
+	imgbckg: "white",		
 
 	LnContPosLeft: "7%", LnContPosTop: "70%",
 	BtnPosLeft: "0%", BtnPosTop: "6%",
@@ -129,11 +129,11 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-2: {imgfile: "p005/monop005-wi2.svg",
-	imgsrc: "deriv", imgattrsrcfle: "p008/imgsrcs/p008-wi2-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Fraxinus_excelsior_tree_illustration.jpg",
+2: {imgfile: "",
+	imgsrc: "original", imgattrsrcfle: "",
+	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",	
+	imgbckg: "white",	
 
 	LnContPosLeft: "14%", LnContPosTop: "52%",
 	BtnPosLeft: "9%", BtnPosTop: "12%",
@@ -189,11 +189,11 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-3: {imgfile: "p005/monop005-wi3.svg",
+3: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 	
 	LnContPosLeft: "31%", LnContPosTop: "36%",
 	BtnPosLeft: "9%", BtnPosTop: "0%",
@@ -249,12 +249,12 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-4: {imgfile: "p005/monop005-wi4.svg",
+4: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "38%", LnContPosTop: "59%",
 	BtnPosLeft: "4.5%", BtnPosTop: "0%",
@@ -310,11 +310,11 @@ AnnotType: "Annot",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 
-5: {imgfile: "p005/monop005-wi5.svg",
+5: {imgfile: "",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "60%", LnContPosTop: "71%",
 	BtnPosLeft: "9%", BtnPosTop: "6%",
@@ -374,7 +374,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "54%", LnContPosTop: "10%",
 	BtnPosLeft: "0%", BtnPosTop: "12%",
@@ -434,7 +434,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "71%", LnContPosTop: "27%",
 	BtnPosLeft: "4.5%", BtnPosTop: "12%",
@@ -494,7 +494,7 @@ AnnotType: "Annot",
 	imgsrc: "original", imgattrsrcfle: "",
 	imgattrsite: "", imgattrurl: "",
 	
-	imgbckg: "wht",
+	imgbckg: "white",
 
 	LnContPosLeft: "73%", LnContPosTop: "1%",
 	BtnPosLeft: "0%", BtnPosTop: "0%",

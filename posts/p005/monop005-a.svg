@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 768">
+
+<style>
+.line { stroke-linecap: round; stroke-width: 11px; stroke: blue; } 
+.box { stroke-width:0; stroke:green; height: 100%; width: 100%; fill: none; } 
+.button { width: 9%; height: 12%; } 
+.white { fill: white; }  
+.blue { fill: blue; } 
+
+</style>  
+
+
+
+<!--1-->
+<svg x="7%" y="70%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg> 
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="25%" y1="50%" x2="65%" y2="50%"/>
+</svg>
+</g>
+</svg> 
+
+<svg class="button" x="0%" y="6%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg> 
+
+<!--2-->
+<svg x="14%" y="52%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="75%" y1="75%" x2="45%" y2="45%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="9%" y="12%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg> 
+
+<!--3-->
+<svg x="31%" y="36%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="75%" y1="25%" x2="45%" y2="55%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="9%" y="0%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg>
+
+
+<!--4-->
+<svg x="38%" y="59%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="50%" y1="25%" x2="50%" y2="65%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="4.5%" y="0%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg>
+
+
+<!--5-->
+<svg x="60%" y="71%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="75%" y1="50%" x2="35%" y2="50%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="9%" y="6%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg>
+
+
+<!--6-->
+<svg x="54%" y="10%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="25%" y1="75%" x2="55%" y2="45%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="0%" y="12%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg>
+
+
+<!--7-->
+<svg x="71%" y="27%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="50%" y1="75%" x2="50%" y2="35%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="4.5%" y="12%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg>
+
+
+<!--8-->
+<svg x="73%" y="1%">
+
+<svg width="18%" height="24%">
+<rect class="box"/>
+</svg>
+
+<svg width="18%" height="24%">
+<g transform="scale(1, 1)">
+<svg>
+<line class="line" x1="25%" y1="25%" x2="58%" y2="27%"/>
+</svg>
+</g>
+</svg>
+
+<svg class="button" x="0%" y="0%" width="9%" height="12%">
+<g transform="scale(1, 1)">
+	<circle class="blue" cx="50%" cy="50%" r="45%"/>
+	<circle class="white" cx="50%" cy="50%" r="35%"/>
+	<circle class="blue" cx="50%" cy="50%" r="20%"/>
+
+</g>
+</svg>
+
+</svg>
+
+
+</svg> 
