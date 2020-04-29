@@ -67,7 +67,7 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi2src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p007/monop007wi1src.png",
 	imgattrsite: "clker.com", imgattrurl: "http://www.clker.com/clipart-intestines-1.html",
 	
 	imgbckg: "white",	
