@@ -68,8 +68,8 @@ AnnotType: "HLight",
 	},
 
 1: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi1src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Carrot-veggie/44524.html", 
 	
 	imgbckg: "white",
 
@@ -124,8 +124,8 @@ AnnotType: "HLight",
 	},
 
 2: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi2src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Onion/44537.html", 
 
 	imgbckg: "white",
 
@@ -182,8 +182,8 @@ AnnotType: "HLight",
 	},
 
 3: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi3src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Cucumber/41841.html", 
 				
 	imgbckg: "white",
 
@@ -239,8 +239,8 @@ AnnotType: "HLight",
 	},
 
 4: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi4src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Potato/44553.html", 
 		
 	imgbckg: "white",
 
@@ -295,8 +295,8 @@ AnnotType: "HLight",
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi5src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Turnip/44548.html", 
 	
 	imgbckg: "white",
 
@@ -352,8 +352,8 @@ AnnotType: "HLight",
 	},
 
 6: {imgfile: "",
-	imgsrc: "", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "", imgattrsrcfle: "posts/p014/monop014wi6src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Broccoli-vegetables/80584.html", 
 		
 	imgbckg: "white",
 
@@ -408,8 +408,8 @@ AnnotType: "HLight",
     AudJPNWI: "", AudJPNEx1: "", AudJPNEx2: "", AudJPNEx3: "",
 	},
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi7src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Red-bell-pepper/66124.html", 
 		
 	imgbckg: "white",
 
@@ -467,8 +467,8 @@ AnnotType: "HLight",
 
 
 8: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
-	imgattrsite: "", imgattrurl: "", 
+	imgsrc: "deriv", imgattrsrcfle: "posts/p014/monop014wi8src.png", 
+	imgattrsite: "publicdomainvectors.org", imgattrurl: "https://publicdomainvectors.org/en/free-clipart/Mini-tomato/58468.html", 
 		
 	imgbckg: "white",
 
