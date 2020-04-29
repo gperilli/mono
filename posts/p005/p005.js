@@ -68,8 +68,8 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p005/monop005wi1src.png",
+	imgattrsite: "cleanpng.com", imgattrurl: "https://www.cleanpng.com/png-twig-wood-winter-tree-branch-png-6691908/download-png.html",
 	
 	imgbckg: "white",		
 
