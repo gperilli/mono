@@ -425,7 +425,7 @@ AnnotType: "Annot",
 
 7: {imgfile: "",
 	imgsrc: "deriv", imgattrsrcfle: "p001/imgsrcs/p001-wi7-src.png",
-	imgattrsite: "commons.wikimedia.org", imgattrurl: "https://commons.wikimedia.org/wiki/File:Ic_flight_48px.svg",
+	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/detail/301794/corkscrew",
 	
 	imgbckg: "white",	
 
