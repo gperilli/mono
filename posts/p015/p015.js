@@ -129,7 +129,7 @@ AnnotType: "Annot",
 	},
 
 2: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "black",	
@@ -189,7 +189,7 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "black",	
@@ -249,7 +249,7 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "black",	
@@ -309,7 +309,7 @@ AnnotType: "Annot",
 	},
 
 5: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "black",	
@@ -433,7 +433,7 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "", 
+	imgsrc: "original", imgattrsrcfle: "", 
 	imgattrsite: "", imgattrurl: "", 
 	
 	imgbckg: "black",	
