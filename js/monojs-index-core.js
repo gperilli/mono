@@ -471,7 +471,7 @@ function PImgs() {
 		var IndxPstImgHd = `
 
 		<div class="responsive" style="margin-bottom: 20px;">
-		 <div style="border: 1px solid #808080; border-radius: 3px; position: relative: width: 100%; height: 100%; margin-left: 5px; margin-right: 5px;">
+		 <div class="glcard">
 		  <div class="gallery" style="text-align: right;">
 			<a href="post.html" onClick="SetPstId('${pno}')">
 
@@ -511,7 +511,7 @@ function PImgs() {
 	var pnavexp = `
 
 		<div class="responsive" style="margin-bottom: 20px;">
-		 <div style="border: 1px solid #808080; border-radius: 3px; position: relative: width: 100%; height: 100%; margin-left: 5px; margin-right: 5px;">
+		 <div class="glcard">
 		  <div class="gallery" style="text-align: right;">
 			<a href="post.html" onClick="SetPstId('${pno}')">
 			  <img src=${PNavImg} class="PImgNav" width="600" height="400">
