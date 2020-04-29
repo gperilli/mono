@@ -66,8 +66,8 @@ AnnotType: "Annot",
 	},
 
 1: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p012/monop012wi1src.png",
+	imgattrsite: "cleanpng.com", imgattrurl: "https://www.cleanpng.com/png-window-curtain-clip-art-curtain-cliparts-130055/preview.html",
 	
 	imgbckg: "white",
 
@@ -183,8 +183,8 @@ AnnotType: "Annot",
 	},
 
 3: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p012/monop012wi3src.png",
+	imgattrsite: "cleanpng.com", imgattrurl: "https://www.cleanpng.com/png-cactaceae-drawing-painting-cactus-vector-164293/preview.html",
 		
 	imgbckg: "white",
 
@@ -242,8 +242,8 @@ AnnotType: "Annot",
 	},
 
 4: {imgfile: "",
-	imgsrc: "original", imgattrsrcfle: "",
-	imgattrsite: "", imgattrurl: "",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p012/monop012wi4src.png",
+	imgattrsite: "cleanpng.com", imgattrurl: "https://www.cleanpng.com/png-cactaceae-drawing-painting-cactus-vector-164293/preview.html",
 		
 	imgbckg: "white",
 
@@ -421,7 +421,7 @@ AnnotType: "Annot",
 	},
 
 7: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p012/imgsrcs/p012-wi7-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p012/monop012wi7src.png",
 	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/download/262174/Nuclear-Family-Silhouette.svg",
 	
 	imgbckg: "white",
@@ -481,7 +481,7 @@ AnnotType: "Annot",
 	},
 
 8: {imgfile: "",
-	imgsrc: "deriv", imgattrsrcfle: "p012/imgsrcs/p012-wi8-src.png",
+	imgsrc: "deriv", imgattrsrcfle: "posts/p012/monop012wi8src.png",
 	imgattrsite: "openclipart.org", imgattrurl: "https://openclipart.org/download/262174/Nuclear-Family-Silhouette.svg",
 		
 	imgbckg: "white",
