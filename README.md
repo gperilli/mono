@@ -9,3 +9,5 @@ Much of Mono's data is based on public domain images that I have edited and reus
 # Current Development
 
 I'll be developing a js file which will insert one of Mono's annotated image blocks into a specified div in the near future. This is intended to allow easy implementation of mono's vocabulary sets on any site.
+
+Gareth Perilli
