@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.orig {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s;
+}
+
+
+.orig.trans {
+  width: 300px;
+  height: 300px;
+}
+
+.orig.rtrn {
+width: 100px;
+  height: 100px;
+}
+</style>
+</head>
+<body>
+
+<h1>The transition Property</h1>
+<button onClick="transfnc()">trans</button>
+<button onClick="rtrnfnc()">return</button>
+<p>Hover over the div element below, to see the transition effect:</p>
+
+<div id="divbox" class="orig"></div>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
+
+<script>
+function transfnc() {
+//alert("b");
+//document.getElementById("divbox").classList.remove("trans");
+document.getElementById("divbox").className = ("orig trans");
+}
+
+function rtrnfnc() {
+document.getElementById("divbox").className = ("orig rtrn");
+}
+</script>

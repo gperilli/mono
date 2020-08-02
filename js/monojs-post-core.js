@@ -490,6 +490,8 @@ function BckImgHver(n) {
 	
 	wiXobjsvg = "wi".concat(n, "objsvg");
 	P00XWIImgRctx = "P".concat(pno, "WIImgRct", n);
+    console.log(wiXobjsvg);
+    console.log(P00XWIImgRctx);
 	
 	if (n == 'x') {
 		document.getElementById("muiobjsvg").contentDocument.getElementById("P".concat(pno, "WIImgRctX")).style.fill = hvrhlght[pId[0].imgbckg];

@@ -253,7 +253,12 @@ function sitewidetemps() {
 	ColumnAHead = `
 	<!--Start columnA-->
 	<div class="columnA" style="color: #818181;" >
-
+		
+		<div class="sharelikeA" style="">
+			<p style="width: 100%; margin-bottom: 10px; display: inline-block;">Demo</p> 
+			<img src="graphics/MonoDmo2.gif" style="width: 100%; padding-left: 5px; padding-right: 5px;" />
+		</div>
+		
 		<div class="sharelikeA">
 			
 			<p id="LSelectTxt" style="width: 100%; margin-bottom: 10px;">Language Select</p>
@@ -441,26 +446,21 @@ function sitewidetemps() {
 		<section class="columns">
 
 		  <div class="column" id="imgattrLCol" style="display:block;">
-
 			<img class="modal-content" id="srcimg" style="" src="">
 			<div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
 				<p id="srcimagetxt" style="display: inline;">Source image. This work is public domain.</p>
 				<a id="ImgAttrLnkCnt" target="_blank" class="ImgAttrLnk" href="" style="display: inline;"></a>
 			</div>
-
 		  </div>
 
 		  <div class="column" style="width: 100%;">
-
 			<img class="modal-content wht" id="modalimg">
 			<div id="caption" style="background-color: #fff; margin-top: 10px; border-radius: 5px; padding: 3px;">
 			  <p style="display: inline;" id="bytxt">By G. Perilli.</p>
-			  
 			  <p id="CRContMine" style="display: inline;"></p>
-			
 			</div>
-
 		  </div>
+		  
 		</section>
 	  </div>
 	</div>

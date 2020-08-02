@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+html, body {
+        height: 100%;
+        margin: 0px;
+    }
+    
+.container { 
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height: 50%;
+    width: 50%;  
+}
+
+.cont1 {
+background-color: #e4d1d1; 
+}
+
+.cont2 {
+background-color: #b9b0b0; 
+}
+
+.cont3 {
+background-color: #d9ecd0; 
+}
+
+.cont4 {
+background-color: #77a8a8; 
+}
+
+
+
+
+.PntngPstnCls {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    width: 80%; 
+    height: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 0px solid #000; 
+}
+    
+.WItmImgCnt {
+    position: relative; 
+    width: 100%; 
+    display: inline-block; 
+    border: 0px solid blue; 
+    top: 50%; 
+    left: 50%;
+    -ms-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%)
+}
+    
+.LftUpCntnr {
+    position: absolute;
+    width: 100%; 
+    height: 90%;
+    display: inline-block; 
+    border: 1px solid #ccc;  
+    background-color: transparent;
+}
+    
+.PulDnCntnr {
+    position: absolute;
+    width: 100%; 
+    height: 90%;
+    top: 10%;
+    display: inline-block; 
+    border: 1px solid #ccc;  
+    background-color: transparent;
+}
+    
+.FrameImgCLs {
+    position: relative; 
+    width: 100%; 
+    vertical-align: bottom;
+}
+    
+.WIImgCLs {
+    position: absolute; 
+    width: 70%;
+    top: 50%; 
+    left: 15%;
+    -ms-transform: translate(0%, -35%); 
+    transform: translate(0%, -35%); 
+}
+
+.Cntr {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+     
+}
+
+.Cntr.cntrtort {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  left: 100%;
+}
+    
+.Cntr.cntrtolft {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  left: -100%;
+}
+    
+.Cntr.cntrtoup {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  top: -100%;
+}
+    
+.Cntr.cntrtodn {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  top: 100%;
+}
+    
+.LofCntr {
+    position: absolute; 
+    left: -100%; 
+    top: 0%; 
+}
+
+.LofCntr.tocntr {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  left: 0%;
+}
+    
+
+    
+.RofCntr {
+  position: absolute; 
+    left: 100%; 
+    top:0%; 
+ 
+}
+
+.RofCntr.tocntr {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  left: 0%;
+}
+    
+
+    
+.TofCntr {
+  position: absolute; 
+    left: 0%; 
+    top: -100%; 
+     
+}
+
+.TofCntr.tocntr {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  top: 0%;
+}
+
+    
+.BofCntr {
+  position: absolute; 
+    left: 0%; 
+    top: 100%; 
+    
+}
+
+.BofCntr.tocntr {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  top: 0%;
+}
+    
+
+    
+</style>
+</head>
+<body onload="QuizImgRszer()" onresize="QuizImgRszer()">
+
+
+
+<div class="container">
+
+    <div class="Cntr" id="TLWiCntA" style="width: 100%; height: 100%;">
+        <div class="LftUpCntnr">
+            <button onclick="RndmSldIn()" style="float: left;">next</button>
+            <div id="ImgPstner" class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi1.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="Cntr" id="TLWiCntB" style="width: 100%; height: 100%;">
+        <div class="LftUpCntnr">
+            <button onclick="RndmSldIn()" style="float: left;">next</button>
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi2.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="container">
+
+     <div class="Cntr" id="TRWiCntA" style="width: 100%; height: 100%;">
+        <div class="LftUpCntnr">
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi3.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="Cntr" id="TRWiCntB" style="width: 100%; height: 100%;">
+        <div class="LftUpCntnr">
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi4.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="container">
+  
+    <div class="Cntr" id="BLWiCntA" style="width: 100%; height: 100%;">
+        <div class="PulDnCntnr">
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi5.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="Cntr" id="BLWiCntB" style="width: 100%; height: 100%;">
+        <div class="PulDnCntnr">
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi6.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div class="container">
+  
+    <div class="Cntr" id="BRWiCntA" style="width: 100%; height: 100%;">
+        <div class="PulDnCntnr">
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi7.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="Cntr" id="BRWiCntB" style="width: 100%; height: 100%;">
+        <div class="PulDnCntnr">
+            <div class="PntngPstnCls">
+                <div class="WItmImgCnt">
+                    <img class="FrameImgCLs" src="frame1.svg"/>
+                    <img class="WIImgCLs" src="posts/p001/monop001-wi8.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>
+
+<script>
+    
+function QuizImgRszer() {
+    
+    ImgPstnerWdth = document.getElementById("ImgPstner").clientWidth;
+    ImgPstnerHght = document.getElementById("ImgPstner").clientHeight;
+    console.log(ImgPstnerWdth);
+    //console.log(ImgPstnerHght);
+    
+    TstRatio = 1024 / 920;
+    ImgPstnerRatio = ImgPstnerWdth / ImgPstnerHght;
+    //console.log("Image Positioner Ratio is: ".concat(ImgPstnerRatio));
+    //console.log("Test Ratio is: ".concat(TstRatio));
+    //console.log("Image Positioner Height is: ".concat(ImgPstnerHght));
+    //console.log("Image Positioner Width is: ".concat(ImgPstnerWdth));
+    
+    AdjstedHght = TstRatio * ImgPstnerHght;
+    
+    if (ImgPstnerRatio > TstRatio) {
+        //WItmImgCnt
+        document.getElementsByClassName("WItmImgCnt")[0].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[1].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[2].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[3].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[4].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[5].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[6].style.width = "".concat(AdjstedHght, "px");
+        document.getElementsByClassName("WItmImgCnt")[7].style.width = "".concat(AdjstedHght, "px");
+    } else {
+        document.getElementsByClassName("WItmImgCnt")[0].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[1].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[2].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[3].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[4].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[5].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[6].style.width = "100%";
+        document.getElementsByClassName("WItmImgCnt")[7].style.width = "100%";
+    }
+    //
+}
+
+    
+    
+
+WItmDsply = ["TLWiCntA", "TRWiCntA", "BLWiCntA", "BRWiCntA"];
+WItmDsplyChk = ["TLWiCntA", "TRWiCntA", "BLWiCntA", "BRWiCntA"];
+WItmIncming = ["TLWiCntB", "TRWiCntB", "BLWiCntB", "BRWiCntB"];
+WItmIncmingChk = ["TLWiCntB", "TRWiCntB", "BLWiCntB", "BRWiCntB"];
+BckGrndClrs = {
+    0: {0: "#55efc4", 1: "#81ecec", 2: "#74b9ff", 3: "#a29bfe"},
+    1: {0: "#5758BB", 1: "#9980FA", 2: "#D980FA", 3: "#FDA7DF"},
+    2: {0: "#079992", 1: "#38ada9", 2: "#78e08f", 3: "#b8e994"},
+    3: {0: "#55E6C1", 1: "#58B19F", 2: "#9AECDB", 3: "#BDC581"},
+}
+
+function RndmSldIn() {
+    
+    ExtrnlPosArr = ["LofCntr", "RofCntr", "TofCntr", "BofCntr"];
+    WIMovDir = {LofCntr: "cntrtort", RofCntr: "cntrtolft", TofCntr: "cntrtodn", BofCntr: "cntrtoup"};
+    
+    //Generate a permutation of 4 items
+    PermChk = [];//array used to check for duplicates
+    Perm4 = [];//generated permutation loaded into this array
+    for (n = 0; n < 4; n++) {
+        Perm4Gen(n);
+    }  
+    
+    ExtrnlWIPos = [];
+    ExtrnlWIPos[0] = ExtrnlPosArr[Perm4[0]];
+    ExtrnlWIPos[1] = ExtrnlPosArr[Perm4[1]];
+    ExtrnlWIPos[2] = ExtrnlPosArr[Perm4[2]];
+    ExtrnlWIPos[3] = ExtrnlPosArr[Perm4[3]];
+    document.getElementById(WItmDsply[0]).className = "Cntr";
+    document.getElementById(WItmDsply[1]).className = "Cntr";
+    document.getElementById(WItmDsply[2]).className = "Cntr";
+    document.getElementById(WItmDsply[3]).className = "Cntr";
+    document.getElementById(WItmIncming[0]).className = ExtrnlPosArr[Perm4[0]];
+    document.getElementById(WItmIncming[1]).className = ExtrnlPosArr[Perm4[1]];
+    document.getElementById(WItmIncming[2]).className = ExtrnlPosArr[Perm4[2]];
+    document.getElementById(WItmIncming[3]).className = ExtrnlPosArr[Perm4[3]];
+    //console.log(BckGrndClrs[Perm4[0]][Perm4[0]]);
+    document.getElementById(WItmIncming[0]).style.backgroundColor = BckGrndClrs[Perm4[0]][Perm4[0]];
+    document.getElementById(WItmIncming[1]).style.backgroundColor = BckGrndClrs[Perm4[0]][Perm4[1]];
+    document.getElementById(WItmIncming[2]).style.backgroundColor = BckGrndClrs[Perm4[0]][Perm4[2]];
+    document.getElementById(WItmIncming[3]).style.backgroundColor = BckGrndClrs[Perm4[0]][Perm4[3]];
+    setTimeout(function() { slidein() }, 10);
+   
+}
+
+function slidein() {
+   
+    //move out centered Item
+    //console.log("Incoming item is at: ".concat(WIExtrnlPos[Perm4[0]]));
+    //console.log("Centered Item goes: ".concat(WIMovDir[TLWIPos]));
+    document.getElementById(WItmDsply[0]).className = ("Cntr ".concat(WIMovDir[ExtrnlWIPos[0]]));
+    document.getElementById(WItmDsply[1]).className = ("Cntr ".concat(WIMovDir[ExtrnlWIPos[1]]));
+    document.getElementById(WItmDsply[2]).className = ("Cntr ".concat(WIMovDir[ExtrnlWIPos[2]]));
+    document.getElementById(WItmDsply[3]).className = ("Cntr ".concat(WIMovDir[ExtrnlWIPos[3]]));
+    //move in external item
+    //console.log("External item moving: ".concat("".concat(WIExtrnlPos[Perm4[0]], " tocntr")));
+    document.getElementById(WItmIncming[0]).className = ("".concat(ExtrnlPosArr[Perm4[0]], " tocntr"));
+    document.getElementById(WItmIncming[1]).className = ("".concat(ExtrnlPosArr[Perm4[1]], " tocntr"));
+    document.getElementById(WItmIncming[2]).className = ("".concat(ExtrnlPosArr[Perm4[2]], " tocntr"));
+    document.getElementById(WItmIncming[3]).className = ("".concat(ExtrnlPosArr[Perm4[3]], " tocntr"));
+    
+    //switch
+    if (WItmDsply[0] == WItmDsplyChk[0]) 
+        {
+            WItmDsply[0] = WItmIncmingChk[0]; 
+            WItmIncming[0] = WItmDsplyChk[0];
+            WItmDsply[1] = WItmIncmingChk[1]; 
+            WItmIncming[1] = WItmDsplyChk[1];
+            WItmDsply[2] = WItmIncmingChk[2]; 
+            WItmIncming[2] = WItmDsplyChk[2];
+            WItmDsply[3] = WItmIncmingChk[3]; 
+            WItmIncming[3] = WItmDsplyChk[3];
+            
+        } else {
+            WItmDsply[0] = WItmDsplyChk[0]; 
+            WItmIncming[0] = WItmIncmingChk[0];
+            WItmDsply[1] = WItmDsplyChk[1]; 
+            WItmIncming[1] = WItmIncmingChk[1];
+            WItmDsply[2] = WItmDsplyChk[2]; 
+            WItmIncming[2] = WItmIncmingChk[2];
+            WItmDsply[3] = WItmDsplyChk[3]; 
+            WItmIncming[3] = WItmIncmingChk[3];
+        }
+
+}
+    
+
+    
+
+function Perm4Gen(n) {
+    //Generate a permutation of 4 items; 0,1,2,3
+	Perm4[n] = Math.floor(Math.random() * 4);
+    for (i = 0; i < (n + 1); i++) {
+        //Check newly generated item in list against all previous
+    	if (n !== i && Perm4[n] == PermChk[i]) {
+        	//if duplicate generate another random number
+            Perm4Gen(n);
+        }
+    }
+    //Add newly generated number to checker array
+    PermChk[n] = Perm4[n];
+}
+    
+</script>
